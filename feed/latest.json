@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T02:15:08+00:00",
+ "generated_at": "2026-11-19T02:15:33+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -2428,6 +2428,82 @@
     "transformation": 0.12,
     "breakdown": 0.24
    }
+  ],
+  "fatal_combos": [
+   {
+    "combo": "Ecological pressure + rigid administration",
+    "cases": "Maya, Angkor, Ming",
+    "today": "Grid and transformer strain, oil shock",
+    "questions": "Y4, Y18, R4, Y21",
+    "linked": [
+     {
+      "id": "Y4",
+      "forecast": 0.601
+     },
+     {
+      "id": "Y18",
+      "forecast": 0.646
+     },
+     {
+      "id": "R4",
+      "forecast": 0.839
+     },
+     {
+      "id": "Y21",
+      "forecast": 0.096
+     }
+    ]
+   },
+   {
+    "combo": "Fiscal stress + military commitments + elite fragmentation",
+    "cases": "Song, Ottoman, Western Rome",
+    "today": "10-year near 5%, Iran war, divided government",
+    "questions": "Y16, R0, M2, Y12, Y13",
+    "linked": [
+     {
+      "id": "Y16",
+      "forecast": 0.625
+     },
+     {
+      "id": "M2",
+      "forecast": 0.768
+     },
+     {
+      "id": "Y12",
+      "forecast": 0.716
+     },
+     {
+      "id": "Y13",
+      "forecast": 0.155
+     }
+    ]
+   },
+   {
+    "combo": "Demographic shock + succession conflict",
+    "cases": "Inca, Mexica",
+    "today": "No current demographic shock in the model's questions",
+    "questions": "",
+    "linked": []
+   },
+   {
+    "combo": "Information and legitimacy breakdown + coercive fragmentation",
+    "cases": "Western Rome, Ming, Mughal",
+    "today": "Not measured by the model's data",
+    "questions": "M3",
+    "linked": [
+     {
+      "id": "M3",
+      "forecast": 0.803
+     }
+    ]
+   }
+  ],
+  "outcome_types": [
+   "State dissolution",
+   "Regional political fragmentation",
+   "Economic contraction",
+   "Institutional transformation",
+   "Continuity under successor governments"
   ],
   "evidence": [
    {
