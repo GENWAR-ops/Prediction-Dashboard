@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T01:12:46+00:00",
+ "generated_at": "2026-11-19T01:21:28+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -2026,6 +2026,428 @@
    },
    "note": "First forecasts only. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
   }
+ },
+ "guide": {
+  "title": "User guide",
+  "start": [
+   {
+    "term": "Start here",
+    "text": "Each question has a yes/no outcome, a date and a written resolution rule. The number shown is the model's chance that it resolves Yes. Resolved questions show Yes or No and are scored."
+   },
+   {
+    "term": "Forecast vs judgment range",
+    "text": "The range is the model's own doubt: lens scores scaled by half and by one and a half, and the base rate moved up and down in log-odds (twice as far when the base rate is a judgment prior). A rival inside that range is inside the model's doubt; it is not a confidence interval."
+   },
+   {
+    "term": "Base rate",
+    "text": "How often this kind of event happened in its reference class, before any evidence about now. Each question cites its reference class."
+   },
+   {
+    "term": "Market",
+    "text": "A prediction-market or option-implied price for the same or a closely related event, blended in by contract quality (see How the model works). 'Proxy' means the contract differs from the question."
+   },
+   {
+    "term": "Basis",
+    "text": "What drives the number: market-anchored, base rate, judgment prior (reference class cites no data), judgment-heavy (lenses moved it more than one log-odds unit), or derived from other questions."
+   },
+   {
+    "term": "Change",
+    "text": "Points moved since the previous publication. The ledger scores only the first forecast, so later moves never improve the score."
+   },
+   {
+    "term": "Audit dot",
+    "text": "Green: the last audit found no flaws (tests, ledger chain, simulation, nesting, data freshness, published data, overdue questions). Amber: a flaw; the next run reviews and republishes."
+   }
+  ],
+  "tabs": [
+   {
+    "tab": "Overview / Explore",
+    "text": "Every question in one place; click a question for its full card: what moved it from the base rate, reasoning, markets, rivals, history, data signals, what to watch, challenges and its ledger record."
+   },
+   {
+    "tab": "Correlations",
+    "text": "How questions move together in the joint simulation. These follow from the typed factor loadings and the shared escalation root (judgment), not measured data."
+   },
+   {
+    "tab": "History",
+    "text": "This week and this month in history (dated rhymes, weight 0), the climate now, what calendar, climate and pattern evidence says for each testable question with its walk-forward skill and weight, tripwires, and the long-range watch list."
+   },
+   {
+    "tab": "Markets",
+    "text": "Each linked contract, its read time, quality gate and how much weight it gets."
+   },
+   {
+    "tab": "Scenarios",
+    "text": "Joint outcomes from the simulation (for example muddle-through, deal and disinflation), with how much they depend on the assumed correlations."
+   },
+   {
+    "tab": "Challenges",
+    "text": "Every claim from rival models and documents, the verdict, the evidence and what changed in the model."
+   },
+   {
+    "tab": "Calibration and ledger",
+    "text": "Scores of resolved questions against base rates and rivals; the hash-chained ledger of first forecasts."
+   },
+   {
+    "tab": "User guide",
+    "text": "This page."
+   }
+  ],
+  "how_it_works": [
+   {
+    "part": "Five lenses",
+    "text": "Each forecast starts from a base rate in log-odds and adds evidence from five lenses: game theory, empire cycles, energy, capital and leaders. Scores are written into questions.py with their reasons; nothing is fitted to outcomes."
+   },
+   {
+    "part": "Escalation root",
+    "text": "Questions that depend on a major US-Iran re-escalation share one root probability (R0) with a frozen rule; each question sees escalation only inside its own window (constant hazard)."
+   },
+   {
+    "part": "Markets",
+    "text": "Pooled with the model in log-odds by contract quality: exact and liquid 0.5, exact but thin 0.35, same test 0.35, proxy 0.2, option-implied 0.2, failing the quote-quality gate 0.1. A question broader than its contract cannot sit below the contract price unless it states an edge."
+   },
+   {
+    "part": "History",
+    "text": "Calendar ('this time of year'), climate and pattern evidence is tested walk-forward against the base rate since 2000. It gets weight 0.2 only if its 90% interval of skill is above zero and it holds in a robustness grid; otherwise 0. Dated rhymes and cases always get 0."
+   },
+   {
+    "part": "Floors",
+    "text": "A floor of 3% a year, scaled by the square root of the horizon, keeps room for the unknown."
+   },
+   {
+    "part": "Joint simulation",
+    "text": "200,000 correlated draws reproduce every forecast (error under 0.005) and give scenarios and pairwise links; a fat-tailed version is shown as a sensitivity."
+   },
+   {
+    "part": "Scoring",
+    "text": "The ledger records the first forecast for each question with a hash chain; resolution uses the question's own rule and named sources. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
+   },
+   {
+    "part": "Updates",
+    "text": "A daily review refreshes FRED, the Federal Register and Polymarket through the browser, checks the news, resolves questions and publishes when something changed. An audit runs every 3 hours and pushes a review early if it finds a flaw."
+   }
+  ],
+  "feed": [
+   {
+    "item": "Address",
+    "text": "https://genwar-ops.github.io/Prediction-Dashboard/feed/latest.json"
+   },
+   {
+    "item": "Raw GitHub address",
+    "text": "https://raw.githubusercontent.com/GENWAR-ops/Prediction-Dashboard/main/feed/latest.json"
+   },
+   {
+    "item": "Schema",
+    "text": "five-lens-feed/1: forecasts (with range, base rate, market, change and trend), scenarios, history evidence and weights, rhymes, tripwires, data signals, FRED market series, audit status, and this guide."
+   },
+   {
+    "item": "Refresh",
+    "text": "Rebuilt at every publication (at least daily when something changes). Front ends should re-fetch with a cache-busting query and show '\u2014' for missing values rather than filling them in."
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Brier score",
+    "text": "Mean squared error of probability forecasts against 0/1 outcomes; lower is better; 0.25 is a coin flip at 50%."
+   },
+   {
+    "term": "Log-odds",
+    "text": "log(p / (1 - p)); evidence adds on this scale."
+   },
+   {
+    "term": "Walk-forward test",
+    "text": "Each past month is predicted using only data available before it, then scored; nothing from the future leaks in."
+   },
+   {
+    "term": "Skill",
+    "text": "1 - Brier(method) / Brier(base rate). Positive means the method beat the base rate."
+   },
+   {
+    "term": "Tripwire",
+    "text": "A threshold on a published series that a document says would change the regime; the threshold is the document's choice."
+   },
+   {
+    "term": "Judgment prior",
+    "text": "A base rate whose reference class cites no number or dataset; its range is twice as wide."
+   }
+  ],
+  "playbook": {
+   "intro": "Two Phase 4 documents (ChatGPT and Gemini, Nov 19) set out how five parts of US society might adapt over 2026-2035. Shown as the documents' judgment: not scored by this model, not fitted to data, and not personal or investment advice. Each tier lists the live questions its strategy depends on, with the model's current number.",
+   "outlooks": "The documents' ten-year splits differ (ChatGPT: renewal 26%, managed decline 43%, transformation 26%, breakdown 5%; Gemini: 19%, 42%, 31%, 8%). Neither is estimated from data; the Gemini document calls its own 'empirical', which it is not.",
+   "thesis": "ChatGPT's central argument: the deciding variable between managed decline and renewal is whether the gains from technological and industrial adaptation are shared widely enough to keep institutions legitimate.",
+   "tiers": [
+    {
+     "tier": "Governing and institutional elite",
+     "exposure": "Institutional: formal authority without operational capacity.",
+     "move_c": "Reform before fiscal coercion forces it: broaden the tax base, remove privileges that undermine fairness, protect the agencies that deliver infrastructure, energy and emergency services, and keep transparent paths for elite competition.",
+     "move_g": "Managed retrenchment: shed peripheral commitments while ring-fencing domestic solvency and reserve-currency credibility.",
+     "hedge_c": "Keep professional administration, succession rules and state and local government working through a political crisis.",
+     "hedge_g": "Standing liquidity backstops for municipal pension funds and regulated utilities before local rate revolts reach Treasury auctions.",
+     "trap": "Protecting privileged exemptions while cutting the systems that make government work (Ming courier cuts, 1629; the Ancien Regime; Weimar austerity).",
+     "note": "Both documents agree. The Ming courier cut as a cause of the dynasty's fall is contested (one factor among many). 'Byzantium survived by abandoning provinces' (Gemini) describes losses to conquest as a choice.",
+     "questions": "M2, Y11, Y16, M3",
+     "linked": [
+      {
+       "id": "M2",
+       "forecast": 0.768
+      },
+      {
+       "id": "Y11",
+       "forecast": 0.03
+      },
+      {
+       "id": "Y16",
+       "forecast": 0.625
+      },
+      {
+       "id": "M3",
+       "forecast": 0.803
+      }
+     ]
+    },
+    {
+     "tier": "Capital and enterprise class",
+     "exposure": "Liquidity and confiscation: assets whose value depends on cheap financing, cheap energy or state support.",
+     "move_c": "Own productive flexibility: businesses that earn under more than one scenario (generation and grid equipment, maintenance parts, domestic processing, efficiency, logistics and repair, infrastructure security).",
+     "move_g": "Move from duration-sensitive, debt-dependent growth into physical bottlenecks (on-site power, grid hardware, refined fuels, mineral processing) plus short-duration government bills.",
+     "hedge_c": "Manageable leverage, enough liquidity to survive delays and credit stress, no single supplier, financing source, customer or jurisdiction.",
+     "hedge_g": "Custody across jurisdictions; avoid single-tenant vehicles that depend on continuous refinancing.",
+     "trap": "Treating political importance, or a sovereign or quasi-sovereign guarantee, as economic resilience (Habsburg Spain's lenders; Ottoman bondholders after 1875).",
+     "note": "That long-dated nominal bonds lost real value in 1973-1981 is well documented. Gemini's figure of a 20% fall in Dutch foreign trade is unverified here. These are the documents' general strategies, not investment advice; what they depend on in the model is the path of yields, the Fed and the AI-capex trade.",
+     "questions": "Y16, Y5, Y6, Y7, Y21, R4",
+     "linked": [
+      {
+       "id": "Y16",
+       "forecast": 0.625
+      },
+      {
+       "id": "Y5",
+       "forecast": 0.563
+      },
+      {
+       "id": "Y6",
+       "forecast": 0.414
+      },
+      {
+       "id": "Y7",
+       "forecast": 0.589
+      },
+      {
+       "id": "Y21",
+       "forecast": 0.096
+      },
+      {
+       "id": "R4",
+       "forecast": 0.839
+      }
+     ]
+    },
+    {
+     "tier": "Professional and managerial class",
+     "exposure": "Occupational: more credentialed candidates than institutional seats (elite overproduction), plus automation.",
+     "move_c": "Move from institutional status to operational capability: electrical and industrial systems, infrastructure security, health care, automation and applied AI, logistics and compliance.",
+     "move_g": "Leave compliance and middle-management layers for hands-on engineering, grid deployment and operations.",
+     "hedge_c": "Portable skills: licences, portfolios, apprenticeships, cross-sector experience.",
+     "hedge_g": "Portable equity and multi-client work instead of one salary.",
+     "trap": "Defending credentials inside shrinking institutions (late Qing examination system, abolished 1905).",
+     "note": "Meiji samurai redeployment and the 1905 exam abolition are standard history. The model has no data series on credential demand or AI displacement, so nothing here is tested.",
+     "questions": "Y18, R4, Y8",
+     "linked": [
+      {
+       "id": "Y18",
+       "forecast": 0.646
+      },
+      {
+       "id": "R4",
+       "forecast": 0.839
+      },
+      {
+       "id": "Y8",
+       "forecast": 0.364
+      }
+     ]
+    },
+    {
+     "tier": "Working and trade class",
+     "exposure": "Purchasing power, job stability, credit access and local infrastructure reliability.",
+     "move_c": "Scarce practical skills that cannot easily be moved or postponed: electricians and grid technicians, mechanics, machining, health care, agriculture, water and utilities, transport.",
+     "move_g": "Non-automatable trades plus fixed-rate housing; avoid variable-rate consumer debt.",
+     "hedge_c": "Relationships beyond one employer: cooperative purchasing, credit unions, savings reserves, local repair networks, tools.",
+     "hedge_g": "Local food and energy networks, credit unions, trade guilds.",
+     "trap": "Depending on one employer or industry, or on nominal savings and unhedged debt through inflation (Weimar 1923; 1970s savers).",
+     "note": "Post-1348 labour scarcity did raise real wages despite wage caps; Gemini's 'doubled by 1380' is stronger than most series show for that window (the large gains accumulate over the following century; not re-verified here).",
+     "questions": "Y8, Y4, M1, Y5",
+     "linked": [
+      {
+       "id": "Y8",
+       "forecast": 0.364
+      },
+      {
+       "id": "Y4",
+       "forecast": 0.601
+      },
+      {
+       "id": "M1",
+       "forecast": 0.972
+      },
+      {
+       "id": "Y5",
+       "forecast": 0.563
+      }
+     ]
+    },
+    {
+     "tier": "Precariat and marginalized",
+     "exposure": "Immediate access to resources; least ability to absorb a long disruption, but low fixed costs give flexibility.",
+     "move_c": "Low fixed costs and several income sources: repair and resale, small logistics, food, contract and care work, local maintenance.",
+     "move_g": "Low overhead and agile service, repair and resale in parallel markets that thrive when formal supply chains slow.",
+     "hedge_c": "Mobility: keep documents, qualifications, transport and contacts so a move for work is possible.",
+     "hedge_g": "Skill stacking and early moves toward regions with growing production and cheap water and energy.",
+     "trap": "Depending entirely on one subsidy, patron or unstable institution, or on predatory debt (Rome after 439; Ottoman dependents after 1875).",
+     "note": "The Soviet shuttle trade and Bengal's rise under Mughal fragmentation are standard history; informal markets in those cases also carried legal and safety risks the documents do not mention.",
+     "questions": "Y8, M2",
+     "linked": [
+      {
+       "id": "Y8",
+       "forecast": 0.364
+      },
+      {
+       "id": "M2",
+       "forecast": 0.768
+      }
+     ]
+    }
+   ],
+   "frictions": [
+    {
+     "pair": "Capital vs working class",
+     "mechanism": "Automation and private power investment vs job displacement and utility rate rises",
+     "parallel": "Industrialization; 1970s energy transition",
+     "flashpoint": "Utility-commission rate fights, automation strikes",
+     "priority": "1 (ChatGPT's top priority)",
+     "questions": "Y21, R4, Y18",
+     "linked": [
+      {
+       "id": "Y21",
+       "forecast": 0.096
+      },
+      {
+       "id": "R4",
+       "forecast": 0.839
+      },
+      {
+       "id": "Y18",
+       "forecast": 0.646
+      }
+     ]
+    },
+    {
+     "pair": "Governing elite vs capital",
+     "mechanism": "Taxes, exit taxes, capital controls or Treasury-purchase mandates vs offshore diversification",
+     "parallel": "Habsburg Spain; late Bourbon France; Ottoman debt administration",
+     "flashpoint": "Capital controls, tax restructuring, bank and insurer mandates",
+     "priority": "2",
+     "questions": "Y16, Y11",
+     "linked": [
+      {
+       "id": "Y16",
+       "forecast": 0.625
+      },
+      {
+       "id": "Y11",
+       "forecast": 0.03
+      }
+     ]
+    },
+    {
+     "pair": "Professionals vs precariat",
+     "mechanism": "Licensing and zoning barriers vs informal market entry",
+     "parallel": "Late-medieval guilds vs rural putting-out; late Qing exams",
+     "flashpoint": "Licensing reform, gig classification, permitting",
+     "priority": "3",
+     "questions": "",
+     "linked": []
+    },
+    {
+     "pair": "Governing elite vs professionals",
+     "mechanism": "Austerity and centralization vs agency and university gatekeeping",
+     "parallel": "Meiji stipend abolition; late Qing exam abolition",
+     "flashpoint": "Agency consolidation, public-sector layoffs",
+     "priority": "",
+     "questions": "M2",
+     "linked": [
+      {
+       "id": "M2",
+       "forecast": 0.768
+      }
+     ]
+    },
+    {
+     "pair": "Working class vs precariat",
+     "mechanism": "Competition for entry-level jobs, housing and municipal services as budgets tighten",
+     "parallel": "Weimar 1930-1933; late Roman municipal strain",
+     "flashpoint": "Local tax revolts, benefit-allocation fights",
+     "priority": "",
+     "questions": "Y8",
+     "linked": [
+      {
+       "id": "Y8",
+       "forecast": 0.364
+      }
+     ]
+    },
+    {
+     "pair": "Capital vs local communities",
+     "mechanism": "Data-center and power projects competing for land, water and electricity",
+     "parallel": "1970s resource development",
+     "flashpoint": "Permitting and rate disputes",
+     "priority": "",
+     "questions": "R4, Y18, Y21",
+     "linked": [
+      {
+       "id": "R4",
+       "forecast": 0.839
+      },
+      {
+       "id": "Y18",
+       "forecast": 0.646
+      },
+      {
+       "id": "Y21",
+       "forecast": 0.096
+      }
+     ]
+    },
+    {
+     "pair": "Governing elite vs working class",
+     "mechanism": "Fiscal consolidation vs social protection",
+     "parallel": "French Ancien Regime",
+     "flashpoint": "Pensions, taxes, public services",
+     "priority": "",
+     "questions": "M2, Y11",
+     "linked": [
+      {
+       "id": "M2",
+       "forecast": 0.768
+      },
+      {
+       "id": "Y11",
+       "forecast": 0.03
+      }
+     ]
+    },
+    {
+     "pair": "State vs regional institutions",
+     "mechanism": "Federal allocation vs local fiscal autonomy",
+     "parallel": "Late Qing provincial devolution",
+     "flashpoint": "Municipal distress, emergency funding (LT-07)",
+     "priority": "",
+     "questions": "",
+     "linked": []
+    }
+   ]
+  },
+  "disclaimer": "Forecasts are probabilities, not certainties. The playbook is the documents' judgment. Nothing here is investment, legal or personal financial advice."
  },
  "market_series": [
   {
