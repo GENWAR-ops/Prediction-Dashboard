@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T23:44:13+00:00",
+ "generated_at": "2026-11-19T23:56:40+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -246,8 +246,8 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": 0.972,
-   "change_points": -0.2,
+   "previous_forecast": 0.97,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1630,8 +1630,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, by Nov 17, 2027.",
-   "previous_forecast": 0.71,
-   "change_points": -0.4,
+   "previous_forecast": 0.706,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -4486,12 +4486,12 @@
   }
  ],
  "audit": {
-  "at": "2026-11-19T23:43:41+00:00",
-  "flaws": 1,
+  "at": "2026-11-19T23:54:45+00:00",
+  "flaws": 2,
   "checks": [
    {
     "area": "tests",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "ledger chain",
@@ -4510,11 +4510,19 @@
     "status": "ok"
    },
    {
+    "area": "joint bounds",
+    "status": "ok"
+   },
+   {
     "area": "bounds",
     "status": "ok"
    },
    {
     "area": "methods frozen",
+    "status": "flaw"
+   },
+   {
+    "area": "definitions frozen",
     "status": "ok"
    },
    {
@@ -4538,18 +4546,14 @@
     "status": "ok"
    },
    {
-    "area": "published data",
-    "status": "flaw"
-   },
-   {
     "area": "overdue resolutions",
     "status": "ok"
    }
   ],
   "accuracy": {
-   "resolved": 5,
-   "brier": 0.0611,
-   "base_rate_brier": 0.0742,
+   "resolved": 4,
+   "brier": 0.0758,
+   "base_rate_brier": 0.0924,
    "rivals": {
     "author_a_v1": {
      "n": 1,
@@ -4558,18 +4562,6 @@
     "author_a_v2": {
      "n": 1,
      "brier": 0.16
-    },
-    "dire": {
-     "n": 1,
-     "brier": 0.0225
-    },
-    "aegis": {
-     "n": 1,
-     "brier": 0.01
-    },
-    "apex_v19": {
-     "n": 1,
-     "brier": 0.7744
     }
    },
    "note": "First forecasts only. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
@@ -4590,6 +4582,7 @@
     "model_brier": 0.0611,
     "baseline_brier": 0.0742,
     "model_minus_baseline": -0.0131,
+    "skill": 0.177,
     "model_better": 3,
     "baseline_better": 2
    },
@@ -6639,7 +6632,7 @@
    },
    "verified": true
   },
-  "generated_at": "2026-11-19T23:44:02Z"
+  "generated_at": "2026-11-19T23:56:28Z"
  },
  "guide": {
   "title": "User guide",
