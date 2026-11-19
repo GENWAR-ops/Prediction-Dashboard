@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T02:43:47+00:00",
+ "generated_at": "2026-11-19T03:00:20+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -416,7 +416,7 @@
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Raised above the flat hazard because tit-for-tat resumed on Nov 17; lowered because Trump is in Shenzhen pursuing a diplomatic win this week. ChatGPT's comparable call was 25%.",
+   "reasoning": "Raised above the flat hazard because tit-for-tat resumed on Nov 17; lowered because Trump is in Shenzhen pursuing a diplomatic win this week. Author A's comparable call was 25%.",
    "resolve_rule": "Large-scale US strikes on Iran resume or Kharg Island is seized between Nov 17 and Dec 17 (two major outlets).",
    "previous_forecast": 0.076,
    "change_points": 0.0,
@@ -999,7 +999,7 @@
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Sharpened from ChatGPT's 'AI investment shifts toward power'. Capital +0.2: AI-issuer bond spreads are already wider than the market, which gives cover to defer projects.",
+   "reasoning": "Sharpened from Author A's 'AI investment shifts toward power'. Capital +0.2: AI-issuer bond spreads are already wider than the market, which gives cover to defer projects.",
    "resolve_rule": "Two or more of Amazon, Microsoft, Google, Meta and Oracle (or their development partners) publicly delay, cancel or relocate a 1 GW+ campus citing power, by Nov 17, 2027.",
    "previous_forecast": 0.646,
    "change_points": 0.0,
@@ -1025,7 +1025,7 @@
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Sharpened from ChatGPT's 'tech ecosystems become more separated'. The Huang affair makes loosening politically toxic; Trump-Xi deal-making pulls the other way.",
+   "reasoning": "Sharpened from Author A's 'tech ecosystems become more separated'. The Huang affair makes loosening politically toxic; Trump-Xi deal-making pulls the other way.",
    "resolve_rule": "A new US AI-chip export control on China announced or first released after Nov 17, 2026, or a formal Chinese ban on Nvidia products, by Nov 17, 2027. The Nov 16, 2026 BIS remote-access rule does not count, because it was released before this question was registered.",
    "previous_forecast": 0.862,
    "change_points": 0.0,
@@ -1212,7 +1212,7 @@
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "The trigger these base rates assume now exists: BIS released its remote-access interim final rule on Nov 16 (Federal Register publication Nov 19), and MOFCOM threatened countermeasures on Nov 17. The same rule rescinds the 2025 AI Diffusion Rule, a partial offset. ChatGPT v3.0's own candidate, which it declined to price until a history of China's responses was built. That history is the episode table. Same lenses as R5: the truce pulls down, MOFCOM's Nov 17 threat pulls up.",
+   "reasoning": "The trigger these base rates assume now exists: BIS released its remote-access interim final rule on Nov 16 (Federal Register publication Nov 19), and MOFCOM threatened countermeasures on Nov 17. The same rule rescinds the 2025 AI Diffusion Rule, a partial offset. Author A v3.0's own candidate, which it declined to price until a history of China's responses was built. That history is the episode table. Same lenses as R5: the truce pulls down, MOFCOM's Nov 17 threat pulls up.",
    "resolve_rule": "MOFCOM, GAC or State Council announcement tied by statement to a US restriction.",
    "previous_forecast": 0.66,
    "change_points": 0.0,
@@ -1362,7 +1362,7 @@
    "id": "M9",
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
-   "question": "A two-week US-Iran pause begins by Dec 31 AND Hormuz traffic is still not normal at Dec 31 (ChatGPT v3.0's 'first model test')",
+   "question": "A two-week US-Iran pause begins by Dec 31 AND Hormuz traffic is still not normal at Dec 31 (Author A v3.0's 'first model test')",
    "forecast": 0.664,
    "range_low": null,
    "range_high": null,
@@ -1372,7 +1372,7 @@
    "basis": "derived",
    "status": "open",
    "outcome": null,
-   "reasoning": "ChatGPT v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
+   "reasoning": "Author A v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
    "previous_forecast": 0.664,
    "change_points": 0.0,
@@ -2445,42 +2445,42 @@
   ],
   "outlook_splits": [
    {
-    "source": "Second cliodynamics document and its Phase 4 (ChatGPT)",
+    "source": "Second cliodynamics document and its Phase 4 (Author A)",
     "renewal": 0.26,
     "managed_decline": 0.43,
     "transformation": 0.26,
     "breakdown": 0.05
    },
    {
-    "source": "Phase 4 playbook and Apex v4.0 (Gemini)",
+    "source": "Phase 4 playbook and Apex v4.0 (Author B)",
     "renewal": 0.19,
     "managed_decline": 0.42,
     "transformation": 0.31,
     "breakdown": 0.08
    },
    {
-    "source": "ChatGPT Phase 3, US 2026-2035, revised (renewal = A, managed decline = B, transformation = D technological leap, breakdown = C contraction)",
+    "source": "Author A Phase 3, US 2026-2035, revised (renewal = A, managed decline = B, transformation = D technological leap, breakdown = C contraction)",
     "renewal": 0.24,
     "managed_decline": 0.43,
     "transformation": 0.14,
     "breakdown": 0.19
    },
    {
-    "source": "Gemini regional model: North America 2026-2051 (A boom, B nearshoring, D state autonomy, C fiscal-grid stalemate)",
+    "source": "Author B regional model: North America 2026-2051 (A boom, B nearshoring, D state autonomy, C fiscal-grid stalemate)",
     "renewal": 0.18,
     "managed_decline": 0.48,
     "transformation": 0.1,
     "breakdown": 0.24
    },
    {
-    "source": "Gemini regional model: Eurasia 2026-2051 (A integration, B armed blocs, D transit autonomy, C rupture)",
+    "source": "Author B regional model: Eurasia 2026-2051 (A integration, B armed blocs, D transit autonomy, C rupture)",
     "renewal": 0.14,
     "managed_decline": 0.5,
     "transformation": 0.08,
     "breakdown": 0.28
    },
    {
-    "source": "Gemini regional model: Indo-Pacific 2026-2051 (A supercycle, B bifurcation, D leapfrog, C deflation and chokepoint crisis)",
+    "source": "Author B regional model: Indo-Pacific 2026-2051 (A supercycle, B bifurcation, D leapfrog, C deflation and chokepoint crisis)",
     "renewal": 0.17,
     "managed_decline": 0.48,
     "transformation": 0.1,
@@ -2865,7 +2865,7 @@
   ],
   "outlook_revisions": [
    {
-    "source": "ChatGPT US 2026-2035",
+    "source": "Author A US 2026-2035",
     "before": "renewal 26 / managed decline 43 / transformation 26 / breakdown 5",
     "after": "A 24 / B 43 / D 14 / C 19",
     "change": "Breakdown (hard reset) raised from 5% to 19%; transformation cut from 26% to 14%. The document gives no new evidence for the size of the shift.",
@@ -3533,8 +3533,8 @@
      "leaders": true
     },
     "rivals": {
-     "gpt_v1": 0.3025,
-     "gpt_v2": 0.16
+     "author_a_v1": 0.3025,
+     "author_a_v2": 0.16
     }
    },
    {
@@ -3702,13 +3702,13 @@
   ],
   "rivals": [
    {
-    "rival": "gpt_v1",
+    "rival": "author_a_v1",
     "n": 1,
     "rival_brier": 0.3025,
     "model_brier": 0.2498
    },
    {
-    "rival": "gpt_v2",
+    "rival": "author_a_v2",
     "n": 1,
     "rival_brier": 0.16,
     "model_brier": 0.2498
@@ -4028,7 +4028,7 @@
      "hedge_c": "Keep professional administration, succession rules and state and local government working through a political crisis.",
      "hedge_g": "Standing liquidity backstops for municipal pension funds and regulated utilities before local rate revolts reach Treasury auctions.",
      "trap": "Protecting privileged exemptions while cutting the systems that make government work (Ming courier cuts, 1629; the Ancien Regime; Weimar austerity).",
-     "note": "Both documents agree. The Ming courier cut as a cause of the dynasty's fall is contested (one factor among many). 'Byzantium survived by abandoning provinces' (Gemini) describes losses to conquest as a choice.",
+     "note": "Both documents agree. The Ming courier cut as a cause of the dynasty's fall is contested (one factor among many). 'Byzantium survived by abandoning provinces' (Author B) describes losses to conquest as a choice.",
      "questions": "M2, Y11, Y16, M3",
      "linked": [
       {
@@ -4059,7 +4059,7 @@
      "hedge_c": "Manageable leverage, enough liquidity to survive delays and credit stress, no single supplier, financing source, customer or jurisdiction.",
      "hedge_g": "Custody across jurisdictions; avoid single-tenant vehicles that depend on continuous refinancing.",
      "trap": "Treating political importance, or a sovereign or quasi-sovereign guarantee, as economic resilience (Habsburg Spain's lenders; Ottoman bondholders after 1875).",
-     "note": "That long-dated nominal bonds lost real value in 1973-1981 is well documented. Gemini's figure of a 20% fall in Dutch foreign trade is unverified here. These are the documents' general strategies, not investment advice; what they depend on in the model is the path of yields, the Fed and the AI-capex trade.",
+     "note": "That long-dated nominal bonds lost real value in 1973-1981 is well documented. Author B's figure of a 20% fall in Dutch foreign trade is unverified here. These are the documents' general strategies, not investment advice; what they depend on in the model is the path of yields, the Fed and the AI-capex trade.",
      "questions": "Y16, Y5, Y6, Y7, Y21, R4",
      "linked": [
       {
@@ -4125,7 +4125,7 @@
      "hedge_c": "Relationships beyond one employer: cooperative purchasing, credit unions, savings reserves, local repair networks, tools.",
      "hedge_g": "Local food and energy networks, credit unions, trade guilds.",
      "trap": "Depending on one employer or industry, or on nominal savings and unhedged debt through inflation (Weimar 1923; 1970s savers).",
-     "note": "Post-1348 labour scarcity did raise real wages despite wage caps; Gemini's 'doubled by 1380' is stronger than most series show for that window (the large gains accumulate over the following century; not re-verified here).",
+     "note": "Post-1348 labour scarcity did raise real wages despite wage caps; Author B's 'doubled by 1380' is stronger than most series show for that window (the large gains accumulate over the following century; not re-verified here).",
      "questions": "Y8, Y4, M1, Y5",
      "linked": [
       {
@@ -4178,7 +4178,7 @@
      "mechanism": "Automation and private power investment vs job displacement and utility rate rises",
      "parallel": "Industrialization; 1970s energy transition",
      "flashpoint": "Utility-commission rate fights, automation strikes",
-     "priority": "1 (ChatGPT's top priority)",
+     "priority": "1 (Author A's top priority)",
      "questions": "Y21, R4, Y18",
      "linked": [
       {
@@ -4450,7 +4450,7 @@
      "linked": []
     }
    ],
-   "stage_note": "ChatGPT's closing measure: resilience is the speed at which displaced resources, people, capital and institutions enter new productive arrangements before the old ones become unrecoverable, i.e. the gap between nominal resources and usable capacity. The model tracks that gap through the interconnection queue, transformer prices, state and local distress and productivity (History tab)."
+   "stage_note": "Author A's closing measure: resilience is the speed at which displaced resources, people, capital and institutions enter new productive arrangements before the old ones become unrecoverable, i.e. the gap between nominal resources and usable capacity. The model tracks that gap through the interconnection queue, transformer prices, state and local distress and productivity (History tab)."
   },
   "disclaimer": "Forecasts are probabilities, not certainties. The playbook is the documents' judgment. Nothing here is investment, legal or personal financial advice."
  },
