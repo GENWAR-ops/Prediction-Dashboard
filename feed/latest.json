@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T02:38:58+00:00",
+ "generated_at": "2026-11-19T02:43:47+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -4016,7 +4016,7 @@
    }
   ],
   "playbook": {
-   "intro": "This section sums up three outside forecasts (two from ChatGPT, one from Gemini) of how American society may adapt over the next decade, and what five groups might do about it: political leaders, business owners, professionals, skilled workers, and people in insecure work. These are the authors' views, not this model's forecasts, and not financial or personal advice. Each group's strategy is linked to the live questions it depends on, with the model's current probability.",
+   "intro": "This section sums up three forecasts of how American society may adapt over the next decade, and what five groups might do about it: political leaders, business owners, professionals, skilled workers, and people in insecure work. These are the authors' views, not this model's forecasts, and not financial or personal advice. Each group's strategy is linked to the live questions it depends on, with the model's current probability.",
    "outlooks": "How the authors see 2035 (their judgment, not data): slow relative decline is the most likely path, at a little over 4 in 10. Genuine renewal gets about 1 in 5. A technology-driven leap and a severe hard reset share the rest, and this is where the authors disagree most. Each document's exact split is in History; where the documents overreach is under Arguments.",
    "thesis": "The United States is most likely to remain a major power that slowly loses ground to others, neither collapsing nor surging ahead. What tips it one way or the other is not how much money or technology it has, but whether it can turn them into things that work (power lines built, factories supplied, services delivered) and whether the gains are shared widely enough that people keep trusting their institutions.",
    "tiers": [
@@ -4323,7 +4323,7 @@
      "amplifier": null
     }
    ],
-   "global_note": "Gemini's 25-year global version tells the same story worldwide: the world splits into regional blocs, resource-rich regions gain leverage, and older, indebted economies retrench.",
+   "global_note": "The model's 25-year global version tells the same story worldwide: the world splits into regional blocs, resource-rich regions gain leverage, and older, indebted economies retrench.",
    "concessions": [
     {
      "stabilizing": "Predictable tax reform",
