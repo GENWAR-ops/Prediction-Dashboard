@@ -1,10 +1,9 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T03:00:51+00:00",
+ "generated_at": "2026-11-19T03:02:25+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
- "disclosure": "Anthropic makes the assistant that built this model; the one Anthropic question is about timing only.",
  "note": "Probabilities are 0-1. range_low/high is the model's own judgment range. change_points compares with the previously published feed. Not investment advice.",
  "summary": {
   "questions": 47,
@@ -43,7 +42,7 @@
    "id": "D2",
    "horizon": "1 day",
    "resolves_by": "2026-11-18",
-   "question": "Anthropic IPO prices on Nov 18 as scheduled (conflict of interest: Anthropic makes me)",
+   "question": "Anthropic IPO prices on Nov 18 as scheduled",
    "forecast": 0.908,
    "range_low": 0.793,
    "range_high": 0.962,
@@ -3562,7 +3561,7 @@
    },
    {
     "id": "D2",
-    "question": "Anthropic IPO prices on Nov 18 as scheduled (conflict of interest: Anthropic makes me)",
+    "question": "Anthropic IPO prices on Nov 18 as scheduled",
     "first_forecast": 0.9082,
     "first_at": "2026-11-18T01:29:08+00:00",
     "outcome": 1,
