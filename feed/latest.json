@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T02:04:31+00:00",
+ "generated_at": "2026-11-19T02:15:08+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,10 +10,7 @@
   "questions": 47,
   "resolved": 4,
   "open": 43,
-  "moved_1pt_or_more": [
-   "Y8",
-   "Y9"
-  ]
+  "moved_1pt_or_more": []
  },
  "forecasts": [
   {
@@ -245,8 +242,8 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": 0.972,
-   "change_points": 0.2,
+   "previous_forecast": 0.974,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -447,8 +444,8 @@
    "outcome": null,
    "reasoning": "Game -0.8 and leaders -0.8: no visible build-up for a ground invasion, Trump calls strikes 'quite unlikely' after the midterms, and holding territory is far beyond raids. Empire +0.5: overstretched hegemons do take this kind of gamble. The market proxy (invasion before 2027) is broader on action and shorter on time.",
    "resolve_rule": "US ground forces enter and hold Iranian territory beyond a raid (more than 7 days) by Mar 31, 2027.",
-   "previous_forecast": 0.054,
-   "change_points": -0.2,
+   "previous_forecast": 0.052,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -659,8 +656,8 @@
    "outcome": null,
    "reasoning": "Energy +0.3 (oil shock from Hormuz) and capital +0.2 (5% 10-year yields, Fed hiking). Polymarket's 'US recession by end of 2027' uses the same test and trades at 30.5%, below the model's view.",
    "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession starting by Nov 17, 2027.",
-   "previous_forecast": 0.364,
-   "change_points": 1.9,
+   "previous_forecast": 0.383,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -705,8 +702,8 @@
    "outcome": null,
    "reasoning": "Largest disagreement with any market. Polymarket's dated contracts imply about 43% that a general ceasefire starts by Nov 17, 2027 (21.5% by Mar 31, 46.5% by Dec 31, 2027). Game -0.4: US-mediated talks resumed in Abu Dhabi on Nov 10 for the first time in nine months and ended without a ceasefire (a prisoner swap was agreed); on Nov 12 Putin held to his demands while offering only a brief ceasefire. Leaders -0.3: Putin told US envoys European troops after a ceasefire would be absolutely unacceptable. Energy -0.4: higher oil prices from the Iran war doubled Russia's main oil-tax revenue in April (Reuters). Capital +0.4: Russia's budget deficit kept rising through 2026 (KSE Institute). The lens sizes are judgments. Treat this as the forecast most likely to be wrong in either direction.",
    "resolve_rule": "A general, mutually agreed Russia-Ukraine ceasefire across the main front is in effect on Nov 17, 2027 (it may have started earlier, but must not have collapsed), per consensus reporting.",
-   "previous_forecast": 0.107,
-   "change_points": -2.1,
+   "previous_forecast": 0.086,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -746,8 +743,8 @@
    "outcome": null,
    "reasoning": "Leaders -0.6: Xi's purge of PLA leadership and a US-China summit this week argue against near-term force. Empire +0.5: the 2027 PLA centenary and US overstretch in the Gulf. Edge versus the market: see edge.",
    "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins by Nov 17, 2027.",
-   "previous_forecast": 0.049,
-   "change_points": -0.2,
+   "previous_forecast": 0.047,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -880,8 +877,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, by Nov 17, 2027.",
-   "previous_forecast": 0.696,
-   "change_points": 0.5,
+   "previous_forecast": 0.701,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1243,8 +1240,8 @@
    "outcome": null,
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. Result is close to the market: no edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
-   "previous_forecast": 0.698,
-   "change_points": -0.6,
+   "previous_forecast": 0.692,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1289,8 +1286,8 @@
    "outcome": null,
    "reasoning": "Ship counts lag barrels: tankers run dark and carry bigger loads, so transit calls stay low even as crude exports recover. Iran's leverage strategy needs traffic to stay abnormal. The market (4.5%, about $265k liquidity) is close to the model.",
    "resolve_rule": "Polymarket market strait-of-hormuz-traffic-returns-to-normal-by-december-31 (IMF PortWatch transit calls).",
-   "previous_forecast": 0.035,
-   "change_points": -0.6,
+   "previous_forecast": 0.029,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1747,6 +1744,33 @@
     "rhyme": "Managed steady-state adaptation as an alternative to growth (efficiency, grid and resource rationing).",
     "questions": "Y18, R4",
     "note": "Stability came with tight social control and closed borders, costs the document does not weigh."
+   },
+   {
+    "n": 25,
+    "case": "Angkor / Khmer (13th-15th centuries)",
+    "outcome": "The Angkor core declines gradually; power and trade move to southern and maritime centres",
+    "mechanism": "A hydraulic network of roughly 1,000 square kilometres strained under alternating long droughts and extreme monsoons; land use in the core was already falling in the early 1300s, long before the traditional 1431 date.",
+    "rhyme": "Activity drifting away from aging central infrastructure (grid, water, ports) rather than a single collapse date.",
+    "questions": "Y18, R4, Y21",
+    "note": "Sediment and pollen evidence moves the story from sudden conquest to long transition; figures are the document's, not re-verified here."
+   },
+   {
+    "n": 26,
+    "case": "Mexica Triple Alliance (1428-1521)",
+    "outcome": "Tenochtitlan falls to a Spanish-indigenous coalition; Nahua communities and institutions persist locally",
+    "mechanism": "A tribute empire with many resentful subject city-states; smallpox struck before the 80-day siege, and rivals of the Mexica supplied most of the besieging force.",
+    "rhyme": "Alliances that rest on extraction invite defection when a shock arrives.",
+    "questions": "W3, R2, Y2",
+    "note": "The Florentine Codex preserves Nahuatl testimony on the epidemic; Spanish accounts overstate European agency."
+   },
+   {
+    "n": 27,
+    "case": "Mongol Empire succession (1206-1368)",
+    "outcome": "After Mongke's death (1259) the empire splits into four khanates with different survival paths",
+    "mechanism": "Extraordinary mobility and elite integration, but no durable succession rule across a continent; khanates that stayed closer to steppe institutions lasted longer than the sedentary Yuan and Ilkhanate.",
+    "rhyme": "Fragmentation is not disappearance: successor systems with different survival odds.",
+    "questions": "W1, D1",
+    "note": ""
    }
   ],
   "case_today": {
@@ -2138,6 +2162,50 @@
      "label": "A hyperscaler or its primary development partner publicly delays, cancels or rephases a US 1 GW+ campus by 6+ months, explicitly citing grid, power or permitting",
      "value": 0.839
     }
+   ],
+   "25": [
+    {
+     "kind": "data",
+     "id": "PCU335311335311",
+     "label": "PPI: power, distribution and specialty transformers",
+     "value": 483.91,
+     "as_of": "2026-10-01",
+     "yoy_pct": 5.58
+    },
+    {
+     "kind": "forecast",
+     "id": "R4",
+     "label": "A hyperscaler or its primary development partner publicly delays, cancels or rephases a US 1 GW+ campus by 6+ months, explicitly citing grid, power or permitting",
+     "value": 0.839
+    },
+    {
+     "kind": "forecast",
+     "id": "Y21",
+     "label": "Moody's, S&P or Fitch downgrades a US investor-owned utility, with data-center load shortfalls, cancellations or stranded data-center investment cited as a driver, by Sep 30, 2027",
+     "value": 0.096
+    }
+   ],
+   "26": [
+    {
+     "kind": "forecast",
+     "id": "R2",
+     "label": "No signed, enforceable US-China-Russia agreement on nuclear arms limits, an Iran settlement or chip restrictions announced by Nov 24",
+     "value": 0.952
+    },
+    {
+     "kind": "forecast",
+     "id": "Y2",
+     "label": "Formal US-Iran agreement ending the war",
+     "value": 0.5
+    }
+   ],
+   "27": [
+    {
+     "kind": "forecast",
+     "id": "W1",
+     "label": "Trump-Xi-Putin trilateral meeting takes place",
+     "value": 0.952
+    }
    ]
   },
   "resilience": {
@@ -2174,6 +2242,14 @@
      "year_ago_date": "2025-04-01",
      "year_ago": 3625701,
      "yoy_pct": 5.33
+    },
+    "FORTREASPOS99990": {
+     "label": "Foreign official holdings of US Treasury securities ($ millions, TIC)",
+     "latest_date": "2026-09-01",
+     "latest": 3674654,
+     "year_ago_date": "2025-09-01",
+     "year_ago": 3872555,
+     "yoy_pct": -5.11
     }
    },
    "dgs10": 5.1,
@@ -2202,6 +2278,7 @@
     "rule": ">= 22% for 2 consecutive fiscal years",
     "series": "fiscal",
     "trajectory": "Managed decline / systemic transformation",
+    "method": "FRED FYOINT/FYFR; CBO and Treasury for net interest",
     "latest": "25.17% on FRED FYOINT/FYFR (FY2026)",
     "as_of": "2026-09-30",
     "status": "not hit on net interest (FY2025 about 18.7%); would read as hit on FRED's gross interest series (23.0%, 23.2%, 25.2% in FY2024-26)",
@@ -2216,17 +2293,19 @@
     "trajectory": "Breakdown / systemic transformation",
     "latest": 5.1,
     "as_of": "2026-11-17",
-    "status": "not hit"
+    "status": "not hit",
+    "method": "FRED DGS10"
    },
    {
     "id": "LT-03",
     "metric": "Foreign official Treasury holdings, year on year",
     "rule": "<= -8% while the 10-year rises",
-    "series": null,
+    "series": "official_holdings",
     "trajectory": "Managed decline",
-    "latest": null,
-    "as_of": null,
-    "status": "not evaluated (data not in the model's feeds)"
+    "latest": "-5.11% a year (3,674,654 vs 3,872,555 $ millions); 10-year up over the snapshot window",
+    "as_of": "2026-09-01",
+    "status": "not hit",
+    "method": "FRED FORTREASPOS99990 (TIC)"
    },
    {
     "id": "LT-04",
@@ -2234,9 +2313,14 @@
     "rule": ">= 3 a year",
     "series": null,
     "trajectory": "Systemic transformation",
-    "latest": null,
-    "as_of": null,
-    "status": "not evaluated (data not in the model's feeds)"
+    "latest": "1 identified in 2026: the Supreme Court (Feb 20) affirmed the Federal Circuit that IEEPA does not authorize tariffs; the Federal Circuit stayed (May) the trade court's ruling against the Section 122 replacement tariffs",
+    "as_of": "2026-11-19",
+    "status": "not hit (news count, not exhaustive)",
+    "method": "news count",
+    "sources": [
+     "https://www.congress.gov/crs-product/LSB11398",
+     "https://www.aljazeera.com/economy/2026/5/12/us-court-pauses-decision-blocking-trumps-10-percent-global-tariff"
+    ]
    },
    {
     "id": "LT-05",
@@ -2244,9 +2328,15 @@
     "rule": ">= 20% drawdown",
     "series": null,
     "trajectory": "Managed decline",
-    "latest": null,
-    "as_of": null,
-    "status": "not evaluated (data not in the model's feeds)"
+    "latest": "Europe: about 78,000 US personnel at end-September 2026, a planned cut of about 5,000 (about 6%) and a legal floor of 76,000 in the FY2026 NDAA. Gulf: the Iraq withdrawal finished on Sep 30, 2026, but wartime deployments against Iran rose; no published series separates permanent basing",
+    "as_of": "2026-11-15",
+    "status": "not hit in Europe; Gulf indeterminate (no permanent-basing count)",
+    "method": "news and inspector-general figures",
+    "sources": [
+     "https://www.stripes.com/theaters/europe/2026-11-15/us-troop-levels-europe-eucom-nato-23470991.html",
+     "https://www.spokesman.com/stories/2026/nov/14/pentagon-eyes-smaller-troop-cuts-across-europe-in-/",
+     "https://en.wikipedia.org/wiki/Withdrawal_of_United_States_troops_from_Iraq_(2025%E2%80%932026)"
+    ]
    },
    {
     "id": "LT-06",
@@ -2254,6 +2344,7 @@
     "rule": ">= 2.2% annualized for 12 straight quarters",
     "series": "productivity",
     "trajectory": "Hegemonic renewal",
+    "method": "FRED OPHNFB",
     "latest": "3.55% annualized (2026-07-01); 6 of the last 12 quarters at or above 2.2%",
     "as_of": "2026-07-01",
     "status": "not hit"
@@ -2264,9 +2355,14 @@
     "rule": "> 30%",
     "series": null,
     "trajectory": "Multipolar fragmentation",
-    "latest": null,
-    "as_of": null,
-    "status": "not evaluated (data not in the model's feeds)"
+    "latest": "No direct measure of commodity settlement by currency. Proxy: the dollar was on one side of 89.2% of FX turnover in April 2025 (88.4% in 2022); the renminbi under 9%",
+    "as_of": "2025-04",
+    "status": "not hit (proxy points the other way)",
+    "method": "proxy (BIS Triennial Survey)",
+    "sources": [
+     "https://www.bofit.fi/en/monitoring/weekly/2025/vw202540_1/",
+     "https://www.bis.org/press/p250930.htm"
+    ]
    },
    {
     "id": "GL-07",
@@ -2274,9 +2370,14 @@
     "rule": "> 160 with multi-year synchronized breadbasket heat or drought",
     "series": null,
     "trajectory": "Hard reset amplifier",
-    "latest": null,
-    "as_of": null,
-    "status": "not evaluated (data not in the model's feeds)"
+    "latest": "133.9 (October 2026), 5.9% above a year earlier and 16.4% below the March 2022 peak",
+    "as_of": "2026-10",
+    "status": "not hit",
+    "method": "FAO release",
+    "sources": [
+     "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/en",
+     "https://www.potatopro.com/news/2026/fao-food-price-index-edges-down-october-commodity-price-indices-easing-except-sugar-and"
+    ]
    },
    {
     "id": "LT-08",
@@ -2287,7 +2388,8 @@
     "trajectory": "Grid and infrastructure bottleneck",
     "latest": 483.91,
     "as_of": "2026-10-01",
-    "status": "not hit"
+    "status": "not hit",
+    "method": "FRED PCU335311335311"
    },
    {
     "id": "LT-07",
@@ -2295,9 +2397,13 @@
     "rule": "A major state or top-10 city needs an emergency federal facility",
     "series": null,
     "trajectory": "Transformation / breakdown",
-    "latest": null,
-    "as_of": null,
-    "status": "not evaluated (data not in the model's feeds)"
+    "latest": "No state or top-10 city has received an emergency federal liquidity facility in 2026; the last one (the Fed's Municipal Liquidity Facility) closed at the end of 2020",
+    "as_of": "2026-11-19",
+    "status": "not hit (news check)",
+    "method": "news check",
+    "sources": [
+     "https://www.cbo.gov/publication/62547"
+    ]
    }
   ],
   "outlook_splits": [
@@ -3012,7 +3118,7 @@
    }
   ],
   "playbook": {
-   "intro": "Two Phase 4 documents (ChatGPT and Gemini, Nov 19) set out how five parts of US society might adapt over 2026-2035. Shown as the documents' judgment: not scored by this model, not fitted to data, and not personal or investment advice. Each tier lists the live questions its strategy depends on, with the model's current number.",
+   "intro": "Phase 4 documents (ChatGPT and Gemini for the US 2026-2035, and Gemini's global 2026-2051 version, Nov 19) set out how five parts of US society might adapt over 2026-2035. Shown as the documents' judgment: not scored by this model, not fitted to data, and not personal or investment advice. Each tier lists the live questions its strategy depends on, with the model's current number.",
    "outlooks": "The documents' ten-year splits differ (ChatGPT: renewal 26%, managed decline 43%, transformation 26%, breakdown 5%; Gemini: 19%, 42%, 31%, 8%). Neither is estimated from data; the Gemini document calls its own 'empirical', which it is not.",
    "thesis": "ChatGPT's central argument: the deciding variable between managed decline and renewal is whether the gains from technological and industrial adaptation are shared widely enough to keep institutions legitimate.",
    "tiers": [
@@ -3043,7 +3149,9 @@
        "id": "M3",
        "forecast": 0.803
       }
-     ]
+     ],
+     "move_global": "Shed open-ended peripheral military and financial guarantees; move budgets from administrative overhead to grid, water and transport maintenance.",
+     "hedge_global": "Pre-authorized liquidity facilities for municipalities and utilities; drop rigid exchange-rate or austerity rules before deflation hollows the tax base."
     },
     {
      "tier": "Capital and enterprise class",
@@ -3080,7 +3188,9 @@
        "id": "R4",
        "forecast": 0.839
       }
-     ]
+     ],
+     "move_global": "Rotate out of long-duration nominal debt and speculative software multiples into distributed power, grid hardware, water infrastructure, refined fuels and mineral processing.",
+     "hedge_global": "Custody across neutral regional hubs plus short-duration bills; avoid single-tenant vehicles that need continuous rollover or subsidies."
     },
     {
      "tier": "Professional and managerial class",
@@ -3105,7 +3215,9 @@
        "id": "Y8",
        "forecast": 0.383
       }
-     ]
+     ],
+     "move_global": "Leave administrative and compliance layers for applied engineering, grid deployment, industrial logistics and clinical operations.",
+     "hedge_global": "Portable certifications, equity in cash-flowing regional firms, cross-border remote capability."
     },
     {
      "tier": "Working and trade class",
@@ -3134,7 +3246,9 @@
        "id": "Y5",
        "forecast": 0.563
       }
-     ]
+     ],
+     "move_global": "Non-automatable trades (grid maintenance, mechanics, machining, health care, food production); fixed-rate housing; no variable-rate consumer debt.",
+     "hedge_global": "Mutual-aid networks, credit unions, direct ties to local food and energy producers; household backup power and water storage."
     },
     {
      "tier": "Precariat and marginalized",
@@ -3155,7 +3269,9 @@
        "id": "M2",
        "forecast": 0.768
       }
-     ]
+     ],
+     "move_global": "Minimal fixed overhead; repair, resale and local services; tool-based skills with no credential barrier.",
+     "hedge_global": "Move early from high-cost, water-stressed cities toward regions with growing production and affordable land."
     }
    ],
    "frictions": [
@@ -3179,7 +3295,8 @@
        "id": "Y18",
        "forecast": 0.646
       }
-     ]
+     ],
+     "amplifier": "Energy-intensive compute and manufacturing move to cheaper peripheral power hubs"
     },
     {
      "pair": "Governing elite vs capital",
@@ -3197,7 +3314,8 @@
        "id": "Y11",
        "forecast": 0.03
       }
-     ]
+     ],
+     "amplifier": "Resource-rich states offer tax-free commodity hubs and non-dollar rails to fleeing capital"
     },
     {
      "pair": "Professionals vs precariat",
@@ -3206,7 +3324,8 @@
      "flashpoint": "Licensing reform, gig classification, permitting",
      "priority": "3",
      "questions": "",
-     "linked": []
+     "linked": [],
+     "amplifier": "Migration from young peripheries into aging cores sharpens competition for housing and informal work"
     },
     {
      "pair": "Governing elite vs professionals",
@@ -3220,7 +3339,8 @@
        "id": "M2",
        "forecast": 0.768
       }
-     ]
+     ],
+     "amplifier": "Multipolar competition favours defence and industrial engineers over administrative and academic institutions"
     },
     {
      "pair": "Working class vs precariat",
@@ -3234,7 +3354,8 @@
        "id": "Y8",
        "forecast": 0.383
       }
-     ]
+     ],
+     "amplifier": "Peripheral supply shocks raise food and fuel costs for both tiers at once"
     },
     {
      "pair": "Capital vs local communities",
@@ -3256,7 +3377,8 @@
        "id": "Y21",
        "forecast": 0.096
       }
-     ]
+     ],
+     "amplifier": null
     },
     {
      "pair": "Governing elite vs working class",
@@ -3274,7 +3396,8 @@
        "id": "Y11",
        "forecast": 0.03
       }
-     ]
+     ],
+     "amplifier": null
     },
     {
      "pair": "State vs regional institutions",
@@ -3283,9 +3406,11 @@
      "flashpoint": "Municipal distress, emergency funding (LT-07)",
      "priority": "",
      "questions": "",
-     "linked": []
+     "linked": [],
+     "amplifier": null
     }
-   ]
+   ],
+   "global_note": "The global document (Gemini, 2026-2051) adds a third version of each tier's move and hedge and a core-periphery amplifier for each collision. Its 25-year split (fragmentation 46%, hard reset 24%, renewal 18%, leap 12%) is judgment. Its case numbers are cross-referenced wrongly in places (Byzantium is cited as #03 and the Dutch merchants as #09), and it repeats the unverified 20% Dutch-trade and 'doubled real wages' figures."
   },
   "disclaimer": "Forecasts are probabilities, not certainties. The playbook is the documents' judgment. Nothing here is investment, legal or personal financial advice."
  },
