@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T01:10:05+00:00",
+ "generated_at": "2026-11-19T01:12:46+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -29,8 +29,15 @@
    "outcome": "yes",
    "reasoning": "Coalition formation before 3-player bargaining; 40+ prior meetings. Conflicting Kremlin reports keep it off 90%.",
    "resolve_rule": "Chinese or Russian state media report a Xi-Putin meeting held before the trilateral on Nov 19.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.881,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8807,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "D2",
@@ -48,8 +55,15 @@
    "outcome": "yes",
    "reasoning": "Nvidia beat removed the nearest market shock. Scored for timing only, not price.",
    "resolve_rule": "The IPO prices (final offer price announced) on Nov 18, 2026 per the company or the exchange.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.908,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.9082,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "D3",
@@ -67,8 +81,15 @@
    "outcome": "yes",
    "reasoning": "10-2 hold with two hike dissents; 88% Dec hike priced; Sept dots showed one more hike.",
    "resolve_rule": "Text of the FOMC minutes released Nov 18 says 'many' or 'most' participants saw further firming as likely appropriate.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.825,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8245,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "W1",
@@ -86,8 +107,15 @@
    "outcome": null,
    "reasoning": "Base tightened on Nov 17 (v3.4): the meeting is announced for Thursday and all three leaders are travelling. Leaders -0.2: Trump has cancelled summits at short notice before. Polymarket's 'Trump, Putin and Xi seen together before 2027' trades at 99.2%, a looser event, so it is not blended in.",
    "resolve_rule": "White House readout or pool report of Trump, Xi and Putin meeting together by Nov 20.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.952,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.9516,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "W2",
@@ -105,8 +133,20 @@
    "outcome": null,
    "reasoning": "Game -0.5: none of the three governments has pre-negotiated an AI institution, and the US and China are tightening, not pooling, AI controls (Nov 16 BIS rule). Leaders +0.2: Trump likes headline deliverables. The unverified 12% 'market' input has been removed; no matching Polymarket contract exists.",
    "resolve_rule": "A joint statement or leaders' announcement creating a named, standing AI body with all three governments as members, by Nov 30.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.038,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0449,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.0375,
+     "model": "v4.0"
+    }
+   ]
   },
   {
    "id": "W3",
@@ -124,8 +164,15 @@
    "outcome": null,
    "reasoning": "Russia profits from the Iran war (oil-tax revenue doubled in April) and so is a spoiler on the one shared agenda item.",
    "resolve_rule": "A document signed by all three leaders or their ministers containing specific, dated commitments, published by Nov 24.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.061,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.061,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "W4",
@@ -143,8 +190,15 @@
    "outcome": null,
    "reasoning": "Game -0.8: China has refused every US invitation to trilateral arms control since 2019, because its arsenal is far smaller and talks would cap its build-up. Leaders +0.4: Xi may offer warm words at a first-ever trilateral, which is why it is not lower.",
    "resolve_rule": "China's Foreign Ministry states China will join trilateral (US-China-Russia) nuclear arms-control talks, by Nov 24.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.027,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0272,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "W5",
@@ -162,8 +216,15 @@
    "outcome": null,
    "reasoning": "China is the pivot (largest Shapley share) and needs Hormuz open, but Beijing does not spend leverage as a favour: it will want trade concessions first.",
    "resolve_rule": "A joint statement or both readouts of the US-China bilateral name an Iran or Hormuz arrangement, by Nov 24.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.401,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.4015,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M1",
@@ -181,8 +242,25 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.972,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.9704,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:23",
+     "p": 0.9698,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.9721,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "M2",
@@ -200,8 +278,15 @@
    "outcome": null,
    "reasoning": "Democrats gain power Jan 3 so a short CR is their best response; but Trump forced a shutdown after his 2018 midterm loss.",
    "resolve_rule": "No lapse in appropriations for any federal agency through Dec 17 (OMB shutdown guidance not activated).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.768,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.7683,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M3",
@@ -219,8 +304,15 @@
    "outcome": null,
    "reasoning": "Leaders +0.8: Trump publicly attacked Powell, his own appointee, within weeks of the 2018 hikes (background history). Any 2026 criticism of Warsh was not checked in this audit. Capital +0.2: a hike into 5% yields hurts housing, which he watches.",
    "resolve_rule": "Trump names Warsh in public criticism of interest-rate policy (post, speech or interview) by Dec 17.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.803,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.803,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M4",
@@ -238,8 +330,15 @@
    "outcome": null,
    "reasoning": "Updated Nov 17 evening: the Bahrain/Qeshm exchange shows tit-for-tat has resumed, so the game lens no longer favours a quiet lull (0.4 -> 0) and leader restraint counts for less (0.6 -> 0.4).",
    "resolve_rule": "No event meeting R0's definition (large-scale US strikes resume or Kharg Island seized) between Nov 17 and Jan 3.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.879,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8794,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M5",
@@ -257,8 +356,20 @@
    "outcome": null,
    "reasoning": "Nov 18 update: on Nov 17 the S&P closed at 7,340.53 and the VIX at 25.46 (FRED); the option-implied (risk-neutral) chance of touching 6,255 by Dec 31 is 6.8%; converted to real-world odds with a conversion fitted on 2016-2026 S&P/VIX history it is 5.3%, which enters at weight 0.2. Capital +0.2: the Nov 16 selloff (S&P -1.9%, VIX 22.9) raises tail risk slightly, but the index still needs a further 15.7% fall in six weeks. A touch-probability calculation using the VIX (22.91) as volatility over the 30 trading days to Dec 31 gives 3.1%; that is an upper-side figure if implied volatility overstates realised volatility.",
    "resolve_rule": "Any S&P 500 daily close at or below 6,255.14 (20% under 7,818.93) by Dec 31 (FRED SP500).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.023,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0183,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 23:31",
+     "p": 0.0226,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "M6",
@@ -276,8 +387,15 @@
    "outcome": null,
    "reasoning": "Leaders -0.2: Xi skipped two of the last three G20s and a Miami summit hosted by Trump carries protocol risks. Game +0.2: the trilateral and bilateral this week could make a follow-up appearance useful.",
    "resolve_rule": "Xi is physically present at the Miami G20 leaders' summit (official program or credible reporting), by Dec 15.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.4,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.4,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M7",
@@ -295,8 +413,15 @@
    "outcome": null,
    "reasoning": "Raised above the flat hazard because tit-for-tat resumed on Nov 17; lowered because Trump is in Shenzhen pursuing a diplomatic win this week. ChatGPT's comparable call was 25%.",
    "resolve_rule": "Large-scale US strikes on Iran resume or Kharg Island is seized between Nov 17 and Dec 17 (two major outlets).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.076,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0758,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y1",
@@ -314,8 +439,25 @@
    "outcome": null,
    "reasoning": "Game -0.8 and leaders -0.8: no visible build-up for a ground invasion, Trump calls strikes 'quite unlikely' after the midterms, and holding territory is far beyond raids. Empire +0.5: overstretched hegemons do take this kind of gamble. The market proxy (invasion before 2027) is broader on action and shorter on time.",
    "resolve_rule": "US ground forces enter and hold Iranian territory beyond a raid (more than 7 days) by Mar 31, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.054,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0543,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.0553,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.0537,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y2",
@@ -333,8 +475,15 @@
    "outcome": null,
    "reasoning": "Gulf states added as players: Qatar and Oman are mediating now and the Gulf monarchies, whose exports and infrastructure are most exposed, have the strongest incentive to underwrite a deal (leaders 0 -> +0.2).",
    "resolve_rule": "US and Iran sign an agreement both describe as ending the war, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.5,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.4996,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y3",
@@ -352,8 +501,15 @@
    "outcome": null,
    "reasoning": "Gulf states added: their rulers want a workable transit regime and can underwrite one, offsetting US opposition (leaders -0.3 -> 0).",
    "resolve_rule": "IMF PortWatch 30-day average Hormuz transits at 75% or more of the 2025 average, with a published fee or coordination regime run by Iran, Oman or a Gulf body, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.521,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.5205,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y4",
@@ -371,8 +527,20 @@
    "outcome": null,
    "reasoning": "The EIA's Nov 10 outlook puts Brent near $77 in Q4 2027 (2027 average $85.78), assuming Middle East supply recovers; at 30-50% annual volatility that path alone gives 62-70% below $90 if $77 is the median, or 71-75% if it is the expected price; the model's 60% adds re-escalation risk, which that path assumes away. No lens scores: the anchor is a judgment of where a backwardated curve and the IEA's Nov 13 call for a Q4 2026 surplus (larger in 2027) leave Brent a year out. Diesel tightness and any Gulf terminal strike are the risks the other way.",
    "resolve_rule": "FRED DCOILBRENTEU below $90.00 on Nov 17, 2027 (last observation on or before that date).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.601,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-19 00:56",
+     "p": 0.6008,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y5",
@@ -390,8 +558,15 @@
    "outcome": null,
    "reasoning": "Capital +0.3: central banks that hiked into oil spikes usually reversed within a year. Leaders +0.2: political pressure on Warsh to cut.",
    "resolve_rule": "The first Fed rate change after Dec 9, 2026 is a cut, and it happens by Nov 17, 2027 (FOMC statements).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.563,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.5628,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y6",
@@ -409,8 +584,20 @@
    "outcome": null,
    "reasoning": "The index is already 13.5% below its record (27,002 vs 31,225 on Nov 17), so the fall still needed is about 19%. Capital +0.5: AI capex increasingly debt-financed (Fed FSR, Nov 13), valuations high, and 87% of Fed contacts name AI as a top risk. Empire +0.2: late-cycle financial excess. Still well below Y7 because 30% drawdowns are rare.",
    "resolve_rule": "Nasdaq-100 closes 30% or more below its all-time closing high at any point by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.414,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.2799,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-19 00:56",
+     "p": 0.4145,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y7",
@@ -428,8 +615,20 @@
    "outcome": null,
    "reasoning": "The index is already 13.5% below its record (27,002 vs 31,225 on Nov 17), so a further fall of about 7.5% resolves Yes. Capital +0.5: valuations rest on AI spending financed increasingly by debt; the Fed's Nov 13 Financial Stability Report found 87% of its market contacts now name AI as a top risk (50% in the spring) and flagged $680B of 2026 advanced-computing debt. Escalation with Iran adds an oil shock on top.",
    "resolve_rule": "Nasdaq-100 closes 20% or more below its all-time closing high at any point by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.589,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.4953,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-19 00:56",
+     "p": 0.5888,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y8",
@@ -447,8 +646,30 @@
    "outcome": null,
    "reasoning": "Energy +0.3 (oil shock from Hormuz) and capital +0.2 (5% 10-year yields, Fed hiking). Polymarket's 'US recession by end of 2027' uses the same test and trades at 30.5%, below the model's view.",
    "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession starting by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.364,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.3915,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 01:44",
+     "p": 0.3779,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.3601,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.3639,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y9",
@@ -466,8 +687,25 @@
    "outcome": null,
    "reasoning": "Largest disagreement with any market. Polymarket's dated contracts imply about 43% that a general ceasefire starts by Nov 17, 2027 (21.5% by Mar 31, 46.5% by Dec 31, 2027). Game -0.4: US-mediated talks resumed in Abu Dhabi on Nov 10 for the first time in nine months and ended without a ceasefire (a prisoner swap was agreed); on Nov 12 Putin held to his demands while offering only a brief ceasefire. Leaders -0.3: Putin told US envoys European troops after a ceasefire would be absolutely unacceptable. Energy -0.4: higher oil prices from the Iran war doubled Russia's main oil-tax revenue in April (Reuters). Capital +0.4: Russia's budget deficit kept rising through 2026 (KSE Institute). The lens sizes are judgments. Treat this as the forecast most likely to be wrong in either direction.",
    "resolve_rule": "A general, mutually agreed Russia-Ukraine ceasefire across the main front is in effect on Nov 17, 2027 (it may have started earlier, but must not have collapsed), per consensus reporting.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.107,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0699,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 01:44",
+     "p": 0.096,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.1065,
+     "model": "v4.0"
+    }
+   ]
   },
   {
    "id": "Y10",
@@ -485,8 +723,30 @@
    "outcome": null,
    "reasoning": "Leaders -0.6: Xi's purge of PLA leadership and a US-China summit this week argue against near-term force. Empire +0.5: the 2027 PLA centenary and US overstretch in the Gulf. Edge versus the market: see edge.",
    "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.049,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.05,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 01:44",
+     "p": 0.0489,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.0502,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.0491,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y11",
@@ -504,8 +764,15 @@
    "outcome": null,
    "reasoning": "Debt-limit sub-model: no default in ~80 episodes, but a hostile House and a president who uses brinkmanship raise the small residual risk to about 3%.",
    "resolve_rule": "The US Treasury misses a scheduled principal or interest payment, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.03,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.03,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y12",
@@ -523,8 +790,25 @@
    "outcome": null,
    "reasoning": "Leaders +0.8: Democrats take the House in January and Jeffries has backed impeaching Hegseth; on Nov 10 the lame-duck House voted 211-204 to send Massie's eight articles to committee, with 11 Democrats absent, and Democrats say they will try again. Game +0.4: removing a cabinet member is cheaper than impeaching the president; Mayorkas (2024) was impeached on a second vote. Markets: impeached by Jun 30, 2027 at 65.5% (thin, about $1.9k liquidity); out as Defense Secretary by Dec 31 at 15.5%.",
    "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.716,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.7309,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.7238,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.7162,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y13",
@@ -542,8 +826,15 @@
    "outcome": null,
    "reasoning": "Leaders -0.4 and game -0.2: impeaching Trump with no Senate conviction path is costly before 2028; Semafor (Oct 9) reported congressional Democrats are not eager to impeach Trump and are targeting Hegseth instead. One of four opposition Houses did it within 11 months.",
    "resolve_rule": "The House adopts articles of impeachment against Trump, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.155,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.1546,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y14",
@@ -561,8 +852,25 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.696,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6315,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.731,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.6955,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "Y15",
@@ -580,8 +888,15 @@
    "outcome": null,
    "reasoning": "Leaders +0.5: Netanyahu stayed in office as caretaker through the 2019-21 deadlocks, though he lost office from June 2021 to December 2022, so survival is the base case but not certain. (Background history, not re-verified in this audit.)",
    "resolve_rule": "Netanyahu holds the office of prime minister (including caretaker) on Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.712,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.7121,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y16",
@@ -599,8 +914,15 @@
    "outcome": null,
    "reasoning": "Capital +0.3 and empire +0.2: large deficits, term-premium pressure and foreign selling of Treasuries. The 10-year was 5.12% on Nov 16, already above the line.",
    "resolve_rule": "FRED DGS10 above 5.00% on Nov 17, 2027 (last observation on or before that date).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.625,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6255,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y17",
@@ -618,8 +940,15 @@
    "outcome": null,
    "reasoning": "Capital, empire and game: China has cut reported Treasury holdings in most years since 2014 and has more reason to now.",
    "resolve_rule": "The latest Treasury TIC release on Nov 17, 2027 shows China's (mainland) holdings below the same month a year earlier.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.864,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8638,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y18",
@@ -637,8 +966,15 @@
    "outcome": null,
    "reasoning": "Sharpened from ChatGPT's 'AI investment shifts toward power'. Capital +0.2: AI-issuer bond spreads are already wider than the market, which gives cover to defer projects.",
    "resolve_rule": "Two or more of Amazon, Microsoft, Google, Meta and Oracle (or their development partners) publicly delay, cancel or relocate a 1 GW+ campus citing power, by Nov 17, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.646,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6455,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y19",
@@ -656,8 +992,15 @@
    "outcome": null,
    "reasoning": "Sharpened from ChatGPT's 'tech ecosystems become more separated'. The Huang affair makes loosening politically toxic; Trump-Xi deal-making pulls the other way.",
    "resolve_rule": "A new US AI-chip export control on China announced or first released after Nov 17, 2026, or a formal Chinese ban on Nvidia products, by Nov 17, 2027. The Nov 16, 2026 BIS remote-access rule does not count, because it was released before this question was registered.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.862,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8623,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y20",
@@ -675,8 +1018,15 @@
    "outcome": null,
    "reasoning": "Gulf states as players: Qatar and Oman mediate now, and both the US and Iran need a third party to solve the sequencing problem (relief first vs nuclear commitments first).",
    "resolve_rule": "A signed US-Iran interim text brokered by Qatar, Oman or Saudi Arabia, announced by Mar 31, 2027.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.508,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.5077,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "R1",
@@ -694,8 +1044,15 @@
    "outcome": "yes",
    "reasoning": "Game -0.3: Beijing, Iran's main oil buyer and diplomatic shield, hosts APEC Nov 18-19, so an attack that day embarrasses the host. This offsets the tit-for-tat pull after the Qeshm strike. Leaders +0.1: the IRGC frames attacks as answers to US airspace violations, which keep happening. Resolution risk: a Kuwait drone interception late on Nov 17 may be counted by a loose reader.",
    "resolve_rule": "CENTCOM, AP or Reuters report of an attack on US or Iranian military forces or assets. Tanker attacks do not count.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.5,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.5002,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "R2",
@@ -713,8 +1070,15 @@
    "outcome": null,
    "reasoning": "Mirror of W3: no pre-negotiated text, China has no reason to cap a smaller arsenal, and Russia gains from high oil prices, so it spoils the Iran item.",
    "resolve_rule": "White House, Kremlin or Xinhua text of a signed agreement with enforceable commitments.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.952,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.9522,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "R3",
@@ -732,8 +1096,20 @@
    "outcome": null,
    "reasoning": "Energy +1.0: Kpler's November regional flows fell about 7% from October as attacks resumed, a leading indicator for the IEA figure. Game +0.3: Iran's leverage strategy rests on keeping flows impaired. Escalation within the window makes it near-certain. Polymarket's Hormuz markets measure deals and ship counts, not barrels, so they are not blended in.",
    "resolve_rule": "IEA Oil Market Report, December 2026: Gulf crude exports for November as a share of pre-war. Fallback: Kpler crude-only Gulf exports.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.853,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8535,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-19 00:56",
+     "p": 0.853,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "R4",
@@ -751,8 +1127,15 @@
    "outcome": null,
    "reasoning": "Broader than Y18 (one company, partners count, permitting counts) but adds the six-month and explicit-citation requirements. Supporting evidence (v3.4): Goldman Sachs Research (May 2026) expects only 50-60% of data-center capacity scheduled for the next one to two years to come online on time.",
    "resolve_rule": "Company statement, filing or on-record executive comment that names power, grid or permitting.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.839,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.8385,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "R5",
@@ -770,8 +1153,15 @@
    "outcome": null,
    "reasoning": "The trigger these base rates assume now exists: BIS released its remote-access interim final rule on Nov 16 (Federal Register publication Nov 19), and MOFCOM threatened countermeasures on Nov 17. The same rule rescinds the 2025 AI Diffusion Rule, a partial offset. Game -0.3: the truce (affiliates rule suspended to Jan 10, 2027) gives Beijing a reason to keep countermeasures 'restrained' and to trade restraint for extensions. Leaders +0.2: MOFCOM publicly threatened countermeasures on Nov 17, so inaction has a credibility cost.",
    "resolve_rule": "MOFCOM or State Council announcement that cites the US remote-access or compute rules.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.784,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.7835,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "R6",
@@ -789,8 +1179,15 @@
    "outcome": null,
    "reasoning": "The trigger these base rates assume now exists: BIS released its remote-access interim final rule on Nov 16 (Federal Register publication Nov 19), and MOFCOM threatened countermeasures on Nov 17. The same rule rescinds the 2025 AI Diffusion Rule, a partial offset. ChatGPT v3.0's own candidate, which it declined to price until a history of China's responses was built. That history is the episode table. Same lenses as R5: the truce pulls down, MOFCOM's Nov 17 threat pulls up.",
    "resolve_rule": "MOFCOM, GAC or State Council announcement tied by statement to a US restriction.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.66,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6599,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M8",
@@ -808,8 +1205,30 @@
    "outcome": null,
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. Result is close to the market: no edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.698,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6944,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.7072,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.6969,
+     "model": "v4.2"
+    },
+    {
+     "t": "2026-11-19 00:56",
+     "p": 0.6978,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "M10",
@@ -827,8 +1246,20 @@
    "outcome": null,
    "reasoning": "Ship counts lag barrels: tankers run dark and carry bigger loads, so transit calls stay low even as crude exports recover. Iran's leverage strategy needs traffic to stay abnormal. The market (4.5%, about $265k liquidity) is close to the model.",
    "resolve_rule": "Polymarket market strait-of-hormuz-traffic-returns-to-normal-by-december-31 (IMF PortWatch transit calls).",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.035,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.0297,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.0353,
+     "model": "v4.0"
+    }
+   ]
   },
   {
    "id": "M11",
@@ -846,8 +1277,15 @@
    "outcome": null,
    "reasoning": "Game -0.5: Beijing is aligning every suspension with the Jan 10 truce date, and Xi meets Trump on Nov 19, eight days before the deadline. Leaders +0.4: MOFCOM threatened countermeasures to the remote-compute rule on Nov 17, and letting a suspension lapse is the cheapest retaliation available, since it needs no new act.",
    "resolve_rule": "MOFCOM notice: no extension of Announcement 72 of 2025 by Nov 28, or a new export-control announcement aimed at the US by Dec 15.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.138,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.1377,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "Y21",
@@ -865,8 +1303,15 @@
    "outcome": null,
    "reasoning": "Capital +0.5: AI-issuer credit already trades wider than the market and Y7 gives a 50% chance of a 20% Nasdaq drop. The Fed's Nov 13 Financial Stability Report (Box 2.2) adds that advanced-computing debt passed $680B in 2026 and large banks have close to $1T of exposure to tech firms, data-center developers, their SPEs and utilities, and debt, guarantees and not-yet-started leases together could exceed $3T (over $1T of leases and over $2T of take-or-pay contracts and residual-value guarantees, both undiscounted); that is the same channel, so it is cited as support and not added as a second lens score. Leaders -0.3: state regulators have been adding minimum-take large-load tariffs that shift stranded-asset risk onto data centers, protecting utility credit.",
    "resolve_rule": "Rating-agency press release naming data-center load as a downgrade driver.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.096,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.096,
+     "model": "v3.4"
+    }
+   ]
   },
   {
    "id": "M9",
@@ -884,8 +1329,30 @@
    "outcome": null,
    "reasoning": "ChatGPT v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.664,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.6661,
+     "model": "v3.4"
+    },
+    {
+     "t": "2026-11-18 02:40",
+     "p": 0.6737,
+     "model": "v4.0"
+    },
+    {
+     "t": "2026-11-19 00:24",
+     "p": 0.6634,
+     "model": "v4.2"
+    },
+    {
+     "t": "2026-11-19 00:56",
+     "p": 0.6643,
+     "model": "v4.2"
+    }
+   ]
   },
   {
    "id": "R0",
@@ -903,8 +1370,15 @@
    "outcome": null,
    "reasoning": "Post-midterm regime change pulls down (Trump: strikes 'quite unlikely', approval 32%). Pulls up: on Nov 17 Iran hit at a US radar in Bahrain (its third attack in days after a two-month lull) and the US struck a missile site on Qeshm Island; tankers were hit; USS Roosevelt arrived Nov 16; Netanyahu is a caretaker who wants Iran finished. Update of Nov 17 evening: game lens moved from -0.3 to 0 because the frozen equilibrium is visibly unstable.",
    "resolve_rule": "YES if between Nov 18, 2026 and Nov 17, 2027 any of these is reported by CENTCOM/DoD, AP or Reuters: (a) US strikes landing on Iranian territory on 5 or more days within any 14-day window; (b) the US government announces a named military operation or campaign against Iran; (c) the US government declares the ceasefire ended; or (d) US forces seize or occupy Kharg Island. Isolated strikes described as self-defence (such as the Nov 17 Qeshm strike) do not count on their own; Iranian attacks alone do not count.",
-   "previous_forecast": null,
-   "change_points": null
+   "previous_forecast": 0.546,
+   "change_points": 0.0,
+   "trend": [
+    {
+     "t": "2026-11-18 01:29",
+     "p": 0.5464,
+     "model": "v3.4"
+    }
+   ]
   }
  ],
  "scenarios": [
@@ -1467,12 +1941,12 @@
   {
    "label": "S&P 500",
    "questions": "M5",
-   "as_of": "2026-11-17",
-   "latest": 7340.53,
-   "change": -1.03,
-   "robust_z": -1.42,
+   "as_of": "2026-11-18",
+   "latest": 7323.63,
+   "change": -0.23,
+   "robust_z": -0.27,
    "flag": false,
-   "level_z": -4.22,
+   "level_z": -4.28,
    "level_flag": true
   },
   {
@@ -1552,5 +2026,2947 @@
    },
    "note": "First forecasts only. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
   }
+ },
+ "market_series": [
+  {
+   "id": "SP500",
+   "name": "S&P 500",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-15",
+     "value": 7572.4
+    },
+    {
+     "t": "2026-07-16",
+     "value": 7533.77
+    },
+    {
+     "t": "2026-07-17",
+     "value": 7457.69
+    },
+    {
+     "t": "2026-07-20",
+     "value": 7443.28
+    },
+    {
+     "t": "2026-07-21",
+     "value": 7509.2
+    },
+    {
+     "t": "2026-07-22",
+     "value": 7498.96
+    },
+    {
+     "t": "2026-07-23",
+     "value": 7408.3
+    },
+    {
+     "t": "2026-07-24",
+     "value": 7411.98
+    },
+    {
+     "t": "2026-07-27",
+     "value": 7413.18
+    },
+    {
+     "t": "2026-07-28",
+     "value": 7428.78
+    },
+    {
+     "t": "2026-07-29",
+     "value": 7316.15
+    },
+    {
+     "t": "2026-07-30",
+     "value": 7437.63
+    },
+    {
+     "t": "2026-07-31",
+     "value": 7489.72
+    },
+    {
+     "t": "2026-08-03",
+     "value": 7600.5
+    },
+    {
+     "t": "2026-08-04",
+     "value": 7736.52
+    },
+    {
+     "t": "2026-08-05",
+     "value": 7723.55
+    },
+    {
+     "t": "2026-08-06",
+     "value": 7709.96
+    },
+    {
+     "t": "2026-08-07",
+     "value": 7757.64
+    },
+    {
+     "t": "2026-08-10",
+     "value": 7753.11
+    },
+    {
+     "t": "2026-08-11",
+     "value": 7728.2
+    },
+    {
+     "t": "2026-08-12",
+     "value": 7748.5
+    },
+    {
+     "t": "2026-08-13",
+     "value": 7798.99
+    },
+    {
+     "t": "2026-08-14",
+     "value": 7785.76
+    },
+    {
+     "t": "2026-08-17",
+     "value": 7745.06
+    },
+    {
+     "t": "2026-08-18",
+     "value": 7691.76
+    },
+    {
+     "t": "2026-08-19",
+     "value": 7707.98
+    },
+    {
+     "t": "2026-08-20",
+     "value": 7641.16
+    },
+    {
+     "t": "2026-08-21",
+     "value": 7674.37
+    },
+    {
+     "t": "2026-08-24",
+     "value": 7652.86
+    },
+    {
+     "t": "2026-08-25",
+     "value": 7677.28
+    },
+    {
+     "t": "2026-08-26",
+     "value": 7675.7
+    },
+    {
+     "t": "2026-08-27",
+     "value": 7730.99
+    },
+    {
+     "t": "2026-08-28",
+     "value": 7711.76
+    },
+    {
+     "t": "2026-08-31",
+     "value": 7686.14
+    },
+    {
+     "t": "2026-09-01",
+     "value": 7631.47
+    },
+    {
+     "t": "2026-09-02",
+     "value": 7666.6
+    },
+    {
+     "t": "2026-09-03",
+     "value": 7747.71
+    },
+    {
+     "t": "2026-09-04",
+     "value": 7718.6
+    },
+    {
+     "t": "2026-09-08",
+     "value": 7673.52
+    },
+    {
+     "t": "2026-09-09",
+     "value": 7636.36
+    },
+    {
+     "t": "2026-09-10",
+     "value": 7591.7
+    },
+    {
+     "t": "2026-09-11",
+     "value": 7656.98
+    },
+    {
+     "t": "2026-09-14",
+     "value": 7619.98
+    },
+    {
+     "t": "2026-09-15",
+     "value": 7585.73
+    },
+    {
+     "t": "2026-09-16",
+     "value": 7551.81
+    },
+    {
+     "t": "2026-09-17",
+     "value": 7637.76
+    },
+    {
+     "t": "2026-09-18",
+     "value": 7650.5
+    },
+    {
+     "t": "2026-09-21",
+     "value": 7764.7
+    },
+    {
+     "t": "2026-09-22",
+     "value": 7764.64
+    },
+    {
+     "t": "2026-09-23",
+     "value": 7706.03
+    },
+    {
+     "t": "2026-09-24",
+     "value": 7704.13
+    },
+    {
+     "t": "2026-09-25",
+     "value": 7743.41
+    },
+    {
+     "t": "2026-09-28",
+     "value": 7683.69
+    },
+    {
+     "t": "2026-09-29",
+     "value": 7670.84
+    },
+    {
+     "t": "2026-09-30",
+     "value": 7651.54
+    },
+    {
+     "t": "2026-10-01",
+     "value": 7666.45
+    },
+    {
+     "t": "2026-10-02",
+     "value": 7722.72
+    },
+    {
+     "t": "2026-10-05",
+     "value": 7773.95
+    },
+    {
+     "t": "2026-10-06",
+     "value": 7818.93
+    },
+    {
+     "t": "2026-10-07",
+     "value": 7801.77
+    },
+    {
+     "t": "2026-10-08",
+     "value": 7765.36
+    },
+    {
+     "t": "2026-10-09",
+     "value": 7811.54
+    },
+    {
+     "t": "2026-10-12",
+     "value": 7807.24
+    },
+    {
+     "t": "2026-10-13",
+     "value": 7805.45
+    },
+    {
+     "t": "2026-10-14",
+     "value": 7718.94
+    },
+    {
+     "t": "2026-10-15",
+     "value": 7744.06
+    },
+    {
+     "t": "2026-10-16",
+     "value": 7659.44
+    },
+    {
+     "t": "2026-10-19",
+     "value": 7690.73
+    },
+    {
+     "t": "2026-10-20",
+     "value": 7712.57
+    },
+    {
+     "t": "2026-10-21",
+     "value": 7757.17
+    },
+    {
+     "t": "2026-10-22",
+     "value": 7663.43
+    },
+    {
+     "t": "2026-10-23",
+     "value": 7623.68
+    },
+    {
+     "t": "2026-10-26",
+     "value": 7676.77
+    },
+    {
+     "t": "2026-10-27",
+     "value": 7722.6
+    },
+    {
+     "t": "2026-10-28",
+     "value": 7743.98
+    },
+    {
+     "t": "2026-10-29",
+     "value": 7720.39
+    },
+    {
+     "t": "2026-10-30",
+     "value": 7580.07
+    },
+    {
+     "t": "2026-11-02",
+     "value": 7541.4
+    },
+    {
+     "t": "2026-11-03",
+     "value": 7568.92
+    },
+    {
+     "t": "2026-11-04",
+     "value": 7688.62
+    },
+    {
+     "t": "2026-11-05",
+     "value": 7353.73
+    },
+    {
+     "t": "2026-11-06",
+     "value": 7376.86
+    },
+    {
+     "t": "2026-11-09",
+     "value": 7549.94
+    },
+    {
+     "t": "2026-11-10",
+     "value": 7520.93
+    },
+    {
+     "t": "2026-11-11",
+     "value": 7619.38
+    },
+    {
+     "t": "2026-11-12",
+     "value": 7592.4
+    },
+    {
+     "t": "2026-11-13",
+     "value": 7561.67
+    },
+    {
+     "t": "2026-11-16",
+     "value": 7416.59
+    },
+    {
+     "t": "2026-11-17",
+     "value": 7340.53
+    },
+    {
+     "t": "2026-11-18",
+     "value": 7323.63
+    }
+   ]
+  },
+  {
+   "id": "NASDAQ100",
+   "name": "Nasdaq-100",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-14",
+     "value": 29586.29
+    },
+    {
+     "t": "2026-07-15",
+     "value": 29502.6
+    },
+    {
+     "t": "2026-07-16",
+     "value": 29025.77
+    },
+    {
+     "t": "2026-07-17",
+     "value": 28592.66
+    },
+    {
+     "t": "2026-07-20",
+     "value": 28604.23
+    },
+    {
+     "t": "2026-07-21",
+     "value": 29155.18
+    },
+    {
+     "t": "2026-07-22",
+     "value": 28998.1
+    },
+    {
+     "t": "2026-07-23",
+     "value": 28454.81
+    },
+    {
+     "t": "2026-07-24",
+     "value": 28128.34
+    },
+    {
+     "t": "2026-07-27",
+     "value": 28039.21
+    },
+    {
+     "t": "2026-07-28",
+     "value": 27763.13
+    },
+    {
+     "t": "2026-07-29",
+     "value": 27192.31
+    },
+    {
+     "t": "2026-07-30",
+     "value": 28106.35
+    },
+    {
+     "t": "2026-07-31",
+     "value": 28274.2
+    },
+    {
+     "t": "2026-08-03",
+     "value": 28776.8
+    },
+    {
+     "t": "2026-08-04",
+     "value": 29733.16
+    },
+    {
+     "t": "2026-08-05",
+     "value": 29487.79
+    },
+    {
+     "t": "2026-08-06",
+     "value": 29373.33
+    },
+    {
+     "t": "2026-08-07",
+     "value": 29722.3
+    },
+    {
+     "t": "2026-08-10",
+     "value": 29621.8
+    },
+    {
+     "t": "2026-08-11",
+     "value": 29525.48
+    },
+    {
+     "t": "2026-08-12",
+     "value": 29742.6
+    },
+    {
+     "t": "2026-08-13",
+     "value": 30084.5
+    },
+    {
+     "t": "2026-08-14",
+     "value": 30046.14
+    },
+    {
+     "t": "2026-08-17",
+     "value": 29995.38
+    },
+    {
+     "t": "2026-08-18",
+     "value": 29490.96
+    },
+    {
+     "t": "2026-08-19",
+     "value": 29426.02
+    },
+    {
+     "t": "2026-08-20",
+     "value": 29213.16
+    },
+    {
+     "t": "2026-08-21",
+     "value": 29308.86
+    },
+    {
+     "t": "2026-08-24",
+     "value": 29023.18
+    },
+    {
+     "t": "2026-08-25",
+     "value": 29209.23
+    },
+    {
+     "t": "2026-08-26",
+     "value": 29224.52
+    },
+    {
+     "t": "2026-08-27",
+     "value": 29641.56
+    },
+    {
+     "t": "2026-08-28",
+     "value": 29433.43
+    },
+    {
+     "t": "2026-08-31",
+     "value": 29456.97
+    },
+    {
+     "t": "2026-09-01",
+     "value": 29077.22
+    },
+    {
+     "t": "2026-09-02",
+     "value": 29143.33
+    },
+    {
+     "t": "2026-09-03",
+     "value": 29482.32
+    },
+    {
+     "t": "2026-09-04",
+     "value": 29544.16
+    },
+    {
+     "t": "2026-09-08",
+     "value": 29507.7
+    },
+    {
+     "t": "2026-09-09",
+     "value": 29421.55
+    },
+    {
+     "t": "2026-09-10",
+     "value": 29103.51
+    },
+    {
+     "t": "2026-09-11",
+     "value": 29368.44
+    },
+    {
+     "t": "2026-09-14",
+     "value": 29127.16
+    },
+    {
+     "t": "2026-09-15",
+     "value": 28937.84
+    },
+    {
+     "t": "2026-09-16",
+     "value": 28945.06
+    },
+    {
+     "t": "2026-09-17",
+     "value": 29446.98
+    },
+    {
+     "t": "2026-09-18",
+     "value": 29644.17
+    },
+    {
+     "t": "2026-09-21",
+     "value": 30482.35
+    },
+    {
+     "t": "2026-09-22",
+     "value": 30732.4
+    },
+    {
+     "t": "2026-09-23",
+     "value": 30470.29
+    },
+    {
+     "t": "2026-09-24",
+     "value": 30478.86
+    },
+    {
+     "t": "2026-09-25",
+     "value": 30608.13
+    },
+    {
+     "t": "2026-09-28",
+     "value": 30276.81
+    },
+    {
+     "t": "2026-09-29",
+     "value": 30339.33
+    },
+    {
+     "t": "2026-09-30",
+     "value": 30408.5
+    },
+    {
+     "t": "2026-10-01",
+     "value": 30501.56
+    },
+    {
+     "t": "2026-10-02",
+     "value": 30807.93
+    },
+    {
+     "t": "2026-10-05",
+     "value": 31076.44
+    },
+    {
+     "t": "2026-10-06",
+     "value": 31224.69
+    },
+    {
+     "t": "2026-10-07",
+     "value": 31160.08
+    },
+    {
+     "t": "2026-10-08",
+     "value": 30725.81
+    },
+    {
+     "t": "2026-10-09",
+     "value": 30883.15
+    },
+    {
+     "t": "2026-10-12",
+     "value": 30664.7
+    },
+    {
+     "t": "2026-10-13",
+     "value": 30569.48
+    },
+    {
+     "t": "2026-10-14",
+     "value": 29950.82
+    },
+    {
+     "t": "2026-10-15",
+     "value": 29935.59
+    },
+    {
+     "t": "2026-10-16",
+     "value": 29187.55
+    },
+    {
+     "t": "2026-10-19",
+     "value": 29529.34
+    },
+    {
+     "t": "2026-10-20",
+     "value": 29490.28
+    },
+    {
+     "t": "2026-10-21",
+     "value": 29822.52
+    },
+    {
+     "t": "2026-10-22",
+     "value": 28958.69
+    },
+    {
+     "t": "2026-10-23",
+     "value": 28957.53
+    },
+    {
+     "t": "2026-10-26",
+     "value": 29273.4
+    },
+    {
+     "t": "2026-10-27",
+     "value": 29651.44
+    },
+    {
+     "t": "2026-10-28",
+     "value": 29813.16
+    },
+    {
+     "t": "2026-10-29",
+     "value": 29402.51
+    },
+    {
+     "t": "2026-10-30",
+     "value": 28384.85
+    },
+    {
+     "t": "2026-11-02",
+     "value": 27989.82
+    },
+    {
+     "t": "2026-11-03",
+     "value": 28180.26
+    },
+    {
+     "t": "2026-11-04",
+     "value": 28437.17
+    },
+    {
+     "t": "2026-11-05",
+     "value": 26629.81
+    },
+    {
+     "t": "2026-11-06",
+     "value": 26989.99
+    },
+    {
+     "t": "2026-11-09",
+     "value": 27907.63
+    },
+    {
+     "t": "2026-11-10",
+     "value": 27740.8
+    },
+    {
+     "t": "2026-11-11",
+     "value": 28374.25
+    },
+    {
+     "t": "2026-11-12",
+     "value": 28289.19
+    },
+    {
+     "t": "2026-11-13",
+     "value": 27943.74
+    },
+    {
+     "t": "2026-11-16",
+     "value": 27197.15
+    },
+    {
+     "t": "2026-11-17",
+     "value": 27001.78
+    }
+   ]
+  },
+  {
+   "id": "VIXCLS",
+   "name": "VIX",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-15",
+     "value": 15.67
+    },
+    {
+     "t": "2026-07-16",
+     "value": 16.73
+    },
+    {
+     "t": "2026-07-17",
+     "value": 18.77
+    },
+    {
+     "t": "2026-07-20",
+     "value": 18.65
+    },
+    {
+     "t": "2026-07-21",
+     "value": 17.05
+    },
+    {
+     "t": "2026-07-22",
+     "value": 16.64
+    },
+    {
+     "t": "2026-07-23",
+     "value": 18.7
+    },
+    {
+     "t": "2026-07-24",
+     "value": 18.58
+    },
+    {
+     "t": "2026-07-27",
+     "value": 18.67
+    },
+    {
+     "t": "2026-07-28",
+     "value": 18.21
+    },
+    {
+     "t": "2026-07-29",
+     "value": 20.66
+    },
+    {
+     "t": "2026-07-30",
+     "value": 17.09
+    },
+    {
+     "t": "2026-07-31",
+     "value": 15.99
+    },
+    {
+     "t": "2026-08-03",
+     "value": 15.86
+    },
+    {
+     "t": "2026-08-04",
+     "value": 16.5
+    },
+    {
+     "t": "2026-08-05",
+     "value": 15.81
+    },
+    {
+     "t": "2026-08-06",
+     "value": 15.15
+    },
+    {
+     "t": "2026-08-07",
+     "value": 14.9
+    },
+    {
+     "t": "2026-08-10",
+     "value": 15.46
+    },
+    {
+     "t": "2026-08-11",
+     "value": 15.28
+    },
+    {
+     "t": "2026-08-12",
+     "value": 14.55
+    },
+    {
+     "t": "2026-08-13",
+     "value": 14.63
+    },
+    {
+     "t": "2026-08-14",
+     "value": 14.25
+    },
+    {
+     "t": "2026-08-17",
+     "value": 15.19
+    },
+    {
+     "t": "2026-08-18",
+     "value": 15.84
+    },
+    {
+     "t": "2026-08-19",
+     "value": 14.89
+    },
+    {
+     "t": "2026-08-20",
+     "value": 16.01
+    },
+    {
+     "t": "2026-08-21",
+     "value": 15.13
+    },
+    {
+     "t": "2026-08-24",
+     "value": 15.85
+    },
+    {
+     "t": "2026-08-25",
+     "value": 15.45
+    },
+    {
+     "t": "2026-08-26",
+     "value": 15.21
+    },
+    {
+     "t": "2026-08-27",
+     "value": 14.51
+    },
+    {
+     "t": "2026-08-28",
+     "value": 14.43
+    },
+    {
+     "t": "2026-08-31",
+     "value": 14.92
+    },
+    {
+     "t": "2026-09-01",
+     "value": 16.34
+    },
+    {
+     "t": "2026-09-02",
+     "value": 15.2
+    },
+    {
+     "t": "2026-09-03",
+     "value": 14.32
+    },
+    {
+     "t": "2026-09-04",
+     "value": 14.53
+    },
+    {
+     "t": "2026-09-07",
+     "value": 15.3
+    },
+    {
+     "t": "2026-09-08",
+     "value": 15.72
+    },
+    {
+     "t": "2026-09-09",
+     "value": 16.46
+    },
+    {
+     "t": "2026-09-10",
+     "value": 17.84
+    },
+    {
+     "t": "2026-09-11",
+     "value": 15.84
+    },
+    {
+     "t": "2026-09-14",
+     "value": 17.1
+    },
+    {
+     "t": "2026-09-15",
+     "value": 17.2
+    },
+    {
+     "t": "2026-09-16",
+     "value": 17.71
+    },
+    {
+     "t": "2026-09-17",
+     "value": 15.44
+    },
+    {
+     "t": "2026-09-18",
+     "value": 14.81
+    },
+    {
+     "t": "2026-09-21",
+     "value": 14.87
+    },
+    {
+     "t": "2026-09-22",
+     "value": 14.21
+    },
+    {
+     "t": "2026-09-23",
+     "value": 15.18
+    },
+    {
+     "t": "2026-09-24",
+     "value": 15.67
+    },
+    {
+     "t": "2026-09-25",
+     "value": 14.87
+    },
+    {
+     "t": "2026-09-28",
+     "value": 16.07
+    },
+    {
+     "t": "2026-09-29",
+     "value": 16.04
+    },
+    {
+     "t": "2026-09-30",
+     "value": 16.34
+    },
+    {
+     "t": "2026-10-01",
+     "value": 16.39
+    },
+    {
+     "t": "2026-10-02",
+     "value": 15.31
+    },
+    {
+     "t": "2026-10-05",
+     "value": 15.52
+    },
+    {
+     "t": "2026-10-06",
+     "value": 15.01
+    },
+    {
+     "t": "2026-10-07",
+     "value": 15.08
+    },
+    {
+     "t": "2026-10-08",
+     "value": 15.41
+    },
+    {
+     "t": "2026-10-09",
+     "value": 14.84
+    },
+    {
+     "t": "2026-10-12",
+     "value": 15.21
+    },
+    {
+     "t": "2026-10-13",
+     "value": 15.27
+    },
+    {
+     "t": "2026-10-14",
+     "value": 16.87
+    },
+    {
+     "t": "2026-10-15",
+     "value": 16.46
+    },
+    {
+     "t": "2026-10-16",
+     "value": 19.99
+    },
+    {
+     "t": "2026-10-19",
+     "value": 18.44
+    },
+    {
+     "t": "2026-10-20",
+     "value": 17.31
+    },
+    {
+     "t": "2026-10-21",
+     "value": 16.68
+    },
+    {
+     "t": "2026-10-22",
+     "value": 19.03
+    },
+    {
+     "t": "2026-10-23",
+     "value": 19.45
+    },
+    {
+     "t": "2026-10-26",
+     "value": 18.39
+    },
+    {
+     "t": "2026-10-27",
+     "value": 17.52
+    },
+    {
+     "t": "2026-10-28",
+     "value": 16.91
+    },
+    {
+     "t": "2026-10-29",
+     "value": 17.2
+    },
+    {
+     "t": "2026-10-30",
+     "value": 19.42
+    },
+    {
+     "t": "2026-11-02",
+     "value": 21.15
+    },
+    {
+     "t": "2026-11-03",
+     "value": 20.83
+    },
+    {
+     "t": "2026-11-04",
+     "value": 16.61
+    },
+    {
+     "t": "2026-11-05",
+     "value": 28.18
+    },
+    {
+     "t": "2026-11-06",
+     "value": 25.64
+    },
+    {
+     "t": "2026-11-09",
+     "value": 19.92
+    },
+    {
+     "t": "2026-11-10",
+     "value": 19.46
+    },
+    {
+     "t": "2026-11-11",
+     "value": 17.49
+    },
+    {
+     "t": "2026-11-12",
+     "value": 18.7
+    },
+    {
+     "t": "2026-11-13",
+     "value": 19.3
+    },
+    {
+     "t": "2026-11-16",
+     "value": 22.91
+    },
+    {
+     "t": "2026-11-17",
+     "value": 25.46
+    }
+   ]
+  },
+  {
+   "id": "DGS10",
+   "name": "US 10-year yield (%)",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-10",
+     "value": 4.56
+    },
+    {
+     "t": "2026-07-13",
+     "value": 4.62
+    },
+    {
+     "t": "2026-07-14",
+     "value": 4.58
+    },
+    {
+     "t": "2026-07-15",
+     "value": 4.55
+    },
+    {
+     "t": "2026-07-16",
+     "value": 4.57
+    },
+    {
+     "t": "2026-07-17",
+     "value": 4.55
+    },
+    {
+     "t": "2026-07-20",
+     "value": 4.6
+    },
+    {
+     "t": "2026-07-21",
+     "value": 4.63
+    },
+    {
+     "t": "2026-07-22",
+     "value": 4.67
+    },
+    {
+     "t": "2026-07-23",
+     "value": 4.71
+    },
+    {
+     "t": "2026-07-24",
+     "value": 4.69
+    },
+    {
+     "t": "2026-07-27",
+     "value": 4.65
+    },
+    {
+     "t": "2026-07-28",
+     "value": 4.61
+    },
+    {
+     "t": "2026-07-29",
+     "value": 4.67
+    },
+    {
+     "t": "2026-07-30",
+     "value": 4.68
+    },
+    {
+     "t": "2026-07-31",
+     "value": 4.75
+    },
+    {
+     "t": "2026-08-03",
+     "value": 4.7
+    },
+    {
+     "t": "2026-08-04",
+     "value": 4.63
+    },
+    {
+     "t": "2026-08-05",
+     "value": 4.63
+    },
+    {
+     "t": "2026-08-06",
+     "value": 4.69
+    },
+    {
+     "t": "2026-08-07",
+     "value": 4.65
+    },
+    {
+     "t": "2026-08-10",
+     "value": 4.72
+    },
+    {
+     "t": "2026-08-11",
+     "value": 4.7
+    },
+    {
+     "t": "2026-08-12",
+     "value": 4.68
+    },
+    {
+     "t": "2026-08-13",
+     "value": 4.63
+    },
+    {
+     "t": "2026-08-14",
+     "value": 4.68
+    },
+    {
+     "t": "2026-08-17",
+     "value": 4.72
+    },
+    {
+     "t": "2026-08-18",
+     "value": 4.71
+    },
+    {
+     "t": "2026-08-19",
+     "value": 4.65
+    },
+    {
+     "t": "2026-08-20",
+     "value": 4.69
+    },
+    {
+     "t": "2026-08-21",
+     "value": 4.74
+    },
+    {
+     "t": "2026-08-24",
+     "value": 4.7
+    },
+    {
+     "t": "2026-08-25",
+     "value": 4.64
+    },
+    {
+     "t": "2026-08-26",
+     "value": 4.66
+    },
+    {
+     "t": "2026-08-27",
+     "value": 4.67
+    },
+    {
+     "t": "2026-08-28",
+     "value": 4.73
+    },
+    {
+     "t": "2026-08-31",
+     "value": 4.75
+    },
+    {
+     "t": "2026-09-01",
+     "value": 4.79
+    },
+    {
+     "t": "2026-09-02",
+     "value": 4.79
+    },
+    {
+     "t": "2026-09-03",
+     "value": 4.77
+    },
+    {
+     "t": "2026-09-04",
+     "value": 4.78
+    },
+    {
+     "t": "2026-09-08",
+     "value": 4.8
+    },
+    {
+     "t": "2026-09-09",
+     "value": 4.83
+    },
+    {
+     "t": "2026-09-10",
+     "value": 4.95
+    },
+    {
+     "t": "2026-09-11",
+     "value": 4.96
+    },
+    {
+     "t": "2026-09-14",
+     "value": 4.97
+    },
+    {
+     "t": "2026-09-15",
+     "value": 5
+    },
+    {
+     "t": "2026-09-16",
+     "value": 5.01
+    },
+    {
+     "t": "2026-09-17",
+     "value": 4.94
+    },
+    {
+     "t": "2026-09-18",
+     "value": 5.01
+    },
+    {
+     "t": "2026-09-21",
+     "value": 4.96
+    },
+    {
+     "t": "2026-09-22",
+     "value": 4.96
+    },
+    {
+     "t": "2026-09-23",
+     "value": 5.11
+    },
+    {
+     "t": "2026-09-24",
+     "value": 5.18
+    },
+    {
+     "t": "2026-09-25",
+     "value": 5.17
+    },
+    {
+     "t": "2026-09-28",
+     "value": 5.24
+    },
+    {
+     "t": "2026-09-29",
+     "value": 5.26
+    },
+    {
+     "t": "2026-09-30",
+     "value": 5.29
+    },
+    {
+     "t": "2026-10-01",
+     "value": 5.24
+    },
+    {
+     "t": "2026-10-02",
+     "value": 5.28
+    },
+    {
+     "t": "2026-10-05",
+     "value": 5.31
+    },
+    {
+     "t": "2026-10-06",
+     "value": 5.27
+    },
+    {
+     "t": "2026-10-07",
+     "value": 5.28
+    },
+    {
+     "t": "2026-10-08",
+     "value": 5.22
+    },
+    {
+     "t": "2026-10-09",
+     "value": 5.24
+    },
+    {
+     "t": "2026-10-13",
+     "value": 5.21
+    },
+    {
+     "t": "2026-10-14",
+     "value": 5.19
+    },
+    {
+     "t": "2026-10-15",
+     "value": 5.1
+    },
+    {
+     "t": "2026-10-16",
+     "value": 5.09
+    },
+    {
+     "t": "2026-10-19",
+     "value": 5.15
+    },
+    {
+     "t": "2026-10-20",
+     "value": 5.12
+    },
+    {
+     "t": "2026-10-21",
+     "value": 5.13
+    },
+    {
+     "t": "2026-10-22",
+     "value": 4.96
+    },
+    {
+     "t": "2026-10-23",
+     "value": 5
+    },
+    {
+     "t": "2026-10-26",
+     "value": 5
+    },
+    {
+     "t": "2026-10-27",
+     "value": 4.99
+    },
+    {
+     "t": "2026-10-28",
+     "value": 5.05
+    },
+    {
+     "t": "2026-10-29",
+     "value": 4.98
+    },
+    {
+     "t": "2026-10-30",
+     "value": 4.94
+    },
+    {
+     "t": "2026-11-02",
+     "value": 4.91
+    },
+    {
+     "t": "2026-11-03",
+     "value": 4.95
+    },
+    {
+     "t": "2026-11-04",
+     "value": 4.9
+    },
+    {
+     "t": "2026-11-05",
+     "value": 4.84
+    },
+    {
+     "t": "2026-11-06",
+     "value": 4.86
+    },
+    {
+     "t": "2026-11-09",
+     "value": 4.88
+    },
+    {
+     "t": "2026-11-10",
+     "value": 4.98
+    },
+    {
+     "t": "2026-11-12",
+     "value": 5.1
+    },
+    {
+     "t": "2026-11-13",
+     "value": 5.15
+    },
+    {
+     "t": "2026-11-16",
+     "value": 5.12
+    },
+    {
+     "t": "2026-11-17",
+     "value": 5.1
+    }
+   ]
+  },
+  {
+   "id": "DCOILBRENTEU",
+   "name": "Brent crude ($/bbl)",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-14",
+     "value": 83.69
+    },
+    {
+     "t": "2026-07-15",
+     "value": 83.08
+    },
+    {
+     "t": "2026-07-16",
+     "value": 81.23
+    },
+    {
+     "t": "2026-07-17",
+     "value": 85.01
+    },
+    {
+     "t": "2026-07-20",
+     "value": 86.99
+    },
+    {
+     "t": "2026-07-21",
+     "value": 93.85
+    },
+    {
+     "t": "2026-07-22",
+     "value": 94.12
+    },
+    {
+     "t": "2026-07-23",
+     "value": 105.32
+    },
+    {
+     "t": "2026-07-24",
+     "value": 100.31
+    },
+    {
+     "t": "2026-07-27",
+     "value": 91.82
+    },
+    {
+     "t": "2026-07-28",
+     "value": 85.51
+    },
+    {
+     "t": "2026-07-29",
+     "value": 91.95
+    },
+    {
+     "t": "2026-07-30",
+     "value": 91.91
+    },
+    {
+     "t": "2026-07-31",
+     "value": 96.95
+    },
+    {
+     "t": "2026-08-03",
+     "value": 88.9
+    },
+    {
+     "t": "2026-08-04",
+     "value": 86.47
+    },
+    {
+     "t": "2026-08-05",
+     "value": 86.65
+    },
+    {
+     "t": "2026-08-06",
+     "value": 89.65
+    },
+    {
+     "t": "2026-08-07",
+     "value": 87.62
+    },
+    {
+     "t": "2026-08-10",
+     "value": 92.74
+    },
+    {
+     "t": "2026-08-11",
+     "value": 93.26
+    },
+    {
+     "t": "2026-08-12",
+     "value": 92.52
+    },
+    {
+     "t": "2026-08-13",
+     "value": 92.03
+    },
+    {
+     "t": "2026-08-14",
+     "value": 92.02
+    },
+    {
+     "t": "2026-08-17",
+     "value": 92.43
+    },
+    {
+     "t": "2026-08-18",
+     "value": 95.29
+    },
+    {
+     "t": "2026-08-19",
+     "value": 92.37
+    },
+    {
+     "t": "2026-08-20",
+     "value": 94
+    },
+    {
+     "t": "2026-08-21",
+     "value": 96.92
+    },
+    {
+     "t": "2026-08-24",
+     "value": 92.71
+    },
+    {
+     "t": "2026-08-25",
+     "value": 88.24
+    },
+    {
+     "t": "2026-08-26",
+     "value": 87.77
+    },
+    {
+     "t": "2026-08-27",
+     "value": 90.18
+    },
+    {
+     "t": "2026-08-28",
+     "value": 89.75
+    },
+    {
+     "t": "2026-09-01",
+     "value": 96.02
+    },
+    {
+     "t": "2026-09-02",
+     "value": 97.59
+    },
+    {
+     "t": "2026-09-03",
+     "value": 100.52
+    },
+    {
+     "t": "2026-09-04",
+     "value": 102.24
+    },
+    {
+     "t": "2026-09-07",
+     "value": 104.47
+    },
+    {
+     "t": "2026-09-08",
+     "value": 106.12
+    },
+    {
+     "t": "2026-09-09",
+     "value": 109.51
+    },
+    {
+     "t": "2026-09-10",
+     "value": 120.98
+    },
+    {
+     "t": "2026-09-11",
+     "value": 118.06
+    },
+    {
+     "t": "2026-09-14",
+     "value": 121.25
+    },
+    {
+     "t": "2026-09-15",
+     "value": 130.8
+    },
+    {
+     "t": "2026-09-16",
+     "value": 127.84
+    },
+    {
+     "t": "2026-09-17",
+     "value": 121.18
+    },
+    {
+     "t": "2026-09-18",
+     "value": 119.66
+    },
+    {
+     "t": "2026-09-21",
+     "value": 116.15
+    },
+    {
+     "t": "2026-09-22",
+     "value": 114.89
+    },
+    {
+     "t": "2026-09-23",
+     "value": 117.45
+    },
+    {
+     "t": "2026-09-24",
+     "value": 120.92
+    },
+    {
+     "t": "2026-09-25",
+     "value": 116.01
+    },
+    {
+     "t": "2026-09-28",
+     "value": 119.97
+    },
+    {
+     "t": "2026-09-29",
+     "value": 113.96
+    },
+    {
+     "t": "2026-09-30",
+     "value": 115.91
+    },
+    {
+     "t": "2026-10-01",
+     "value": 114.82
+    },
+    {
+     "t": "2026-10-02",
+     "value": 135.51
+    },
+    {
+     "t": "2026-10-05",
+     "value": 125.51
+    },
+    {
+     "t": "2026-10-06",
+     "value": 125.44
+    },
+    {
+     "t": "2026-10-07",
+     "value": 126
+    },
+    {
+     "t": "2026-10-08",
+     "value": 130.18
+    },
+    {
+     "t": "2026-10-09",
+     "value": 130.03
+    },
+    {
+     "t": "2026-10-12",
+     "value": 129.95
+    },
+    {
+     "t": "2026-10-13",
+     "value": 125.78
+    },
+    {
+     "t": "2026-10-14",
+     "value": 126.55
+    },
+    {
+     "t": "2026-10-15",
+     "value": 126.35
+    },
+    {
+     "t": "2026-10-16",
+     "value": 119.33
+    },
+    {
+     "t": "2026-10-19",
+     "value": 118.82
+    },
+    {
+     "t": "2026-10-20",
+     "value": 115.22
+    },
+    {
+     "t": "2026-10-21",
+     "value": 117.37
+    },
+    {
+     "t": "2026-10-22",
+     "value": 125.39
+    },
+    {
+     "t": "2026-10-23",
+     "value": 128.3
+    },
+    {
+     "t": "2026-10-26",
+     "value": 128.12
+    },
+    {
+     "t": "2026-10-27",
+     "value": 123.1
+    },
+    {
+     "t": "2026-10-28",
+     "value": 119.2
+    },
+    {
+     "t": "2026-10-29",
+     "value": 115.28
+    },
+    {
+     "t": "2026-10-30",
+     "value": 120.15
+    },
+    {
+     "t": "2026-11-02",
+     "value": 107.39
+    },
+    {
+     "t": "2026-11-03",
+     "value": 107.03
+    },
+    {
+     "t": "2026-11-04",
+     "value": 91.84
+    },
+    {
+     "t": "2026-11-05",
+     "value": 97.96
+    },
+    {
+     "t": "2026-11-06",
+     "value": 97.83
+    },
+    {
+     "t": "2026-11-09",
+     "value": 91.03
+    },
+    {
+     "t": "2026-11-10",
+     "value": 90.16
+    },
+    {
+     "t": "2026-11-11",
+     "value": 92.14
+    },
+    {
+     "t": "2026-11-12",
+     "value": 95.42
+    },
+    {
+     "t": "2026-11-13",
+     "value": 95.17
+    },
+    {
+     "t": "2026-11-16",
+     "value": 92.9
+    },
+    {
+     "t": "2026-11-17",
+     "value": 92.94
+    }
+   ]
+  },
+  {
+   "id": "BAMLH0A0HYM2",
+   "name": "High-yield spread (%)",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-15",
+     "value": 2.71
+    },
+    {
+     "t": "2026-07-16",
+     "value": 2.71
+    },
+    {
+     "t": "2026-07-17",
+     "value": 2.73
+    },
+    {
+     "t": "2026-07-20",
+     "value": 2.69
+    },
+    {
+     "t": "2026-07-21",
+     "value": 2.69
+    },
+    {
+     "t": "2026-07-22",
+     "value": 2.68
+    },
+    {
+     "t": "2026-07-23",
+     "value": 2.77
+    },
+    {
+     "t": "2026-07-24",
+     "value": 2.79
+    },
+    {
+     "t": "2026-07-27",
+     "value": 2.81
+    },
+    {
+     "t": "2026-07-28",
+     "value": 2.84
+    },
+    {
+     "t": "2026-07-29",
+     "value": 2.87
+    },
+    {
+     "t": "2026-07-30",
+     "value": 2.84
+    },
+    {
+     "t": "2026-07-31",
+     "value": 2.85
+    },
+    {
+     "t": "2026-08-03",
+     "value": 2.78
+    },
+    {
+     "t": "2026-08-04",
+     "value": 2.73
+    },
+    {
+     "t": "2026-08-05",
+     "value": 2.75
+    },
+    {
+     "t": "2026-08-06",
+     "value": 2.71
+    },
+    {
+     "t": "2026-08-07",
+     "value": 2.7
+    },
+    {
+     "t": "2026-08-10",
+     "value": 2.7
+    },
+    {
+     "t": "2026-08-11",
+     "value": 2.72
+    },
+    {
+     "t": "2026-08-12",
+     "value": 2.71
+    },
+    {
+     "t": "2026-08-13",
+     "value": 2.71
+    },
+    {
+     "t": "2026-08-14",
+     "value": 2.67
+    },
+    {
+     "t": "2026-08-17",
+     "value": 2.7
+    },
+    {
+     "t": "2026-08-18",
+     "value": 2.75
+    },
+    {
+     "t": "2026-08-19",
+     "value": 2.73
+    },
+    {
+     "t": "2026-08-20",
+     "value": 2.75
+    },
+    {
+     "t": "2026-08-21",
+     "value": 2.7
+    },
+    {
+     "t": "2026-08-24",
+     "value": 2.69
+    },
+    {
+     "t": "2026-08-25",
+     "value": 2.7
+    },
+    {
+     "t": "2026-08-26",
+     "value": 2.67
+    },
+    {
+     "t": "2026-08-27",
+     "value": 2.63
+    },
+    {
+     "t": "2026-08-28",
+     "value": 2.6
+    },
+    {
+     "t": "2026-08-31",
+     "value": 2.63
+    },
+    {
+     "t": "2026-09-01",
+     "value": 2.65
+    },
+    {
+     "t": "2026-09-02",
+     "value": 2.66
+    },
+    {
+     "t": "2026-09-03",
+     "value": 2.65
+    },
+    {
+     "t": "2026-09-04",
+     "value": 2.68
+    },
+    {
+     "t": "2026-09-07",
+     "value": 2.68
+    },
+    {
+     "t": "2026-09-08",
+     "value": 2.67
+    },
+    {
+     "t": "2026-09-09",
+     "value": 2.71
+    },
+    {
+     "t": "2026-09-10",
+     "value": 2.7
+    },
+    {
+     "t": "2026-09-11",
+     "value": 2.65
+    },
+    {
+     "t": "2026-09-14",
+     "value": 2.71
+    },
+    {
+     "t": "2026-09-15",
+     "value": 2.76
+    },
+    {
+     "t": "2026-09-16",
+     "value": 2.7
+    },
+    {
+     "t": "2026-09-17",
+     "value": 2.7
+    },
+    {
+     "t": "2026-09-18",
+     "value": 2.68
+    },
+    {
+     "t": "2026-09-21",
+     "value": 2.66
+    },
+    {
+     "t": "2026-09-22",
+     "value": 2.68
+    },
+    {
+     "t": "2026-09-23",
+     "value": 2.73
+    },
+    {
+     "t": "2026-09-24",
+     "value": 2.8
+    },
+    {
+     "t": "2026-09-25",
+     "value": 2.93
+    },
+    {
+     "t": "2026-09-28",
+     "value": 3.02
+    },
+    {
+     "t": "2026-09-29",
+     "value": 3.08
+    },
+    {
+     "t": "2026-09-30",
+     "value": 3.12
+    },
+    {
+     "t": "2026-10-01",
+     "value": 3.24
+    },
+    {
+     "t": "2026-10-02",
+     "value": 3.1
+    },
+    {
+     "t": "2026-10-05",
+     "value": 3.12
+    },
+    {
+     "t": "2026-10-06",
+     "value": 3.03
+    },
+    {
+     "t": "2026-10-07",
+     "value": 3.09
+    },
+    {
+     "t": "2026-10-08",
+     "value": 3.15
+    },
+    {
+     "t": "2026-10-09",
+     "value": 3.11
+    },
+    {
+     "t": "2026-10-12",
+     "value": 3.11
+    },
+    {
+     "t": "2026-10-13",
+     "value": 3.16
+    },
+    {
+     "t": "2026-10-14",
+     "value": 3.25
+    },
+    {
+     "t": "2026-10-15",
+     "value": 3.23
+    },
+    {
+     "t": "2026-10-16",
+     "value": 3.31
+    },
+    {
+     "t": "2026-10-19",
+     "value": 3.29
+    },
+    {
+     "t": "2026-10-20",
+     "value": 3.33
+    },
+    {
+     "t": "2026-10-21",
+     "value": 3.27
+    },
+    {
+     "t": "2026-10-22",
+     "value": 3.4
+    },
+    {
+     "t": "2026-10-23",
+     "value": 3.38
+    },
+    {
+     "t": "2026-10-26",
+     "value": 3.3
+    },
+    {
+     "t": "2026-10-27",
+     "value": 3.18
+    },
+    {
+     "t": "2026-10-28",
+     "value": 3.14
+    },
+    {
+     "t": "2026-10-29",
+     "value": 3.26
+    },
+    {
+     "t": "2026-10-30",
+     "value": 3.44
+    },
+    {
+     "t": "2026-11-02",
+     "value": 3.43
+    },
+    {
+     "t": "2026-11-03",
+     "value": 3.4
+    },
+    {
+     "t": "2026-11-04",
+     "value": 3.32
+    },
+    {
+     "t": "2026-11-05",
+     "value": 3.48
+    },
+    {
+     "t": "2026-11-06",
+     "value": 3.42
+    },
+    {
+     "t": "2026-11-09",
+     "value": 3.34
+    },
+    {
+     "t": "2026-11-10",
+     "value": 3.3
+    },
+    {
+     "t": "2026-11-11",
+     "value": 3.3
+    },
+    {
+     "t": "2026-11-12",
+     "value": 3.2
+    },
+    {
+     "t": "2026-11-13",
+     "value": 3.23
+    },
+    {
+     "t": "2026-11-16",
+     "value": 3.34
+    },
+    {
+     "t": "2026-11-17",
+     "value": 3.43
+    }
+   ]
+  },
+  {
+   "id": "T10Y3M",
+   "name": "10y-3m yield curve (pts)",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-13",
+     "value": 0.73
+    },
+    {
+     "t": "2026-07-14",
+     "value": 0.74
+    },
+    {
+     "t": "2026-07-15",
+     "value": 0.72
+    },
+    {
+     "t": "2026-07-16",
+     "value": 0.73
+    },
+    {
+     "t": "2026-07-17",
+     "value": 0.7
+    },
+    {
+     "t": "2026-07-20",
+     "value": 0.74
+    },
+    {
+     "t": "2026-07-21",
+     "value": 0.76
+    },
+    {
+     "t": "2026-07-22",
+     "value": 0.78
+    },
+    {
+     "t": "2026-07-23",
+     "value": 0.76
+    },
+    {
+     "t": "2026-07-24",
+     "value": 0.73
+    },
+    {
+     "t": "2026-07-27",
+     "value": 0.69
+    },
+    {
+     "t": "2026-07-28",
+     "value": 0.71
+    },
+    {
+     "t": "2026-07-29",
+     "value": 0.84
+    },
+    {
+     "t": "2026-07-30",
+     "value": 0.86
+    },
+    {
+     "t": "2026-07-31",
+     "value": 0.92
+    },
+    {
+     "t": "2026-08-03",
+     "value": 0.79
+    },
+    {
+     "t": "2026-08-04",
+     "value": 0.74
+    },
+    {
+     "t": "2026-08-05",
+     "value": 0.74
+    },
+    {
+     "t": "2026-08-06",
+     "value": 0.79
+    },
+    {
+     "t": "2026-08-07",
+     "value": 0.78
+    },
+    {
+     "t": "2026-08-10",
+     "value": 0.83
+    },
+    {
+     "t": "2026-08-11",
+     "value": 0.81
+    },
+    {
+     "t": "2026-08-12",
+     "value": 0.81
+    },
+    {
+     "t": "2026-08-13",
+     "value": 0.76
+    },
+    {
+     "t": "2026-08-14",
+     "value": 0.82
+    },
+    {
+     "t": "2026-08-17",
+     "value": 0.85
+    },
+    {
+     "t": "2026-08-18",
+     "value": 0.85
+    },
+    {
+     "t": "2026-08-19",
+     "value": 0.79
+    },
+    {
+     "t": "2026-08-20",
+     "value": 0.82
+    },
+    {
+     "t": "2026-08-21",
+     "value": 0.86
+    },
+    {
+     "t": "2026-08-24",
+     "value": 0.83
+    },
+    {
+     "t": "2026-08-25",
+     "value": 0.78
+    },
+    {
+     "t": "2026-08-26",
+     "value": 0.81
+    },
+    {
+     "t": "2026-08-27",
+     "value": 0.83
+    },
+    {
+     "t": "2026-08-28",
+     "value": 0.83
+    },
+    {
+     "t": "2026-08-31",
+     "value": 0.84
+    },
+    {
+     "t": "2026-09-01",
+     "value": 0.87
+    },
+    {
+     "t": "2026-09-02",
+     "value": 0.87
+    },
+    {
+     "t": "2026-09-03",
+     "value": 0.88
+    },
+    {
+     "t": "2026-09-04",
+     "value": 0.87
+    },
+    {
+     "t": "2026-09-08",
+     "value": 0.86
+    },
+    {
+     "t": "2026-09-09",
+     "value": 0.88
+    },
+    {
+     "t": "2026-09-10",
+     "value": 0.95
+    },
+    {
+     "t": "2026-09-11",
+     "value": 0.89
+    },
+    {
+     "t": "2026-09-14",
+     "value": 0.86
+    },
+    {
+     "t": "2026-09-15",
+     "value": 0.89
+    },
+    {
+     "t": "2026-09-16",
+     "value": 0.87
+    },
+    {
+     "t": "2026-09-17",
+     "value": 0.82
+    },
+    {
+     "t": "2026-09-18",
+     "value": 0.87
+    },
+    {
+     "t": "2026-09-21",
+     "value": 0.79
+    },
+    {
+     "t": "2026-09-22",
+     "value": 0.8
+    },
+    {
+     "t": "2026-09-23",
+     "value": 0.92
+    },
+    {
+     "t": "2026-09-24",
+     "value": 0.94
+    },
+    {
+     "t": "2026-09-25",
+     "value": 0.93
+    },
+    {
+     "t": "2026-09-28",
+     "value": 0.96
+    },
+    {
+     "t": "2026-09-29",
+     "value": 1.01
+    },
+    {
+     "t": "2026-09-30",
+     "value": 1.09
+    },
+    {
+     "t": "2026-10-01",
+     "value": 1.07
+    },
+    {
+     "t": "2026-10-02",
+     "value": 1.09
+    },
+    {
+     "t": "2026-10-05",
+     "value": 1.09
+    },
+    {
+     "t": "2026-10-06",
+     "value": 1.06
+    },
+    {
+     "t": "2026-10-07",
+     "value": 1.06
+    },
+    {
+     "t": "2026-10-08",
+     "value": 0.99
+    },
+    {
+     "t": "2026-10-09",
+     "value": 0.99
+    },
+    {
+     "t": "2026-10-13",
+     "value": 0.95
+    },
+    {
+     "t": "2026-10-14",
+     "value": 0.91
+    },
+    {
+     "t": "2026-10-15",
+     "value": 0.82
+    },
+    {
+     "t": "2026-10-16",
+     "value": 0.83
+    },
+    {
+     "t": "2026-10-19",
+     "value": 0.88
+    },
+    {
+     "t": "2026-10-20",
+     "value": 0.86
+    },
+    {
+     "t": "2026-10-21",
+     "value": 0.88
+    },
+    {
+     "t": "2026-10-22",
+     "value": 0.74
+    },
+    {
+     "t": "2026-10-23",
+     "value": 0.78
+    },
+    {
+     "t": "2026-10-26",
+     "value": 0.78
+    },
+    {
+     "t": "2026-10-27",
+     "value": 0.77
+    },
+    {
+     "t": "2026-10-28",
+     "value": 0.87
+    },
+    {
+     "t": "2026-10-29",
+     "value": 0.8
+    },
+    {
+     "t": "2026-10-30",
+     "value": 0.78
+    },
+    {
+     "t": "2026-11-02",
+     "value": 0.7
+    },
+    {
+     "t": "2026-11-03",
+     "value": 0.74
+    },
+    {
+     "t": "2026-11-04",
+     "value": 0.69
+    },
+    {
+     "t": "2026-11-05",
+     "value": 0.67
+    },
+    {
+     "t": "2026-11-06",
+     "value": 0.67
+    },
+    {
+     "t": "2026-11-09",
+     "value": 0.64
+    },
+    {
+     "t": "2026-11-10",
+     "value": 0.68
+    },
+    {
+     "t": "2026-11-12",
+     "value": 0.78
+    },
+    {
+     "t": "2026-11-13",
+     "value": 0.83
+    },
+    {
+     "t": "2026-11-16",
+     "value": 0.78
+    },
+    {
+     "t": "2026-11-17",
+     "value": 0.77
+    },
+    {
+     "t": "2026-11-18",
+     "value": 0.73
+    }
+   ]
+  },
+  {
+   "id": "OVXCLS",
+   "name": "Oil volatility (OVX)",
+   "source": "FRED",
+   "points": [
+    {
+     "t": "2026-07-14",
+     "value": 59.89
+    },
+    {
+     "t": "2026-07-15",
+     "value": 58.96
+    },
+    {
+     "t": "2026-07-16",
+     "value": 55.91
+    },
+    {
+     "t": "2026-07-17",
+     "value": 60.02
+    },
+    {
+     "t": "2026-07-20",
+     "value": 62.07
+    },
+    {
+     "t": "2026-07-21",
+     "value": 63.78
+    },
+    {
+     "t": "2026-07-22",
+     "value": 65.31
+    },
+    {
+     "t": "2026-07-23",
+     "value": 68.97
+    },
+    {
+     "t": "2026-07-24",
+     "value": 68
+    },
+    {
+     "t": "2026-07-27",
+     "value": 60.62
+    },
+    {
+     "t": "2026-07-28",
+     "value": 57.15
+    },
+    {
+     "t": "2026-07-29",
+     "value": 67.59
+    },
+    {
+     "t": "2026-07-30",
+     "value": 63.44
+    },
+    {
+     "t": "2026-07-31",
+     "value": 63.04
+    },
+    {
+     "t": "2026-08-03",
+     "value": 57.2
+    },
+    {
+     "t": "2026-08-04",
+     "value": 53.45
+    },
+    {
+     "t": "2026-08-05",
+     "value": 51.48
+    },
+    {
+     "t": "2026-08-06",
+     "value": 57.34
+    },
+    {
+     "t": "2026-08-07",
+     "value": 55.8
+    },
+    {
+     "t": "2026-08-10",
+     "value": 56.06
+    },
+    {
+     "t": "2026-08-11",
+     "value": 54.99
+    },
+    {
+     "t": "2026-08-12",
+     "value": 52.34
+    },
+    {
+     "t": "2026-08-13",
+     "value": 49.36
+    },
+    {
+     "t": "2026-08-14",
+     "value": 49.52
+    },
+    {
+     "t": "2026-08-17",
+     "value": 52.92
+    },
+    {
+     "t": "2026-08-18",
+     "value": 47.17
+    },
+    {
+     "t": "2026-08-19",
+     "value": 47.69
+    },
+    {
+     "t": "2026-08-20",
+     "value": 49.63
+    },
+    {
+     "t": "2026-08-21",
+     "value": 49.62
+    },
+    {
+     "t": "2026-08-24",
+     "value": 46.74
+    },
+    {
+     "t": "2026-08-25",
+     "value": 46.16
+    },
+    {
+     "t": "2026-08-26",
+     "value": 46.83
+    },
+    {
+     "t": "2026-08-27",
+     "value": 46.22
+    },
+    {
+     "t": "2026-08-28",
+     "value": 43.49
+    },
+    {
+     "t": "2026-08-31",
+     "value": 44.91
+    },
+    {
+     "t": "2026-09-01",
+     "value": 49.13
+    },
+    {
+     "t": "2026-09-02",
+     "value": 47.77
+    },
+    {
+     "t": "2026-09-03",
+     "value": 46.41
+    },
+    {
+     "t": "2026-09-04",
+     "value": 44.96
+    },
+    {
+     "t": "2026-09-08",
+     "value": 48.59
+    },
+    {
+     "t": "2026-09-09",
+     "value": 49.85
+    },
+    {
+     "t": "2026-09-10",
+     "value": 60.76
+    },
+    {
+     "t": "2026-09-11",
+     "value": 58.92
+    },
+    {
+     "t": "2026-09-14",
+     "value": 59.46
+    },
+    {
+     "t": "2026-09-15",
+     "value": 61.73
+    },
+    {
+     "t": "2026-09-16",
+     "value": 57.49
+    },
+    {
+     "t": "2026-09-17",
+     "value": 52.11
+    },
+    {
+     "t": "2026-09-18",
+     "value": 50.39
+    },
+    {
+     "t": "2026-09-21",
+     "value": 50.31
+    },
+    {
+     "t": "2026-09-22",
+     "value": 51.89
+    },
+    {
+     "t": "2026-09-23",
+     "value": 53.24
+    },
+    {
+     "t": "2026-09-24",
+     "value": 54.45
+    },
+    {
+     "t": "2026-09-25",
+     "value": 55.09
+    },
+    {
+     "t": "2026-09-28",
+     "value": 56.11
+    },
+    {
+     "t": "2026-09-29",
+     "value": 53.74
+    },
+    {
+     "t": "2026-09-30",
+     "value": 52.24
+    },
+    {
+     "t": "2026-10-01",
+     "value": 51.69
+    },
+    {
+     "t": "2026-10-02",
+     "value": 51
+    },
+    {
+     "t": "2026-10-05",
+     "value": 48.65
+    },
+    {
+     "t": "2026-10-06",
+     "value": 48.79
+    },
+    {
+     "t": "2026-10-07",
+     "value": 48.61
+    },
+    {
+     "t": "2026-10-08",
+     "value": 48.4
+    },
+    {
+     "t": "2026-10-09",
+     "value": 48.9
+    },
+    {
+     "t": "2026-10-12",
+     "value": 48.52
+    },
+    {
+     "t": "2026-10-13",
+     "value": 48.77
+    },
+    {
+     "t": "2026-10-14",
+     "value": 48.62
+    },
+    {
+     "t": "2026-10-15",
+     "value": 49.13
+    },
+    {
+     "t": "2026-10-16",
+     "value": 50.74
+    },
+    {
+     "t": "2026-10-19",
+     "value": 50.22
+    },
+    {
+     "t": "2026-10-20",
+     "value": 52.11
+    },
+    {
+     "t": "2026-10-21",
+     "value": 53.28
+    },
+    {
+     "t": "2026-10-22",
+     "value": 55.64
+    },
+    {
+     "t": "2026-10-23",
+     "value": 60.02
+    },
+    {
+     "t": "2026-10-26",
+     "value": 58.71
+    },
+    {
+     "t": "2026-10-27",
+     "value": 55.44
+    },
+    {
+     "t": "2026-10-28",
+     "value": 58.59
+    },
+    {
+     "t": "2026-10-29",
+     "value": 57.16
+    },
+    {
+     "t": "2026-10-30",
+     "value": 58.48
+    },
+    {
+     "t": "2026-11-02",
+     "value": 62.69
+    },
+    {
+     "t": "2026-11-03",
+     "value": 61.69
+    },
+    {
+     "t": "2026-11-04",
+     "value": 58.81
+    },
+    {
+     "t": "2026-11-05",
+     "value": 60.29
+    },
+    {
+     "t": "2026-11-06",
+     "value": 58.29
+    },
+    {
+     "t": "2026-11-09",
+     "value": 57.2
+    },
+    {
+     "t": "2026-11-10",
+     "value": 53.1
+    },
+    {
+     "t": "2026-11-11",
+     "value": 51.26
+    },
+    {
+     "t": "2026-11-12",
+     "value": 51.72
+    },
+    {
+     "t": "2026-11-13",
+     "value": 50.28
+    },
+    {
+     "t": "2026-11-16",
+     "value": 49.59
+    },
+    {
+     "t": "2026-11-17",
+     "value": 49.9
+    }
+   ]
+  }
+ ],
+ "inputs_read_at": {
+  "fred": "2026-11-19T01:11:44Z",
+  "markets": "2026-11-19T00:19:20Z"
  }
 }
