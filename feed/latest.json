@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T03:36:27+00:00",
+ "generated_at": "2026-11-19T04:11:05+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -9,9 +9,7 @@
   "questions": 79,
   "resolved": 4,
   "open": 75,
-  "moved_1pt_or_more": [
-   "Y8"
-  ]
+  "moved_1pt_or_more": []
  },
  "forecasts": [
   {
@@ -243,8 +241,8 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": 0.974,
-   "change_points": -0.1,
+   "previous_forecast": 0.973,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -445,8 +443,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS Employment Situation for November 2026, published Dec 4: headline unemployment rate (U-3, seasonally adjusted) is 4.2% or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.323,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -471,8 +469,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS Employment Situation for November 2026, published Dec 4: total nonfarm payroll change, first print, is +100,000 or more.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.333,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -497,8 +495,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS CPI release for November 2026: seasonally adjusted CPI less food and energy, one-month change as published (one decimal), is 0.3% or more.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.458,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -523,8 +521,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: the gasoline drop is already in the base rate. Brent averaged $96 so far in November against $124 in October.",
    "resolve_rule": "BLS CPI release for November 2026: seasonally adjusted all-items CPI, one-month change as published (one decimal), is 0.0% or lower.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.667,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -549,8 +547,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS CPI release for November 2026: CPI less food and energy, 12-month change as published (one decimal), is 3.0% or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.435,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -575,8 +573,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS Employment Situation for December 2026, published Jan 8, 2027: unemployment rate (U-3, seasonally adjusted) is 4.2% or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.333,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -601,8 +599,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS Employment Situation for December 2026, published Jan 8, 2027: total nonfarm payroll change, first print, is +100,000 or more.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.333,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -627,8 +625,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "Federal Reserve G.17 release for November 2026 (published by Dec 31): industrial production index, one-month change, first estimate, above 0.0%.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.5,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -653,8 +651,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "Census advance monthly retail and food services sales for November 2026 (published by Dec 31): one-month change above 0.0%.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.708,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -679,8 +677,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The ECB announces an increase in its key interest rates at its December 2026 monetary policy meeting.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.98,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -705,8 +703,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The Bank of England's MPC announces an increase in Bank Rate at its December 2026 meeting.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.73,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -731,8 +729,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: the yen is near 160 per dollar (159.93 on Nov 13, FRED), a level that has preceded Japanese action before, which adds pressure to tighten.",
    "resolve_rule": "The Bank of Japan announces an increase in its short-term policy rate at its December 2026 meeting.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.882,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -757,8 +755,8 @@
    "outcome": null,
    "reasoning": "Energy -0.2: oil and gasoline fell sharply in November (Brent -23% on October's average), which eases headline inflation and the case for a second consecutive hike.",
    "resolve_rule": "The FOMC announces an increase in the federal funds target range at its January 2027 meeting.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.593,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -783,8 +781,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED SP500 close on Dec 31, 2026 (or the last trading day of 2026) is 7,323.63 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.695,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -809,8 +807,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED NASDAQ100 close on the last trading day of 2026 is 27,000 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.676,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -835,8 +833,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED DGS10 on the last trading day of 2026 is 5.00 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.67,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -861,8 +859,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DCOILBRENTEU observation dated on or before Dec 31, 2026 is 90.00 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.654,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -887,8 +885,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED VIXCLS close on the last trading day of 2026 is 20.00 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.78,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -913,8 +911,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DEXJPUS observation dated on or before Dec 31, 2026 is 160.00 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.515,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -939,8 +937,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DEXUSEU observation dated on or before Dec 31, 2026 is 1.1000 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.535,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -965,8 +963,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED BAMLH0A0HYM2 observation dated on or before Dec 31, 2026 is 3.50 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.317,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -991,8 +989,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED CBBTCUSD (Coinbase) on Dec 31, 2026 is 60,000 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.689,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1017,8 +1015,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "Freddie Mac PMMS 30-year fixed rate (FRED MORTGAGE30US), last reading dated in 2026, is 7.00 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.655,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1043,8 +1041,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "DOL weekly claims (FRED ICSA, seasonally adjusted) for any week ending Dec 5, 12, 19 or 26, 2026, as first reported, is 225,000 or more.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.073,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1281,8 +1279,8 @@
    "outcome": null,
    "reasoning": "Energy +0.3 (oil shock from Hormuz) and capital +0.2 (5% 10-year yields, Fed hiking). Polymarket's 'US recession by end of 2027' uses the same test and trades at 30.5%, below the model's view.",
    "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession starting by Nov 17, 2027.",
-   "previous_forecast": 0.383,
-   "change_points": -3.1,
+   "previous_forecast": 0.352,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1714,8 +1712,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored. The base is a judgment, flagged as such, because no series gives a clean historical frequency for a 3-point overshoot of a CBO one-year projection.",
    "resolve_rule": "Treasury's Monthly Treasury Statement for September 2027 (or CBO's Monthly Budget Review): fiscal 2027 net interest outlays divided by total receipts is 22% or more.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.05,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1740,8 +1738,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "FRED DGS10 is 6.50 or higher on any day from Nov 19, 2026 to Dec 31, 2027.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.1,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1766,8 +1764,8 @@
    "outcome": null,
    "reasoning": "Capital +0.4: holdings are already 5.1% lower than a year earlier (September 2026), much closer to the threshold than the typical month in the base rate.",
    "resolve_rule": "The latest FRED FORTREASPOS99990 month published by Dec 31, 2027 is at least 8% below the same month a year earlier.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.05,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1792,8 +1790,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "BLS Productivity and Costs (preliminary) for Q4 2027: output per hour, nonfarm business, Q4 2027 over Q4 2026, is 2.2% or more (FRED OPHNFB).",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.444,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1818,8 +1816,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "The latest FRED PCU335311335311 value published by Dec 31, 2027 is 525 or higher.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.16,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1844,8 +1842,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "For any month of 2027, FRED IRLTLT01ITM156N minus IRLTLT01DEM156N is above 3.00 percentage points (data published by Jan 31, 2028).",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.047,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1870,8 +1868,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "The last FRED DCOILBRENTEU observation dated on or before Dec 31, 2027 is below 80.",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.277,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1896,8 +1894,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "BLS CPI for December 2027: electricity (CUSR0000SEHF01) December-on-December change exceeds all items (CPIAUCSL).",
-   "previous_forecast": null,
-   "change_points": null,
+   "previous_forecast": 0.417,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -5398,6 +5396,125 @@
   ],
   "candidates": [],
   "rules": "lens direction   a lens is flagged when it has pushed the wrong way on at least 10 resolved questions AND a\n                   one-sided binomial test against 50% gives p < 0.10\n  calibration      a probability bin is flagged when it holds at least 10 resolved forecasts and the observed\n                   frequency lies outside the bin's 90% Wilson interval\n  basis            a basis (market-anchored, base rate, judgment prior, judgment-heavy) is flagged when its mean\n                   Brier is worse than its own base rates' mean Brier on at least 10 resolved questions"
+ },
+ "engines": {
+  "about": "Three engines that check each other. Learning engine: tests forecasting skills on the past and forecasts the threshold questions with the current champion skill; maps unusual moves onto questions. Memory engine: keeps every observation, market reading, forecast, event and decision in hash-chained files in this repository, and answers point-in-time questions. Analysis and execution engine: evaluates the skills, proposes promotions and retirements, and executes changes only when both other engines approve. The learner's forecast is a scored rival in the main model, not blended into it.",
+  "registry": {
+   "active_skills": [
+    "increment",
+    "vol_scaled",
+    "level_knn",
+    "quantile_gbm"
+   ],
+   "champion": {
+    "S14": "increment",
+    "S15": "increment",
+    "S16": "increment",
+    "S17": "increment",
+    "S18": "increment",
+    "S19": "increment",
+    "S20": "increment",
+    "S21": "increment",
+    "S22": "increment",
+    "S23": "increment",
+    "C02": "increment",
+    "C07": "increment"
+   },
+   "retired": []
+  },
+  "analyst_config": {
+   "confidence": 0.9,
+   "min_n": 60,
+   "min_years": 8,
+   "min_rel_gain": 0.02
+  },
+  "forecasts": {},
+  "evaluation": {
+   "at": null,
+   "results": {},
+   "fetched": 0,
+   "failed": []
+  },
+  "decisions": [],
+  "events": [],
+  "memory": {
+   "series": {
+    "BAMLC0A4CBBB": {
+     "observations": 0,
+     "last": null
+    },
+    "BAMLH0A0HYM2": {
+     "observations": 0,
+     "last": null
+    },
+    "CBBTCUSD": {
+     "observations": 0,
+     "last": null
+    },
+    "DCOILBRENTEU": {
+     "observations": 0,
+     "last": null
+    },
+    "DCOILWTICO": {
+     "observations": 0,
+     "last": null
+    },
+    "DEXJPUS": {
+     "observations": 0,
+     "last": null
+    },
+    "DEXUSEU": {
+     "observations": 0,
+     "last": null
+    },
+    "DGS10": {
+     "observations": 0,
+     "last": null
+    },
+    "DGS2": {
+     "observations": 0,
+     "last": null
+    },
+    "MORTGAGE30US": {
+     "observations": 0,
+     "last": null
+    },
+    "NASDAQ100": {
+     "observations": 0,
+     "last": null
+    },
+    "OVXCLS": {
+     "observations": 0,
+     "last": null
+    },
+    "SP500": {
+     "observations": 0,
+     "last": null
+    },
+    "T10Y3M": {
+     "observations": 0,
+     "last": null
+    },
+    "VIXCLS": {
+     "observations": 0,
+     "last": null
+    },
+    "VXNCLS": {
+     "observations": 0,
+     "last": null
+    }
+   },
+   "streams": {
+    "revisions": 0,
+    "markets": 0,
+    "forecasts": 0,
+    "events": 0,
+    "decisions": 0,
+    "evaluations": 0
+   },
+   "verified": true
+  },
+  "generated_at": "2026-11-19T04:10:55Z"
  },
  "guide": {
   "title": "User guide",
