@@ -1,14 +1,14 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T15:13:34+00:00",
+ "generated_at": "2026-11-19T15:16:19+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
  "note": "Probabilities are 0-1. range_low/high is the model's own judgment range. change_points compares with the previously published feed. Not investment advice.",
  "summary": {
   "questions": 79,
-  "resolved": 4,
-  "open": 75,
+  "resolved": 5,
+  "open": 74,
   "moved_1pt_or_more": []
  },
  "forecasts": [
@@ -102,8 +102,8 @@
    "market": null,
    "market_source": "",
    "basis": "judgment prior",
-   "status": "open",
-   "outcome": null,
+   "status": "resolved",
+   "outcome": "yes",
    "reasoning": "Base tightened on Nov 17 (v3.4): the meeting is announced for Thursday and all three leaders are travelling. Leaders -0.2: Trump has cancelled summits at short notice before. Polymarket's 'Trump, Putin and Xi seen together before 2027' trades at 99.2%, a looser event, so it is not blended in.",
    "resolve_rule": "White House readout or pool report of Trump, Xi and Putin meeting together by Nov 20.",
    "previous_forecast": 0.952,
@@ -246,8 +246,8 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": 0.972,
-   "change_points": 0.2,
+   "previous_forecast": 0.974,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1441,8 +1441,8 @@
    "outcome": null,
    "reasoning": "Leaders -0.6: Xi's purge of PLA leadership and a US-China summit this week argue against near-term force. Empire +0.5: the 2027 PLA centenary and US overstretch in the Gulf. Edge versus the market: see edge.",
    "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins by Nov 17, 2027.",
-   "previous_forecast": 0.047,
-   "change_points": 0.1,
+   "previous_forecast": 0.048,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1518,8 +1518,8 @@
    "outcome": null,
    "reasoning": "Leaders +0.8: Democrats take the House in January and Jeffries has backed impeaching Hegseth; on Nov 10 the lame-duck House voted 211-204 to send Massie's eight articles to committee, with 11 Democrats absent, and Democrats say they will try again. Game +0.4: removing a cabinet member is cheaper than impeaching the president; Mayorkas (2024) was impeached on a second vote. Markets: impeached by Jun 30, 2027 at 65.5% (thin, about $1.9k liquidity); out as Defense Secretary by Dec 31 at 15.5%.",
    "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, by Nov 17, 2027.",
-   "previous_forecast": 0.719,
-   "change_points": -0.1,
+   "previous_forecast": 0.718,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1590,8 +1590,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, by Nov 17, 2027.",
-   "previous_forecast": 0.7,
-   "change_points": -0.1,
+   "previous_forecast": 0.699,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2221,8 +2221,8 @@
    "outcome": null,
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. Result is close to the market: no edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
-   "previous_forecast": 0.693,
-   "change_points": 0.1,
+   "previous_forecast": 0.694,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2370,8 +2370,8 @@
    "outcome": null,
    "reasoning": "Author A v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
-   "previous_forecast": 0.666,
-   "change_points": 0.1,
+   "previous_forecast": 0.667,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -4421,7 +4421,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-19T15:12:59+00:00",
+  "at": "2026-11-19T15:15:41+00:00",
   "flaws": 1,
   "checks": [
    {
@@ -4482,9 +4482,9 @@
    }
   ],
   "accuracy": {
-   "resolved": 4,
-   "brier": 0.0758,
-   "base_rate_brier": 0.0924,
+   "resolved": 5,
+   "brier": 0.0611,
+   "base_rate_brier": 0.0742,
    "rivals": {
     "author_a_v1": {
      "n": 1,
@@ -4493,6 +4493,18 @@
     "author_a_v2": {
      "n": 1,
      "brier": 0.16
+    },
+    "dire": {
+     "n": 1,
+     "brier": 0.0225
+    },
+    "aegis": {
+     "n": 1,
+     "brier": 0.01
+    },
+    "apex_v19": {
+     "n": 1,
+     "brier": 0.7744
     }
    },
    "note": "First forecasts only. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
@@ -4500,21 +4512,21 @@
  },
  "learning": {
   "summary": {
-   "resolved": 4,
-   "brier": 0.0758,
-   "log_loss": 0.2772,
-   "base_rate_brier": 0.0924,
-   "right_side": 4,
-   "note": "About 109 resolved questions are needed before a 0.05 Brier gap means skill; 4 so far."
+   "resolved": 5,
+   "brier": 0.0611,
+   "log_loss": 0.2317,
+   "base_rate_brier": 0.0742,
+   "right_side": 5,
+   "note": "About 109 resolved questions are needed before a 0.05 Brier gap means skill; 5 so far."
   },
   "baselines": {
    "base_rate_only": {
-    "n": 4,
-    "model_brier": 0.0758,
-    "baseline_brier": 0.0924,
-    "model_minus_baseline": -0.0166,
+    "n": 5,
+    "model_brier": 0.0611,
+    "baseline_brier": 0.0742,
+    "model_minus_baseline": -0.0131,
     "model_better": 3,
-    "baseline_better": 1
+    "baseline_better": 2
    },
    "market_only": {
     "n": 0
@@ -4522,15 +4534,6 @@
    "note": "Each baseline uses the value recorded with the question's first forecast (base rates frozen from Nov 19; earlier ones use the question's stated base). Negative model_minus_baseline means the model beat that baseline. Open questions show all three numbers in the table below until they resolve."
   },
   "open_three_way": [
-   {
-    "id": "W1",
-    "question": "Trump-Xi-Putin trilateral meeting takes place",
-    "model": 0.9516,
-    "base": 0.96,
-    "market": null,
-    "market_blended": false,
-    "by": "2026-11-20"
-   },
    {
     "id": "W2",
     "question": "Trilateral announces a global AI governance body (Jiang P460)",
@@ -5287,6 +5290,33 @@
      "capital": true
     },
     "rivals": {}
+   },
+   {
+    "id": "W1",
+    "question": "Trump-Xi-Putin trilateral meeting takes place",
+    "first_forecast": 0.9516,
+    "first_at": "2026-11-18T01:29:08+00:00",
+    "outcome": 1,
+    "resolved_at": "2026-11-19T15:15:13+00:00",
+    "source": "Pool-based reports of Trump, Xi and Putin meeting together in Shenzhen: CNBC, Kyiv Independent, Al Jazeera, Nov 19 2026",
+    "brier": 0.0023,
+    "log_loss": 0.0496,
+    "call": "right side",
+    "base_rate": 0.96,
+    "base_brier": 0.0016,
+    "base_frozen": false,
+    "market": null,
+    "market_brier": null,
+    "basis": "judgment prior",
+    "horizon": "1 week",
+    "lens_right": {
+     "leaders": false
+    },
+    "rivals": {
+     "dire": 0.0225,
+     "aegis": 0.01,
+     "apex_v19": 0.7744
+    }
    }
   ],
   "lens_direction": [
@@ -5324,10 +5354,10 @@
    },
    {
     "lens": "leaders",
-    "resolved_with_lens": 2,
+    "resolved_with_lens": 3,
     "right": 2,
-    "wrong": 0,
-    "p_value_wrong": 1.0,
+    "wrong": 1,
+    "p_value_wrong": 0.875,
     "status": "not enough resolutions"
    }
   ],
@@ -5380,11 +5410,11 @@
    },
    {
     "bin": "90-100%",
-    "n": 1,
-    "mean_forecast": 0.9082,
+    "n": 2,
+    "mean_forecast": 0.9299,
     "observed": 1.0,
     "interval90": [
-     0.27,
+     0.425,
      1.0
     ],
     "status": "not enough resolutions"
@@ -5400,13 +5430,25 @@
    },
    {
     "basis": "judgment prior",
-    "n": 3,
-    "brier": 0.0178,
-    "base_rate_brier": 0.0556,
+    "n": 4,
+    "brier": 0.0139,
+    "base_rate_brier": 0.0421,
     "status": "not enough resolutions"
    }
   ],
   "rivals": [
+   {
+    "rival": "aegis",
+    "n": 1,
+    "rival_brier": 0.01,
+    "model_brier": 0.0023
+   },
+   {
+    "rival": "apex_v19",
+    "n": 1,
+    "rival_brier": 0.7744,
+    "model_brier": 0.0023
+   },
    {
     "rival": "author_a_v1",
     "n": 1,
@@ -5418,6 +5460,12 @@
     "n": 1,
     "rival_brier": 0.16,
     "model_brier": 0.2498
+   },
+   {
+    "rival": "dire",
+    "n": 1,
+    "rival_brier": 0.0225,
+    "model_brier": 0.0023
    }
   ],
   "missed": [
@@ -5448,6 +5496,13 @@
     "event": "Hard data benign while Y8 sits above its market",
     "model": "Y8 (recession within a year) 38.3% vs Polymarket 31.5%, while the real-time Sahm rule reads 0.00 (trigger 0.50), Q3 GDP +3.4% and October payrolls +165,000 (FRED).",
     "action": "Tested Nov 19 (y8_backtest.json): Sahm, Sahm-plus-payrolls and Fed-tightening conditioned rates all failed walk-forward (skill -0.03 to -0.06). Nothing adopted; the hand-set 18% base ('adjusted for tightening') had no out-of-sample support and was replaced by the plain 15.8%."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "not tracked",
+    "event": "Trilateral released a joint 'peace declaration' (Shenzhen, Nov 19): stable energy flows, a pledged dialogue on reducing nuclear risks and preventing proliferation (Al Jazeera, citing Chinese state media)",
+    "model": "No question covered a non-binding joint text. W3 (signed document with specific, dated commitments) stood at 6.1% and W4 (China's Foreign Ministry agreeing to trilateral arms-control talks) at 2.7%; no dated commitments or Chinese agreement to arms-control talks were reported.",
+    "action": "W3, W4 and R2 left open to their Nov 24 dates and resolved only on their own resolve texts; no method change."
    }
   ],
   "errors_fixed": [
