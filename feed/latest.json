@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T01:21:28+00:00",
+ "generated_at": "2026-11-19T01:23:41+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -1481,6 +1481,599 @@
     "title": "Fed hikes into an energy shock; two negative GDP quarters; Nasdaq bear market",
     "rhyme": "The closest data analogue to now (see the analogue table): rising yields, an energy shock, and a Nasdaq drawdown of more than 30%.",
     "questions": "Y6, Y7, Y8, M1"
+   }
+  ],
+  "cases": [
+   {
+    "n": 1,
+    "case": "Late Bronze Age collapse (c. 1200-1150 BCE)",
+    "outcome": "Egypt and Assyria survive diminished; Hittites, Mycenaean palaces and Ugarit fall",
+    "mechanism": "Trade-route breakdown, drought and raiding hit interdependent palace economies together.",
+    "rhyme": "Chokepoint and supply-chain attrition (Hormuz).",
+    "questions": "M10, Y3",
+    "note": "Causes are debated; drought evidence comes from pollen and other proxy records."
+   },
+   {
+    "n": 2,
+    "case": "Roman Republic to Principate (133-27 BCE)",
+    "outcome": "Augustan Principate prevails over senatorial factions",
+    "mechanism": "Surplus elites and soldiers loyal to generals rather than the state; the winner absorbed rivals into a new hierarchy.",
+    "rhyme": "Intra-elite conflict and divided government.",
+    "questions": "Y12, M3",
+    "note": ""
+   },
+   {
+    "n": 3,
+    "case": "Western Rome falls, Byzantium survives (376-476 CE)",
+    "outcome": "East survives; West falls",
+    "mechanism": "The West lost its North African tax base (439 CE); the East had defensible geography and secure revenues.",
+    "rhyme": "Geography and secure revenue as luck, not virtue.",
+    "questions": "R0, Y2",
+    "note": ""
+   },
+   {
+    "n": 4,
+    "case": "An Lushan Rebellion (755-763 CE)",
+    "outcome": "Tang survives, crippled; frontier governors keep fiscal power",
+    "mechanism": "Military governors captured tax collection permanently.",
+    "rhyme": "Fiscal fragmentation after a shock.",
+    "questions": "",
+    "note": ""
+   },
+   {
+    "n": 5,
+    "case": "Fourteenth-century crisis (1315-1380)",
+    "outcome": "Labour gains after the plague; manorial lords lose",
+    "mechanism": "Labour scarcity raised real wages despite wage caps.",
+    "rhyme": "Shocks that reprice scarce inputs (labour then; power and chips now).",
+    "questions": "Y18, R4",
+    "note": ""
+   },
+   {
+    "n": 6,
+    "case": "Ming-Qing transition (1620s-1644)",
+    "outcome": "Qing coalition prevails; Ming falls",
+    "mechanism": "A silver-based tax system under monetary and climate stress; cuts to the courier service turned state workers (Li Zicheng among them) into rebels.",
+    "rhyme": "Fiscal rigidity meeting an external monetary shock.",
+    "questions": "Y16, Y8",
+    "note": "The 'silver crisis' explanation is contested among historians."
+   },
+   {
+    "n": 7,
+    "case": "Dutch Republic vs Habsburg Spain (1580-1648)",
+    "outcome": "Dutch prevail; Spain defaults repeatedly",
+    "mechanism": "Cheap, credible public borrowing beat costly short-term loans.",
+    "rhyme": "Borrowing costs as strategic capacity (10-year near 5%).",
+    "questions": "Y16",
+    "note": ""
+   },
+   {
+    "n": 8,
+    "case": "Bourbon France vs Pittite Britain (1789-1815)",
+    "outcome": "Britain prevails; the old regime falls",
+    "mechanism": "Debt service crowded out the French state; Britain kept credible finance.",
+    "rhyme": "Debt service vs fiscal room.",
+    "questions": "Y16, M2",
+    "note": ""
+   },
+   {
+    "n": 9,
+    "case": "Meiji Japan vs late Qing (1860-1895)",
+    "outcome": "Japan prevails in 1895",
+    "mechanism": "Central tax and credit vs provincial fragmentation that starved logistics.",
+    "rhyme": "State capacity over hardware on paper.",
+    "questions": "Y10",
+    "note": ""
+   },
+   {
+    "n": 10,
+    "case": "Gold standard exits (1929-1936)",
+    "outcome": "Early leavers (UK 1931, Sweden, Japan) recover sooner than the gold bloc",
+    "mechanism": "Abandoning a rigid monetary rule early freed domestic credit.",
+    "rhyme": "Policy rigidity in a downturn (Fed hiking into an oil shock).",
+    "questions": "Y5, Y8",
+    "note": "Well supported in economic history (e.g. Eichengreen and Sachs, 1985)."
+   },
+   {
+    "n": 11,
+    "case": "1970s stagflation and oil shocks (1973-1982)",
+    "outcome": "Volcker Fed and non-OPEC producers win; price controls and leveraged borrowers lose",
+    "mechanism": "High prices cut oil intensity and drew new supply; tight money broke inflation at the cost of recession.",
+    "rhyme": "Oil shock plus a hiking Fed.",
+    "questions": "Y4, Y8, Y5, M1",
+    "note": ""
+   },
+   {
+    "n": 12,
+    "case": "Soviet collapse vs Chinese reform (1978-1991)",
+    "outcome": "China's reforms succeed; the USSR collapses",
+    "mechanism": "Oil-dependent budgets and frozen institutions vs dual-track reform.",
+    "rhyme": "Commodity-dependent states under sanctions (Russia, Iran).",
+    "questions": "Y9, R0",
+    "note": ""
+   },
+   {
+    "n": 13,
+    "case": "Mughal India (1707-1748)",
+    "outcome": "The imperial centre weakens while regional states (Bengal) stay productive",
+    "mechanism": "Political fragmentation without uniform economic collapse.",
+    "rhyme": "A weaker centre is not the same as economic failure.",
+    "questions": "",
+    "note": "A 'false positive' for collapse theories; recent scholarship stresses regional vitality."
+   },
+   {
+    "n": 14,
+    "case": "Ottoman Empire (1839-1922)",
+    "outcome": "Reform without fiscal independence; default (1875), foreign debt administration (1881)",
+    "mechanism": "Borrowing to modernise ended in creditors controlling part of state revenue.",
+    "rhyme": "Debt service limiting sovereignty.",
+    "questions": "Y16, M2",
+    "note": ""
+   },
+   {
+    "n": 15,
+    "case": "United States, 1929-1945",
+    "outcome": "Institutions adapt; the state survives the Depression",
+    "mechanism": "Bank holiday, deposit insurance and new regulators changed the rules while the state could still act; wartime mobilisation finished the recovery.",
+    "rhyme": "Rule changes while capacity remains.",
+    "questions": "Y8, Y5",
+    "note": "The New Deal alone did not produce the full recovery."
+   },
+   {
+    "n": 16,
+    "case": "Weimar Germany (1919-1933)",
+    "outcome": "Republic falls; Hitler appointed chancellor in January 1933 without a Nazi majority (37.3% in July 1932)",
+    "mechanism": "Elite bargaining with a radical movement during economic catastrophe and rule by emergency decree.",
+    "rhyme": "Elite decisions, not only votes, decide regime outcomes.",
+    "questions": "",
+    "note": ""
+   },
+   {
+    "n": 17,
+    "case": "Postwar Britain (1945-1971)",
+    "outcome": "Relative decline without domestic collapse",
+    "mechanism": "Accepting a smaller role (Suez 1956 exposed the constraint) preserved the state.",
+    "rhyme": "Losing international power is not losing the capacity to govern.",
+    "questions": "Y2, Y3",
+    "note": "Suez was not the sole cause of British decline."
+   }
+  ],
+  "case_today": {
+   "1": [
+    {
+     "kind": "forecast",
+     "id": "M10",
+     "label": "Strait of Hormuz traffic returns to 'normal' by Dec 31: IMF PortWatch 7-day average of transit calls of 60 or more (Polymarket)",
+     "value": 0.035
+    },
+    {
+     "kind": "forecast",
+     "id": "Y3",
+     "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+     "value": 0.521
+    },
+    {
+     "kind": "data",
+     "id": "OVXCLS",
+     "label": "Oil volatility (OVX)",
+     "value": 49.9,
+     "as_of": "2026-11-17",
+     "change_6m": -8.4,
+     "window_start": "2026-05-28"
+    }
+   ],
+   "2": [
+    {
+     "kind": "forecast",
+     "id": "Y12",
+     "label": "House impeaches Hegseth, or he leaves office",
+     "value": 0.716
+    },
+    {
+     "kind": "forecast",
+     "id": "M3",
+     "label": "Trump publicly criticises Fed chair Warsh by name over rates",
+     "value": 0.803
+    }
+   ],
+   "3": [
+    {
+     "kind": "forecast",
+     "id": "R0",
+     "label": "Major US-Iran re-escalation (large-scale strikes resume or Kharg seized) within 12 months",
+     "value": 0.546
+    },
+    {
+     "kind": "forecast",
+     "id": "Y2",
+     "label": "Formal US-Iran agreement ending the war",
+     "value": 0.5
+    }
+   ],
+   "4": [
+    {
+     "kind": "data",
+     "id": "SLGSDODNS",
+     "label": "State and local government debt securities and loans ($ millions)",
+     "value": 3819096,
+     "as_of": "2026-04-01",
+     "yoy_pct": 5.33
+    }
+   ],
+   "5": [
+    {
+     "kind": "forecast",
+     "id": "Y18",
+     "label": "At least 2 of the 5 largest cloud providers publicly delay, cancel or relocate a 1 GW+ data center citing power",
+     "value": 0.646
+    },
+    {
+     "kind": "forecast",
+     "id": "R4",
+     "label": "A hyperscaler or its primary development partner publicly delays, cancels or rephases a US 1 GW+ campus by 6+ months, explicitly citing grid, power or permitting",
+     "value": 0.839
+    },
+    {
+     "kind": "data",
+     "id": "PCU335311335311",
+     "label": "PPI: power, distribution and specialty transformers",
+     "value": 483.91,
+     "as_of": "2026-10-01",
+     "yoy_pct": 5.58
+    }
+   ],
+   "6": [
+    {
+     "kind": "data",
+     "id": "DGS10",
+     "label": "10-year yield (%)",
+     "value": 5.1,
+     "as_of": "2026-11-17",
+     "change_6m": 0.6,
+     "window_start": "2026-05-26"
+    },
+    {
+     "kind": "forecast",
+     "id": "M2",
+     "label": "No federal funding lapse through Dec 17 (Dec 11 deadline)",
+     "value": 0.768
+    }
+   ],
+   "7": [
+    {
+     "kind": "data",
+     "id": "DGS10",
+     "label": "10-year yield (%)",
+     "value": 5.1,
+     "as_of": "2026-11-17",
+     "change_6m": 0.6,
+     "window_start": "2026-05-26"
+    },
+    {
+     "kind": "forecast",
+     "id": "Y16",
+     "label": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
+     "value": 0.625
+    }
+   ],
+   "8": [
+    {
+     "kind": "data",
+     "id": "DGS10",
+     "label": "10-year yield (%)",
+     "value": 5.1,
+     "as_of": "2026-11-17",
+     "change_6m": 0.6,
+     "window_start": "2026-05-26"
+    },
+    {
+     "kind": "forecast",
+     "id": "Y11",
+     "label": "US misses a debt payment (default)",
+     "value": 0.03
+    },
+    {
+     "kind": "forecast",
+     "id": "M2",
+     "label": "No federal funding lapse through Dec 17 (Dec 11 deadline)",
+     "value": 0.768
+    }
+   ],
+   "9": [
+    {
+     "kind": "forecast",
+     "id": "Y10",
+     "label": "PLA blockade, quarantine or invasion of Taiwan",
+     "value": 0.049
+    }
+   ],
+   "10": [
+    {
+     "kind": "forecast",
+     "id": "M1",
+     "label": "Fed raises rates on Dec 9",
+     "value": 0.972
+    },
+    {
+     "kind": "forecast",
+     "id": "Y5",
+     "label": "Fed's next move after December is a cut, made by Nov 17, 2027",
+     "value": 0.563
+    },
+    {
+     "kind": "data",
+     "id": "T10Y3M",
+     "label": "10y-3m curve (pts)",
+     "value": 0.73,
+     "as_of": "2026-11-18",
+     "change_6m": -0.07,
+     "window_start": "2026-05-27"
+    }
+   ],
+   "11": [
+    {
+     "kind": "data",
+     "id": "DCOILBRENTEU",
+     "label": "Brent ($/bbl)",
+     "value": 92.94,
+     "as_of": "2026-11-17",
+     "change_6m": -5.35,
+     "window_start": "2026-06-01"
+    },
+    {
+     "kind": "forecast",
+     "id": "M1",
+     "label": "Fed raises rates on Dec 9",
+     "value": 0.972
+    },
+    {
+     "kind": "forecast",
+     "id": "Y8",
+     "label": "US recession begins (NBER-dated or two negative GDP quarters)",
+     "value": 0.364
+    }
+   ],
+   "12": [
+    {
+     "kind": "forecast",
+     "id": "Y9",
+     "label": "Russia-Ukraine general ceasefire in effect",
+     "value": 0.107
+    },
+    {
+     "kind": "data",
+     "id": "DCOILBRENTEU",
+     "label": "Brent ($/bbl)",
+     "value": 92.94,
+     "as_of": "2026-11-17",
+     "change_6m": -5.35,
+     "window_start": "2026-06-01"
+    }
+   ],
+   "13": [
+    {
+     "kind": "data",
+     "id": "SLGSDODNS",
+     "label": "State and local government debt securities and loans ($ millions)",
+     "value": 3819096,
+     "as_of": "2026-04-01",
+     "yoy_pct": 5.33
+    }
+   ],
+   "14": [
+    {
+     "kind": "data",
+     "id": "DGS10",
+     "label": "10-year yield (%)",
+     "value": 5.1,
+     "as_of": "2026-11-17",
+     "change_6m": 0.6,
+     "window_start": "2026-05-26"
+    },
+    {
+     "kind": "forecast",
+     "id": "Y16",
+     "label": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
+     "value": 0.625
+    },
+    {
+     "kind": "forecast",
+     "id": "Y11",
+     "label": "US misses a debt payment (default)",
+     "value": 0.03
+    }
+   ],
+   "15": [
+    {
+     "kind": "forecast",
+     "id": "Y8",
+     "label": "US recession begins (NBER-dated or two negative GDP quarters)",
+     "value": 0.364
+    },
+    {
+     "kind": "forecast",
+     "id": "Y5",
+     "label": "Fed's next move after December is a cut, made by Nov 17, 2027",
+     "value": 0.563
+    }
+   ],
+   "16": [
+    {
+     "kind": "forecast",
+     "id": "M3",
+     "label": "Trump publicly criticises Fed chair Warsh by name over rates",
+     "value": 0.803
+    },
+    {
+     "kind": "forecast",
+     "id": "Y13",
+     "label": "House impeaches Trump",
+     "value": 0.155
+    }
+   ],
+   "17": [
+    {
+     "kind": "forecast",
+     "id": "Y2",
+     "label": "Formal US-Iran agreement ending the war",
+     "value": 0.5
+    },
+    {
+     "kind": "forecast",
+     "id": "Y3",
+     "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+     "value": 0.521
+    }
+   ]
+  },
+  "resilience": {
+   "read_at": "2026-11-19T01:35Z (FRED fredgraph.csv, read in the browser)",
+   "series": {
+    "OPHNFB": {
+     "label": "Nonfarm business labour productivity",
+     "latest_date": "2026-07-01",
+     "latest": 121.922,
+     "year_ago_date": "2025-07-01",
+     "year_ago": 119.464,
+     "yoy_pct": 2.06
+    },
+    "IPUTIL": {
+     "label": "Industrial production: electric and gas utilities",
+     "latest_date": "2026-10-01",
+     "latest": 111.7433,
+     "year_ago_date": "2025-10-01",
+     "year_ago": 109.9286,
+     "yoy_pct": 1.65
+    },
+    "PCU335311335311": {
+     "label": "PPI: power, distribution and specialty transformers",
+     "latest_date": "2026-10-01",
+     "latest": 483.91,
+     "year_ago_date": "2025-10-01",
+     "year_ago": 458.356,
+     "yoy_pct": 5.58
+    },
+    "SLGSDODNS": {
+     "label": "State and local government debt securities and loans ($ millions)",
+     "latest_date": "2026-04-01",
+     "latest": 3819096,
+     "year_ago_date": "2025-04-01",
+     "year_ago": 3625701,
+     "yoy_pct": 5.33
+    }
+   },
+   "dgs10": 5.1,
+   "substitution": {
+    "state": "HIGH",
+    "rule": "HIGH if productivity >= +1.0% a year and utility output > 0%",
+    "values": "productivity +2.06%, utilities +1.65%"
+   },
+   "logistical_reach": {
+    "state": "HIGH",
+    "rule": "LOW if transformer PPI >= +8% a year, or state and local debt >= +6% a year with the 10-year >= 5%",
+    "values": "transformers +5.58%, state and local debt +5.33%, 10-year 5.1%"
+   },
+   "classification": "STRONG",
+   "note": "By the document's own rule the US reads STRONG today, while its narrative baseline is the adaptation trap / managed decline. The thresholds are the document's and have not been tested against outcomes, so this carries no weight."
+  },
+  "lt_watch": [
+   {
+    "id": "LT-01",
+    "metric": "Federal net interest outlays / receipts",
+    "rule": ">= 22% for 2 consecutive fiscal years",
+    "series": null,
+    "trajectory": "Managed decline / systemic transformation",
+    "latest": null,
+    "as_of": null,
+    "status": "not evaluated (data not in the model's feeds)"
+   },
+   {
+    "id": "LT-02",
+    "metric": "10-year Treasury yield",
+    "rule": "DGS10 >= 6.50% (the document also counts weak auction absorption, not tracked here)",
+    "series": "DGS10",
+    "level": 6.5,
+    "trajectory": "Breakdown / systemic transformation",
+    "latest": 5.1,
+    "as_of": "2026-11-17",
+    "status": "not hit"
+   },
+   {
+    "id": "LT-03",
+    "metric": "Foreign official Treasury holdings, year on year",
+    "rule": "<= -8% while the 10-year rises",
+    "series": null,
+    "trajectory": "Managed decline",
+    "latest": null,
+    "as_of": null,
+    "status": "not evaluated (data not in the model's feeds)"
+   },
+   {
+    "id": "LT-04",
+    "metric": "Appellate injunctions on emergency economic rules",
+    "rule": ">= 3 a year",
+    "series": null,
+    "trajectory": "Systemic transformation",
+    "latest": null,
+    "as_of": null,
+    "status": "not evaluated (data not in the model's feeds)"
+   },
+   {
+    "id": "LT-05",
+    "metric": "Permanent US basing in the Gulf or Europe",
+    "rule": ">= 20% drawdown",
+    "series": null,
+    "trajectory": "Managed decline",
+    "latest": null,
+    "as_of": null,
+    "status": "not evaluated (data not in the model's feeds)"
+   },
+   {
+    "id": "LT-06",
+    "metric": "Nonfarm business labour productivity",
+    "rule": ">= 2.2% annualized for 12 straight quarters",
+    "series": null,
+    "trajectory": "Hegemonic renewal",
+    "latest": null,
+    "as_of": null,
+    "status": "not evaluated (data not in the model's feeds)"
+   },
+   {
+    "id": "LT-08",
+    "metric": "PPI: power and distribution transformers (Apex v6.0)",
+    "rule": "index >= 525",
+    "series": "PCU335311335311",
+    "level": 525.0,
+    "trajectory": "Grid and infrastructure bottleneck",
+    "latest": 483.91,
+    "as_of": "2026-10-01",
+    "status": "not hit"
+   },
+   {
+    "id": "LT-07",
+    "metric": "State and local debt distress",
+    "rule": "A major state or top-10 city needs an emergency federal facility",
+    "series": null,
+    "trajectory": "Transformation / breakdown",
+    "latest": null,
+    "as_of": null,
+    "status": "not evaluated (data not in the model's feeds)"
+   }
+  ],
+  "outlook_splits": [
+   {
+    "source": "Second cliodynamics document and its Phase 4 (ChatGPT)",
+    "renewal": 0.26,
+    "managed_decline": 0.43,
+    "transformation": 0.26,
+    "breakdown": 0.05
+   },
+   {
+    "source": "Phase 4 playbook and Apex v4.0 (Gemini)",
+    "renewal": 0.19,
+    "managed_decline": 0.42,
+    "transformation": 0.31,
+    "breakdown": 0.08
    }
   ],
   "evidence": [
