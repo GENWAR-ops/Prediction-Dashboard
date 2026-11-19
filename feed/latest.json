@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T03:00:20+00:00",
+ "generated_at": "2026-11-19T03:00:51+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -3405,7 +3405,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-19T02:27:02+00:00",
+  "at": "2026-11-19T03:00:35+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -3466,11 +3466,11 @@
    "brier": 0.0758,
    "base_rate_brier": 0.0924,
    "rivals": {
-    "gpt_v1": {
+    "author_a_v1": {
      "n": 1,
      "brier": 0.3025
     },
-    "gpt_v2": {
+    "author_a_v2": {
      "n": 1,
      "brier": 0.16
     }
