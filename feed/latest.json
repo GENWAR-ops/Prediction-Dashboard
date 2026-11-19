@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T02:26:58+00:00",
+ "generated_at": "2026-11-19T02:38:58+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -3405,8 +3405,8 @@
   }
  ],
  "audit": {
-  "at": "2026-11-19T02:26:34+00:00",
-  "flaws": 1,
+  "at": "2026-11-19T02:27:02+00:00",
+  "flaws": 0,
   "checks": [
    {
     "area": "tests",
@@ -3454,7 +3454,7 @@
    },
    {
     "area": "published data",
-    "status": "flaw"
+    "status": "ok"
    },
    {
     "area": "overdue resolutions",
@@ -4016,9 +4016,9 @@
    }
   ],
   "playbook": {
-   "intro": "Phase 4 documents (ChatGPT and Gemini for the US 2026-2035, and Gemini's global 2026-2051 version, Nov 19) set out how five parts of US society might adapt over 2026-2035. Shown as the documents' judgment: not scored by this model, not fitted to data, and not personal or investment advice. Each tier lists the live questions its strategy depends on, with the model's current number.",
-   "outlooks": "The documents' ten-year splits differ (ChatGPT first version: renewal 26%, managed decline 43%, transformation 26%, breakdown 5%, revised on Nov 19 to 24%, 43%, 14% technological leap, 19% hard reset; Gemini: 19%, 42%, 31%, 8%). Neither is estimated from data; the Gemini document calls its own 'empirical', which it is not.",
-   "thesis": "ChatGPT's central argument: the deciding variable between managed decline and renewal is whether the gains from technological and industrial adaptation are shared widely enough to keep institutions legitimate.",
+   "intro": "This section sums up three outside forecasts (two from ChatGPT, one from Gemini) of how American society may adapt over the next decade, and what five groups might do about it: political leaders, business owners, professionals, skilled workers, and people in insecure work. These are the authors' views, not this model's forecasts, and not financial or personal advice. Each group's strategy is linked to the live questions it depends on, with the model's current probability.",
+   "outlooks": "How the authors see 2035 (their judgment, not data): slow relative decline is the most likely path, at a little over 4 in 10. Genuine renewal gets about 1 in 5. A technology-driven leap and a severe hard reset share the rest, and this is where the authors disagree most. Each document's exact split is in History; where the documents overreach is under Arguments.",
+   "thesis": "The United States is most likely to remain a major power that slowly loses ground to others, neither collapsing nor surging ahead. What tips it one way or the other is not how much money or technology it has, but whether it can turn them into things that work (power lines built, factories supplied, services delivered) and whether the gains are shared widely enough that people keep trusting their institutions.",
    "tiers": [
     {
      "tier": "Governing and institutional elite",
@@ -4323,7 +4323,7 @@
      "amplifier": null
     }
    ],
-   "global_note": "The global document (Gemini, 2026-2051) adds a third version of each tier's move and hedge and a core-periphery amplifier for each collision. Its 25-year split (fragmentation 46%, hard reset 24%, renewal 18%, leap 12%) is judgment. Its case numbers are cross-referenced wrongly in places (Byzantium is cited as #03 and the Dutch merchants as #09), and it repeats the unverified 20% Dutch-trade and 'doubled real wages' figures.",
+   "global_note": "Gemini's 25-year global version tells the same story worldwide: the world splits into regional blocs, resource-rich regions gain leverage, and older, indebted economies retrench.",
    "concessions": [
     {
      "stabilizing": "Predictable tax reform",
