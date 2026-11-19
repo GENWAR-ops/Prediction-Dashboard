@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-19T02:15:33+00:00",
+ "generated_at": "2026-11-19T02:26:58+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-19",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -2392,6 +2392,43 @@
     "method": "FRED PCU335311335311"
    },
    {
+    "id": "RG-EU1",
+    "metric": "Italy-Germany 10-year spread (regional model, Eurasia)",
+    "rule": "> 300 basis points",
+    "series": "macro:BTP-BUND",
+    "level": 300,
+    "trajectory": "Sovereign debt rupture (Eurasia C)",
+    "latest": 126,
+    "as_of": "2026-10-01",
+    "status": "not hit",
+    "method": "FRED BTP-BUND"
+   },
+   {
+    "id": "RG-ME1",
+    "metric": "Brent vs Gulf fiscal breakevens (regional model, Eurasia)",
+    "rule": "Brent < $80 (Gulf fiscal stress)",
+    "series": "DCOILBRENTEU",
+    "level": 80.0,
+    "below": true,
+    "trajectory": "Gulf fiscal stress",
+    "latest": 92.94,
+    "as_of": "2026-11-17",
+    "status": "not hit",
+    "method": "FRED DCOILBRENTEU"
+   },
+   {
+    "id": "RG-NA1",
+    "metric": "Sahm rule, real time (added Nov 19 as the recession indicator for Y8)",
+    "rule": ">= 0.50",
+    "series": "macro:SAHMREALTIME",
+    "level": 0.5,
+    "trajectory": "US recession signal",
+    "latest": 0.0,
+    "as_of": "2026-10-01",
+    "status": "not hit",
+    "method": "FRED SAHMREALTIME"
+   },
+   {
     "id": "LT-07",
     "metric": "State and local debt distress",
     "rule": "A major state or top-10 city needs an emergency federal facility",
@@ -2420,6 +2457,34 @@
     "managed_decline": 0.42,
     "transformation": 0.31,
     "breakdown": 0.08
+   },
+   {
+    "source": "ChatGPT Phase 3, US 2026-2035, revised (renewal = A, managed decline = B, transformation = D technological leap, breakdown = C contraction)",
+    "renewal": 0.24,
+    "managed_decline": 0.43,
+    "transformation": 0.14,
+    "breakdown": 0.19
+   },
+   {
+    "source": "Gemini regional model: North America 2026-2051 (A boom, B nearshoring, D state autonomy, C fiscal-grid stalemate)",
+    "renewal": 0.18,
+    "managed_decline": 0.48,
+    "transformation": 0.1,
+    "breakdown": 0.24
+   },
+   {
+    "source": "Gemini regional model: Eurasia 2026-2051 (A integration, B armed blocs, D transit autonomy, C rupture)",
+    "renewal": 0.14,
+    "managed_decline": 0.5,
+    "transformation": 0.08,
+    "breakdown": 0.28
+   },
+   {
+    "source": "Gemini regional model: Indo-Pacific 2026-2051 (A supercycle, B bifurcation, D leapfrog, C deflation and chokepoint crisis)",
+    "renewal": 0.17,
+    "managed_decline": 0.48,
+    "transformation": 0.1,
+    "breakdown": 0.25
    },
    {
     "source": "Global system, 2026-2051, 25 years (global document; columns mapped: renewal = A, managed decline = B multipolar fragmentation, transformation = D technological leap, breakdown = C hard reset)",
@@ -2505,6 +2570,362 @@
    "Institutional transformation",
    "Continuity under successor governments"
   ],
+  "us_baseline": [
+   {
+    "item": "Real GDP growth, Q3 2026 (annualized, advance)",
+    "value": "3.4%",
+    "source": "BEA via FRED A191RL1Q225SBEA",
+    "check": "verified on FRED, Nov 19"
+   },
+   {
+    "item": "Unemployment, October 2026",
+    "value": "4.1%",
+    "source": "BLS via FRED UNRATE",
+    "check": "verified on FRED, Nov 19"
+   },
+   {
+    "item": "Payroll change, October 2026",
+    "value": "+165,000",
+    "source": "BLS via FRED PAYEMS",
+    "check": "verified on FRED, Nov 19"
+   },
+   {
+    "item": "Federal deficit FY2026 / debt held by the public 2026 -> 2036",
+    "value": "$1.9 trillion (5.8% of GDP) / 101% -> 120% of GDP",
+    "source": "CBO, Budget and Economic Outlook 2026-2036 (Feb 2026)",
+    "check": "verified (cbo.gov/publication/61882)"
+   },
+   {
+    "item": "Generation and storage seeking grid interconnection, end of 2025",
+    "value": "about 2,061 GW",
+    "source": "Berkeley Lab, Queued Up 2026",
+    "check": "verified (emp.lbl.gov)"
+   },
+   {
+    "item": "Trust in the federal government to handle domestic / international problems",
+    "value": "33% / 33% (record lows)",
+    "source": "Gallup Governance poll, Sep 1-17 2026",
+    "check": "verified (news.gallup.com)"
+   },
+   {
+    "item": "Working-age (25-64) to 65+ ratio",
+    "value": "2.7 now, 2.2 by 2056",
+    "source": "CBO Demographic Outlook 2026-2056",
+    "check": "document-cited, not re-checked"
+   },
+   {
+    "item": "Americans in areas of chronic high or severe water limitation",
+    "value": "26.7 million (about 8%)",
+    "source": "USGS",
+    "check": "document-cited, not re-checked"
+   },
+   {
+    "item": "Critical minerals with 100% net import reliance",
+    "value": "13 (20 more at 50% or above)",
+    "source": "USGS Mineral Commodity Summaries 2026",
+    "check": "document-cited, not re-checked"
+   },
+   {
+    "item": "Data centers' share of US electricity by 2030",
+    "value": "up to 11.8% (a scenario, not a forecast)",
+    "source": "Berkeley Lab 2025 update",
+    "check": "document-cited, not re-checked"
+   }
+  ],
+  "friction_scenarios": [
+   {
+    "name": "Infrastructure allocation conflict",
+    "warning": "Rising utility prices, delayed industrial connections, local opposition to big projects",
+    "rule": "electricity prices outpacing all prices",
+    "latest": 1.27,
+    "as_of": "2026-10-01",
+    "detail": "Electricity CPI +5.35%, all-items CPI +4.08% (Sep 2025 to Oct 2026)",
+    "status": "early warning present",
+    "questions": "Y21, R4"
+   },
+   {
+    "name": "Fiscal distribution conflict",
+    "warning": "Growing interest spending, municipal borrowing pressure, disputes over federal transfers",
+    "rule": "net interest at or above 22% of receipts (LT-01)",
+    "latest": "25.17% on FRED FYOINT/FYFR (FY2026)",
+    "as_of": "2026-09-30",
+    "detail": "Federal net interest outlays / receipts",
+    "status": "no early warning (LT-01: not hit on net interest (FY2025 about 18.7%))",
+    "questions": "Y16, M2"
+   },
+   {
+    "name": "Technological displacement conflict",
+    "warning": "Less entry-level hiring, weaker bargaining power, gains concentrated",
+    "rule": "nominal wage growth below 3% (not yet measuring entry-level hiring)",
+    "latest": 3.12,
+    "as_of": "2026-10-01",
+    "detail": "Average hourly earnings, private, year on year (%)",
+    "status": "no early warning",
+    "questions": "Y18"
+   },
+   {
+    "name": "Regional sovereignty conflict",
+    "warning": "Persistent disputes over federal authority, revenue allocation and infrastructure",
+    "rule": "appellate injunctions on emergency economic rules (LT-04)",
+    "latest": "1 identified in 2026: the Supreme Court (Feb 20) affirmed the Federal Circuit that IEEPA does not authorize tariffs; the Federal Circuit stayed (May) the trade court's ruling against the Section 122 replacement tariffs",
+    "as_of": "2026-11-19",
+    "detail": "Appellate injunctions on emergency economic rules",
+    "status": "no early warning (LT-04: not hit (news count, not exhaustive))",
+    "questions": "M3"
+   },
+   {
+    "name": "Adaptation dividend (positive)",
+    "warning": "Faster grid deployment, more domestic processing, higher productivity, broad wage growth",
+    "rule": "productivity at or above 2.2% for 12 straight quarters (LT-06)",
+    "latest": "3.55% annualized (2026-07-01); 6 of the last 12 quarters at or above 2.2%",
+    "as_of": "2026-07-01",
+    "detail": "Nonfarm business labour productivity",
+    "status": "not yet signalled (LT-06: not hit)",
+    "questions": "Y18"
+   }
+  ],
+  "strategic_tests": [
+   {
+    "test": "Can resources be substituted?",
+    "renewal": "New energy, materials and technology relieve bottlenecks",
+    "contraction": "Shortages become persistent constraints",
+    "reads": "LT-08 transformer prices, RG-ME1 Brent, interconnection queue (2,061 GW)"
+   },
+   {
+    "test": "Can institutions keep logistical reach?",
+    "renewal": "Federal and local systems keep delivering",
+    "contraction": "Administrative and infrastructure fragmentation",
+    "reads": "LT-07 state and local distress, LT-04 injunctions, Gallup trust 33%"
+   },
+   {
+    "test": "Can society absorb technological change?",
+    "renewal": "Gains broaden into jobs and wages",
+    "contraction": "Gains concentrate while displacement speeds up",
+    "reads": "LT-06 productivity, wage growth, electricity vs all prices"
+   }
+  ],
+  "regions": [
+   {
+    "region": "North America",
+    "blind_spot": "Municipal pension and commercial-property tax-base erosion in legacy cities colliding with Western aquifer depletion.",
+    "tripwires": [
+     {
+      "tripwire": "Net interest / receipts >= 22%",
+      "evaluated_by": "LT-01",
+      "status": "not hit on net interest (FY2025 about 18.7%); would read as hit on FRED's gross interest series (23.0%, 23.2%, 25.2% in FY2024-26)",
+      "latest": "25.17% on FRED FYOINT/FYFR (FY2026)",
+      "as_of": "2026-09-30"
+     },
+     {
+      "tripwire": "DGS10 >= 6.5%",
+      "evaluated_by": "LT-02",
+      "status": "not hit",
+      "latest": 5.1,
+      "as_of": "2026-11-17"
+     },
+     {
+      "tripwire": "Municipal or pension emergency liquidity",
+      "evaluated_by": "LT-07",
+      "status": "not hit (news check)",
+      "latest": "No state or top-10 city has received an emergency federal liquidity facility in 2026; the last one (the Fed's Municipal Liquidity Facility) closed at the end of 2020",
+      "as_of": "2026-11-19"
+     },
+     {
+      "tripwire": "Executive decrees vs courts",
+      "evaluated_by": "LT-04",
+      "status": "not hit (news count, not exhaustive)",
+      "latest": "1 identified in 2026: the Supreme Court (Feb 20) affirmed the Federal Circuit that IEEPA does not authorize tariffs; the Federal Circuit stayed (May) the trade court's ruling against the Section 122 replacement tariffs",
+      "as_of": "2026-11-19"
+     },
+     {
+      "tripwire": "State utility rulings on data-center costs",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "USMCA manufacturing and Mexican grid capacity",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Colorado River / Ogallala rationing orders",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     }
+    ],
+    "evaluated": 4,
+    "total": 7
+   },
+   {
+    "region": "Eurasia",
+    "blind_spot": "Shrinking skilled industrial labour across Europe and Russia colliding with Middle East and Central Asian water scarcity.",
+    "tripwires": [
+     {
+      "tripwire": "Italy-Germany 10-year spread > 300 bp",
+      "evaluated_by": "RG-EU1",
+      "status": "not hit",
+      "latest": 126,
+      "as_of": "2026-10-01"
+     },
+     {
+      "tripwire": "Brent below Gulf fiscal breakevens (< $80)",
+      "evaluated_by": "RG-ME1",
+      "status": "not hit",
+      "latest": 92.94,
+      "as_of": "2026-11-17"
+     },
+     {
+      "tripwire": "European industrial power prices vs US/Asia",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Middle Corridor / Northern Sea Route volumes vs Suez/Hormuz",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "EU defence procurement made in Europe",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Wet-bulb heat and aquifer depletion",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Working-age decline (Germany, Italy, Russia)",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     }
+    ],
+    "evaluated": 2,
+    "total": 7
+   },
+   {
+    "region": "Indo-Pacific",
+    "blind_spot": "Himalayan and Mekong water depletion and East Asian eldercare labour gaps outpacing robotics.",
+    "tripwires": [
+     {
+      "tripwire": "Chinese LGFV restructuring and youth unemployment",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Taiwan Strait / South China Sea incidents and war-risk insurance",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "MOFCOM rare-earth licensing (Nov 27 / Jan 10 watches)",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Bank of Japan exit and yen carry volatility",
+      "evaluated_by": "DEXJPUS",
+      "status": "watched, no threshold given by the document",
+      "latest": 159.93,
+      "as_of": "2026-11-13"
+     },
+     {
+      "tripwire": "India and ASEAN export share",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Himalaya / Mekong / North China Plain water",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     },
+     {
+      "tripwire": "Robot density",
+      "evaluated_by": null,
+      "status": "not evaluated (no series or count in the model)",
+      "latest": null
+     }
+    ],
+    "evaluated": 1,
+    "total": 7
+   }
+  ],
+  "outlook_revisions": [
+   {
+    "source": "ChatGPT US 2026-2035",
+    "before": "renewal 26 / managed decline 43 / transformation 26 / breakdown 5",
+    "after": "A 24 / B 43 / D 14 / C 19",
+    "change": "Breakdown (hard reset) raised from 5% to 19%; transformation cut from 26% to 14%. The document gives no new evidence for the size of the shift.",
+    "date": "2026-11-19"
+   }
+  ],
+  "macro_now": {
+   "source": "FRED, read 2026-11-19 in the browser",
+   "rows": [
+    {
+     "id": "A191RL1Q225SBEA",
+     "label": "Real GDP growth, annualized (Q3 2026, advance)",
+     "value": 3.4,
+     "as_of": "2026-07-01"
+    },
+    {
+     "id": "UNRATE",
+     "label": "Unemployment rate (Oct 2026)",
+     "value": 4.1,
+     "as_of": "2026-10-01"
+    },
+    {
+     "id": "PAYEMS",
+     "label": "Nonfarm payrolls, monthly change (Oct 2026, thousands)",
+     "value": 165,
+     "as_of": "2026-10-01"
+    },
+    {
+     "id": "SAHMREALTIME",
+     "label": "Sahm rule, real time (recession signal at 0.50)",
+     "value": 0.0,
+     "as_of": "2026-10-01"
+    },
+    {
+     "id": "BTP-BUND",
+     "label": "Italy-Germany 10-year spread, basis points (Oct 2026 monthly averages)",
+     "value": 126,
+     "as_of": "2026-10-01"
+    },
+    {
+     "id": "DEXJPUS",
+     "label": "Yen per dollar",
+     "value": 159.93,
+     "as_of": "2026-11-13"
+    },
+    {
+     "id": "ELEC-VS-CPI",
+     "label": "Electricity prices vs all prices, 13 months to Oct 2026 (no Oct 2025 CPI was published), percentage points",
+     "value": 1.27,
+     "as_of": "2026-10-01",
+     "detail": "Electricity CPI +5.35%, all-items CPI +4.08% (Sep 2025 to Oct 2026)"
+    },
+    {
+     "id": "CES0500000003",
+     "label": "Average hourly earnings, private, year on year (%)",
+     "value": 3.12,
+     "as_of": "2026-10-01"
+    }
+   ]
+  },
   "evidence": [
    {
     "id": "Y8",
@@ -2984,8 +3405,8 @@
   }
  ],
  "audit": {
-  "at": "2026-11-19T00:58:08+00:00",
-  "flaws": 0,
+  "at": "2026-11-19T02:26:34+00:00",
+  "flaws": 1,
   "checks": [
    {
     "area": "tests",
@@ -3012,6 +3433,14 @@
     "status": "ok"
    },
    {
+    "area": "learning loop",
+    "status": "ok"
+   },
+   {
+    "area": "evidence bars",
+    "status": "ok"
+   },
+   {
     "area": "FRED read age",
     "status": "ok"
    },
@@ -3025,7 +3454,7 @@
    },
    {
     "area": "published data",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "overdue resolutions",
@@ -3048,6 +3477,399 @@
    },
    "note": "First forecasts only. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
   }
+ },
+ "learning": {
+  "summary": {
+   "resolved": 4,
+   "brier": 0.0758,
+   "log_loss": 0.2772,
+   "base_rate_brier": 0.0924,
+   "right_side": 4,
+   "note": "About 109 resolved questions are needed before a 0.05 Brier gap means skill; 4 so far."
+  },
+  "reviews": [
+   {
+    "id": "D3",
+    "question": "FOMC minutes say many/most officials see further firming as likely appropriate",
+    "first_forecast": 0.8245,
+    "first_at": "2026-11-18T01:29:08+00:00",
+    "outcome": 1,
+    "resolved_at": "2026-11-18T22:37:56+00:00",
+    "source": "Minutes of the Oct 27-28 FOMC, released Nov 18 2026 (federalreserve.gov): 'almost all participants judged' further action to raise rates likely appropriate (Bloomberg, Nov 18). 'Almost all' is stronger than the rule's 'many or most'.",
+    "brier": 0.0308,
+    "log_loss": 0.193,
+    "call": "right side",
+    "base_rate": 0.7,
+    "base_brier": 0.09,
+    "market": null,
+    "market_brier": null,
+    "basis": "judgment prior",
+    "horizon": "1 day",
+    "lens_right": {
+     "capital": true,
+     "energy": true
+    },
+    "rivals": {}
+   },
+   {
+    "id": "R1",
+    "question": "Another publicly confirmed US or Iranian attack on the other's forces or military assets in the Gulf after the Nov 17 exchanges, by end of Nov 18",
+    "first_forecast": 0.5002,
+    "first_at": "2026-11-18T01:29:08+00:00",
+    "outcome": 1,
+    "resolved_at": "2026-11-18T22:37:56+00:00",
+    "source": "Reuters, Nov 18: Iran said it targeted US drone and missile sites in Kuwait after the US strike on Qeshm (first attack on Kuwait since September); CNN, Nov 18: Iran targeted a Kuwaiti air base hosting US forces on Wednesday; CENTCOM, Nov 18: no US personnel hurt in 'attempted Iranian attacks this week'.",
+    "brier": 0.2498,
+    "log_loss": 0.6927,
+    "call": "right side",
+    "base_rate": 0.55,
+    "base_brier": 0.2025,
+    "market": null,
+    "market_brier": null,
+    "basis": "base rate",
+    "horizon": "1 day",
+    "lens_right": {
+     "game": false,
+     "leaders": true
+    },
+    "rivals": {
+     "gpt_v1": 0.3025,
+     "gpt_v2": 0.16
+    }
+   },
+   {
+    "id": "D1",
+    "question": "Xi and Putin hold a bilateral before the Thursday trilateral",
+    "first_forecast": 0.8807,
+    "first_at": "2026-11-18T01:29:08+00:00",
+    "outcome": 1,
+    "resolved_at": "2026-11-19T00:55:38+00:00",
+    "source": "Xinhua and China MFA (Nov 18): Xi met Putin in Shenzhen; Kremlin readout of Russia-China talks, Nov 18",
+    "brier": 0.0142,
+    "log_loss": 0.127,
+    "call": "right side",
+    "base_rate": 0.75,
+    "base_brier": 0.0625,
+    "market": null,
+    "market_brier": null,
+    "basis": "judgment prior",
+    "horizon": "1 day",
+    "lens_right": {
+     "game": true,
+     "leaders": true
+    },
+    "rivals": {}
+   },
+   {
+    "id": "D2",
+    "question": "Anthropic IPO prices on Nov 18 as scheduled (conflict of interest: Anthropic makes me)",
+    "first_forecast": 0.9082,
+    "first_at": "2026-11-18T01:29:08+00:00",
+    "outcome": 1,
+    "resolved_at": "2026-11-19T00:55:38+00:00",
+    "source": "AP and Fortune, Nov 18: Anthropic priced its IPO at $83 and said the offering was raised to 980 million shares (company statement); Nasdaq listing as ANT on Nov 19",
+    "brier": 0.0084,
+    "log_loss": 0.0963,
+    "call": "right side",
+    "base_rate": 0.88,
+    "base_brier": 0.0144,
+    "market": null,
+    "market_brier": null,
+    "basis": "judgment prior",
+    "horizon": "1 day",
+    "lens_right": {
+     "capital": true
+    },
+    "rivals": {}
+   }
+  ],
+  "lens_direction": [
+   {
+    "lens": "game",
+    "resolved_with_lens": 2,
+    "right": 1,
+    "wrong": 1,
+    "p_value_wrong": 0.75,
+    "status": "not enough resolutions"
+   },
+   {
+    "lens": "empire",
+    "resolved_with_lens": 0,
+    "right": 0,
+    "wrong": 0,
+    "p_value_wrong": null,
+    "status": "not enough resolutions"
+   },
+   {
+    "lens": "energy",
+    "resolved_with_lens": 1,
+    "right": 1,
+    "wrong": 0,
+    "p_value_wrong": 1.0,
+    "status": "not enough resolutions"
+   },
+   {
+    "lens": "capital",
+    "resolved_with_lens": 2,
+    "right": 2,
+    "wrong": 0,
+    "p_value_wrong": 1.0,
+    "status": "not enough resolutions"
+   },
+   {
+    "lens": "leaders",
+    "resolved_with_lens": 2,
+    "right": 2,
+    "wrong": 0,
+    "p_value_wrong": 1.0,
+    "status": "not enough resolutions"
+   }
+  ],
+  "calibration": [
+   {
+    "bin": "0-10%",
+    "n": 0,
+    "mean_forecast": null,
+    "observed": null,
+    "interval90": null,
+    "status": "not enough resolutions"
+   },
+   {
+    "bin": "10-30%",
+    "n": 0,
+    "mean_forecast": null,
+    "observed": null,
+    "interval90": null,
+    "status": "not enough resolutions"
+   },
+   {
+    "bin": "30-50%",
+    "n": 0,
+    "mean_forecast": null,
+    "observed": null,
+    "interval90": null,
+    "status": "not enough resolutions"
+   },
+   {
+    "bin": "50-70%",
+    "n": 1,
+    "mean_forecast": 0.5002,
+    "observed": 1.0,
+    "interval90": [
+     0.27,
+     1.0
+    ],
+    "status": "not enough resolutions"
+   },
+   {
+    "bin": "70-90%",
+    "n": 2,
+    "mean_forecast": 0.8526,
+    "observed": 1.0,
+    "interval90": [
+     0.425,
+     1.0
+    ],
+    "status": "not enough resolutions"
+   },
+   {
+    "bin": "90-100%",
+    "n": 1,
+    "mean_forecast": 0.9082,
+    "observed": 1.0,
+    "interval90": [
+     0.27,
+     1.0
+    ],
+    "status": "not enough resolutions"
+   }
+  ],
+  "by_basis": [
+   {
+    "basis": "base rate",
+    "n": 1,
+    "brier": 0.2498,
+    "base_rate_brier": 0.2025,
+    "status": "not enough resolutions"
+   },
+   {
+    "basis": "judgment prior",
+    "n": 3,
+    "brier": 0.0178,
+    "base_rate_brier": 0.0556,
+    "status": "not enough resolutions"
+   }
+  ],
+  "rivals": [
+   {
+    "rival": "gpt_v1",
+    "n": 1,
+    "rival_brier": 0.3025,
+    "model_brier": 0.2498
+   },
+   {
+    "rival": "gpt_v2",
+    "n": 1,
+    "rival_brier": 0.16,
+    "model_brier": 0.2498
+   }
+  ],
+  "missed": [
+   {
+    "date": "2026-09-30",
+    "kind": "not tracked",
+    "event": "US withdrawal from Iraq completed (Kurdistan Region, Sep 30, 2026)",
+    "model": "No question or watch item tracked US basing in the Gulf region; found while evaluating LT-05 on Nov 19.",
+    "action": "Recorded as LT-05 evidence; Gulf basing marked indeterminate until a permanent-basing count exists."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "model error found before resolution",
+    "event": "Nasdaq-100 already 13.5% below its record when Y6/Y7 were set",
+    "model": "Y6/Y7 base rates ignored the starting gap (Y7 50% -> 59%, Y6 28% -> 41% once fixed).",
+    "action": "Base rates counted on the resolution test from FRED; walk-forward history evidence added (v4.3)."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "model error found before resolution",
+    "event": "Polymarket quality gate passed shallow books",
+    "model": "Total pool liquidity counted as depth; most contracts had under $5,000 at the best quotes.",
+    "action": "Order-book gate adopted (v4.3); Y8 36.4% -> 38.3%."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "tension to test",
+    "event": "Hard data benign while Y8 sits above its market",
+    "model": "Y8 (recession within a year) 38.3% vs Polymarket 31.5%, while the real-time Sahm rule reads 0.00 (trigger 0.50), Q3 GDP +3.4% and October payrolls +165,000 (FRED).",
+    "action": "Queued: walk-forward test of a Sahm-conditioned and payroll-conditioned base rate for Y8 before any change."
+   }
+  ],
+  "errors_fixed": [
+   {
+    "area": "Factual errors in the model's own reasoning",
+    "severity": "high",
+    "status": "fixed in v4.0"
+   },
+   {
+    "area": "Nested questions drawn independently in the simulation",
+    "severity": "low",
+    "status": "fixed in v4.1"
+   },
+   {
+    "area": "Oil and recession tied only through supply shocks",
+    "severity": "medium",
+    "status": "fixed in v4.2"
+   },
+   {
+    "area": "Polymarket quality gate uses total liquidity",
+    "severity": "medium",
+    "status": "fixed in v4.3"
+   },
+   {
+    "area": "Root question had no settlement rule",
+    "severity": "high",
+    "status": "fixed in v4.2"
+   },
+   {
+    "area": "Rivals scored at the midpoint of a range",
+    "severity": "medium",
+    "status": "fixed in v4.0"
+   },
+   {
+    "area": "Lean against markets",
+    "severity": "high",
+    "status": "fixed in v3.8"
+   },
+   {
+    "area": "Broader event priced below a narrower market",
+    "severity": "high",
+    "status": "fixed in v3.8"
+   },
+   {
+    "area": "Simulation ignored market blend",
+    "severity": "medium",
+    "status": "fixed in v3.8"
+   },
+   {
+    "area": "Unverified inputs",
+    "severity": "medium",
+    "status": "fixed in v3.8"
+   },
+   {
+    "area": "Missing resolution rules and reasoning",
+    "severity": "high",
+    "status": "fixed in v3.8"
+   },
+   {
+    "area": "Run date fixed at Nov 17",
+    "severity": "medium",
+    "status": "fixed in v4.3"
+   },
+   {
+    "area": "Nasdaq base rates ignored where the index already is",
+    "severity": "high",
+    "status": "fixed in v4.3"
+   },
+   {
+    "area": "v4.2 history analogues were never tested out of sample",
+    "severity": "medium",
+    "status": "fixed in v4.3"
+   },
+   {
+    "area": "Dashboard source missing from the repository",
+    "severity": "low",
+    "status": "fixed in v4.3"
+   },
+   {
+    "area": "Version label on early v4.3 ledger records",
+    "severity": "low",
+    "status": "fixed (disclosed; the ledger is not rewritten)"
+   },
+   {
+    "area": "Nested Nasdaq questions in the simulation",
+    "severity": "low",
+    "status": "fixed in v4.3"
+   }
+  ],
+  "open_items": [
+   {
+    "area": "Track record",
+    "severity": "critical",
+    "status": "open"
+   },
+   {
+    "area": "Lens scores not named in the reasoning",
+    "severity": "low",
+    "status": "open"
+   },
+   {
+    "area": "No chronological calibration layer",
+    "severity": "medium",
+    "status": "open"
+   },
+   {
+    "area": "Hand-set constants",
+    "severity": "medium",
+    "status": "open (disclosed)"
+   },
+   {
+    "area": "Base rates without data",
+    "severity": "medium",
+    "status": "open"
+   },
+   {
+    "area": "One root event drives many forecasts",
+    "severity": "medium",
+    "status": "open (disclosed)"
+   }
+  ],
+  "candidates": [
+   {
+    "item": "Queued: walk-forward test of a Sahm-conditioned and payroll-conditioned base rate for Y8 before any change.",
+    "source": "missed: Hard data benign while Y8 sits above its market"
+   }
+  ],
+  "rules": "lens direction   a lens is flagged when it has pushed the wrong way on at least 10 resolved questions AND a\n                   one-sided binomial test against 50% gives p < 0.10\n  calibration      a probability bin is flagged when it holds at least 10 resolved forecasts and the observed\n                   frequency lies outside the bin's 90% Wilson interval\n  basis            a basis (market-anchored, base rate, judgment prior, judgment-heavy) is flagged when its mean\n                   Brier is worse than its own base rates' mean Brier on at least 10 resolved questions"
  },
  "guide": {
   "title": "User guide",
@@ -3195,7 +4017,7 @@
   ],
   "playbook": {
    "intro": "Phase 4 documents (ChatGPT and Gemini for the US 2026-2035, and Gemini's global 2026-2051 version, Nov 19) set out how five parts of US society might adapt over 2026-2035. Shown as the documents' judgment: not scored by this model, not fitted to data, and not personal or investment advice. Each tier lists the live questions its strategy depends on, with the model's current number.",
-   "outlooks": "The documents' ten-year splits differ (ChatGPT: renewal 26%, managed decline 43%, transformation 26%, breakdown 5%; Gemini: 19%, 42%, 31%, 8%). Neither is estimated from data; the Gemini document calls its own 'empirical', which it is not.",
+   "outlooks": "The documents' ten-year splits differ (ChatGPT first version: renewal 26%, managed decline 43%, transformation 26%, breakdown 5%, revised on Nov 19 to 24%, 43%, 14% technological leap, 19% hard reset; Gemini: 19%, 42%, 31%, 8%). Neither is estimated from data; the Gemini document calls its own 'empirical', which it is not.",
    "thesis": "ChatGPT's central argument: the deciding variable between managed decline and renewal is whether the gains from technological and industrial adaptation are shared widely enough to keep institutions legitimate.",
    "tiers": [
     {
@@ -3476,6 +4298,21 @@
      "amplifier": null
     },
     {
+     "pair": "Capital vs professionals",
+     "mechanism": "AI adoption, outsourcing and fewer management layers vs professional employment and status",
+     "parallel": "Meiji occupational restructuring",
+     "flashpoint": "AI adoption, reduced management layers",
+     "priority": "",
+     "questions": "Y18",
+     "linked": [
+      {
+       "id": "Y18",
+       "forecast": 0.646
+      }
+     ],
+     "amplifier": null
+    },
+    {
      "pair": "State vs regional institutions",
      "mechanism": "Federal allocation vs local fiscal autonomy",
      "parallel": "Late Qing provincial devolution",
@@ -3486,7 +4323,134 @@
      "amplifier": null
     }
    ],
-   "global_note": "The global document (Gemini, 2026-2051) adds a third version of each tier's move and hedge and a core-periphery amplifier for each collision. Its 25-year split (fragmentation 46%, hard reset 24%, renewal 18%, leap 12%) is judgment. Its case numbers are cross-referenced wrongly in places (Byzantium is cited as #03 and the Dutch merchants as #09), and it repeats the unverified 20% Dutch-trade and 'doubled real wages' figures."
+   "global_note": "The global document (Gemini, 2026-2051) adds a third version of each tier's move and hedge and a core-periphery amplifier for each collision. Its 25-year split (fragmentation 46%, hard reset 24%, renewal 18%, leap 12%) is judgment. Its case numbers are cross-referenced wrongly in places (Byzantium is cited as #03 and the Dutch merchants as #09), and it repeats the unverified 20% Dutch-trade and 'doubled real wages' figures.",
+   "concessions": [
+    {
+     "stabilizing": "Predictable tax reform",
+     "dangerous": "Arbitrary confiscation"
+    },
+    {
+     "stabilizing": "Transparent public procurement",
+     "dangerous": "Selective distribution of contracts"
+    },
+    {
+     "stabilizing": "Lawful decentralization",
+     "dangerous": "Abandoning national responsibility"
+    },
+    {
+     "stabilizing": "Professional administrative independence",
+     "dangerous": "Politicized enforcement"
+    },
+    {
+     "stabilizing": "Credible social and infrastructure commitments",
+     "dangerous": "Unfunded permanent obligations"
+    },
+    {
+     "stabilizing": "Constitutional limits on emergency powers",
+     "dangerous": "Normalizing exceptional powers"
+    }
+   ],
+   "geo_effects": [
+    {
+     "development": "Secure access to cheap energy and minerals",
+     "winners": "Industry, workers, consumers",
+     "losers": "Competing suppliers, some incumbents",
+     "net": "Relieves cost pressure",
+     "questions": "Y4",
+     "linked": [
+      {
+       "id": "Y4",
+       "forecast": 0.601
+      }
+     ]
+    },
+    {
+     "development": "Critical-mineral export restrictions",
+     "winners": "Domestic alternative producers",
+     "losers": "Import-dependent manufacturers",
+     "net": "Raises inflation and industrial pressure",
+     "questions": "Y11",
+     "linked": [
+      {
+       "id": "Y11",
+       "forecast": 0.03
+      }
+     ]
+    },
+    {
+     "development": "Reshoring of manufacturing",
+     "winners": "Industrial workers, regions, equipment suppliers",
+     "losers": "Import-dependent firms, consumers",
+     "net": "Can improve resilience",
+     "questions": "",
+     "linked": []
+    },
+    {
+     "development": "High defence procurement",
+     "winners": "Defence contractors, specialized workers",
+     "losers": "Taxpayers, competing budgets",
+     "net": "Some capacity gains, fiscal trade-offs",
+     "questions": "Y16",
+     "linked": [
+      {
+       "id": "Y16",
+       "forecast": 0.625
+      }
+     ]
+    },
+    {
+     "development": "Global shipping disruption",
+     "winners": "Alternative producers, some transport operators",
+     "losers": "Import-dependent firms, low-income households",
+     "net": "Amplifies inflation and regional inequality",
+     "questions": "M10, Y3",
+     "linked": [
+      {
+       "id": "M10",
+       "forecast": 0.029
+      },
+      {
+       "id": "Y3",
+       "forecast": 0.521
+      }
+     ]
+    },
+    {
+     "development": "International financial fragmentation",
+     "winners": "Some domestic producers, alternative payment networks",
+     "losers": "Leveraged businesses, international investors",
+     "net": "Raises transaction and financing costs",
+     "questions": "Y16",
+     "linked": [
+      {
+       "id": "Y16",
+       "forecast": 0.625
+      }
+     ]
+    },
+    {
+     "development": "Broader technology diffusion",
+     "winners": "Smaller businesses, technical workers",
+     "losers": "Firms relying on protected knowledge",
+     "net": "Can broaden productivity",
+     "questions": "Y18",
+     "linked": [
+      {
+       "id": "Y18",
+       "forecast": 0.646
+      }
+     ]
+    },
+    {
+     "development": "More regional migration",
+     "winners": "Expanding labour markets, receiving communities",
+     "losers": "Housing-constrained local governments, low-income residents",
+     "net": "Gains plus local pressure",
+     "questions": "",
+     "linked": []
+    }
+   ],
+   "stage_note": "ChatGPT's closing measure: resilience is the speed at which displaced resources, people, capital and institutions enter new productive arrangements before the old ones become unrecoverable, i.e. the gap between nominal resources and usable capacity. The model tracks that gap through the interconnection queue, transformer prices, state and local distress and productivity (History tab)."
   },
   "disclaimer": "Forecasts are probabilities, not certainties. The playbook is the documents' judgment. Nothing here is investment, legal or personal financial advice."
  },
