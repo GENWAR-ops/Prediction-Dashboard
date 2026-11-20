@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T17:31:22+00:00",
+ "generated_at": "2026-11-20T18:00:30+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -9,9 +9,7 @@
   "questions": 90,
   "resolved": 5,
   "open": 85,
-  "moved_1pt_or_more": [
-   "K01"
-  ]
+  "moved_1pt_or_more": []
  },
  "forecasts": [
   {
@@ -3679,8 +3677,8 @@
    "outcome": null,
    "reasoning": "Rule-based base rate from the KEV feed; no lens adjustment. AI-assisted discovery has roughly doubled published CVEs in 2026, but exploitation evidence, which KEV requires, has not risen in step.",
    "resolve_rule": "Count of entries in the CISA KEV catalog JSON (known_exploited_vulnerabilities.json, as read on or after Jan 5, 2027) whose dateAdded falls in December 2026 is 20 or more.",
-   "previous_forecast": 0.692,
-   "change_points": -3.5,
+   "previous_forecast": 0.657,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-20 03:11",
