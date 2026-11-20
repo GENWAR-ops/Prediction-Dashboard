@@ -1,14 +1,14 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T01:26:38+00:00",
+ "generated_at": "2026-11-20T01:52:46+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
  "note": "Probabilities are 0-1. range_low/high is the model's own judgment range. change_points compares with the previously published feed. Not investment advice.",
  "summary": {
-  "questions": 79,
+  "questions": 86,
   "resolved": 5,
-  "open": 74,
+  "open": 81,
   "moved_1pt_or_more": []
  },
  "forecasts": [
@@ -3385,6 +3385,188 @@
    ]
   },
   {
+   "id": "U01",
+   "horizon": "1 year",
+   "resolves_by": "2027-03-31",
+   "question": "Germany raises its gas emergency plan to the alarm level (or higher) by Mar 31, 2027",
+   "forecast": 0.177,
+   "range_low": 0.116,
+   "range_high": 0.262,
+   "base_rate": 0.15,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Energy +0.5: the supply buffer is thinner than in any winter since the plan's 2022 activation and the Russian LNG ban removes a flexible source mid-winter. Leaders -0.3: the ministry and the Bundesnetzagentur have repeatedly called the risk low, and the alarm level is politically costly because it signals scarcity and lifts prices.",
+   "resolve_rule": "The German Federal Ministry for Economic Affairs and Energy (BMWE) declares the alarm level (Alarmstufe) or the emergency level (Notfallstufe) of the Notfallplan Gas between Nov 20, 2026 and Mar 31, 2027 (ministry or Bundesnetzagentur announcement).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.1773,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "U02",
+   "horizon": "1 year",
+   "resolves_by": "2027-03-31",
+   "question": "Iraq's parliament passes a 2027 federal budget law by Mar 31, 2027",
+   "forecast": 0.328,
+   "range_low": 0.237,
+   "range_high": 0.433,
+   "base_rate": 0.35,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Leaders -0.3: the Kurdistan-share dispute already delayed the cabinet vote and the PUK has said it will not back the draft. Game +0.2: a third year without a budget would block the IMF programme Baghdad asked for, which raises the cost of further delay.",
+   "resolve_rule": "Iraq's Council of Representatives votes to approve a federal budget law covering 2027 between Nov 20, 2026 and Mar 31, 2027 (parliament announcement or Iraqi News Agency, Shafaq, Rudaw or Reuters report of the final vote). A first reading does not count.",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.3276,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "U03",
+   "horizon": "1 year",
+   "resolves_by": "2027-09-30",
+   "question": "Iraq devalues the dinar again: official rate weaker than 1,500 per dollar by Sep 30, 2027",
+   "forecast": 0.184,
+   "range_low": 0.126,
+   "range_high": 0.262,
+   "base_rate": 0.2,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Capital +0.4: an IMF programme and a deficit above 40 trillion dinars push toward more devaluation. Energy -0.3: Basra exports had recovered to about 75% of pre-war by October and oil prices are higher, which lifts dinar revenue. Leaders -0.2: MPs pushed back hard against the October move.",
+   "resolve_rule": "The Central Bank of Iraq's official rate (the Finance Ministry purchase rate set on Oct 7, 2026 at 1,500 dinars per dollar) is set weaker than 1,500 dinars per dollar at any time between Nov 20, 2026 and Sep 30, 2027 (CBI or cabinet decision, or Reuters/AFP report).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.1845,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "U04",
+   "horizon": "1 year",
+   "resolves_by": "2027-07-31",
+   "question": "FAO Food Price Index reaches 140 or more in any month from November 2026 to June 2027",
+   "forecast": 0.216,
+   "range_low": 0.15,
+   "range_high": 0.302,
+   "base_rate": 0.2,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Energy +0.3: fertilizer costs feed into 2027 crop yields with a lag. Capital -0.2: the cereal and dairy sub-indices were falling in October (cereals -4.5% on the month).",
+   "resolve_rule": "The FAO Food Price Index (2014-2016 = 100), as first published for any month from November 2026 to June 2027, is 140.0 or higher (FAO release; publications through Jul 31, 2027).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.2165,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "U05",
+   "horizon": "1 year",
+   "resolves_by": "2027-07-31",
+   "question": "World Bank DAP fertilizer price reaches $850 per tonne in any month from October 2026 to June 2027",
+   "forecast": 0.3,
+   "range_low": 0.223,
+   "range_high": 0.39,
+   "base_rate": 0.3,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Energy +0.3: sulfur and Gulf phosphate supply remain cut while Hormuz is restricted. Game -0.3: the World Bank, NDSU and CRU all expect phosphate to ease in 2027 as Ma'aden and OCP expand, and demand destruction was already visible this autumn.",
+   "resolve_rule": "The World Bank Pink Sheet monthly DAP price (f.o.b. US Gulf, $/mt), as published for any month from October 2026 to June 2027, is 850 or higher (Pink Sheets published through Jul 31, 2027).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.3,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "U06",
+   "horizon": "1 year",
+   "resolves_by": "2027-03-31",
+   "question": "China issues its revised technology-export catalogue, with AI chip design entries, by Mar 31, 2027",
+   "forecast": 0.373,
+   "range_low": 0.275,
+   "range_high": 0.483,
+   "base_rate": 0.35,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Game +0.3: issuing an already-drafted catalogue is a low-cost countermeasure that fits MOFCOM's Nov 17 threat. Leaders -0.2: the truce running to Jan 10 and temporary registration already in force reduce the urgency to finalize.",
+   "resolve_rule": "MOFCOM (with MOST) formally issues the revised Catalogue of Technologies Prohibited or Restricted from Export, including at least one AI chip design technology entry, between Nov 20, 2026 and Mar 31, 2027 (MOFCOM announcement).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.3731,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "U07",
+   "horizon": "1 year",
+   "resolves_by": "2027-04-30",
+   "question": "EU gas storage falls below 20% full on any day by Apr 30, 2027",
+   "forecast": 0.397,
+   "range_low": 0.285,
+   "range_high": 0.52,
+   "base_rate": 0.35,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Energy +0.2: the Russian LNG ban removes supply partway through the winter on top of the Qatari shortfall.",
+   "resolve_rule": "Gas Infrastructure Europe AGSI+ EU aggregate storage is below 20.00% full on any gas day from Nov 20, 2026 to Apr 30, 2027 (AGSI+ data as published by May 15, 2027).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 01:52",
+     "p": 0.3967,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
    "id": "M9",
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
@@ -5481,12 +5663,12 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T01:17:41+00:00",
-  "flaws": 0,
+  "at": "2026-11-20T01:51:27+00:00",
+  "flaws": 2,
   "checks": [
    {
     "area": "tests",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "ledger chain",
@@ -5513,12 +5695,16 @@
     "status": "ok"
    },
    {
+    "area": "unasked questions",
+    "status": "ok"
+   },
+   {
     "area": "bounds",
     "status": "ok"
    },
    {
     "area": "methods frozen",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "definitions frozen",
@@ -5605,6 +5791,210 @@
     "n": 0
    },
    "note": "Each baseline uses the value recorded with the question's first forecast (base rates frozen from Nov 19; earlier ones use the question's stated base). Negative model_minus_baseline means the model beat that baseline. Open questions show all three numbers in the table below until they resolve."
+  },
+  "divergence": {
+   "threshold": 0.1,
+   "resolved": {
+    "n": 0,
+    "model_brier": null,
+    "market_brier": null,
+    "model_better": 0,
+    "market_better": 0,
+    "ids": []
+   },
+   "open": [
+    {
+     "id": "Y9",
+     "question": "Russia-Ukraine general ceasefire in effect",
+     "model": 0.0844,
+     "market": 0.4122,
+     "gap": -0.3278,
+     "by": "2027-11-17"
+    },
+    {
+     "id": "S05",
+     "question": "November core CPI inflation is 3.0% or higher on the year",
+     "model": 0.435,
+     "market": 0.267,
+     "gap": 0.168,
+     "by": "2026-12-10"
+    },
+    {
+     "id": "Y12",
+     "question": "House impeaches Hegseth, or he leaves office",
+     "model": 0.7149,
+     "market": 0.55,
+     "gap": 0.1649,
+     "by": "2027-11-17"
+    },
+    {
+     "id": "S04",
+     "question": "November headline CPI is flat or falls on the month (0.0% or lower)",
+     "model": 0.667,
+     "market": 0.83,
+     "gap": -0.163,
+     "by": "2026-12-10"
+    },
+    {
+     "id": "S02",
+     "question": "November payrolls rise by 100,000 or more (first print, Dec 4)",
+     "model": 0.333,
+     "market": 0.435,
+     "gap": -0.102,
+     "by": "2026-12-04"
+    }
+   ],
+   "note": "Scored on the first forecast and the market price recorded with it. Agreement with a market cannot show skill; these questions are where the lenses claim an edge, so this table is the test of that claim."
+  },
+  "foresight": {
+   "registered": 7,
+   "open": 7,
+   "resolved": 0,
+   "hits": 0,
+   "brier": null,
+   "base_rate_brier": null,
+   "median_lead_days": null,
+   "by_grade": {
+    "none": 2,
+    "partial": 5
+   },
+   "rows": [
+    {
+     "id": "U01",
+     "question": "Germany raises its gas emergency plan to the alarm level (or higher) by Mar 31, 2027",
+     "registered": "2026-11-20",
+     "by": "2027-03-31",
+     "model": 0.1773,
+     "base": 0.15,
+     "grade": "none",
+     "markets": "No prediction-market contract on Germany's gas emergency levels found (web search of Polymarket and Kalshi listings).",
+     "coverage": "German press explained the alarm level during the February 2026 storage low and rejected social-media claims that it had been declared; no outlet found forecasting a declaration this winter.",
+     "chain": [
+      "Qatar's LNG largely off the market since early March 2026",
+      "EU storage entered winter at its lowest in more than a decade (74.6% on Nov 1); German storage 57.7% on Sep 29",
+      "EU ban on Russian LNG takes effect Jan 1, 2027; INES projects a 20 TWh German deficit in a cold Jan-Mar 2027",
+      "A cold spell forces the ministry to escalate the emergency plan"
+     ],
+     "lead": null,
+     "outcome": null
+    },
+    {
+     "id": "U02",
+     "question": "Iraq's parliament passes a 2027 federal budget law by Mar 31, 2027",
+     "registered": "2026-11-20",
+     "by": "2027-03-31",
+     "model": 0.3276,
+     "base": 0.35,
+     "grade": "partial",
+     "markets": "No contract on Iraq's budget found; Polymarket's Iraq listings found in search are security and sports markets.",
+     "coverage": "Iraqi outlets (Shafaq, Rudaw, Kurdistan 24) report the timetable and say the budget could pass before end-2026 if blocs agree; no major international outlet found making a call on passage.",
+     "chain": [
+      "Hormuz closure cut Basra exports and revenue; Iraq devalued the dinar on Oct 7",
+      "The 2027 draft (217 trillion dinars of spending, a deficit above 40 trillion) depends on Kurdistan's share and Rafha compensation",
+      "The PUK bloc said it will not vote for the draft in its current form",
+      "An IMF programme, which Iraq requested in October, would push for an approved budget"
+     ],
+     "lead": null,
+     "outcome": null
+    },
+    {
+     "id": "U03",
+     "question": "Iraq devalues the dinar again: official rate weaker than 1,500 per dollar by Sep 30, 2027",
+     "registered": "2026-11-20",
+     "by": "2027-09-30",
+     "model": 0.1845,
+     "base": 0.2,
+     "grade": "partial",
+     "markets": "No contract on the dinar's official rate found (Polymarket's Iraq listings found in search are security and sports markets).",
+     "coverage": "One bank economist (Standard Chartered, via Asharq Bloomberg) called another adjustment an option; no major outlet found forecasting it.",
+     "chain": [
+      "Oil revenue collapse forced the Oct 7 devaluation to 1,500",
+      "Iraq has requested an IMF programme (Georgieva, Oct 17); a programme would likely press for exchange-rate flexibility",
+      "Standard Chartered said another adjustment could be an option over 6-12 months, depending on oil revenue and reserves",
+      "If Hormuz stays restricted, the 40-trillion-dinar deficit is financed by another devaluation"
+     ],
+     "lead": null,
+     "outcome": null
+    },
+    {
+     "id": "U04",
+     "question": "FAO Food Price Index reaches 140 or more in any month from November 2026 to June 2027",
+     "registered": "2026-11-20",
+     "by": "2027-07-31",
+     "model": 0.2165,
+     "base": 0.2,
+     "grade": "none",
+     "markets": "No contract on the FAO index found in a web search of Polymarket and Kalshi economics listings.",
+     "coverage": "Monthly FAO releases are reported, but no outlet found forecasting a return above 140.",
+     "chain": [
+      "Hormuz carried roughly 43% of traded urea and 44% of seaborne sulfur",
+      "Urea eased by mid-2026 but phosphate stayed high (DAP $800.6/t in September, highest since May 2022) as sulfur topped $1,000/t",
+      "Kpler: the acreage hit from 2026 fertilizer prices is locked in and limits yields into 2027",
+      "Lower 2027 yields lift cereal and oilseed prices through the index"
+     ],
+     "lead": null,
+     "outcome": null
+    },
+    {
+     "id": "U05",
+     "question": "World Bank DAP fertilizer price reaches $850 per tonne in any month from October 2026 to June 2027",
+     "registered": "2026-11-20",
+     "by": "2027-07-31",
+     "model": 0.3,
+     "base": 0.3,
+     "grade": "partial",
+     "markets": "No fertilizer-price contract found in a web search of Polymarket and Kalshi listings.",
+     "coverage": "Annual-average DAP forecasts for 2027 are published (World Bank, NDSU, Fitch), all lower; no outlet found calling a new high above $850.",
+     "chain": [
+      "Hormuz blocked Ma'aden's Ras Al-Khair, the largest phosphate export facility, and Gulf sulfur",
+      "Russia banned sulfur exports; sulfur topped $1,000/t",
+      "CoBank: global phosphate capacity forecast 13% below pre-crisis",
+      "DAP rises again through the 2027 northern-hemisphere buying season"
+     ],
+     "lead": null,
+     "outcome": null
+    },
+    {
+     "id": "U06",
+     "question": "China issues its revised technology-export catalogue, with AI chip design entries, by Mar 31, 2027",
+     "registered": "2026-11-20",
+     "by": "2027-03-31",
+     "model": 0.3731,
+     "base": 0.35,
+     "grade": "partial",
+     "markets": "No contract on China's technology-export catalogue found; the related markets found concern US export licensing.",
+     "coverage": "Law firms and trade press covered the draft and the consultation; no outlet found forecasting when it will be issued.",
+     "chain": [
+      "US BIS remote-access rule on Nov 16",
+      "MOFCOM vowed countermeasures on Nov 17",
+      "The catalogue revision is a ready instrument that needs no new law and whose comment period has closed",
+      "Beijing issues it as a calibrated response while keeping the Jan 10 truce"
+     ],
+     "lead": null,
+     "outcome": null
+    },
+    {
+     "id": "U07",
+     "question": "EU gas storage falls below 20% full on any day by Apr 30, 2027",
+     "registered": "2026-11-20",
+     "by": "2027-04-30",
+     "model": 0.3967,
+     "base": 0.35,
+     "grade": "partial",
+     "markets": "No contract on EU gas storage found in a web search of Polymarket and Kalshi economics listings.",
+     "coverage": "ENTSOG and analysts publish end-of-winter scenarios (baseline about 30%, tight case about 13%); no outlet found making a call on the 20% line.",
+     "chain": [
+      "Qatar's LNG largely lost; Asia outbidding Europe for cargoes",
+      "Storage entered winter at its lowest level since 2013",
+      "EU ban on Russian LNG from Jan 1, 2027",
+      "An average or cold winter draws storage below 20%"
+     ],
+     "lead": null,
+     "outcome": null
+    }
+   ],
+   "reviews": [],
+   "note": "Predictions about events nobody was asking about when registered: no market, and no major international outlet making the call. Scored apart from the agenda questions. Lead time is days from registration to the first major-outlet report that the event is likely or under way, filled in at resolution from a dated source."
   },
   "open_three_way": [
    {
@@ -6254,6 +6644,69 @@
     "market": null,
     "market_blended": false,
     "by": "2027-09-30"
+   },
+   {
+    "id": "U01",
+    "question": "Germany raises its gas emergency plan to the alarm level (or higher) by Mar 31, 2027",
+    "model": 0.1773,
+    "base": 0.15,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-03-31"
+   },
+   {
+    "id": "U02",
+    "question": "Iraq's parliament passes a 2027 federal budget law by Mar 31, 2027",
+    "model": 0.3276,
+    "base": 0.35,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-03-31"
+   },
+   {
+    "id": "U03",
+    "question": "Iraq devalues the dinar again: official rate weaker than 1,500 per dollar by Sep 30, 2027",
+    "model": 0.1845,
+    "base": 0.2,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-09-30"
+   },
+   {
+    "id": "U04",
+    "question": "FAO Food Price Index reaches 140 or more in any month from November 2026 to June 2027",
+    "model": 0.2165,
+    "base": 0.2,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-07-31"
+   },
+   {
+    "id": "U05",
+    "question": "World Bank DAP fertilizer price reaches $850 per tonne in any month from October 2026 to June 2027",
+    "model": 0.3,
+    "base": 0.3,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-07-31"
+   },
+   {
+    "id": "U06",
+    "question": "China issues its revised technology-export catalogue, with AI chip design entries, by Mar 31, 2027",
+    "model": 0.3731,
+    "base": 0.35,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-03-31"
+   },
+   {
+    "id": "U07",
+    "question": "EU gas storage falls below 20% full on any day by Apr 30, 2027",
+    "model": 0.3967,
+    "base": 0.35,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-04-30"
    },
    {
     "id": "M9",
