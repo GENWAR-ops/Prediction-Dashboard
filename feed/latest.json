@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T01:17:35+00:00",
+ "generated_at": "2026-11-20T01:26:38+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -1632,7 +1632,7 @@
    "id": "Y3",
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
-   "question": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+   "question": "Hormuz transits back to 75%+ of the pre-war (2025) average under an Iranian, Omani or Gulf-backed fee or coordination regime",
    "forecast": 0.512,
    "range_low": 0.281,
    "range_high": 0.738,
@@ -2035,7 +2035,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Leaders -0.6: Xi's purge of PLA leadership and a US-China summit this week argue against near-term force. Empire +0.5: the 2027 PLA centenary and US overstretch in the Gulf. Edge versus the market: see edge.",
-   "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins between Nov 18, 2026 and Nov 17, 2027.",
+   "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins between Nov 18, 2026 and Nov 17, 2027. A blockade or quarantine counts only if it stops, turns back or inspects actual civilian shipping or flights bound for that territory; an exercise that only simulates one does not count.",
    "previous_forecast": 0.047,
    "change_points": 0.0,
    "trend": [
@@ -2447,7 +2447,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Capital, empire and game: China has cut reported Treasury holdings in most years since 2014 and has more reason to now.",
-   "resolve_rule": "The latest Treasury TIC release on Nov 17, 2027 shows China's (mainland) holdings below the same month a year earlier.",
+   "resolve_rule": "The latest Treasury TIC release published on or before Nov 17, 2027 shows China's (mainland) holdings, for the latest month in that release, below the same month a year earlier.",
    "previous_forecast": 0.864,
    "change_points": 0.0,
    "trend": [
@@ -2488,7 +2488,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Sharpened from Author A's 'AI investment shifts toward power'. Capital +0.2: AI-issuer bond spreads are already wider than the market, which gives cover to defer projects.",
-   "resolve_rule": "Two or more of Amazon, Microsoft, Google, Meta and Oracle (or their development partners) publicly delay, cancel or relocate a 1 GW+ campus citing power, between Nov 18, 2026 and Nov 17, 2027.",
+   "resolve_rule": "Two or more of Amazon, Microsoft, Google, Meta and Oracle (or their development partners) publicly delay, cancel or relocate a 1 GW+ campus citing power, between Nov 18, 2026 and Nov 17, 2027. 1 GW means the announced total planned capacity of the campus (all phases of one site together). Two different campuses are needed; several announcements about one campus count once; an announcement by a partner counts for the provider it builds for.",
    "previous_forecast": 0.646,
    "change_points": 0.0,
    "trend": [
@@ -3052,7 +3052,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Broader than Y18 (one company, partners count, permitting counts) but adds the six-month and explicit-citation requirements. Supporting evidence (v3.4): Goldman Sachs Research (May 2026) expects only 50-60% of data-center capacity scheduled for the next one to two years to come online on time.",
-   "resolve_rule": "Company statement, filing or on-record executive comment that names power, grid or permitting, between Nov 18, 2026 and Nov 17, 2027.",
+   "resolve_rule": "Company statement, filing or on-record executive comment that names power, grid or permitting, between Nov 18, 2026 and Nov 17, 2027. 1 GW means the campus's announced total planned capacity (all phases of one site together); the delay must be 6 months or more against the date previously given, or be stated as such.",
    "previous_forecast": 0.839,
    "change_points": 0.0,
    "trend": [
@@ -3860,7 +3860,7 @@
     {
      "kind": "forecast",
      "id": "Y3",
-     "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+     "label": "Hormuz transits back to 75%+ of the pre-war (2025) average under an Iranian, Omani or Gulf-backed fee or coordination regime",
      "value": 0.512
     },
     {
@@ -4132,7 +4132,7 @@
     {
      "kind": "forecast",
      "id": "Y3",
-     "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+     "label": "Hormuz transits back to 75%+ of the pre-war (2025) average under an Iranian, Omani or Gulf-backed fee or coordination regime",
      "value": 0.512
     }
    ],
@@ -4188,7 +4188,7 @@
     {
      "kind": "forecast",
      "id": "Y3",
-     "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+     "label": "Hormuz transits back to 75%+ of the pre-war (2025) average under an Iranian, Omani or Gulf-backed fee or coordination regime",
      "value": 0.512
     }
    ],
@@ -5481,7 +5481,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T01:08:49+00:00",
+  "at": "2026-11-20T01:17:41+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -5942,7 +5942,7 @@
    },
    {
     "id": "Y3",
-    "question": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
+    "question": "Hormuz transits back to 75%+ of the pre-war (2025) average under an Iranian, Omani or Gulf-backed fee or coordination regime",
     "model": 0.5119,
     "base": 0.3,
     "market": null,
