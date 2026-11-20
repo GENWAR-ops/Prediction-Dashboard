@@ -1,14 +1,14 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T02:12:28+00:00",
+ "generated_at": "2026-11-20T03:11:35+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
  "note": "Probabilities are 0-1. range_low/high is the model's own judgment range. change_points compares with the previously published feed. Not investment advice.",
  "summary": {
-  "questions": 86,
+  "questions": 89,
   "resolved": 5,
-  "open": 81,
+  "open": 84,
   "moved_1pt_or_more": []
  },
  "forecasts": [
@@ -3577,6 +3577,84 @@
    ]
   },
   {
+   "id": "K01",
+   "horizon": "1 month",
+   "resolves_by": "2027-01-05",
+   "question": "CISA adds 20 or more vulnerabilities to its Known Exploited Vulnerabilities catalog in December 2026",
+   "forecast": 0.6,
+   "range_low": 0.501,
+   "range_high": 0.691,
+   "base_rate": 0.6,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Rule-based base rate from the KEV feed; no lens adjustment. AI-assisted discovery has roughly doubled published CVEs in 2026, but exploitation evidence, which KEV requires, has not risen in step.",
+   "resolve_rule": "Count of entries in the CISA KEV catalog JSON (known_exploited_vulnerabilities.json, as read on or after Jan 5, 2027) whose dateAdded falls in December 2026 is 20 or more.",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 03:11",
+     "p": 0.6,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "K02",
+   "horizon": "1 month",
+   "resolves_by": "2027-01-31",
+   "question": "Ransomware leak sites list 900 or more victims in December 2026 (Breachsense count)",
+   "forecast": 0.375,
+   "range_low": 0.287,
+   "range_high": 0.472,
+   "base_rate": 0.375,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Rule-based base rate from Breachsense's own monthly series. Other trackers count higher (October 2026: 953 here, 1,072-1,178 elsewhere), so only this tracker is used.",
+   "resolve_rule": "Breachsense's monthly ransomware report for December 2026 lists 900 or more victim companies on ransomware leak sites (report as first published, by Jan 31, 2027).",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 03:11",
+     "p": 0.375,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
+   "id": "K03",
+   "horizon": "1 year",
+   "resolves_by": "2027-03-31",
+   "question": "New or updated US joint cyber advisory reports Iran-linked disruption of US critical infrastructure by Mar 31, 2027",
+   "forecast": 0.507,
+   "range_low": 0.41,
+   "range_high": 0.604,
+   "base_rate": 0.464,
+   "market": null,
+   "market_source": "",
+   "basis": "base rate",
+   "status": "open",
+   "outcome": null,
+   "reasoning": "Event-rate rule from the register: two qualifying advisories since the war began (AA26-097A on Apr 7 and its Jul 22 update). Escalation shift +0.6: if large-scale US strikes resume, Iranian cyber retaliation and a further advisory become more likely.",
+   "resolve_rule": "A new joint cybersecurity advisory, or an update to an existing one, by CISA, the FBI, NSA or partner agencies, published between Nov 20, 2026 and Mar 31, 2027, reports disruptive or destructive cyber activity against US critical infrastructure attributed to Iran-linked actors. A general warning that Iranian actors may target US networks, with no reported disruption, does not count.",
+   "previous_forecast": null,
+   "change_points": null,
+   "trend": [
+    {
+     "t": "2026-11-20 03:11",
+     "p": 0.5073,
+     "model": "v4.3"
+    }
+   ]
+  },
+  {
    "id": "M9",
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
@@ -5678,12 +5756,12 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T02:07:57+00:00",
-  "flaws": 0,
+  "at": "2026-11-20T03:10:09+00:00",
+  "flaws": 1,
   "checks": [
    {
     "area": "tests",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "ledger chain",
@@ -5711,6 +5789,10 @@
    },
    {
     "area": "unasked questions",
+    "status": "ok"
+   },
+   {
+    "area": "cyber register",
     "status": "ok"
    },
    {
@@ -6714,6 +6796,33 @@
     "market": null,
     "market_blended": false,
     "by": "2027-04-30"
+   },
+   {
+    "id": "K01",
+    "question": "CISA adds 20 or more vulnerabilities to its Known Exploited Vulnerabilities catalog in December 2026",
+    "model": 0.6,
+    "base": 0.6,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-01-05"
+   },
+   {
+    "id": "K02",
+    "question": "Ransomware leak sites list 900 or more victims in December 2026 (Breachsense count)",
+    "model": 0.375,
+    "base": 0.375,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-01-31"
+   },
+   {
+    "id": "K03",
+    "question": "New or updated US joint cyber advisory reports Iran-linked disruption of US critical infrastructure by Mar 31, 2027",
+    "model": 0.5073,
+    "base": 0.464,
+    "market": null,
+    "market_blended": false,
+    "by": "2027-03-31"
    },
    {
     "id": "M9",
