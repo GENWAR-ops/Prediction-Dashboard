@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T10:16:40+00:00",
+ "generated_at": "2026-11-20T10:30:16+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -9,9 +9,7 @@
   "questions": 89,
   "resolved": 5,
   "open": 84,
-  "moved_1pt_or_more": [
-   "Y14"
-  ]
+  "moved_1pt_or_more": []
  },
  "forecasts": [
   {
@@ -303,8 +301,8 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": 0.969,
-   "change_points": -0.3,
+   "previous_forecast": 0.966,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2165,8 +2163,8 @@
    "outcome": null,
    "reasoning": "Leaders +0.8: Democrats take the House in January and Jeffries has backed impeaching Hegseth; on Nov 10 the lame-duck House voted 211-204 to send Massie's eight articles to committee, with 11 Democrats absent, and Democrats say they will try again. Game +0.4: removing a cabinet member is cheaper than impeaching the president; Mayorkas (2024) was impeached on a second vote. Markets: impeached by Jun 30, 2027 at 65.5% (thin, about $1.9k liquidity); out as Defense Secretary by Dec 31 at 15.5%.",
    "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.715,
-   "change_points": -0.1,
+   "previous_forecast": 0.714,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2282,8 +2280,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.726,
-   "change_points": 1.0,
+   "previous_forecast": 0.736,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -5808,8 +5806,8 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T05:45:31+00:00",
-  "flaws": 0,
+  "at": "2026-11-20T10:28:50+00:00",
+  "flaws": 1,
   "checks": [
    {
     "area": "tests",
@@ -5882,6 +5880,10 @@
    {
     "area": "FRED observation dates",
     "status": "ok"
+   },
+   {
+    "area": "published data",
+    "status": "flaw"
    },
    {
     "area": "overdue resolutions",
