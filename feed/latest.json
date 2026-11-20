@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T01:04:26+00:00",
+ "generated_at": "2026-11-20T01:05:57+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -9,10 +9,7 @@
   "questions": 79,
   "resolved": 5,
   "open": 74,
-  "moved_1pt_or_more": [
-   "Y4",
-   "C07"
-  ]
+  "moved_1pt_or_more": []
  },
  "forecasts": [
   {
@@ -162,6 +159,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.0375,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.0375,
+     "model": "v4.3"
     }
    ]
   },
@@ -196,6 +198,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.061,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.061,
      "model": "v4.3"
     }
@@ -234,6 +241,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.0272,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.0272,
+     "model": "v4.3"
     }
    ]
   },
@@ -252,7 +264,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "China is the pivot (largest Shapley share) and needs Hormuz open, but Beijing does not spend leverage as a favour: it will want trade concessions first. Nov 20 (after the Nov 19 bilateral): leaders +0.2 -> -1.5. No US-China joint statement; China's Foreign Ministry readout covers a 'strategic stability' action plan, Taiwan and AI cooperation and, in the reports found, does not mention Iran or Hormuz; Trump said aloud that he and Xi share a 'strong consensus' that Hormuz oil must flow and Iran must not get a nuclear weapon, which is a shared view, not a named arrangement in both readouts. The trilateral declaration did not mention Iran (Reuters, ABC). Prompted by an outside forecast (Author B, 5%), checked against those reports before use.",
-   "resolve_rule": "A joint statement or both readouts of the US-China bilateral name an Iran or Hormuz arrangement, by Nov 24.",
+   "resolve_rule": "A joint statement from, or both governments' readouts of, the Nov 19, 2026 Trump-Xi bilateral in Shenzhen name an Iran or Hormuz arrangement, published by Nov 24. Readouts of earlier meetings (such as the September state visit) do not count.",
    "previous_forecast": 0.109,
    "change_points": 0.0,
    "trend": [
@@ -351,6 +363,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.9704,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.9704,
+     "model": "v4.3"
     }
    ]
   },
@@ -380,6 +397,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.7683,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.7683,
      "model": "v4.3"
     }
@@ -413,6 +435,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.803,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.803,
+     "model": "v4.3"
     }
    ]
   },
@@ -442,6 +469,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.8794,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.8794,
      "model": "v4.3"
     }
@@ -480,6 +512,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.0226,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.0226,
+     "model": "v4.3"
     }
    ]
   },
@@ -509,6 +546,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.7849,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.7849,
      "model": "v4.3"
     }
@@ -547,6 +589,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.1097,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.1097,
+     "model": "v4.3"
     }
    ]
   },
@@ -581,6 +628,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.323,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.323,
      "model": "v4.3"
     }
@@ -619,6 +671,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.333,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.333,
+     "model": "v4.3"
     }
    ]
   },
@@ -648,6 +705,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.458,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.458,
      "model": "v4.3"
     }
@@ -681,6 +743,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.667,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.667,
+     "model": "v4.3"
     }
    ]
   },
@@ -710,6 +777,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.435,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.435,
      "model": "v4.3"
     }
@@ -743,6 +815,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.333,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.333,
+     "model": "v4.3"
     }
    ]
   },
@@ -772,6 +849,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.333,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.333,
      "model": "v4.3"
     }
@@ -805,6 +887,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.5,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.5,
+     "model": "v4.3"
     }
    ]
   },
@@ -834,6 +921,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.708,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.708,
      "model": "v4.3"
     }
@@ -867,6 +959,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.98,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.98,
+     "model": "v4.3"
     }
    ]
   },
@@ -896,6 +993,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.73,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.73,
      "model": "v4.3"
     }
@@ -929,6 +1031,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.8824,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.8824,
+     "model": "v4.3"
     }
    ]
   },
@@ -958,6 +1065,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.5928,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.5928,
      "model": "v4.3"
     }
@@ -996,6 +1108,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.695,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.695,
+     "model": "v4.3"
     }
    ]
   },
@@ -1030,6 +1147,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.676,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.676,
      "model": "v4.3"
     }
@@ -1068,6 +1190,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.67,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.67,
+     "model": "v4.3"
     }
    ]
   },
@@ -1102,6 +1229,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.654,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.654,
      "model": "v4.3"
     }
@@ -1140,6 +1272,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.78,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.78,
+     "model": "v4.3"
     }
    ]
   },
@@ -1174,6 +1311,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.515,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.515,
      "model": "v4.3"
     }
@@ -1212,6 +1354,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.535,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.535,
+     "model": "v4.3"
     }
    ]
   },
@@ -1246,6 +1393,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.317,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.317,
      "model": "v4.3"
     }
@@ -1284,6 +1436,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.689,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.689,
+     "model": "v4.3"
     }
    ]
   },
@@ -1320,6 +1477,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.655,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.655,
+     "model": "v4.3"
     }
    ]
   },
@@ -1349,6 +1511,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.073,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.073,
      "model": "v4.3"
     }
@@ -1513,8 +1680,8 @@
    "outcome": null,
    "reasoning": "The EIA's Nov 10 outlook puts Brent near $77 in Q4 2027 (2027 average $85.78), assuming Middle East supply recovers; at 30-50% annual volatility that path alone gives 62-70% below $90 if $77 is the median, or 71-75% if it is the expected price; the model's 60% adds re-escalation risk, which that path assumes away. No lens scores: the anchor is a judgment of where a backwardated curve and the IEA's Nov 13 call for a Q4 2026 surplus (larger in 2027) leave Brent a year out. Diesel tightness and any Gulf terminal strike are the risks the other way.",
    "resolve_rule": "FRED DCOILBRENTEU below $90.00 on Nov 17, 2027 (last observation on or before that date).",
-   "previous_forecast": 0.601,
-   "change_points": 13.0,
+   "previous_forecast": 0.731,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1742,6 +1909,11 @@
     },
     {
      "t": "2026-11-20 01:00",
+     "p": 0.3652,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.3652,
      "model": "v4.3"
     }
@@ -2546,8 +2718,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "The last FRED DCOILBRENTEU observation dated on or before Dec 31, 2027 is below 80.",
-   "previous_forecast": 0.277,
-   "change_points": 33.8,
+   "previous_forecast": 0.615,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2666,6 +2838,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.9522,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.9522,
+     "model": "v4.3"
     }
    ]
   },
@@ -2710,6 +2887,11 @@
     },
     {
      "t": "2026-11-20 00:58",
+     "p": 0.8542,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.8542,
      "model": "v4.3"
     }
@@ -2911,6 +3093,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.6865,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.6865,
+     "model": "v4.3"
     }
    ]
   },
@@ -2957,6 +3144,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.0283,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
+     "p": 0.0279,
+     "model": "v4.3"
     }
    ]
   },
@@ -2986,6 +3178,11 @@
     },
     {
      "t": "2026-11-20 00:53",
+     "p": 0.1377,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.1377,
      "model": "v4.3"
     }
@@ -3103,6 +3300,11 @@
     },
     {
      "t": "2026-11-20 00:58",
+     "p": 0.6601,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:05",
      "p": 0.6601,
      "model": "v4.3"
     }
@@ -5119,7 +5321,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T01:01:11+00:00",
+  "at": "2026-11-20T01:04:28+00:00",
   "flaws": 0,
   "checks": [
    {
