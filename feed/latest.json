@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T00:58:58+00:00",
+ "generated_at": "2026-11-20T01:01:08+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,12 +10,8 @@
   "resolved": 5,
   "open": 74,
   "moved_1pt_or_more": [
-   "M7",
-   "Y2",
    "Y5",
-   "Y7",
-   "Y8",
-   "R0"
+   "Y15"
   ]
  },
  "forecasts": [
@@ -534,8 +530,8 @@
    "outcome": null,
    "reasoning": "Raised above the flat hazard because tit-for-tat resumed on Nov 17; lowered because Trump is in Shenzhen pursuing a diplomatic win this week. Author A's comparable call was 25%. Nov 20: game +0.4 -> +0.6 on the New York Times (Nov 18) and Bloomberg (Nov 19) reports that Trump is weighing an extensive strike round, with Israel pressing for a four- to seven-day campaign (which would meet criterion (a)); kept low because Trump said on Nov 19 he will not rush and will wait until the new year, after this window ends.",
    "resolve_rule": "Any of R0's criteria (a)-(d) is met between Nov 17 and Dec 17: US strikes on Iranian territory on 5 or more days within a 14-day window, a named US operation, a declared end of the ceasefire, or US forces seizing Kharg Island, as reported by CENTCOM/DoD, AP or Reuters. Isolated self-defence strikes (such as the Nov 17 Qeshm strike) do not count on their own.",
-   "previous_forecast": 0.076,
-   "change_points": 3.4,
+   "previous_forecast": 0.11,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1373,9 +1369,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Game -0.8 and leaders -0.8: no visible build-up for a ground invasion, Trump calls strikes 'quite unlikely' after the midterms, and holding territory is far beyond raids. Empire +0.5: overstretched hegemons do take this kind of gamble. The market proxy (invasion before 2027) is broader on action and shorter on time.",
-   "resolve_rule": "US ground forces enter and hold Iranian territory beyond a raid (more than 7 days) by Mar 31, 2027.",
-   "previous_forecast": 0.052,
-   "change_points": 0.7,
+   "resolve_rule": "US ground forces enter and hold Iranian territory beyond a raid (more than 7 days) between Nov 18, 2026 and Mar 31, 2027.",
+   "previous_forecast": 0.059,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1406,6 +1402,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.0587,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.0587,
+     "model": "v4.3"
     }
    ]
   },
@@ -1424,9 +1425,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Gulf states added as players: Qatar and Oman are mediating now and the Gulf monarchies, whose exports and infrastructure are most exposed, have the strongest incentive to underwrite a deal (leaders 0 -> +0.2).",
-   "resolve_rule": "US and Iran sign an agreement both describe as ending the war, by Nov 17, 2027.",
-   "previous_forecast": 0.5,
-   "change_points": -1.3,
+   "resolve_rule": "US and Iran sign an agreement both describe as ending the war, between Nov 18, 2026 and Nov 17, 2027.",
+   "previous_forecast": 0.487,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1447,6 +1448,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.4875,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.4875,
+     "model": "v4.3"
     }
    ]
   },
@@ -1465,9 +1471,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Gulf states added: their rulers want a workable transit regime and can underwrite one, offsetting US opposition (leaders -0.3 -> 0).",
-   "resolve_rule": "IMF PortWatch 30-day average Hormuz transits at 75% or more of the 2025 average, with a published fee or coordination regime run by Iran, Oman or a Gulf body, by Nov 17, 2027.",
-   "previous_forecast": 0.521,
-   "change_points": -0.9,
+   "resolve_rule": "IMF PortWatch 30-day average Hormuz transits at 75% or more of the 2025 average, with a published fee or coordination regime run by Iran, Oman or a Gulf body, between Nov 18, 2026 and Nov 17, 2027.",
+   "previous_forecast": 0.512,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1481,6 +1487,11 @@
     },
     {
      "t": "2026-11-20 00:58",
+     "p": 0.5119,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.5119,
      "model": "v4.3"
     }
@@ -1519,6 +1530,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.6013,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.6012,
+     "model": "v4.3"
     }
    ]
   },
@@ -1527,19 +1543,19 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Fed's next move after December is a cut, made by Nov 17, 2027",
-   "forecast": 0.549,
-   "range_low": 0.395,
-   "range_high": 0.696,
-   "base_rate": 0.55,
+   "forecast": 0.258,
+   "range_low": 0.156,
+   "range_high": 0.395,
+   "base_rate": 0.25,
    "market": null,
    "market_source": "",
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Capital +0.3: central banks that hiked into oil spikes usually reversed within a year. Leaders +0.2: political pressure on Warsh to cut.",
+   "reasoning": "Capital +0.3: central banks that hiked into oil spikes usually reversed within a year. Leaders +0.2: political pressure on Warsh to cut. Nov 20: the base was rebuilt after an outside forecast (Author C, 22%) pointed out that any hike after December settles this No; the model had Y5 at 55% while giving a January hike 59% (S13), which cannot both hold. audit.py now checks Y5 <= 1 - S13.",
    "resolve_rule": "The first Fed rate change after Dec 9, 2026 is a cut, and it happens by Nov 17, 2027 (FOMC statements).",
-   "previous_forecast": 0.563,
-   "change_points": -1.4,
+   "previous_forecast": 0.549,
+   "change_points": -29.1,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1560,6 +1576,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.5493,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.2582,
+     "model": "v4.3"
     }
    ]
   },
@@ -1578,9 +1599,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "The index is already 13.5% below its record (27,002 vs 31,225 on Nov 17), so the fall still needed is about 19%. Capital +0.5: AI capex increasingly debt-financed (Fed FSR, Nov 13), valuations high, and 87% of Fed contacts name AI as a top risk. Empire +0.2: late-cycle financial excess. Still well below Y7 because 30% drawdowns are rare.",
-   "resolve_rule": "Nasdaq-100 closes 30% or more below its all-time closing high at any point by Nov 17, 2027.",
-   "previous_forecast": 0.414,
-   "change_points": 0.9,
+   "resolve_rule": "Nasdaq-100 closes 30% or more below its all-time closing high at any point between Nov 18, 2026 and Nov 17, 2027.",
+   "previous_forecast": 0.423,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1601,6 +1622,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.4227,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.4227,
+     "model": "v4.3"
     }
    ]
   },
@@ -1619,9 +1645,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "The index is already 13.5% below its record (27,002 vs 31,225 on Nov 17), so a further fall of about 7.5% resolves Yes. Capital +0.5: valuations rest on AI spending financed increasingly by debt; the Fed's Nov 13 Financial Stability Report found 87% of its market contacts now name AI as a top risk (50% in the spring) and flagged $680B of 2026 advanced-computing debt. Escalation with Iran adds an oil shock on top.",
-   "resolve_rule": "Nasdaq-100 closes 20% or more below its all-time closing high at any point by Nov 17, 2027.",
-   "previous_forecast": 0.589,
-   "change_points": 1.0,
+   "resolve_rule": "Nasdaq-100 closes 20% or more below its all-time closing high at any point between Nov 18, 2026 and Nov 17, 2027.",
+   "previous_forecast": 0.599,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1642,6 +1668,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.5992,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.5992,
+     "model": "v4.3"
     }
    ]
   },
@@ -1660,9 +1691,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +0.3 (oil shock from Hormuz) and capital +0.2 (5% 10-year yields, Fed hiking). Polymarket's 'US recession by end of 2027' uses the same test and trades at 30.5%, below the model's view.",
-   "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession starting by Nov 17, 2027.",
-   "previous_forecast": 0.351,
-   "change_points": 1.4,
+   "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession (or the first of the two negative quarters) starting between Nov 18, 2026 and Nov 17, 2027; quarters or recessions that began before then do not count.",
+   "previous_forecast": 0.365,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1703,6 +1734,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.3652,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.3652,
+     "model": "v4.3"
     }
    ]
   },
@@ -1722,8 +1758,8 @@
    "outcome": null,
    "reasoning": "Largest disagreement with any market. Polymarket's dated contracts imply about 43% that a general ceasefire starts by Nov 17, 2027 (21.5% by Mar 31, 46.5% by Dec 31, 2027). Game -0.4: US-mediated talks resumed in Abu Dhabi on Nov 10 for the first time in nine months and ended without a ceasefire (a prisoner swap was agreed); on Nov 12 Putin held to his demands while offering only a brief ceasefire. Leaders -0.3: Putin told US envoys European troops after a ceasefire would be absolutely unacceptable. Energy -0.4: higher oil prices from the Iran war doubled Russia's main oil-tax revenue in April (Reuters). Capital +0.4: Russia's budget deficit kept rising through 2026 (KSE Institute). The lens sizes are judgments. Treat this as the forecast most likely to be wrong in either direction.",
    "resolve_rule": "A general, mutually agreed Russia-Ukraine ceasefire across the main front is in effect on Nov 17, 2027 (it may have started earlier, but must not have collapsed), per consensus reporting.",
-   "previous_forecast": 0.086,
-   "change_points": -0.2,
+   "previous_forecast": 0.084,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1754,6 +1790,11 @@
      "t": "2026-11-20 00:58",
      "p": 0.0844,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.0844,
+     "model": "v4.3"
     }
    ]
   },
@@ -1772,7 +1813,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Leaders -0.6: Xi's purge of PLA leadership and a US-China summit this week argue against near-term force. Empire +0.5: the 2027 PLA centenary and US overstretch in the Gulf. Edge versus the market: see edge.",
-   "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins by Nov 17, 2027.",
+   "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.047,
    "change_points": 0.0,
    "trend": [
@@ -1815,6 +1856,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.0473,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.0473,
+     "model": "v4.3"
     }
    ]
   },
@@ -1833,7 +1879,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Debt-limit sub-model: no default in ~80 episodes, but a hostile House and a president who uses brinkmanship raise the small residual risk to about 3%.",
-   "resolve_rule": "The US Treasury misses a scheduled principal or interest payment, by Nov 17, 2027.",
+   "resolve_rule": "The US Treasury misses a scheduled principal or interest payment, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.03,
    "change_points": 0.0,
    "trend": [
@@ -1844,6 +1890,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.0299,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.0299,
      "model": "v4.3"
     }
@@ -1864,7 +1915,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Leaders +0.8: Democrats take the House in January and Jeffries has backed impeaching Hegseth; on Nov 10 the lame-duck House voted 211-204 to send Massie's eight articles to committee, with 11 Democrats absent, and Democrats say they will try again. Game +0.4: removing a cabinet member is cheaper than impeaching the president; Mayorkas (2024) was impeached on a second vote. Markets: impeached by Jun 30, 2027 at 65.5% (thin, about $1.9k liquidity); out as Defense Secretary by Dec 31 at 15.5%.",
-   "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, by Nov 17, 2027.",
+   "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.715,
    "change_points": 0.0,
    "trend": [
@@ -1907,6 +1958,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.7149,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.7149,
+     "model": "v4.3"
     }
    ]
   },
@@ -1925,7 +1981,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Leaders -0.4 and game -0.2: impeaching Trump with no Senate conviction path is costly before 2028; Semafor (Oct 9) reported congressional Democrats are not eager to impeach Trump and are targeting Hegseth instead. One of four opposition Houses did it within 11 months.",
-   "resolve_rule": "The House adopts articles of impeachment against Trump, by Nov 17, 2027.",
+   "resolve_rule": "The House adopts articles of impeachment against Trump, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.155,
    "change_points": 0.0,
    "trend": [
@@ -1936,6 +1992,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.1546,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.1546,
      "model": "v4.3"
     }
@@ -1956,7 +2017,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
-   "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, by Nov 17, 2027.",
+   "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.706,
    "change_points": 0.0,
    "trend": [
@@ -2029,6 +2090,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.706,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.706,
+     "model": "v4.3"
     }
    ]
   },
@@ -2037,19 +2103,19 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Netanyahu still prime minister (including caretaker)",
-   "forecast": 0.769,
-   "range_low": 0.6,
-   "range_high": 0.881,
+   "forecast": 0.403,
+   "range_low": 0.232,
+   "range_high": 0.6,
    "base_rate": 0.6,
    "market": null,
    "market_source": "",
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Nov 20: leaders +0.5 -> +0.8 after checking the Oct 27, 2026 election, which this entry had not recorded. Final count: Netanyahu bloc 53, Eisenkot-led opposition 48, Arab parties a record 19; no bloc has 61, Eisenkot rules out serving under Netanyahu, and Netanyahu leads a caretaker government. Opposition plus Ra'am is 55, so an alternative government needs the Joint List, which has never joined a coalition; deadlock and a repeat election keep Netanyahu in office as caretaker, as in 2019-21. Risks: a Bennett-Lapid-style deal with outside Arab support (he lost office that way in June 2021), or a defection that gives Eisenkot 61. Prompted by an outside forecast (Author B, 36%) that could not find the result; checked against ABC, NBC and Jerusalem Post reports of Oct 28-29.",
+   "reasoning": "Nov 20 (second update, same day): leaders -> -0.8. The earlier +0.8 read the Oct 27 result as a deadlock that keeps Netanyahu as caretaker; that missed what happened next. Eisenkot received the mandate to form a government in the week of Nov 10, and on Nov 17 the Knesset elected his ally Matan Kahana speaker 66-52, with the Arab lists voting with Eisenkot's 48 (Reuters, Times of Israel, JTA, Al Jazeera). That shows an anti-Netanyahu majority can vote together, and a government needs only more votes for than against in a confidence vote, so outside Arab support or abstention could install one, as Ra'am made possible in June 2021. Netanyahu still stays if Eisenkot cannot hold the bloc together (Haaretz reports him sidelining the Arab parties) and the Knesset dissolves. Final count Oct 29: Netanyahu bloc 53, opposition 48, Arab parties 19. Prompted by two outside forecasts (Author B 36%, Author C 39%); the first update wrongly moved the other way.",
    "resolve_rule": "Netanyahu holds the office of prime minister (including caretaker) on Nov 17, 2027.",
    "previous_forecast": 0.769,
-   "change_points": 0.0,
+   "change_points": -36.6,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2059,6 +2125,11 @@
     {
      "t": "2026-11-20 00:54",
      "p": 0.7695,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.4026,
      "model": "v4.3"
     }
    ]
@@ -2079,8 +2150,8 @@
    "outcome": null,
    "reasoning": "Capital +0.3 and empire +0.2: large deficits, term-premium pressure and foreign selling of Treasuries. The 10-year was 5.12% on Nov 16, already above the line.",
    "resolve_rule": "FRED DGS10 above 5.00% on Nov 17, 2027 (last observation on or before that date).",
-   "previous_forecast": 0.625,
-   "change_points": 0.7,
+   "previous_forecast": 0.632,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2094,6 +2165,11 @@
     },
     {
      "t": "2026-11-20 00:58",
+     "p": 0.6321,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.6321,
      "model": "v4.3"
     }
@@ -2127,6 +2203,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.8638,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.8638,
+     "model": "v4.3"
     }
    ]
   },
@@ -2145,7 +2226,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Sharpened from Author A's 'AI investment shifts toward power'. Capital +0.2: AI-issuer bond spreads are already wider than the market, which gives cover to defer projects.",
-   "resolve_rule": "Two or more of Amazon, Microsoft, Google, Meta and Oracle (or their development partners) publicly delay, cancel or relocate a 1 GW+ campus citing power, by Nov 17, 2027.",
+   "resolve_rule": "Two or more of Amazon, Microsoft, Google, Meta and Oracle (or their development partners) publicly delay, cancel or relocate a 1 GW+ campus citing power, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.646,
    "change_points": 0.0,
    "trend": [
@@ -2156,6 +2237,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.6455,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.6455,
      "model": "v4.3"
     }
@@ -2189,6 +2275,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.8623,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.8623,
+     "model": "v4.3"
     }
    ]
   },
@@ -2207,9 +2298,9 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Gulf states as players: Qatar and Oman mediate now, and both the US and Iran need a third party to solve the sequencing problem (relief first vs nuclear commitments first).",
-   "resolve_rule": "A signed US-Iran interim text brokered by Qatar, Oman or Saudi Arabia, announced by Mar 31, 2027.",
-   "previous_forecast": 0.508,
-   "change_points": -0.6,
+   "resolve_rule": "A signed US-Iran interim text brokered by Qatar, Oman or Saudi Arabia, announced between Nov 18, 2026 and Mar 31, 2027.",
+   "previous_forecast": 0.502,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2228,6 +2319,11 @@
     },
     {
      "t": "2026-11-20 00:58",
+     "p": 0.5017,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.5017,
      "model": "v4.3"
     }
@@ -2261,6 +2357,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.05,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.05,
+     "model": "v4.3"
     }
    ]
   },
@@ -2292,6 +2393,11 @@
      "t": "2026-11-19 04:15",
      "p": 0.1,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.1,
+     "model": "v4.3"
     }
    ]
   },
@@ -2316,6 +2422,11 @@
    "trend": [
     {
      "t": "2026-11-19 03:33",
+     "p": 0.0499,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.0499,
      "model": "v4.3"
     }
@@ -2344,6 +2455,11 @@
      "t": "2026-11-19 03:33",
      "p": 0.444,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.444,
+     "model": "v4.3"
     }
    ]
   },
@@ -2370,6 +2486,11 @@
      "t": "2026-11-19 03:33",
      "p": 0.16,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.16,
+     "model": "v4.3"
     }
    ]
   },
@@ -2394,6 +2515,11 @@
    "trend": [
     {
      "t": "2026-11-19 03:33",
+     "p": 0.047,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.047,
      "model": "v4.3"
     }
@@ -2427,6 +2553,11 @@
      "t": "2026-11-19 04:15",
      "p": 0.277,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
+     "p": 0.277,
+     "model": "v4.3"
     }
    ]
   },
@@ -2451,6 +2582,11 @@
    "trend": [
     {
      "t": "2026-11-19 03:33",
+     "p": 0.417,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.417,
      "model": "v4.3"
     }
@@ -2539,8 +2675,8 @@
    "outcome": null,
    "reasoning": "Energy +1.0: Kpler's November regional flows fell about 7% from October as attacks resumed, a leading indicator for the IEA figure. Game +0.3: Iran's leverage strategy rests on keeping flows impaired. Escalation within the window makes it near-certain. Polymarket's Hormuz markets measure deals and ship counts, not barrels, so they are not blended in.",
    "resolve_rule": "IEA Oil Market Report, December 2026: Gulf crude exports for November as a share of pre-war. Fallback: Kpler crude-only Gulf exports.",
-   "previous_forecast": 0.853,
-   "change_points": 0.1,
+   "previous_forecast": 0.854,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2584,7 +2720,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Broader than Y18 (one company, partners count, permitting counts) but adds the six-month and explicit-citation requirements. Supporting evidence (v3.4): Goldman Sachs Research (May 2026) expects only 50-60% of data-center capacity scheduled for the next one to two years to come online on time.",
-   "resolve_rule": "Company statement, filing or on-record executive comment that names power, grid or permitting.",
+   "resolve_rule": "Company statement, filing or on-record executive comment that names power, grid or permitting, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.839,
    "change_points": 0.0,
    "trend": [
@@ -2600,6 +2736,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.8385,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.8385,
      "model": "v4.3"
     }
@@ -2620,7 +2761,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "The trigger these base rates assume now exists: BIS released its remote-access interim final rule on Nov 16 (Federal Register publication Nov 19), and MOFCOM threatened countermeasures on Nov 17. The same rule rescinds the 2025 AI Diffusion Rule, a partial offset. Game -0.3: the truce (affiliates rule suspended to Jan 10, 2027) gives Beijing a reason to keep countermeasures 'restrained' and to trade restraint for extensions. Leaders +0.2: MOFCOM publicly threatened countermeasures on Nov 17, so inaction has a credibility cost.",
-   "resolve_rule": "MOFCOM or State Council announcement that cites the US remote-access or compute rules.",
+   "resolve_rule": "MOFCOM or State Council announcement that cites the US remote-access or compute rules, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.784,
    "change_points": 0.0,
    "trend": [
@@ -2636,6 +2777,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.7835,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.7835,
      "model": "v4.3"
     }
@@ -2656,7 +2802,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "The trigger these base rates assume now exists: BIS released its remote-access interim final rule on Nov 16 (Federal Register publication Nov 19), and MOFCOM threatened countermeasures on Nov 17. The same rule rescinds the 2025 AI Diffusion Rule, a partial offset. Author A v3.0's own candidate, which it declined to price until a history of China's responses was built. That history is the episode table. Same lenses as R5: the truce pulls down, MOFCOM's Nov 17 threat pulls up.",
-   "resolve_rule": "MOFCOM, GAC or State Council announcement tied by statement to a US restriction.",
+   "resolve_rule": "MOFCOM, GAC or State Council announcement tied by statement to a US restriction, between Nov 18, 2026 and Feb 17, 2027.",
    "previous_forecast": 0.66,
    "change_points": 0.0,
    "trend": [
@@ -2672,6 +2818,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.6599,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.6599,
      "model": "v4.3"
     }
@@ -2693,8 +2844,8 @@
    "outcome": null,
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. Result is close to the market: no edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
-   "previous_forecast": 0.694,
-   "change_points": -0.7,
+   "previous_forecast": 0.687,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2845,7 +2996,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Capital +0.5: AI-issuer credit already trades wider than the market and Y7 gives a 50% chance of a 20% Nasdaq drop. The Fed's Nov 13 Financial Stability Report (Box 2.2) adds that advanced-computing debt passed $680B in 2026 and large banks have close to $1T of exposure to tech firms, data-center developers, their SPEs and utilities, and debt, guarantees and not-yet-started leases together could exceed $3T (over $1T of leases and over $2T of take-or-pay contracts and residual-value guarantees, both undiscounted); that is the same channel, so it is cited as support and not added as a second lens score. Leaders -0.3: state regulators have been adding minimum-take large-load tariffs that shift stranded-asset risk onto data centers, protecting utility credit.",
-   "resolve_rule": "Rating-agency press release naming data-center load as a downgrade driver.",
+   "resolve_rule": "Rating-agency press release naming data-center load as a downgrade driver, between Nov 18, 2026 and Sep 30, 2027.",
    "previous_forecast": 0.096,
    "change_points": 0.0,
    "trend": [
@@ -2856,6 +3007,11 @@
     },
     {
      "t": "2026-11-20 00:54",
+     "p": 0.096,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:00",
      "p": 0.096,
      "model": "v4.3"
     }
@@ -2877,8 +3033,8 @@
    "outcome": null,
    "reasoning": "Author A v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
-   "previous_forecast": 0.667,
-   "change_points": -0.7,
+   "previous_forecast": 0.66,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2958,8 +3114,8 @@
    "outcome": null,
    "reasoning": "Post-midterm regime change pulls down (Trump: strikes 'quite unlikely', approval 32%). Pulls up: on Nov 17 Iran hit at a US radar in Bahrain (its third attack in days after a two-month lull) and the US struck a missile site on Qeshm Island; tankers were hit; USS Roosevelt arrived Nov 16; Netanyahu is a caretaker who wants Iran finished. Update of Nov 17 evening: game lens moved from -0.3 to 0 because the frozen equilibrium is visibly unstable. Update of Nov 20: game 0 -> +0.3. The New York Times (Nov 18) reported Trump weighing another round of extensive strikes, with Netanyahu pressing for a four- to seven-day joint air campaign; Bloomberg (Nov 19) called new strikes increasingly likely; bombers were reported on 96-hour notice. Against: Trump said on Nov 19 he is not rushing and will wait until the new year, and called strikes quite unlikely. A delay to January still falls inside this window.",
    "resolve_rule": "YES if between Nov 18, 2026 and Nov 17, 2027 any of these is reported by CENTCOM/DoD, AP or Reuters: (a) US strikes landing on Iranian territory on 5 or more days within any 14-day window; (b) the US government announces a named military operation or campaign against Iran; (c) the US government declares the ceasefire ended; or (d) US forces seize or occupy Kharg Island. Isolated strikes described as self-defence (such as the Nov 17 Qeshm strike) do not count on their own; Iranian attacks alone do not count.",
-   "previous_forecast": 0.546,
-   "change_points": 7.3,
+   "previous_forecast": 0.619,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2982,7 +3138,7 @@
   },
   {
    "name": "Deal and disinflation (Iran agreement + Brent < $90 + Fed cutting)",
-   "probability": 0.241,
+   "probability": 0.131,
    "questions": "Y2, Y4, Y5"
   },
   {
@@ -2997,7 +3153,7 @@
   },
   {
    "name": "AI/market bust (Nasdaq -20% with a recession or Fed cuts)",
-   "probability": 0.518,
+   "probability": 0.436,
    "questions": "Y7, Y8, Y5"
   }
  ],
@@ -3481,7 +3637,7 @@
      "kind": "forecast",
      "id": "Y5",
      "label": "Fed's next move after December is a cut, made by Nov 17, 2027",
-     "value": 0.549
+     "value": 0.258
     },
     {
      "kind": "data",
@@ -3577,7 +3733,7 @@
      "kind": "forecast",
      "id": "Y5",
      "label": "Fed's next move after December is a cut, made by Nov 17, 2027",
-     "value": 0.549
+     "value": 0.258
     }
    ],
    "16": [
@@ -4953,7 +5109,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T00:55:09+00:00",
+  "at": "2026-11-20T00:59:01+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -5429,8 +5585,8 @@
    {
     "id": "Y5",
     "question": "Fed's next move after December is a cut, made by Nov 17, 2027",
-    "model": 0.5493,
-    "base": 0.55,
+    "model": 0.2582,
+    "base": 0.25,
     "market": null,
     "market_blended": false,
     "by": "2027-11-17"
@@ -5519,7 +5675,7 @@
    {
     "id": "Y15",
     "question": "Netanyahu still prime minister (including caretaker)",
-    "model": 0.7695,
+    "model": 0.4026,
     "base": 0.6,
     "market": null,
     "market_blended": false,
@@ -7314,7 +7470,7 @@
       },
       {
        "id": "Y5",
-       "forecast": 0.549
+       "forecast": 0.258
       },
       {
        "id": "Y6",
@@ -7388,7 +7544,7 @@
       },
       {
        "id": "Y5",
-       "forecast": 0.549
+       "forecast": 0.258
       }
      ],
      "move_global": "Non-automatable trades (grid maintenance, mechanics, machining, health care, food production); fixed-rate housing; no variable-rate consumer debt.",
