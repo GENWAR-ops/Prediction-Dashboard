@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T21:15:58+00:00",
+ "generated_at": "2026-11-20T21:17:59+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -5882,7 +5882,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T21:15:22+00:00",
+  "at": "2026-11-20T21:17:32+00:00",
   "flaws": 1,
   "checks": [
    {
@@ -9799,7 +9799,7 @@
     "type": "pm",
     "quality": "thin",
     "weight": 0.1,
-    "edge": "The model sits below the market because of its Game lens (-0.4) and the escalation link: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike that lands on Iranian territory and resets the clock, and the contract needs 14 full quiet days starting by Dec 31. Would move toward the market: two weeks with no US strike landing on Iranian territory, or a declared US-Iran truce.",
+    "edge": "The model sits below the market because of its Game lens (-0.4) and the escalation link: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike that lands on Iranian territory and resets the clock, and the contract needs 14 full quiet days starting by Dec 31. News check, CBS News live updates (Nov 19-20, 2026): Bahrain and Kuwait intercepted weapons launched by Iran after the US 'defensive strikes' on Qeshm, and no truce or new talks were announced; Trump said on Nov 19 he is 'not rushing to make any decisions on Iran'. Would move toward the market: two weeks with no US strike landing on Iranian territory, or a declared US-Iran truce.",
     "option_implied": null,
     "option_real_world": null,
     "source": "Polymarket us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 (2026-11-20T16:39:09Z). Same contract as the question."
