@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T00:55:06+00:00",
+ "generated_at": "2026-11-20T00:58:58+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,7 +10,12 @@
   "resolved": 5,
   "open": 74,
   "moved_1pt_or_more": [
-   "Y15"
+   "M7",
+   "Y2",
+   "Y5",
+   "Y7",
+   "Y8",
+   "R0"
   ]
  },
  "forecasts": [
@@ -215,7 +220,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Game -0.8: China has refused every US invitation to trilateral arms control since 2019, because its arsenal is far smaller and talks would cap its build-up. Leaders +0.4: Xi may offer warm words at a first-ever trilateral, which is why it is not lower.",
-   "resolve_rule": "China's Foreign Ministry states China will join trilateral (US-China-Russia) nuclear arms-control talks, by Nov 24.",
+   "resolve_rule": "China's Foreign Ministry states China will join trilateral (US-China-Russia) talks on limiting or reducing nuclear arsenals, by Nov 24. A dialogue on reducing nuclear risks or preventing proliferation (as in the Nov 19 declaration) does not count on its own.",
    "previous_forecast": 0.027,
    "change_points": 0.0,
    "trend": [
@@ -518,19 +523,19 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-17",
    "question": "Major US-Iran escalation by Dec 17 (large-scale strikes resume or Kharg seized)",
-   "forecast": 0.076,
-   "range_low": 0.047,
-   "range_high": 0.119,
-   "base_rate": 0.063,
+   "forecast": 0.11,
+   "range_low": 0.063,
+   "range_high": 0.183,
+   "base_rate": 0.076,
    "market": null,
    "market_source": "",
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Raised above the flat hazard because tit-for-tat resumed on Nov 17; lowered because Trump is in Shenzhen pursuing a diplomatic win this week. Author A's comparable call was 25%.",
-   "resolve_rule": "Large-scale US strikes on Iran resume or Kharg Island is seized between Nov 17 and Dec 17 (two major outlets).",
+   "reasoning": "Raised above the flat hazard because tit-for-tat resumed on Nov 17; lowered because Trump is in Shenzhen pursuing a diplomatic win this week. Author A's comparable call was 25%. Nov 20: game +0.4 -> +0.6 on the New York Times (Nov 18) and Bloomberg (Nov 19) reports that Trump is weighing an extensive strike round, with Israel pressing for a four- to seven-day campaign (which would meet criterion (a)); kept low because Trump said on Nov 19 he will not rush and will wait until the new year, after this window ends.",
+   "resolve_rule": "Any of R0's criteria (a)-(d) is met between Nov 17 and Dec 17: US strikes on Iranian territory on 5 or more days within a 14-day window, a named US operation, a declared end of the ceasefire, or US forces seizing Kharg Island, as reported by CENTCOM/DoD, AP or Reuters. Isolated self-defence strikes (such as the Nov 17 Qeshm strike) do not count on their own.",
    "previous_forecast": 0.076,
-   "change_points": 0.0,
+   "change_points": 3.4,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -540,6 +545,11 @@
     {
      "t": "2026-11-20 00:53",
      "p": 0.0758,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.1097,
      "model": "v4.3"
     }
    ]
@@ -1353,7 +1363,7 @@
    "horizon": "1 year",
    "resolves_by": "2027-03-31",
    "question": "US ground invasion of Iran (holding territory) by Mar 31, 2027 (Jiang)",
-   "forecast": 0.052,
+   "forecast": 0.059,
    "range_low": null,
    "range_high": null,
    "base_rate": 0.06,
@@ -1365,7 +1375,7 @@
    "reasoning": "Game -0.8 and leaders -0.8: no visible build-up for a ground invasion, Trump calls strikes 'quite unlikely' after the midterms, and holding territory is far beyond raids. Empire +0.5: overstretched hegemons do take this kind of gamble. The market proxy (invasion before 2027) is broader on action and shorter on time.",
    "resolve_rule": "US ground forces enter and hold Iranian territory beyond a raid (more than 7 days) by Mar 31, 2027.",
    "previous_forecast": 0.052,
-   "change_points": 0.0,
+   "change_points": 0.7,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1391,6 +1401,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.0525,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.0587,
+     "model": "v4.3"
     }
    ]
   },
@@ -1399,9 +1414,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Formal US-Iran agreement ending the war",
-   "forecast": 0.5,
-   "range_low": 0.272,
-   "range_high": 0.729,
+   "forecast": 0.487,
+   "range_low": 0.262,
+   "range_high": 0.719,
    "base_rate": 0.3,
    "market": null,
    "market_source": "",
@@ -1411,7 +1426,7 @@
    "reasoning": "Gulf states added as players: Qatar and Oman are mediating now and the Gulf monarchies, whose exports and infrastructure are most exposed, have the strongest incentive to underwrite a deal (leaders 0 -> +0.2).",
    "resolve_rule": "US and Iran sign an agreement both describe as ending the war, by Nov 17, 2027.",
    "previous_forecast": 0.5,
-   "change_points": 0.0,
+   "change_points": -1.3,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1427,6 +1442,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.5001,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.4875,
+     "model": "v4.3"
     }
    ]
   },
@@ -1435,9 +1455,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
-   "forecast": 0.521,
-   "range_low": 0.288,
-   "range_high": 0.745,
+   "forecast": 0.512,
+   "range_low": 0.281,
+   "range_high": 0.738,
    "base_rate": 0.3,
    "market": null,
    "market_source": "",
@@ -1447,7 +1467,7 @@
    "reasoning": "Gulf states added: their rulers want a workable transit regime and can underwrite one, offsetting US opposition (leaders -0.3 -> 0).",
    "resolve_rule": "IMF PortWatch 30-day average Hormuz transits at 75% or more of the 2025 average, with a published fee or coordination regime run by Iran, Oman or a Gulf body, by Nov 17, 2027.",
    "previous_forecast": 0.521,
-   "change_points": 0.0,
+   "change_points": -0.9,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1458,6 +1478,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.5209,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.5119,
+     "model": "v4.3"
     }
    ]
   },
@@ -1467,9 +1492,9 @@
    "resolves_by": "2027-11-17",
    "question": "Brent below $90 on Nov 17, 2027 (about $93 on Nov 17, 2026)",
    "forecast": 0.601,
-   "range_low": 0.523,
-   "range_high": 0.677,
-   "base_rate": 0.834,
+   "range_low": 0.521,
+   "range_high": 0.679,
+   "base_rate": 0.855,
    "market": null,
    "market_source": "",
    "basis": "judgment-heavy",
@@ -1502,9 +1527,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Fed's next move after December is a cut, made by Nov 17, 2027",
-   "forecast": 0.563,
-   "range_low": 0.408,
-   "range_high": 0.707,
+   "forecast": 0.549,
+   "range_low": 0.395,
+   "range_high": 0.696,
    "base_rate": 0.55,
    "market": null,
    "market_source": "",
@@ -1514,7 +1539,7 @@
    "reasoning": "Capital +0.3: central banks that hiked into oil spikes usually reversed within a year. Leaders +0.2: political pressure on Warsh to cut.",
    "resolve_rule": "The first Fed rate change after Dec 9, 2026 is a cut, and it happens by Nov 17, 2027 (FOMC statements).",
    "previous_forecast": 0.563,
-   "change_points": 0.0,
+   "change_points": -1.4,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1530,6 +1555,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.5634,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.5493,
+     "model": "v4.3"
     }
    ]
   },
@@ -1538,9 +1568,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Nasdaq-100 closes 30%+ below its high (Jiang 'AI bubble bursts')",
-   "forecast": 0.414,
-   "range_low": 0.282,
-   "range_high": 0.56,
+   "forecast": 0.423,
+   "range_low": 0.289,
+   "range_high": 0.569,
    "base_rate": 0.183,
    "market": null,
    "market_source": "",
@@ -1550,7 +1580,7 @@
    "reasoning": "The index is already 13.5% below its record (27,002 vs 31,225 on Nov 17), so the fall still needed is about 19%. Capital +0.5: AI capex increasingly debt-financed (Fed FSR, Nov 13), valuations high, and 87% of Fed contacts name AI as a top risk. Empire +0.2: late-cycle financial excess. Still well below Y7 because 30% drawdowns are rare.",
    "resolve_rule": "Nasdaq-100 closes 30% or more below its all-time closing high at any point by Nov 17, 2027.",
    "previous_forecast": 0.414,
-   "change_points": 0.0,
+   "change_points": 0.9,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1566,6 +1596,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.4143,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.4227,
+     "model": "v4.3"
     }
    ]
   },
@@ -1574,9 +1609,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Nasdaq-100 closes 20%+ below its high",
-   "forecast": 0.589,
-   "range_low": 0.431,
-   "range_high": 0.73,
+   "forecast": 0.599,
+   "range_low": 0.442,
+   "range_high": 0.739,
    "base_rate": 0.387,
    "market": null,
    "market_source": "",
@@ -1586,7 +1621,7 @@
    "reasoning": "The index is already 13.5% below its record (27,002 vs 31,225 on Nov 17), so a further fall of about 7.5% resolves Yes. Capital +0.5: valuations rest on AI spending financed increasingly by debt; the Fed's Nov 13 Financial Stability Report found 87% of its market contacts now name AI as a top risk (50% in the spring) and flagged $680B of 2026 advanced-computing debt. Escalation with Iran adds an oil shock on top.",
    "resolve_rule": "Nasdaq-100 closes 20% or more below its all-time closing high at any point by Nov 17, 2027.",
    "previous_forecast": 0.589,
-   "change_points": 0.0,
+   "change_points": 1.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1602,6 +1637,11 @@
      "t": "2026-11-20 00:54",
      "p": 0.5887,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.5992,
+     "model": "v4.3"
     }
    ]
   },
@@ -1610,9 +1650,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "US recession begins (NBER-dated or two negative GDP quarters)",
-   "forecast": 0.351,
-   "range_low": 0.236,
-   "range_high": 0.484,
+   "forecast": 0.365,
+   "range_low": 0.247,
+   "range_high": 0.5,
    "base_rate": 0.158,
    "market": 0.305,
    "market_source": "Polymarket us-recession-by-end-of-2027-20260807185409760 (2026-11-19T22:30:45Z). Same test (two negative GDP quarters or an NBER call); the contract runs six weeks longer and counts Q4 2027 data.",
@@ -1622,7 +1662,7 @@
    "reasoning": "Energy +0.3 (oil shock from Hormuz) and capital +0.2 (5% 10-year yields, Fed hiking). Polymarket's 'US recession by end of 2027' uses the same test and trades at 30.5%, below the model's view.",
    "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession starting by Nov 17, 2027.",
    "previous_forecast": 0.351,
-   "change_points": 0.0,
+   "change_points": 1.4,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1658,6 +1698,11 @@
      "t": "2026-11-19 16:43",
      "p": 0.351,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.3652,
+     "model": "v4.3"
     }
    ]
   },
@@ -1666,9 +1711,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Russia-Ukraine general ceasefire in effect",
-   "forecast": 0.086,
-   "range_low": 0.046,
-   "range_high": 0.156,
+   "forecast": 0.084,
+   "range_low": 0.045,
+   "range_high": 0.153,
    "base_rate": 0.15,
    "market": 0.412,
    "market_source": "Polymarket russia-x-ukraine-ceasefire-by (2026-11-19T22:30:45Z). Proxy: a general, mutually agreed ceasefire that starts by the date and holds 10 days (holiday truces count if general). The question asks for one in effect on Nov 17, 2027, which is narrower. Interpolated between the Mar 31 and Dec 31, 2027 contracts.",
@@ -1678,7 +1723,7 @@
    "reasoning": "Largest disagreement with any market. Polymarket's dated contracts imply about 43% that a general ceasefire starts by Nov 17, 2027 (21.5% by Mar 31, 46.5% by Dec 31, 2027). Game -0.4: US-mediated talks resumed in Abu Dhabi on Nov 10 for the first time in nine months and ended without a ceasefire (a prisoner swap was agreed); on Nov 12 Putin held to his demands while offering only a brief ceasefire. Leaders -0.3: Putin told US envoys European troops after a ceasefire would be absolutely unacceptable. Energy -0.4: higher oil prices from the Iran war doubled Russia's main oil-tax revenue in April (Reuters). Capital +0.4: Russia's budget deficit kept rising through 2026 (KSE Institute). The lens sizes are judgments. Treat this as the forecast most likely to be wrong in either direction.",
    "resolve_rule": "A general, mutually agreed Russia-Ukraine ceasefire across the main front is in effect on Nov 17, 2027 (it may have started earlier, but must not have collapsed), per consensus reporting.",
    "previous_forecast": 0.086,
-   "change_points": 0.0,
+   "change_points": -0.2,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1703,6 +1748,11 @@
     {
      "t": "2026-11-19 16:43",
      "p": 0.086,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.0844,
      "model": "v4.3"
     }
    ]
@@ -1898,7 +1948,7 @@
    "question": "OpenAI publicly files or lists",
    "forecast": 0.706,
    "range_low": 0.706,
-   "range_high": 0.786,
+   "range_high": 0.783,
    "base_rate": 0.6,
    "market": 0.726,
    "market_source": "Polymarket openai-ipo-closing-market-cap-554 (2026-11-19T22:30:45Z). Proxy: listing by Dec 31, 2027 (question counts a public filing by Nov 17, 2027).",
@@ -1998,8 +2048,8 @@
    "outcome": null,
    "reasoning": "Nov 20: leaders +0.5 -> +0.8 after checking the Oct 27, 2026 election, which this entry had not recorded. Final count: Netanyahu bloc 53, Eisenkot-led opposition 48, Arab parties a record 19; no bloc has 61, Eisenkot rules out serving under Netanyahu, and Netanyahu leads a caretaker government. Opposition plus Ra'am is 55, so an alternative government needs the Joint List, which has never joined a coalition; deadlock and a repeat election keep Netanyahu in office as caretaker, as in 2019-21. Risks: a Bennett-Lapid-style deal with outside Arab support (he lost office that way in June 2021), or a defection that gives Eisenkot 61. Prompted by an outside forecast (Author B, 36%) that could not find the result; checked against ABC, NBC and Jerusalem Post reports of Oct 28-29.",
    "resolve_rule": "Netanyahu holds the office of prime minister (including caretaker) on Nov 17, 2027.",
-   "previous_forecast": 0.712,
-   "change_points": 5.7,
+   "previous_forecast": 0.769,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2018,9 +2068,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
-   "forecast": 0.625,
-   "range_low": 0.467,
-   "range_high": 0.761,
+   "forecast": 0.632,
+   "range_low": 0.474,
+   "range_high": 0.766,
    "base_rate": 0.45,
    "market": null,
    "market_source": "",
@@ -2030,7 +2080,7 @@
    "reasoning": "Capital +0.3 and empire +0.2: large deficits, term-premium pressure and foreign selling of Treasuries. The 10-year was 5.12% on Nov 16, already above the line.",
    "resolve_rule": "FRED DGS10 above 5.00% on Nov 17, 2027 (last observation on or before that date).",
    "previous_forecast": 0.625,
-   "change_points": 0.0,
+   "change_points": 0.7,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2040,6 +2090,11 @@
     {
      "t": "2026-11-20 00:54",
      "p": 0.6252,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.6321,
      "model": "v4.3"
     }
    ]
@@ -2142,9 +2197,9 @@
    "horizon": "1 year",
    "resolves_by": "2027-03-31",
    "question": "Qatar, Oman or Saudi Arabia brokers a signed US-Iran interim agreement by Mar 31, 2027",
-   "forecast": 0.508,
-   "range_low": 0.32,
-   "range_high": 0.694,
+   "forecast": 0.502,
+   "range_low": 0.314,
+   "range_high": 0.688,
    "base_rate": 0.35,
    "market": null,
    "market_source": "",
@@ -2154,7 +2209,7 @@
    "reasoning": "Gulf states as players: Qatar and Oman mediate now, and both the US and Iran need a third party to solve the sequencing problem (relief first vs nuclear commitments first).",
    "resolve_rule": "A signed US-Iran interim text brokered by Qatar, Oman or Saudi Arabia, announced by Mar 31, 2027.",
    "previous_forecast": 0.508,
-   "change_points": 0.0,
+   "change_points": -0.6,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2169,6 +2224,11 @@
     {
      "t": "2026-11-20 00:54",
      "p": 0.5085,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.5017,
      "model": "v4.3"
     }
    ]
@@ -2468,8 +2528,8 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-17",
    "question": "Gulf crude exports remain below 90% of pre-war levels (IEA December report on November flows)",
-   "forecast": 0.853,
-   "range_low": 0.672,
+   "forecast": 0.854,
+   "range_low": 0.675,
    "range_high": 0.943,
    "base_rate": 0.6,
    "market": null,
@@ -2480,7 +2540,7 @@
    "reasoning": "Energy +1.0: Kpler's November regional flows fell about 7% from October as attacks resumed, a leading indicator for the IEA figure. Game +0.3: Iran's leverage strategy rests on keeping flows impaired. Escalation within the window makes it near-certain. Polymarket's Hormuz markets measure deals and ship counts, not barrels, so they are not blended in.",
    "resolve_rule": "IEA Oil Market Report, December 2026: Gulf crude exports for November as a share of pre-war. Fallback: Kpler crude-only Gulf exports.",
    "previous_forecast": 0.853,
-   "change_points": 0.0,
+   "change_points": 0.1,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2500,6 +2560,11 @@
     {
      "t": "2026-11-20 00:53",
      "p": 0.8528,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.8542,
      "model": "v4.3"
     }
    ]
@@ -2617,9 +2682,9 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "A US-Iran 'effective ceasefire' begins by Dec 31: 14 straight days with no US air or missile strike landing on Iranian territory, starting by Dec 31 (Polymarket)",
-   "forecast": 0.694,
-   "range_low": 0.609,
-   "range_high": 0.767,
+   "forecast": 0.687,
+   "range_low": 0.602,
+   "range_high": 0.759,
    "base_rate": 0.75,
    "market": 0.715,
    "market_source": "Polymarket us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 (2026-11-19T22:30:45Z). Same contract as the question.",
@@ -2629,7 +2694,7 @@
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. Result is close to the market: no edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
    "previous_forecast": 0.694,
-   "change_points": 0.0,
+   "change_points": -0.7,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2680,6 +2745,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.6939,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.6865,
+     "model": "v4.3"
     }
    ]
   },
@@ -2690,7 +2760,7 @@
    "question": "Strait of Hormuz traffic returns to 'normal' by Dec 31: IMF PortWatch 7-day average of transit calls of 60 or more (Polymarket)",
    "forecast": 0.028,
    "range_low": 0.017,
-   "range_high": 0.046,
+   "range_high": 0.045,
    "base_rate": 0.04,
    "market": 0.034,
    "market_source": "Polymarket strait-of-hormuz-traffic-returns-to-normal-by-december-31 (2026-11-19T22:30:45Z). Same contract as the question.",
@@ -2796,7 +2866,7 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "A two-week US-Iran pause begins by Dec 31 AND Hormuz traffic has not returned to normal by Dec 31 (Author A v3.0's 'first model test')",
-   "forecast": 0.667,
+   "forecast": 0.66,
    "range_low": null,
    "range_high": null,
    "base_rate": null,
@@ -2808,7 +2878,7 @@
    "reasoning": "Author A v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
    "previous_forecast": 0.667,
-   "change_points": 0.0,
+   "change_points": -0.7,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2864,6 +2934,11 @@
      "t": "2026-11-20 00:53",
      "p": 0.667,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.6601,
+     "model": "v4.3"
     }
    ]
   },
@@ -2872,7 +2947,7 @@
    "horizon": "root",
    "resolves_by": "2027-11-17",
    "question": "Major US-Iran re-escalation (large-scale strikes resume or Kharg seized) within 12 months",
-   "forecast": 0.546,
+   "forecast": 0.619,
    "range_low": null,
    "range_high": null,
    "base_rate": 0.595,
@@ -2881,15 +2956,20 @@
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Post-midterm regime change pulls down (Trump: strikes 'quite unlikely', approval 32%). Pulls up: on Nov 17 Iran hit at a US radar in Bahrain (its third attack in days after a two-month lull) and the US struck a missile site on Qeshm Island; tankers were hit; USS Roosevelt arrived Nov 16; Netanyahu is a caretaker who wants Iran finished. Update of Nov 17 evening: game lens moved from -0.3 to 0 because the frozen equilibrium is visibly unstable.",
+   "reasoning": "Post-midterm regime change pulls down (Trump: strikes 'quite unlikely', approval 32%). Pulls up: on Nov 17 Iran hit at a US radar in Bahrain (its third attack in days after a two-month lull) and the US struck a missile site on Qeshm Island; tankers were hit; USS Roosevelt arrived Nov 16; Netanyahu is a caretaker who wants Iran finished. Update of Nov 17 evening: game lens moved from -0.3 to 0 because the frozen equilibrium is visibly unstable. Update of Nov 20: game 0 -> +0.3. The New York Times (Nov 18) reported Trump weighing another round of extensive strikes, with Netanyahu pressing for a four- to seven-day joint air campaign; Bloomberg (Nov 19) called new strikes increasingly likely; bombers were reported on 96-hour notice. Against: Trump said on Nov 19 he is not rushing and will wait until the new year, and called strikes quite unlikely. A delay to January still falls inside this window.",
    "resolve_rule": "YES if between Nov 18, 2026 and Nov 17, 2027 any of these is reported by CENTCOM/DoD, AP or Reuters: (a) US strikes landing on Iranian territory on 5 or more days within any 14-day window; (b) the US government announces a named military operation or campaign against Iran; (c) the US government declares the ceasefire ended; or (d) US forces seize or occupy Kharg Island. Isolated strikes described as self-defence (such as the Nov 17 Qeshm strike) do not count on their own; Iranian attacks alone do not count.",
    "previous_forecast": 0.546,
-   "change_points": 0.0,
+   "change_points": 7.3,
    "trend": [
     {
      "t": "2026-11-18 01:29",
      "p": 0.5464,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:58",
+     "p": 0.6192,
+     "model": "v4.3"
     }
    ]
   }
@@ -2897,27 +2977,27 @@
  "scenarios": [
   {
    "name": "Muddle-through (no invasion, no recession, no 30% Nasdaq crash, no Taiwan move, no default)",
-   "probability": 0.469,
+   "probability": 0.455,
    "questions": "Y1, Y8, Y6, Y10, Y11"
   },
   {
    "name": "Deal and disinflation (Iran agreement + Brent < $90 + Fed cutting)",
-   "probability": 0.251,
+   "probability": 0.241,
    "questions": "Y2, Y4, Y5"
   },
   {
    "name": "Suez outcome without a formal deal (fee regime, no signed agreement)",
-   "probability": 0.238,
+   "probability": 0.24,
    "questions": "Y3, Y2"
   },
   {
    "name": "Escalation shock (ground invasion, or oil stays high with a recession)",
-   "probability": 0.217,
+   "probability": 0.227,
    "questions": "Y1, Y4, Y8"
   },
   {
    "name": "AI/market bust (Nasdaq -20% with a recession or Fed cuts)",
-   "probability": 0.51,
+   "probability": 0.518,
    "questions": "Y7, Y8, Y5"
   }
  ],
@@ -3253,7 +3333,7 @@
      "kind": "forecast",
      "id": "Y3",
      "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
-     "value": 0.521
+     "value": 0.512
     },
     {
      "kind": "data",
@@ -3284,13 +3364,13 @@
      "kind": "forecast",
      "id": "R0",
      "label": "Major US-Iran re-escalation (large-scale strikes resume or Kharg seized) within 12 months",
-     "value": 0.546
+     "value": 0.619
     },
     {
      "kind": "forecast",
      "id": "Y2",
      "label": "Formal US-Iran agreement ending the war",
-     "value": 0.5
+     "value": 0.487
     }
    ],
    "4": [
@@ -3356,7 +3436,7 @@
      "kind": "forecast",
      "id": "Y16",
      "label": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
-     "value": 0.625
+     "value": 0.632
     }
    ],
    "8": [
@@ -3401,7 +3481,7 @@
      "kind": "forecast",
      "id": "Y5",
      "label": "Fed's next move after December is a cut, made by Nov 17, 2027",
-     "value": 0.563
+     "value": 0.549
     },
     {
      "kind": "data",
@@ -3433,7 +3513,7 @@
      "kind": "forecast",
      "id": "Y8",
      "label": "US recession begins (NBER-dated or two negative GDP quarters)",
-     "value": 0.351
+     "value": 0.365
     }
    ],
    "12": [
@@ -3441,7 +3521,7 @@
      "kind": "forecast",
      "id": "Y9",
      "label": "Russia-Ukraine general ceasefire in effect",
-     "value": 0.086
+     "value": 0.084
     },
     {
      "kind": "data",
@@ -3477,7 +3557,7 @@
      "kind": "forecast",
      "id": "Y16",
      "label": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
-     "value": 0.625
+     "value": 0.632
     },
     {
      "kind": "forecast",
@@ -3491,13 +3571,13 @@
      "kind": "forecast",
      "id": "Y8",
      "label": "US recession begins (NBER-dated or two negative GDP quarters)",
-     "value": 0.351
+     "value": 0.365
     },
     {
      "kind": "forecast",
      "id": "Y5",
      "label": "Fed's next move after December is a cut, made by Nov 17, 2027",
-     "value": 0.563
+     "value": 0.549
     }
    ],
    "16": [
@@ -3519,13 +3599,13 @@
      "kind": "forecast",
      "id": "Y2",
      "label": "Formal US-Iran agreement ending the war",
-     "value": 0.5
+     "value": 0.487
     },
     {
      "kind": "forecast",
      "id": "Y3",
      "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
-     "value": 0.521
+     "value": 0.512
     }
    ],
    "18": [
@@ -3567,7 +3647,7 @@
      "kind": "forecast",
      "id": "Y16",
      "label": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
-     "value": 0.625
+     "value": 0.632
     }
    ],
    "20": [
@@ -3581,7 +3661,7 @@
      "kind": "forecast",
      "id": "Y3",
      "label": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
-     "value": 0.521
+     "value": 0.512
     }
    ],
    "21": [
@@ -3664,7 +3744,7 @@
      "kind": "forecast",
      "id": "Y2",
      "label": "Formal US-Iran agreement ending the war",
-     "value": 0.5
+     "value": 0.487
     }
    ],
    "27": [
@@ -3995,7 +4075,7 @@
     "linked": [
      {
       "id": "Y16",
-      "forecast": 0.625
+      "forecast": 0.632
      },
      {
       "id": "M2",
@@ -4873,7 +4953,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T00:53:19+00:00",
+  "at": "2026-11-20T00:55:09+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -5088,8 +5168,8 @@
    {
     "id": "M7",
     "question": "Major US-Iran escalation by Dec 17 (large-scale strikes resume or Kharg seized)",
-    "model": 0.0758,
-    "base": 0.06291532240234943,
+    "model": 0.1097,
+    "base": 0.07629286336683094,
     "market": null,
     "market_blended": false,
     "by": "2026-12-17"
@@ -5313,7 +5393,7 @@
    {
     "id": "Y1",
     "question": "US ground invasion of Iran (holding territory) by Mar 31, 2027 (Jiang)",
-    "model": 0.0525,
+    "model": 0.0587,
     "base": 0.06,
     "market": 0.065,
     "market_blended": true,
@@ -5322,7 +5402,7 @@
    {
     "id": "Y2",
     "question": "Formal US-Iran agreement ending the war",
-    "model": 0.5001,
+    "model": 0.4875,
     "base": 0.3,
     "market": null,
     "market_blended": false,
@@ -5331,7 +5411,7 @@
    {
     "id": "Y3",
     "question": "Hormuz back to 75%+ of pre-war flow under an Iranian, Omani or Gulf-backed fee or coordination regime",
-    "model": 0.5209,
+    "model": 0.5119,
     "base": 0.3,
     "market": null,
     "market_blended": false,
@@ -5340,8 +5420,8 @@
    {
     "id": "Y4",
     "question": "Brent below $90 on Nov 17, 2027 (about $93 on Nov 17, 2026)",
-    "model": 0.6013,
-    "base": 0.8343994414472218,
+    "model": 0.6012,
+    "base": 0.8547563908884699,
     "market": null,
     "market_blended": false,
     "by": "2027-11-17"
@@ -5349,7 +5429,7 @@
    {
     "id": "Y5",
     "question": "Fed's next move after December is a cut, made by Nov 17, 2027",
-    "model": 0.5634,
+    "model": 0.5493,
     "base": 0.55,
     "market": null,
     "market_blended": false,
@@ -5358,7 +5438,7 @@
    {
     "id": "Y6",
     "question": "Nasdaq-100 closes 30%+ below its high (Jiang 'AI bubble bursts')",
-    "model": 0.4143,
+    "model": 0.4227,
     "base": 0.183,
     "market": null,
     "market_blended": false,
@@ -5367,7 +5447,7 @@
    {
     "id": "Y7",
     "question": "Nasdaq-100 closes 20%+ below its high",
-    "model": 0.5887,
+    "model": 0.5992,
     "base": 0.387,
     "market": null,
     "market_blended": false,
@@ -5376,7 +5456,7 @@
    {
     "id": "Y8",
     "question": "US recession begins (NBER-dated or two negative GDP quarters)",
-    "model": 0.3508,
+    "model": 0.3652,
     "base": 0.158,
     "market": 0.305,
     "market_blended": true,
@@ -5385,7 +5465,7 @@
    {
     "id": "Y9",
     "question": "Russia-Ukraine general ceasefire in effect",
-    "model": 0.0859,
+    "model": 0.0844,
     "base": 0.15,
     "market": 0.4122,
     "market_blended": true,
@@ -5448,7 +5528,7 @@
    {
     "id": "Y16",
     "question": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
-    "model": 0.6252,
+    "model": 0.6321,
     "base": 0.45,
     "market": null,
     "market_blended": false,
@@ -5484,7 +5564,7 @@
    {
     "id": "Y20",
     "question": "Qatar, Oman or Saudi Arabia brokers a signed US-Iran interim agreement by Mar 31, 2027",
-    "model": 0.5085,
+    "model": 0.5017,
     "base": 0.35,
     "market": null,
     "market_blended": false,
@@ -5574,7 +5654,7 @@
    {
     "id": "R3",
     "question": "Gulf crude exports remain below 90% of pre-war levels (IEA December report on November flows)",
-    "model": 0.8528,
+    "model": 0.8542,
     "base": 0.6,
     "market": null,
     "market_blended": false,
@@ -5610,7 +5690,7 @@
    {
     "id": "M8",
     "question": "A US-Iran 'effective ceasefire' begins by Dec 31: 14 straight days with no US air or missile strike landing on Iranian territory, starting by Dec 31 (Polymarket)",
-    "model": 0.6939,
+    "model": 0.6865,
     "base": 0.75,
     "market": 0.715,
     "market_blended": true,
@@ -5619,7 +5699,7 @@
    {
     "id": "M10",
     "question": "Strait of Hormuz traffic returns to 'normal' by Dec 31: IMF PortWatch 7-day average of transit calls of 60 or more (Polymarket)",
-    "model": 0.0283,
+    "model": 0.0279,
     "base": 0.04,
     "market": 0.0335,
     "market_blended": true,
@@ -5646,7 +5726,7 @@
    {
     "id": "M9",
     "question": "A two-week US-Iran pause begins by Dec 31 AND Hormuz traffic has not returned to normal by Dec 31 (Author A v3.0's 'first model test')",
-    "model": 0.667,
+    "model": 0.6601,
     "base": null,
     "market": null,
     "market_blended": false,
@@ -7207,7 +7287,7 @@
       },
       {
        "id": "Y16",
-       "forecast": 0.625
+       "forecast": 0.632
       },
       {
        "id": "M3",
@@ -7230,19 +7310,19 @@
      "linked": [
       {
        "id": "Y16",
-       "forecast": 0.625
+       "forecast": 0.632
       },
       {
        "id": "Y5",
-       "forecast": 0.563
+       "forecast": 0.549
       },
       {
        "id": "Y6",
-       "forecast": 0.414
+       "forecast": 0.423
       },
       {
        "id": "Y7",
-       "forecast": 0.589
+       "forecast": 0.599
       },
       {
        "id": "Y21",
@@ -7277,7 +7357,7 @@
       },
       {
        "id": "Y8",
-       "forecast": 0.351
+       "forecast": 0.365
       }
      ],
      "move_global": "Leave administrative and compliance layers for applied engineering, grid deployment, industrial logistics and clinical operations.",
@@ -7296,7 +7376,7 @@
      "linked": [
       {
        "id": "Y8",
-       "forecast": 0.351
+       "forecast": 0.365
       },
       {
        "id": "Y4",
@@ -7308,7 +7388,7 @@
       },
       {
        "id": "Y5",
-       "forecast": 0.563
+       "forecast": 0.549
       }
      ],
      "move_global": "Non-automatable trades (grid maintenance, mechanics, machining, health care, food production); fixed-rate housing; no variable-rate consumer debt.",
@@ -7327,7 +7407,7 @@
      "linked": [
       {
        "id": "Y8",
-       "forecast": 0.351
+       "forecast": 0.365
       },
       {
        "id": "M2",
@@ -7372,7 +7452,7 @@
      "linked": [
       {
        "id": "Y16",
-       "forecast": 0.625
+       "forecast": 0.632
       },
       {
        "id": "Y11",
@@ -7416,7 +7496,7 @@
      "linked": [
       {
        "id": "Y8",
-       "forecast": 0.351
+       "forecast": 0.365
       }
      ],
      "amplifier": "Peripheral supply shocks raise food and fuel costs for both tiers at once"
@@ -7560,7 +7640,7 @@
      "linked": [
       {
        "id": "Y16",
-       "forecast": 0.625
+       "forecast": 0.632
       }
      ]
     },
@@ -7577,7 +7657,7 @@
       },
       {
        "id": "Y3",
-       "forecast": 0.521
+       "forecast": 0.512
       }
      ]
     },
@@ -7590,7 +7670,7 @@
      "linked": [
       {
        "id": "Y16",
-       "forecast": 0.625
+       "forecast": 0.632
       }
      ]
     },
@@ -7630,7 +7710,7 @@
    "usable": 1,
    "thin": 35,
    "linked_questions": 12,
-   "mean_abs_gap_points": 6.5,
+   "mean_abs_gap_points": 6.7,
    "checks_passed": 12,
    "checks": 12
   },
@@ -8301,9 +8381,9 @@
    {
     "id": "Y1",
     "question": "US ground invasion of Iran (holding territory) by Mar 31, 2027 (Jiang)",
-    "forecast": 0.0525,
+    "forecast": 0.0587,
     "market": 0.065,
-    "gap_points": -1.3,
+    "gap_points": -0.6,
     "match": "proxy",
     "relation": "overlap",
     "type": "pm",
@@ -8317,7 +8397,7 @@
    {
     "id": "Y6",
     "question": "Nasdaq-100 closes 30%+ below its high (Jiang 'AI bubble bursts')",
-    "forecast": 0.4143,
+    "forecast": 0.4227,
     "market": null,
     "gap_points": null,
     "match": null,
@@ -8333,7 +8413,7 @@
    {
     "id": "Y7",
     "question": "Nasdaq-100 closes 20%+ below its high",
-    "forecast": 0.5887,
+    "forecast": 0.5992,
     "market": null,
     "gap_points": null,
     "match": null,
@@ -8349,9 +8429,9 @@
    {
     "id": "Y8",
     "question": "US recession begins (NBER-dated or two negative GDP quarters)",
-    "forecast": 0.3508,
+    "forecast": 0.3652,
     "market": 0.305,
-    "gap_points": 4.6,
+    "gap_points": 6.0,
     "match": "same_test",
     "relation": "same",
     "type": null,
@@ -8365,9 +8445,9 @@
    {
     "id": "Y9",
     "question": "Russia-Ukraine general ceasefire in effect",
-    "forecast": 0.0859,
+    "forecast": 0.0844,
     "market": 0.4122,
-    "gap_points": -32.6,
+    "gap_points": -32.8,
     "match": "proxy",
     "relation": "overlap",
     "type": null,
@@ -8429,9 +8509,9 @@
    {
     "id": "M8",
     "question": "A US-Iran 'effective ceasefire' begins by Dec 31: 14 straight days with no US air or missile strike landing on Iranian territory, starting by Dec 31 (Polymarket)",
-    "forecast": 0.6939,
+    "forecast": 0.6865,
     "market": 0.715,
-    "gap_points": -2.1,
+    "gap_points": -2.8,
     "match": "exact",
     "relation": "same",
     "type": "pm",
@@ -8445,9 +8525,9 @@
    {
     "id": "M10",
     "question": "Strait of Hormuz traffic returns to 'normal' by Dec 31: IMF PortWatch 7-day average of transit calls of 60 or more (Polymarket)",
-    "forecast": 0.0283,
+    "forecast": 0.0279,
     "market": 0.0335,
-    "gap_points": -0.5,
+    "gap_points": -0.6,
     "match": "exact",
     "relation": "same",
     "type": "pm",
