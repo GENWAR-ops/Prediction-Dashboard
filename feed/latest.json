@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T00:53:17+00:00",
+ "generated_at": "2026-11-20T00:55:06+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,8 +10,7 @@
   "resolved": 5,
   "open": 74,
   "moved_1pt_or_more": [
-   "W5",
-   "M6"
+   "Y15"
   ]
  },
  "forecasts": [
@@ -253,8 +252,8 @@
    "outcome": null,
    "reasoning": "China is the pivot (largest Shapley share) and needs Hormuz open, but Beijing does not spend leverage as a favour: it will want trade concessions first. Nov 20 (after the Nov 19 bilateral): leaders +0.2 -> -1.5. No US-China joint statement; China's Foreign Ministry readout covers a 'strategic stability' action plan, Taiwan and AI cooperation and, in the reports found, does not mention Iran or Hormuz; Trump said aloud that he and Xi share a 'strong consensus' that Hormuz oil must flow and Iran must not get a nuclear weapon, which is a shared view, not a named arrangement in both readouts. The trilateral declaration did not mention Iran (Reuters, ABC). Prompted by an outside forecast (Author B, 5%), checked against those reports before use.",
    "resolve_rule": "A joint statement or both readouts of the US-China bilateral name an Iran or Hormuz arrangement, by Nov 24.",
-   "previous_forecast": 0.401,
-   "change_points": -29.2,
+   "previous_forecast": 0.109,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -499,8 +498,8 @@
    "outcome": null,
    "reasoning": "Nov 20: leaders -0.2 -> +1.5. The 1-of-3 base counts G20s Xi had not committed to; for Miami he has. On Sept 25 Xi himself announced the November APEC and December Miami G20 meetings with Trump, and China's readout said the two would support each other in hosting APEC and the G20; Trump has now attended Shenzhen as agreed, and on Nov 19 both sides agreed to draft a strategic-stability action plan. Remaining risk: a Trump-hosted venue (Doral), Taiwan (Xi warned Trump on Nov 19) and Chinese practice of confirming travel only days ahead. Game +0.2 unchanged. Prompted by an outside forecast (Author C, 82%), checked against Bloomberg, Daily Wire and Chinese readout reports of Sept 25-26.",
    "resolve_rule": "Xi is physically present at the Miami G20 leaders' summit (official program or credible reporting), by Dec 15.",
-   "previous_forecast": 0.4,
-   "change_points": 38.5,
+   "previous_forecast": 0.785,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1387,6 +1386,11 @@
      "t": "2026-11-19 02:03",
      "p": 0.0525,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.0525,
+     "model": "v4.3"
     }
    ]
   },
@@ -1418,6 +1422,11 @@
      "t": "2026-11-20 00:02",
      "p": 0.5001,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.5001,
+     "model": "v4.3"
     }
    ]
   },
@@ -1444,6 +1453,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.5205,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.5209,
+     "model": "v4.3"
     }
    ]
   },
@@ -1475,6 +1489,11 @@
      "t": "2026-11-19 00:56",
      "p": 0.6008,
      "model": "v4.2"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.6013,
+     "model": "v4.3"
     }
    ]
   },
@@ -1504,6 +1523,11 @@
     },
     {
      "t": "2026-11-20 00:02",
+     "p": 0.5634,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
      "p": 0.5634,
      "model": "v4.3"
     }
@@ -1537,6 +1561,11 @@
      "t": "2026-11-19 00:56",
      "p": 0.4145,
      "model": "v4.2"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.4143,
+     "model": "v4.3"
     }
    ]
   },
@@ -1568,6 +1597,11 @@
      "t": "2026-11-19 00:56",
      "p": 0.5888,
      "model": "v4.2"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.5887,
+     "model": "v4.3"
     }
    ]
   },
@@ -1726,6 +1760,11 @@
      "t": "2026-11-19 19:45",
      "p": 0.0473,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.0473,
+     "model": "v4.3"
     }
    ]
   },
@@ -1752,6 +1791,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.03,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.0299,
+     "model": "v4.3"
     }
    ]
   },
@@ -1808,6 +1852,11 @@
      "t": "2026-11-19 19:45",
      "p": 0.7149,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.7149,
+     "model": "v4.3"
     }
    ]
   },
@@ -1834,6 +1883,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.1546,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.1546,
+     "model": "v4.3"
     }
    ]
   },
@@ -1920,6 +1974,11 @@
      "t": "2026-11-19 22:31",
      "p": 0.706,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.706,
+     "model": "v4.3"
     }
    ]
   },
@@ -1928,24 +1987,29 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Netanyahu still prime minister (including caretaker)",
-   "forecast": 0.712,
-   "range_low": 0.564,
-   "range_high": 0.826,
+   "forecast": 0.769,
+   "range_low": 0.6,
+   "range_high": 0.881,
    "base_rate": 0.6,
    "market": null,
    "market_source": "",
    "basis": "base rate",
    "status": "open",
    "outcome": null,
-   "reasoning": "Leaders +0.5: Netanyahu stayed in office as caretaker through the 2019-21 deadlocks, though he lost office from June 2021 to December 2022, so survival is the base case but not certain. (Background history, not re-verified in this audit.)",
+   "reasoning": "Nov 20: leaders +0.5 -> +0.8 after checking the Oct 27, 2026 election, which this entry had not recorded. Final count: Netanyahu bloc 53, Eisenkot-led opposition 48, Arab parties a record 19; no bloc has 61, Eisenkot rules out serving under Netanyahu, and Netanyahu leads a caretaker government. Opposition plus Ra'am is 55, so an alternative government needs the Joint List, which has never joined a coalition; deadlock and a repeat election keep Netanyahu in office as caretaker, as in 2019-21. Risks: a Bennett-Lapid-style deal with outside Arab support (he lost office that way in June 2021), or a defection that gives Eisenkot 61. Prompted by an outside forecast (Author B, 36%) that could not find the result; checked against ABC, NBC and Jerusalem Post reports of Oct 28-29.",
    "resolve_rule": "Netanyahu holds the office of prime minister (including caretaker) on Nov 17, 2027.",
    "previous_forecast": 0.712,
-   "change_points": 0.0,
+   "change_points": 5.7,
    "trend": [
     {
      "t": "2026-11-18 01:29",
      "p": 0.7121,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.7695,
+     "model": "v4.3"
     }
    ]
   },
@@ -1972,6 +2036,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.6255,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.6252,
+     "model": "v4.3"
     }
    ]
   },
@@ -1998,6 +2067,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.8638,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.8638,
+     "model": "v4.3"
     }
    ]
   },
@@ -2024,6 +2098,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.6455,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.6455,
+     "model": "v4.3"
     }
    ]
   },
@@ -2050,6 +2129,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.8623,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.8623,
+     "model": "v4.3"
     }
    ]
   },
@@ -2081,6 +2165,11 @@
      "t": "2026-11-20 00:02",
      "p": 0.5085,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.5085,
+     "model": "v4.3"
     }
    ]
   },
@@ -2105,6 +2194,11 @@
    "trend": [
     {
      "t": "2026-11-19 03:33",
+     "p": 0.05,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
      "p": 0.05,
      "model": "v4.3"
     }
@@ -2438,6 +2532,11 @@
      "t": "2026-11-19 04:15",
      "p": 0.8385,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.8385,
+     "model": "v4.3"
     }
    ]
   },
@@ -2469,6 +2568,11 @@
      "t": "2026-11-19 04:15",
      "p": 0.7835,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.7835,
+     "model": "v4.3"
     }
    ]
   },
@@ -2498,6 +2602,11 @@
     },
     {
      "t": "2026-11-19 04:15",
+     "p": 0.6599,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 00:54",
      "p": 0.6599,
      "model": "v4.3"
     }
@@ -2674,6 +2783,11 @@
      "t": "2026-11-18 01:29",
      "p": 0.096,
      "model": "v3.4"
+    },
+    {
+     "t": "2026-11-20 00:54",
+     "p": 0.096,
+     "model": "v4.3"
     }
    ]
   },
@@ -4759,7 +4873,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T00:50:19+00:00",
+  "at": "2026-11-20T00:53:19+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -5325,7 +5439,7 @@
    {
     "id": "Y15",
     "question": "Netanyahu still prime minister (including caretaker)",
-    "model": 0.7121,
+    "model": 0.7695,
     "base": 0.6,
     "market": null,
     "market_blended": false,
