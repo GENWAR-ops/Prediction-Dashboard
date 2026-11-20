@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T01:01:08+00:00",
+ "generated_at": "2026-11-20T01:04:26+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,8 +10,8 @@
   "resolved": 5,
   "open": 74,
   "moved_1pt_or_more": [
-   "Y5",
-   "Y15"
+   "Y4",
+   "C07"
   ]
  },
  "forecasts": [
@@ -1338,7 +1338,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
-   "resolve_rule": "DOL weekly claims (FRED ICSA, seasonally adjusted) for any week ending Dec 5, 12, 19 or 26, 2026, as first reported, is 225,000 or more.",
+   "resolve_rule": "DOL weekly claims (FRED ICSA, seasonally adjusted) for any week ending Dec 5, 12, 19 or 26, 2026, as first reported in the original DOL release (not later revised FRED values), is 225,000 or more.",
    "previous_forecast": 0.073,
    "change_points": 0.0,
    "trend": [
@@ -1502,10 +1502,10 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Brent below $90 on Nov 17, 2027 (about $93 on Nov 17, 2026)",
-   "forecast": 0.601,
-   "range_low": 0.521,
-   "range_high": 0.679,
-   "base_rate": 0.855,
+   "forecast": 0.731,
+   "range_low": 0.657,
+   "range_high": 0.796,
+   "base_rate": 0.921,
    "market": null,
    "market_source": "",
    "basis": "judgment-heavy",
@@ -1514,7 +1514,7 @@
    "reasoning": "The EIA's Nov 10 outlook puts Brent near $77 in Q4 2027 (2027 average $85.78), assuming Middle East supply recovers; at 30-50% annual volatility that path alone gives 62-70% below $90 if $77 is the median, or 71-75% if it is the expected price; the model's 60% adds re-escalation risk, which that path assumes away. No lens scores: the anchor is a judgment of where a backwardated curve and the IEA's Nov 13 call for a Q4 2026 surplus (larger in 2027) leave Brent a year out. Diesel tightness and any Gulf terminal strike are the risks the other way.",
    "resolve_rule": "FRED DCOILBRENTEU below $90.00 on Nov 17, 2027 (last observation on or before that date).",
    "previous_forecast": 0.601,
-   "change_points": 0.0,
+   "change_points": 13.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1535,6 +1535,11 @@
      "t": "2026-11-20 01:00",
      "p": 0.6012,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:04",
+     "p": 0.7309,
+     "model": "v4.3"
     }
    ]
   },
@@ -1554,8 +1559,8 @@
    "outcome": null,
    "reasoning": "Capital +0.3: central banks that hiked into oil spikes usually reversed within a year. Leaders +0.2: political pressure on Warsh to cut. Nov 20: the base was rebuilt after an outside forecast (Author C, 22%) pointed out that any hike after December settles this No; the model had Y5 at 55% while giving a January hike 59% (S13), which cannot both hold. audit.py now checks Y5 <= 1 - S13.",
    "resolve_rule": "The first Fed rate change after Dec 9, 2026 is a cut, and it happens by Nov 17, 2027 (FOMC statements).",
-   "previous_forecast": 0.549,
-   "change_points": -29.1,
+   "previous_forecast": 0.258,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2114,8 +2119,8 @@
    "outcome": null,
    "reasoning": "Nov 20 (second update, same day): leaders -> -0.8. The earlier +0.8 read the Oct 27 result as a deadlock that keeps Netanyahu as caretaker; that missed what happened next. Eisenkot received the mandate to form a government in the week of Nov 10, and on Nov 17 the Knesset elected his ally Matan Kahana speaker 66-52, with the Arab lists voting with Eisenkot's 48 (Reuters, Times of Israel, JTA, Al Jazeera). That shows an anti-Netanyahu majority can vote together, and a government needs only more votes for than against in a confidence vote, so outside Arab support or abstention could install one, as Ra'am made possible in June 2021. Netanyahu still stays if Eisenkot cannot hold the bloc together (Haaretz reports him sidelining the Arab parties) and the Knesset dissolves. Final count Oct 29: Netanyahu bloc 53, opposition 48, Arab parties 19. Prompted by two outside forecasts (Author B 36%, Author C 39%); the first update wrongly moved the other way.",
    "resolve_rule": "Netanyahu holds the office of prime minister (including caretaker) on Nov 17, 2027.",
-   "previous_forecast": 0.769,
-   "change_points": -36.6,
+   "previous_forecast": 0.403,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2344,7 +2349,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored. The base is a judgment, flagged as such, because no series gives a clean historical frequency for a 3-point overshoot of a CBO one-year projection.",
-   "resolve_rule": "Treasury's Monthly Treasury Statement for September 2027 (or CBO's Monthly Budget Review): fiscal 2027 net interest outlays divided by total receipts is 22% or more.",
+   "resolve_rule": "Treasury's final Monthly Treasury Statement for fiscal 2027 (September 2027): Net Interest outlays (budget function 900, the Table 9 line) divided by Total Receipts is 22% or more. A CBO fallback must use the same net interest outlays category, not net interest on the public debt.",
    "previous_forecast": 0.05,
    "change_points": 0.0,
    "trend": [
@@ -2369,7 +2374,7 @@
    "id": "C02",
    "horizon": "1 year",
    "resolves_by": "2027-12-31",
-   "question": "10-year Treasury yield closes at 6.50% or higher on any day in 2027 (LT-02)",
+   "question": "10-year Treasury yield at 6.50% or higher on any day from Nov 19, 2026 through 2027 (LT-02)",
    "forecast": 0.1,
    "range_low": 0.069,
    "range_high": 0.142,
@@ -2447,7 +2452,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
-   "resolve_rule": "BLS Productivity and Costs (preliminary) for Q4 2027: output per hour, nonfarm business, Q4 2027 over Q4 2026, is 2.2% or more (FRED OPHNFB).",
+   "resolve_rule": "BLS Productivity and Costs, preliminary release for Q4 2027: output per hour, nonfarm business, Q4 2027 over Q4 2026 as shown in that release, is 2.2% or more. Later revisions (including later FRED OPHNFB downloads) do not change the result.",
    "previous_forecast": 0.444,
    "change_points": 0.0,
    "trend": [
@@ -2467,7 +2472,7 @@
    "id": "C05",
    "horizon": "1 year",
    "resolves_by": "2027-12-31",
-   "question": "Transformer producer prices reach 525 (LT-08 grid bottleneck)",
+   "question": "Transformer producer prices are at 525 or higher in the latest reading published by Dec 31, 2027 (LT-08 grid bottleneck)",
    "forecast": 0.16,
    "range_low": 0.113,
    "range_high": 0.221,
@@ -2530,10 +2535,10 @@
    "horizon": "1 year",
    "resolves_by": "2027-12-31",
    "question": "Brent ends 2027 below $80 (Gulf fiscal stress line)",
-   "forecast": 0.277,
-   "range_low": 0.204,
-   "range_high": 0.364,
-   "base_rate": 0.277,
+   "forecast": 0.615,
+   "range_low": 0.517,
+   "range_high": 0.704,
+   "base_rate": 0.615,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -2542,7 +2547,7 @@
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "The last FRED DCOILBRENTEU observation dated on or before Dec 31, 2027 is below 80.",
    "previous_forecast": 0.277,
-   "change_points": 0.0,
+   "change_points": 33.8,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2557,6 +2562,11 @@
     {
      "t": "2026-11-20 01:00",
      "p": 0.277,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 01:04",
+     "p": 0.615,
      "model": "v4.3"
     }
    ]
@@ -2576,7 +2586,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
-   "resolve_rule": "BLS CPI for December 2027: electricity (CUSR0000SEHF01) December-on-December change exceeds all items (CPIAUCSL).",
+   "resolve_rule": "BLS CPI for December 2027, as first published in the January 2028 release: the December-on-December change in electricity (CUSR0000SEHF01) exceeds that of all items (CPIAUCSL), both computed from those seasonally adjusted series.",
    "previous_forecast": 0.417,
    "change_points": 0.0,
    "trend": [
@@ -2674,7 +2684,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +1.0: Kpler's November regional flows fell about 7% from October as attacks resumed, a leading indicator for the IEA figure. Game +0.3: Iran's leverage strategy rests on keeping flows impaired. Escalation within the window makes it near-certain. Polymarket's Hormuz markets measure deals and ship counts, not barrels, so they are not blended in.",
-   "resolve_rule": "IEA Oil Market Report, December 2026: Gulf crude exports for November as a share of pre-war. Fallback: Kpler crude-only Gulf exports.",
+   "resolve_rule": "IEA Oil Market Report, December 2026: Gulf crude exports (crude only, not total oil) for November as a share of pre-war, using the regional aggregate and pre-war reference period that report itself uses. Fallback: Kpler crude-only exports for the same countries and the same pre-war period.",
    "previous_forecast": 0.854,
    "change_points": 0.0,
    "trend": [
@@ -2996,7 +3006,7 @@
    "status": "open",
    "outcome": null,
    "reasoning": "Capital +0.5: AI-issuer credit already trades wider than the market and Y7 gives a 50% chance of a 20% Nasdaq drop. The Fed's Nov 13 Financial Stability Report (Box 2.2) adds that advanced-computing debt passed $680B in 2026 and large banks have close to $1T of exposure to tech firms, data-center developers, their SPEs and utilities, and debt, guarantees and not-yet-started leases together could exceed $3T (over $1T of leases and over $2T of take-or-pay contracts and residual-value guarantees, both undiscounted); that is the same channel, so it is cited as support and not added as a second lens score. Leaders -0.3: state regulators have been adding minimum-take large-load tariffs that shift stranded-asset risk onto data centers, protecting utility credit.",
-   "resolve_rule": "Rating-agency press release naming data-center load as a downgrade driver, between Nov 18, 2026 and Sep 30, 2027.",
+   "resolve_rule": "Rating-agency press release downgrading a US investor-owned utility that names data-center load shortfalls, cancelled data-center projects or stranded data-center investment as a driver, between Nov 18, 2026 and Sep 30, 2027. Downgrades driven by funding growth in data-center load do not count.",
    "previous_forecast": 0.096,
    "change_points": 0.0,
    "trend": [
@@ -3138,7 +3148,7 @@
   },
   {
    "name": "Deal and disinflation (Iran agreement + Brent < $90 + Fed cutting)",
-   "probability": 0.131,
+   "probability": 0.139,
    "questions": "Y2, Y4, Y5"
   },
   {
@@ -3148,7 +3158,7 @@
   },
   {
    "name": "Escalation shock (ground invasion, or oil stays high with a recession)",
-   "probability": 0.227,
+   "probability": 0.177,
    "questions": "Y1, Y4, Y8"
   },
   {
@@ -4207,7 +4217,7 @@
     "linked": [
      {
       "id": "Y4",
-      "forecast": 0.601
+      "forecast": 0.731
      },
      {
       "id": "Y18",
@@ -5109,7 +5119,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T00:59:01+00:00",
+  "at": "2026-11-20T01:01:11+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -5134,6 +5144,10 @@
    },
    {
     "area": "joint bounds",
+    "status": "ok"
+   },
+   {
+    "area": "exclusive pairs",
     "status": "ok"
    },
    {
@@ -5576,8 +5590,8 @@
    {
     "id": "Y4",
     "question": "Brent below $90 on Nov 17, 2027 (about $93 on Nov 17, 2026)",
-    "model": 0.6012,
-    "base": 0.8547563908884699,
+    "model": 0.7309,
+    "base": 0.9211244013745328,
     "market": null,
     "market_blended": false,
     "by": "2027-11-17"
@@ -5737,7 +5751,7 @@
    },
    {
     "id": "C02",
-    "question": "10-year Treasury yield closes at 6.50% or higher on any day in 2027 (LT-02)",
+    "question": "10-year Treasury yield at 6.50% or higher on any day from Nov 19, 2026 through 2027 (LT-02)",
     "model": 0.1,
     "base": 0.1,
     "market": null,
@@ -5764,7 +5778,7 @@
    },
    {
     "id": "C05",
-    "question": "Transformer producer prices reach 525 (LT-08 grid bottleneck)",
+    "question": "Transformer producer prices are at 525 or higher in the latest reading published by Dec 31, 2027 (LT-08 grid bottleneck)",
     "model": 0.16,
     "base": 0.16,
     "market": null,
@@ -5783,8 +5797,8 @@
    {
     "id": "C07",
     "question": "Brent ends 2027 below $80 (Gulf fiscal stress line)",
-    "model": 0.277,
-    "base": 0.277,
+    "model": 0.615,
+    "base": 0.615,
     "market": null,
     "market_blended": false,
     "by": "2027-12-31"
@@ -7536,7 +7550,7 @@
       },
       {
        "id": "Y4",
-       "forecast": 0.601
+       "forecast": 0.731
       },
       {
        "id": "M1",
@@ -7762,7 +7776,7 @@
      "linked": [
       {
        "id": "Y4",
-       "forecast": 0.601
+       "forecast": 0.731
       }
      ]
     },
