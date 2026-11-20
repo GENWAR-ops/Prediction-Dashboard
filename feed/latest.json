@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T00:35:03+00:00",
+ "generated_at": "2026-11-20T00:44:31+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-20",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -4511,7 +4511,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T00:30:41+00:00",
+  "at": "2026-11-20T00:35:05+00:00",
   "flaws": 0,
   "checks": [
    {
