@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-21T03:09:32+00:00",
+ "generated_at": "2026-11-21T03:44:17+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-21",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,7 +10,16 @@
   "resolved": 5,
   "open": 85,
   "moved_1pt_or_more": [
-   "K04"
+   "S10",
+   "S11",
+   "S12",
+   "S13",
+   "S14",
+   "S15",
+   "S16",
+   "S18",
+   "S22",
+   "S23"
   ]
  },
  "forecasts": [
@@ -968,19 +977,19 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-17",
    "question": "ECB raises its rates at the December 2026 meeting",
-   "forecast": 0.98,
-   "range_low": 0.97,
-   "range_high": 0.987,
-   "base_rate": 0.98,
+   "forecast": 0.969,
+   "range_low": 0.934,
+   "range_high": 0.986,
+   "base_rate": 0.969,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The ECB announces an increase in its key interest rates at its December 2026 monetary policy meeting.",
    "previous_forecast": 0.98,
-   "change_points": 0.0,
+   "change_points": -1.1,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -995,6 +1004,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.98,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.969,
      "model": "v4.3"
     }
    ]
@@ -1004,19 +1018,19 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-17",
    "question": "Bank of England raises Bank Rate at its December 2026 meeting",
-   "forecast": 0.73,
-   "range_low": 0.644,
-   "range_high": 0.801,
-   "base_rate": 0.73,
+   "forecast": 0.763,
+   "range_low": 0.591,
+   "range_high": 0.878,
+   "base_rate": 0.763,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The Bank of England's MPC announces an increase in Bank Rate at its December 2026 meeting.",
    "previous_forecast": 0.73,
-   "change_points": 0.0,
+   "change_points": 3.3,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1031,6 +1045,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.73,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.763,
      "model": "v4.3"
     }
    ]
@@ -1040,19 +1059,19 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-18",
    "question": "Bank of Japan raises its policy rate at its December 2026 meeting",
-   "forecast": 0.882,
-   "range_low": 0.82,
-   "range_high": 0.925,
-   "base_rate": 0.86,
+   "forecast": 0.9,
+   "range_low": 0.786,
+   "range_high": 0.957,
+   "base_rate": 0.881,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Capital +0.2: the yen is near 160 per dollar (159.93 on Nov 13, FRED), a level that has preceded Japanese action before, which adds pressure to tighten.",
    "resolve_rule": "The Bank of Japan announces an increase in its short-term policy rate at its December 2026 meeting.",
    "previous_forecast": 0.882,
-   "change_points": 0.0,
+   "change_points": 1.8,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1067,6 +1086,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.8824,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.9004,
      "model": "v4.3"
     }
    ]
@@ -1076,19 +1100,19 @@
    "horizon": "1 month",
    "resolves_by": "2027-01-27",
    "question": "Fed raises rates at the January 2027 meeting",
-   "forecast": 0.593,
-   "range_low": 0.469,
-   "range_high": 0.706,
-   "base_rate": 0.64,
+   "forecast": 0.466,
+   "range_low": 0.262,
+   "range_high": 0.682,
+   "base_rate": 0.516,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Energy -0.2: oil and gasoline fell sharply in November (Brent -23% on October's average), which eases headline inflation and the case for a second consecutive hike.",
    "resolve_rule": "The FOMC announces an increase in the federal funds target range at its January 2027 meeting.",
    "previous_forecast": 0.593,
-   "change_points": 0.0,
+   "change_points": -12.7,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1103,6 +1127,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.5928,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.4661,
      "model": "v4.3"
     }
    ]
@@ -1112,10 +1141,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "S&P 500 closes 2026 at or above its Nov 18 close (7,323.63)",
-   "forecast": 0.695,
-   "range_low": 0.604,
-   "range_high": 0.773,
-   "base_rate": 0.695,
+   "forecast": 0.51,
+   "range_low": 0.411,
+   "range_high": 0.608,
+   "base_rate": 0.51,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1124,7 +1153,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED SP500 close on Dec 31, 2026 (or the last trading day of 2026) is 7,323.63 or higher.",
    "previous_forecast": 0.695,
-   "change_points": 0.0,
+   "change_points": -18.5,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1144,6 +1173,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.695,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.5099,
      "model": "v4.3"
     }
    ]
@@ -1153,10 +1187,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Nasdaq-100 closes 2026 at or above 27,000",
-   "forecast": 0.676,
-   "range_low": 0.583,
-   "range_high": 0.757,
-   "base_rate": 0.676,
+   "forecast": 0.549,
+   "range_low": 0.45,
+   "range_high": 0.645,
+   "base_rate": 0.549,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1165,7 +1199,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED NASDAQ100 close on the last trading day of 2026 is 27,000 or higher.",
    "previous_forecast": 0.676,
-   "change_points": 0.0,
+   "change_points": -12.7,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1185,6 +1219,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.676,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.5495,
      "model": "v4.3"
     }
    ]
@@ -1194,10 +1233,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "10-year Treasury yield ends 2026 at or above 5.00%",
-   "forecast": 0.67,
-   "range_low": 0.576,
-   "range_high": 0.752,
-   "base_rate": 0.67,
+   "forecast": 0.585,
+   "range_low": 0.485,
+   "range_high": 0.677,
+   "base_rate": 0.585,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1206,7 +1245,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED DGS10 on the last trading day of 2026 is 5.00 or higher.",
    "previous_forecast": 0.67,
-   "change_points": 0.0,
+   "change_points": -8.5,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1226,6 +1265,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.67,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.5846,
      "model": "v4.3"
     }
    ]
@@ -1235,10 +1279,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Brent crude ends 2026 at or above $90",
-   "forecast": 0.654,
-   "range_low": 0.559,
-   "range_high": 0.738,
-   "base_rate": 0.654,
+   "forecast": 0.655,
+   "range_low": 0.56,
+   "range_high": 0.739,
+   "base_rate": 0.655,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1247,7 +1291,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DCOILBRENTEU observation dated on or before Dec 31, 2026 is 90.00 or higher.",
    "previous_forecast": 0.654,
-   "change_points": 0.0,
+   "change_points": 0.1,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1267,6 +1311,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.654,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.6547,
      "model": "v4.3"
     }
    ]
@@ -1276,10 +1325,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "VIX closes 2026 at 20 or higher",
-   "forecast": 0.78,
-   "range_low": 0.704,
-   "range_high": 0.841,
-   "base_rate": 0.78,
+   "forecast": 0.852,
+   "range_low": 0.795,
+   "range_high": 0.896,
+   "base_rate": 0.852,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1288,7 +1337,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED VIXCLS close on the last trading day of 2026 is 20.00 or higher.",
    "previous_forecast": 0.78,
-   "change_points": 0.0,
+   "change_points": 7.2,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1308,6 +1357,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.78,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.8523,
      "model": "v4.3"
     }
    ]
@@ -1317,10 +1371,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Dollar ends 2026 at or above 160 yen",
-   "forecast": 0.515,
-   "range_low": 0.416,
-   "range_high": 0.613,
-   "base_rate": 0.515,
+   "forecast": 0.516,
+   "range_low": 0.417,
+   "range_high": 0.614,
+   "base_rate": 0.516,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1329,7 +1383,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DEXJPUS observation dated on or before Dec 31, 2026 is 160.00 or higher.",
    "previous_forecast": 0.515,
-   "change_points": 0.0,
+   "change_points": 0.1,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1349,6 +1403,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.515,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.5164,
      "model": "v4.3"
     }
    ]
@@ -1358,10 +1417,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Euro ends 2026 at or above $1.10",
-   "forecast": 0.535,
-   "range_low": 0.435,
-   "range_high": 0.632,
-   "base_rate": 0.535,
+   "forecast": 0.536,
+   "range_low": 0.437,
+   "range_high": 0.633,
+   "base_rate": 0.536,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1370,7 +1429,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DEXUSEU observation dated on or before Dec 31, 2026 is 1.1000 or higher.",
    "previous_forecast": 0.535,
-   "change_points": 0.0,
+   "change_points": 0.1,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1390,6 +1449,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.535,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.5365,
      "model": "v4.3"
     }
    ]
@@ -1440,10 +1504,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Bitcoin ends 2026 at or above $60,000",
-   "forecast": 0.689,
-   "range_low": 0.598,
-   "range_high": 0.768,
-   "base_rate": 0.689,
+   "forecast": 0.653,
+   "range_low": 0.558,
+   "range_high": 0.738,
+   "base_rate": 0.653,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1452,7 +1516,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED CBBTCUSD (Coinbase) on Dec 31, 2026 is 60,000 or higher.",
    "previous_forecast": 0.689,
-   "change_points": 0.0,
+   "change_points": -3.6,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1472,6 +1536,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.689,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.6533,
      "model": "v4.3"
     }
    ]
@@ -1481,10 +1550,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "30-year mortgage rate is 7.00% or higher in the last weekly reading of 2026",
-   "forecast": 0.655,
-   "range_low": 0.56,
-   "range_high": 0.739,
-   "base_rate": 0.655,
+   "forecast": 0.913,
+   "range_low": 0.876,
+   "range_high": 0.94,
+   "base_rate": 0.913,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -1493,7 +1562,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "Freddie Mac PMMS 30-year fixed rate (FRED MORTGAGE30US), last reading dated in 2026, is 7.00 or higher.",
    "previous_forecast": 0.655,
-   "change_points": 0.0,
+   "change_points": 25.8,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1513,6 +1582,11 @@
     {
      "t": "2026-11-20 01:05",
      "p": 0.655,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 03:44",
+     "p": 0.9135,
      "model": "v4.3"
     }
    ]
@@ -2093,8 +2167,8 @@
    "outcome": null,
    "reasoning": "Leaders -0.6: Xi's purge of PLA leadership and a US-China summit this week argue against near-term force. Empire +0.5: the 2027 PLA centenary and US overstretch in the Gulf. Edge versus the market: see edge.",
    "resolve_rule": "PLA blockade, quarantine (customs or coast-guard inspection regime) or invasion of any inhabited Taiwan-administered territory begins between Nov 18, 2026 and Nov 17, 2027. A blockade or quarantine counts only if it stops, turns back or inspects actual civilian shipping or flights bound for that territory; an exercise that only simulates one does not count.",
-   "previous_forecast": 0.047,
-   "change_points": 0.1,
+   "previous_forecast": 0.048,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2327,8 +2401,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.714,
-   "change_points": -0.5,
+   "previous_forecast": 0.709,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2724,12 +2798,12 @@
    "resolves_by": "2027-10-31",
    "question": "Federal net interest reaches 22% of receipts in fiscal 2027 (long-range watch LT-01)",
    "forecast": 0.05,
-   "range_low": 0.034,
-   "range_high": 0.073,
+   "range_low": 0.029,
+   "range_high": 0.105,
    "base_rate": 0.05,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored. The base is a judgment, flagged as such, because no series gives a clean historical frequency for a 3-point overshoot of a CBO one-year projection.",
@@ -3532,12 +3606,12 @@
    "resolves_by": "2027-03-31",
    "question": "Germany raises its gas emergency plan to the alarm level (or higher) by Mar 31, 2027",
    "forecast": 0.177,
-   "range_low": 0.116,
-   "range_high": 0.262,
+   "range_low": 0.081,
+   "range_high": 0.346,
    "base_rate": 0.15,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +0.5: the supply buffer is thinner than in any winter since the plan's 2022 activation and the Russian LNG ban removes a flexible source mid-winter. Leaders -0.3: the ministry and the Bundesnetzagentur have repeatedly called the risk low, and the alarm level is politically costly because it signals scarcity and lifts prices.",
@@ -3558,12 +3632,12 @@
    "resolves_by": "2027-03-31",
    "question": "Iraq's parliament passes a 2027 federal budget law by Mar 31, 2027",
    "forecast": 0.328,
-   "range_low": 0.237,
-   "range_high": 0.433,
+   "range_low": 0.172,
+   "range_high": 0.533,
    "base_rate": 0.35,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Leaders -0.3: the Kurdistan-share dispute already delayed the cabinet vote and the PUK has said it will not back the draft. Game +0.2: a third year without a budget would block the IMF programme Baghdad asked for, which raises the cost of further delay.",
@@ -3584,12 +3658,12 @@
    "resolves_by": "2027-09-30",
    "question": "Iraq devalues the dinar again: official rate weaker than 1,500 per dollar by Sep 30, 2027",
    "forecast": 0.184,
-   "range_low": 0.126,
-   "range_high": 0.262,
+   "range_low": 0.088,
+   "range_high": 0.346,
    "base_rate": 0.2,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Capital +0.4: an IMF programme and a deficit above 40 trillion dinars push toward more devaluation. Energy -0.3: Basra exports had recovered to about 75% of pre-war by October and oil prices are higher, which lifts dinar revenue. Leaders -0.2: MPs pushed back hard against the October move.",
@@ -3610,12 +3684,12 @@
    "resolves_by": "2027-07-31",
    "question": "FAO Food Price Index reaches 140 or more in any month from November 2026 to June 2027",
    "forecast": 0.216,
-   "range_low": 0.15,
-   "range_high": 0.302,
+   "range_low": 0.106,
+   "range_high": 0.393,
    "base_rate": 0.2,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +0.3: fertilizer costs feed into 2027 crop yields with a lag. Capital -0.2: the cereal and dairy sub-indices were falling in October (cereals -4.5% on the month).",
@@ -3636,12 +3710,12 @@
    "resolves_by": "2027-07-31",
    "question": "World Bank DAP fertilizer price reaches $850 per tonne in any month from October 2026 to June 2027",
    "forecast": 0.3,
-   "range_low": 0.223,
-   "range_high": 0.39,
+   "range_low": 0.161,
+   "range_high": 0.488,
    "base_rate": 0.3,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +0.3: sulfur and Gulf phosphate supply remain cut while Hormuz is restricted. Game -0.3: the World Bank, NDSU and CRU all expect phosphate to ease in 2027 as Ma'aden and OCP expand, and demand destruction was already visible this autumn.",
@@ -3662,12 +3736,12 @@
    "resolves_by": "2027-03-31",
    "question": "China issues its revised technology-export catalogue, with AI chip design entries, by Mar 31, 2027",
    "forecast": 0.373,
-   "range_low": 0.275,
-   "range_high": 0.483,
+   "range_low": 0.203,
+   "range_high": 0.582,
    "base_rate": 0.35,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Game +0.3: issuing an already-drafted catalogue is a low-cost countermeasure that fits MOFCOM's Nov 17 threat. Leaders -0.2: the truce running to Jan 10 and temporary registration already in force reduce the urgency to finalize.",
@@ -3688,12 +3762,12 @@
    "resolves_by": "2027-04-30",
    "question": "EU gas storage falls below 20% full on any day by Apr 30, 2027",
    "forecast": 0.397,
-   "range_low": 0.285,
-   "range_high": 0.52,
+   "range_low": 0.211,
+   "range_high": 0.618,
    "base_rate": 0.35,
    "market": null,
    "market_source": "",
-   "basis": "base rate",
+   "basis": "judgment prior",
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +0.2: the Russian LNG ban removes supply partway through the winter on top of the Qatari shortfall.",
@@ -3817,8 +3891,8 @@
    "outcome": null,
    "reasoning": "Rule-based base rate from the NVD feed: the remaining days of 2026 are projected at the current month's daily pace, with each later month changed by one of the observed month-to-month changes in daily pace since February 2025; the base is the share of those changes that would reach 125,000 (Laplace). The 2026 rise is steep (October 17,481 against 4,389 a year earlier), so the projection carries that momentum; a holiday slowdown or a backlog cleanup would move it either way.",
    "resolve_rule": "Sum over the twelve months of 2026 of NVD API 2.0 totalResults for CVEs by published date (pubStartDate/pubEndDate, one query per month, rejected records not excluded), as read on or after Jan 5, 2027. 125,000 or more is Yes.",
-   "previous_forecast": 0.956,
-   "change_points": -4.3,
+   "previous_forecast": 0.913,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-20 16:48",
@@ -5954,12 +6028,12 @@
   }
  ],
  "audit": {
-  "at": "2026-11-21T03:08:29+00:00",
-  "flaws": 0,
+  "at": "2026-11-21T03:37:54+00:00",
+  "flaws": 1,
   "checks": [
    {
     "area": "tests",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "ledger chain",
@@ -6027,10 +6101,6 @@
    },
    {
     "area": "FRED observation dates",
-    "status": "ok"
-   },
-   {
-    "area": "published data",
     "status": "ok"
    },
    {
@@ -6479,8 +6549,8 @@
    {
     "id": "S10",
     "question": "ECB raises its rates at the December 2026 meeting",
-    "model": 0.98,
-    "base": 0.98,
+    "model": 0.969,
+    "base": 0.969,
     "market": 0.969,
     "market_blended": false,
     "by": "2026-12-17"
@@ -6488,8 +6558,8 @@
    {
     "id": "S11",
     "question": "Bank of England raises Bank Rate at its December 2026 meeting",
-    "model": 0.73,
-    "base": 0.73,
+    "model": 0.763,
+    "base": 0.763,
     "market": 0.763,
     "market_blended": false,
     "by": "2026-12-17"
@@ -6497,8 +6567,8 @@
    {
     "id": "S12",
     "question": "Bank of Japan raises its policy rate at its December 2026 meeting",
-    "model": 0.8824,
-    "base": 0.86,
+    "model": 0.9004,
+    "base": 0.881,
     "market": 0.881,
     "market_blended": false,
     "by": "2026-12-18"
@@ -6506,8 +6576,8 @@
    {
     "id": "S13",
     "question": "Fed raises rates at the January 2027 meeting",
-    "model": 0.5928,
-    "base": 0.64,
+    "model": 0.4661,
+    "base": 0.516,
     "market": 0.516,
     "market_blended": false,
     "by": "2027-01-27"
@@ -6515,8 +6585,8 @@
    {
     "id": "S14",
     "question": "S&P 500 closes 2026 at or above its Nov 18 close (7,323.63)",
-    "model": 0.695,
-    "base": 0.695,
+    "model": 0.5099,
+    "base": 0.5099,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6524,8 +6594,8 @@
    {
     "id": "S15",
     "question": "Nasdaq-100 closes 2026 at or above 27,000",
-    "model": 0.676,
-    "base": 0.676,
+    "model": 0.5495,
+    "base": 0.5495,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6533,8 +6603,8 @@
    {
     "id": "S16",
     "question": "10-year Treasury yield ends 2026 at or above 5.00%",
-    "model": 0.67,
-    "base": 0.67,
+    "model": 0.5846,
+    "base": 0.5846,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6542,8 +6612,8 @@
    {
     "id": "S17",
     "question": "Brent crude ends 2026 at or above $90",
-    "model": 0.654,
-    "base": 0.654,
+    "model": 0.6547,
+    "base": 0.6547,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6551,8 +6621,8 @@
    {
     "id": "S18",
     "question": "VIX closes 2026 at 20 or higher",
-    "model": 0.78,
-    "base": 0.78,
+    "model": 0.8523,
+    "base": 0.8523,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6560,8 +6630,8 @@
    {
     "id": "S19",
     "question": "Dollar ends 2026 at or above 160 yen",
-    "model": 0.515,
-    "base": 0.515,
+    "model": 0.5164,
+    "base": 0.5164,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6569,8 +6639,8 @@
    {
     "id": "S20",
     "question": "Euro ends 2026 at or above $1.10",
-    "model": 0.535,
-    "base": 0.535,
+    "model": 0.5365,
+    "base": 0.5365,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6587,8 +6657,8 @@
    {
     "id": "S22",
     "question": "Bitcoin ends 2026 at or above $60,000",
-    "model": 0.689,
-    "base": 0.689,
+    "model": 0.6533,
+    "base": 0.6533,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -6596,8 +6666,8 @@
    {
     "id": "S23",
     "question": "30-year mortgage rate is 7.00% or higher in the last weekly reading of 2026",
-    "model": 0.655,
-    "base": 0.655,
+    "model": 0.9135,
+    "base": 0.9135,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -7331,6 +7401,27 @@
   ],
   "missed": [
    {
+    "date": "2026-11-21",
+    "kind": "model error found before resolution",
+    "event": "Price-level base rates stayed at the level of the day they were written",
+    "model": "S14-S20, S22 and S23 count past windows from a starting level, and S10-S13 use a market price as the base; both were written into the question and never refreshed. On Nov 21 the published S23 (mortgage rate at or above 7.00%) was 0.66 with the rate at 7.28% (recount 0.91); S14 was 0.70 with the S&P 500 2.0% below its threshold (recount 0.51); S13 was 0.59 with its market at 0.52 (now 0.47). The audit checked feed age, not whether forecasts used the feed.",
+    "action": "Fixed in v4.9: live_bases.py recounts from the latest observation on every run, the market-as-base questions read the latest price, and the audit compares each published base with a recount. First forecasts in the ledger are unchanged and are what is scored."
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "tension to test",
+    "event": "The scoreboard treats questions that resolve together as independent",
+    "model": "50 open questions carry no shared factor, including 24 data and price questions, 12 of them settled by Dec 31 closes. Over the last ten years the S14 and S15 outcomes (S&P 500 and Nasdaq-100 against their thresholds) would have agreed 86% of the time. The '109 resolved questions' bar for a meaningful Brier gap counts each as a separate trial, so it will be reached too early.",
+    "action": "Candidate for the next model: give the price questions shared factor loads and report an effective number of independent resolutions (or score by cluster) next to the raw count."
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "tension to test",
+    "event": "Only first forecasts are scored",
+    "model": "The model is rerun every few hours and the ledger records each move, but the score uses the first forecast alone, so updating is never tested and a stale current forecast (the error above) cannot show up in the score.",
+    "action": "Candidate for the next model: report a time-averaged Brier score (each day's standing forecast, averaged over the question's life) beside the first-forecast score."
+   },
+   {
     "date": "2026-11-20",
     "kind": "tension to test",
     "event": "Y3's game lens overrides its reference class",
@@ -7493,6 +7584,14 @@
    }
   ],
   "candidates": [
+   {
+    "item": "Candidate for the next model: give the price questions shared factor loads and report an effective number of independent resolutions (or score by cluster) next to the raw count.",
+    "source": "missed: The scoreboard treats questions that resolve together as independent"
+   },
+   {
+    "item": "Candidate for the next model: report a time-averaged Brier score (each day's standing forecast, averaged over the question's life) beside the first-forecast score.",
+    "source": "missed: Only first forecasts are scored"
+   },
    {
     "item": "Test at resolution. Candidate for the next model: for game-anchored questions, pool the game sub-model with the reference class instead of letting it replace the base.",
     "source": "missed: Y3's game lens overrides its reference class"
