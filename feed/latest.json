@@ -1,15 +1,18 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-20T21:17:59+00:00",
+ "generated_at": "2026-11-21T00:08:29+00:00",
  "model_version": "v4.3",
- "run_date": "2026-11-20",
+ "run_date": "2026-11-21",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
  "note": "Probabilities are 0-1. range_low/high is the model's own judgment range. change_points compares with the previously published feed. Not investment advice.",
  "summary": {
   "questions": 90,
   "resolved": 5,
   "open": 85,
-  "moved_1pt_or_more": []
+  "moved_1pt_or_more": [
+   "Y14",
+   "K04"
+  ]
  },
  "forecasts": [
   {
@@ -290,19 +293,19 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-09",
    "question": "Fed raises rates on Dec 9",
-   "forecast": 0.955,
-   "range_low": 0.944,
-   "range_high": 0.964,
+   "forecast": 0.946,
+   "range_low": 0.933,
+   "range_high": 0.957,
    "base_rate": 0.97,
-   "market": 0.939,
-   "market_source": "Polymarket fed-decision-in-december-20260729232808632 (2026-11-20T16:39:09Z). Any hike = 25 bp + 50 bp+ contracts. CME FedWatch on Nov 16: 95% for 25 bp and 5% for 50 bp.",
+   "market": 0.913,
+   "market_source": "Polymarket fed-decision-in-december-20260729232808632 (2026-11-20T22:27:43Z). Any hike = 25 bp + 50 bp+ contracts. CME FedWatch on Nov 16: 95% for 25 bp and 5% for 50 bp.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
    "previous_forecast": 0.955,
-   "change_points": 0.0,
+   "change_points": -0.9,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -392,6 +395,11 @@
     {
      "t": "2026-11-20 16:42",
      "p": 0.9548,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.9462,
      "model": "v4.3"
     }
    ]
@@ -1555,8 +1563,8 @@
    "range_low": null,
    "range_high": null,
    "base_rate": 0.06,
-   "market": 0.075,
-   "market_source": "Polymarket will-the-us-invade-iran-before-2027 (2026-11-20T16:39:09Z). Proxy: ends Dec 31, 2026 (question runs to Mar 31, 2027) and does not require holding territory.",
+   "market": 0.085,
+   "market_source": "Polymarket will-the-us-invade-iran-before-2027 (2026-11-20T22:27:43Z). Proxy: ends Dec 31, 2026 (question runs to Mar 31, 2027) and does not require holding territory.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
@@ -1609,6 +1617,11 @@
      "t": "2026-11-20 16:42",
      "p": 0.0596,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.0603,
+     "model": "v4.3"
     }
    ]
   },
@@ -1617,7 +1630,7 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "Formal US-Iran agreement ending the war",
-   "forecast": 0.487,
+   "forecast": 0.488,
    "range_low": 0.262,
    "range_high": 0.719,
    "base_rate": 0.3,
@@ -1629,7 +1642,7 @@
    "reasoning": "Gulf states added as players: Qatar and Oman are mediating now and the Gulf monarchies, whose exports and infrastructure are most exposed, have the strongest incentive to underwrite a deal (leaders 0 -> +0.2).",
    "resolve_rule": "US and Iran sign an agreement both describe as ending the war, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.487,
-   "change_points": 0.0,
+   "change_points": 0.1,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1710,7 +1723,7 @@
    "resolves_by": "2027-11-17",
    "question": "Brent below $90 on Nov 17, 2027 (about $93 on Nov 17, 2026)",
    "forecast": 0.731,
-   "range_low": 0.657,
+   "range_low": 0.658,
    "range_high": 0.796,
    "base_rate": 0.921,
    "market": null,
@@ -1762,7 +1775,7 @@
    "question": "Fed's next move after December is a cut, made by Nov 17, 2027",
    "forecast": 0.127,
    "range_low": 0.071,
-   "range_high": 0.215,
+   "range_high": 0.216,
    "base_rate": 0.12,
    "market": null,
    "market_source": "",
@@ -1818,7 +1831,7 @@
    "question": "Nasdaq-100 closes 30%+ below its high (Jiang 'AI bubble bursts')",
    "forecast": 0.423,
    "range_low": 0.289,
-   "range_high": 0.569,
+   "range_high": 0.568,
    "base_rate": 0.183,
    "market": null,
    "market_source": "",
@@ -1918,19 +1931,19 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "US recession begins (NBER-dated or two negative GDP quarters)",
-   "forecast": 0.364,
-   "range_low": 0.246,
-   "range_high": 0.499,
+   "forecast": 0.365,
+   "range_low": 0.247,
+   "range_high": 0.5,
    "base_rate": 0.158,
-   "market": 0.295,
-   "market_source": "Polymarket us-recession-by-end-of-2027-20260807185409760 (2026-11-20T16:39:09Z). Same test (two negative GDP quarters or an NBER call); the contract runs six weeks longer and counts Q4 2027 data.",
+   "market": 0.305,
+   "market_source": "Polymarket us-recession-by-end-of-2027-20260807185409760 (2026-11-20T22:27:43Z). Same test (two negative GDP quarters or an NBER call); the contract runs six weeks longer and counts Q4 2027 data.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Energy +0.3 (oil shock from Hormuz) and capital +0.2 (5% 10-year yields, Fed hiking). Polymarket's 'US recession by end of 2027' uses the same test and trades at 30.5%, below the model's view.",
    "resolve_rule": "BEA reports two consecutive negative quarters of real GDP (advance estimates count), or NBER dates a peak, with the recession (or the first of the two negative quarters) starting between Nov 18, 2026 and Nov 17, 2027; quarters or recessions that began before then do not count.",
    "previous_forecast": 0.364,
-   "change_points": 0.0,
+   "change_points": 0.1,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -1991,6 +2004,11 @@
      "t": "2026-11-20 16:42",
      "p": 0.3641,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.3652,
+     "model": "v4.3"
     }
    ]
   },
@@ -2004,7 +2022,7 @@
    "range_high": 0.153,
    "base_rate": 0.15,
    "market": 0.411,
-   "market_source": "Polymarket russia-x-ukraine-ceasefire-by (2026-11-20T16:39:09Z). Proxy: a general, mutually agreed ceasefire that starts by the date and holds 10 days (holiday truces count if general). The question asks for one in effect on Nov 17, 2027, which is narrower. Interpolated between the Mar 31 and Dec 31, 2027 contracts.",
+   "market_source": "Polymarket russia-x-ukraine-ceasefire-by (2026-11-20T22:27:43Z). Proxy: a general, mutually agreed ceasefire that starts by the date and holds 10 days (holiday truces count if general). The question asks for one in effect on Nov 17, 2027, which is narrower. Interpolated between the Mar 31 and Dec 31, 2027 contracts.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
@@ -2065,7 +2083,7 @@
    "range_high": 0.069,
    "base_rate": 0.05,
    "market": 0.067,
-   "market_source": "Polymarket taiwan-invasion-term (2026-11-20T16:39:09Z). Proxy: invasion only (the question also counts a blockade or quarantine). Read at Nov 17, 2027 by constant-hazard interpolation between the Jun 30 and Dec 31, 2027 contracts.",
+   "market_source": "Polymarket taiwan-invasion-term (2026-11-20T22:27:43Z). Proxy: invasion only (the question also counts a blockade or quarantine). Read at Nov 17, 2027 by constant-hazard interpolation between the Jun 30 and Dec 31, 2027 contracts.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
@@ -2172,19 +2190,19 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "House impeaches Hegseth, or he leaves office",
-   "forecast": 0.715,
-   "range_low": 0.525,
+   "forecast": 0.714,
+   "range_low": 0.515,
    "range_high": 0.86,
    "base_rate": 0.45,
-   "market": 0.545,
-   "market_source": "Polymarket pete-hegseth-impeached-by-june-30 (2026-11-20T16:39:09Z). Proxy: impeachment by Jun 30, 2027. The question also counts leaving office and runs to Nov 17, 2027, so it is broader. Thin contract (about $1.9k liquidity): low weight and no floor.",
+   "market": 0.535,
+   "market_source": "Polymarket pete-hegseth-impeached-by-june-30 (2026-11-20T22:27:43Z). Proxy: impeachment by Jun 30, 2027. The question also counts leaving office and runs to Nov 17, 2027, so it is broader. Thin contract (about $1.9k liquidity): low weight and no floor.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Leaders +0.8: Democrats take the House in January and Jeffries has backed impeaching Hegseth; on Nov 10 the lame-duck House voted 211-204 to send Massie's eight articles to committee, with 11 Democrats absent, and Democrats say they will try again. Game +0.4: removing a cabinet member is cheaper than impeaching the president; Mayorkas (2024) was impeached on a second vote. Markets: impeached by Jun 30, 2027 at 65.5% (thin, about $1.9k liquidity); out as Defense Secretary by Dec 31 at 15.5%.",
    "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.715,
-   "change_points": 0.0,
+   "change_points": -0.1,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2289,19 +2307,19 @@
    "horizon": "1 year",
    "resolves_by": "2027-11-17",
    "question": "OpenAI publicly files or lists",
-   "forecast": 0.735,
-   "range_low": 0.735,
-   "range_high": 0.785,
+   "forecast": 0.714,
+   "range_low": 0.714,
+   "range_high": 0.783,
    "base_rate": 0.6,
-   "market": 0.755,
-   "market_source": "Polymarket openai-ipo-closing-market-cap-554 (2026-11-20T16:39:09Z). Proxy: listing by Dec 31, 2027 (question counts a public filing by Nov 17, 2027).",
+   "market": 0.734,
+   "market_source": "Polymarket openai-ipo-closing-market-cap-554 (2026-11-20T22:27:43Z). Proxy: listing by Dec 31, 2027 (question counts a public filing by Nov 17, 2027).",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, between Nov 18, 2026 and Nov 17, 2027.",
    "previous_forecast": 0.735,
-   "change_points": 0.0,
+   "change_points": -2.1,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2416,6 +2434,11 @@
     {
      "t": "2026-11-20 16:42",
      "p": 0.7355,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.714,
      "model": "v4.3"
     }
    ]
@@ -2636,8 +2659,8 @@
    "resolves_by": "2027-03-31",
    "question": "Qatar, Oman or Saudi Arabia brokers a signed US-Iran interim agreement by Mar 31, 2027",
    "forecast": 0.502,
-   "range_low": 0.314,
-   "range_high": 0.688,
+   "range_low": 0.315,
+   "range_high": 0.689,
    "base_rate": 0.35,
    "market": null,
    "market_source": "",
@@ -3077,7 +3100,7 @@
    "resolves_by": "2026-12-17",
    "question": "Gulf crude exports remain below 90% of pre-war levels (IEA December report on November flows)",
    "forecast": 0.854,
-   "range_low": 0.675,
+   "range_low": 0.674,
    "range_high": 0.943,
    "base_rate": 0.6,
    "market": null,
@@ -3265,19 +3288,19 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "A US-Iran 'effective ceasefire' begins by Dec 31: 14 straight days with no US air or missile strike landing on Iranian territory, starting by Dec 31 (Polymarket)",
-   "forecast": 0.685,
-   "range_low": 0.601,
-   "range_high": 0.759,
+   "forecast": 0.693,
+   "range_low": 0.609,
+   "range_high": 0.765,
    "base_rate": 0.75,
-   "market": 0.705,
-   "market_source": "Polymarket us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 (2026-11-20T16:39:09Z). Same contract as the question.",
+   "market": 0.765,
+   "market_source": "Polymarket us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 (2026-11-20T22:27:43Z). Same contract as the question.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. The model was close to the market on Nov 17; the gap that opened when the market rose on Nov 20 is explained under edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
    "previous_forecast": 0.685,
-   "change_points": 0.0,
+   "change_points": 0.8,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -3348,6 +3371,16 @@
      "t": "2026-11-20 16:42",
      "p": 0.6855,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.6921,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 00:08",
+     "p": 0.6931,
+     "model": "v4.3"
     }
    ]
   },
@@ -3360,8 +3393,8 @@
    "range_low": 0.017,
    "range_high": 0.045,
    "base_rate": 0.04,
-   "market": 0.033,
-   "market_source": "Polymarket strait-of-hormuz-traffic-returns-to-normal-by-december-31 (2026-11-20T16:39:09Z). Same contract as the question.",
+   "market": 0.032,
+   "market_source": "Polymarket strait-of-hormuz-traffic-returns-to-normal-by-december-31 (2026-11-20T22:27:43Z). Same contract as the question.",
    "basis": "market-anchored",
    "status": "open",
    "outcome": null,
@@ -3728,10 +3761,10 @@
    "horizon": "1 year",
    "resolves_by": "2027-03-31",
    "question": "New or updated US joint cyber advisory reports Iran-linked disruption of US critical infrastructure by Mar 31, 2027",
-   "forecast": 0.507,
-   "range_low": 0.41,
-   "range_high": 0.604,
-   "base_rate": 0.464,
+   "forecast": 0.504,
+   "range_low": 0.407,
+   "range_high": 0.601,
+   "base_rate": 0.461,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -3740,11 +3773,16 @@
    "reasoning": "Event-rate rule from the register: two qualifying advisories since the war began (AA26-097A on Apr 7 and its Jul 22 update). Escalation shift +0.6: if large-scale US strikes resume, Iranian cyber retaliation and a further advisory become more likely.",
    "resolve_rule": "A new joint cybersecurity advisory, or an update to an existing one, by CISA, the FBI, NSA or partner agencies, published between Nov 20, 2026 and Mar 31, 2027, reports disruptive or destructive cyber activity against US critical infrastructure attributed to Iran-linked actors. A general warning that Iranian actors may target US networks, with no reported disruption, does not count.",
    "previous_forecast": 0.507,
-   "change_points": 0.0,
+   "change_points": -0.3,
    "trend": [
     {
      "t": "2026-11-20 03:11",
      "p": 0.5073,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 00:08",
+     "p": 0.504,
      "model": "v4.3"
     }
    ]
@@ -3754,10 +3792,10 @@
    "horizon": "1 month",
    "resolves_by": "2027-01-05",
    "question": "NVD lists 125,000 or more CVEs published in calendar 2026",
-   "forecast": 0.913,
-   "range_low": 0.876,
-   "range_high": 0.94,
-   "base_rate": 0.913,
+   "forecast": 0.956,
+   "range_low": 0.936,
+   "range_high": 0.97,
+   "base_rate": 0.957,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -3766,11 +3804,16 @@
    "reasoning": "Rule-based base rate from the NVD feed: the remaining days of 2026 are projected at the current month's daily pace, with each later month changed by one of the observed month-to-month changes in daily pace since February 2025; the base is the share of those changes that would reach 125,000 (Laplace). The 2026 rise is steep (October 17,481 against 4,389 a year earlier), so the projection carries that momentum; a holiday slowdown or a backlog cleanup would move it either way.",
    "resolve_rule": "Sum over the twelve months of 2026 of NVD API 2.0 totalResults for CVEs by published date (pubStartDate/pubEndDate, one query per month, rejected records not excluded), as read on or after Jan 5, 2027. 125,000 or more is Yes.",
    "previous_forecast": 0.913,
-   "change_points": 0.0,
+   "change_points": 4.3,
    "trend": [
     {
      "t": "2026-11-20 16:48",
      "p": 0.913,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.9565,
      "model": "v4.3"
     }
    ]
@@ -3780,7 +3823,7 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "A two-week US-Iran pause begins by Dec 31 AND Hormuz traffic has not returned to normal by Dec 31 (Author A v3.0's 'first model test')",
-   "forecast": 0.659,
+   "forecast": 0.667,
    "range_low": null,
    "range_high": null,
    "base_rate": null,
@@ -3792,7 +3835,7 @@
    "reasoning": "Author A v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
    "previous_forecast": 0.659,
-   "change_points": 0.0,
+   "change_points": 0.8,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -3868,6 +3911,16 @@
      "t": "2026-11-20 16:42",
      "p": 0.6591,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-20 22:30",
+     "p": 0.6658,
+     "model": "v4.3"
+    },
+    {
+     "t": "2026-11-21 00:08",
+     "p": 0.6667,
+     "model": "v4.3"
     }
    ]
   },
@@ -3926,7 +3979,7 @@
   },
   {
    "name": "AI/market bust (Nasdaq -20% with a recession or Fed cuts)",
-   "probability": 0.391,
+   "probability": 0.392,
    "questions": "Y7, Y8, Y5"
   }
  ],
@@ -4279,7 +4332,7 @@
      "kind": "forecast",
      "id": "Y12",
      "label": "House impeaches Hegseth, or he leaves office",
-     "value": 0.715
+     "value": 0.714
     },
     {
      "kind": "forecast",
@@ -4299,7 +4352,7 @@
      "kind": "forecast",
      "id": "Y2",
      "label": "Formal US-Iran agreement ending the war",
-     "value": 0.487
+     "value": 0.488
     }
    ],
    "4": [
@@ -4339,10 +4392,10 @@
      "kind": "data",
      "id": "DGS10",
      "label": "10-year yield (%)",
-     "value": 5.07,
-     "as_of": "2026-11-18",
+     "value": 5.04,
+     "as_of": "2026-11-19",
      "change_6m": 0.59,
-     "window_start": "2026-05-27"
+     "window_start": "2026-05-28"
     },
     {
      "kind": "forecast",
@@ -4356,10 +4409,10 @@
      "kind": "data",
      "id": "DGS10",
      "label": "10-year yield (%)",
-     "value": 5.07,
-     "as_of": "2026-11-18",
+     "value": 5.04,
+     "as_of": "2026-11-19",
      "change_6m": 0.59,
-     "window_start": "2026-05-27"
+     "window_start": "2026-05-28"
     },
     {
      "kind": "forecast",
@@ -4373,10 +4426,10 @@
      "kind": "data",
      "id": "DGS10",
      "label": "10-year yield (%)",
-     "value": 5.07,
-     "as_of": "2026-11-18",
+     "value": 5.04,
+     "as_of": "2026-11-19",
      "change_6m": 0.59,
-     "window_start": "2026-05-27"
+     "window_start": "2026-05-28"
     },
     {
      "kind": "forecast",
@@ -4404,7 +4457,7 @@
      "kind": "forecast",
      "id": "M1",
      "label": "Fed raises rates on Dec 9",
-     "value": 0.955
+     "value": 0.946
     },
     {
      "kind": "forecast",
@@ -4416,10 +4469,10 @@
      "kind": "data",
      "id": "T10Y3M",
      "label": "10y-3m curve (pts)",
-     "value": 0.7,
-     "as_of": "2026-11-19",
-     "change_6m": -0.06,
-     "window_start": "2026-05-28"
+     "value": 0.6,
+     "as_of": "2026-11-20",
+     "change_6m": -0.16,
+     "window_start": "2026-05-29"
     }
    ],
    "11": [
@@ -4436,13 +4489,13 @@
      "kind": "forecast",
      "id": "M1",
      "label": "Fed raises rates on Dec 9",
-     "value": 0.955
+     "value": 0.946
     },
     {
      "kind": "forecast",
      "id": "Y8",
      "label": "US recession begins (NBER-dated or two negative GDP quarters)",
-     "value": 0.364
+     "value": 0.365
     }
    ],
    "12": [
@@ -4477,10 +4530,10 @@
      "kind": "data",
      "id": "DGS10",
      "label": "10-year yield (%)",
-     "value": 5.07,
-     "as_of": "2026-11-18",
+     "value": 5.04,
+     "as_of": "2026-11-19",
      "change_6m": 0.59,
-     "window_start": "2026-05-27"
+     "window_start": "2026-05-28"
     },
     {
      "kind": "forecast",
@@ -4500,7 +4553,7 @@
      "kind": "forecast",
      "id": "Y8",
      "label": "US recession begins (NBER-dated or two negative GDP quarters)",
-     "value": 0.364
+     "value": 0.365
     },
     {
      "kind": "forecast",
@@ -4528,7 +4581,7 @@
      "kind": "forecast",
      "id": "Y2",
      "label": "Formal US-Iran agreement ending the war",
-     "value": 0.487
+     "value": 0.488
     },
     {
      "kind": "forecast",
@@ -4567,10 +4620,10 @@
      "kind": "data",
      "id": "DGS10",
      "label": "10-year yield (%)",
-     "value": 5.07,
-     "as_of": "2026-11-18",
+     "value": 5.04,
+     "as_of": "2026-11-19",
      "change_6m": 0.59,
-     "window_start": "2026-05-27"
+     "window_start": "2026-05-28"
     },
     {
      "kind": "forecast",
@@ -4673,7 +4726,7 @@
      "kind": "forecast",
      "id": "Y2",
      "label": "Formal US-Iran agreement ending the war",
-     "value": 0.487
+     "value": 0.488
     }
    ],
    "27": [
@@ -4686,7 +4739,7 @@
    ]
   },
   "resilience": {
-   "read_at": "2026-11-20T16:38:54Z (FRED fredgraph.csv, read in the browser)",
+   "read_at": "2026-11-20T22:27:17Z (FRED fredgraph.csv, read in the browser)",
    "series": {
     "OPHNFB": {
      "label": "Nonfarm business labour productivity",
@@ -4729,7 +4782,7 @@
      "yoy_pct": -5.11
     }
    },
-   "dgs10": 5.07,
+   "dgs10": 5.04,
    "substitution": {
     "state": "HIGH",
     "rule": "HIGH if productivity >= +1.0% a year and utility output > 0%; LOW if both miss; otherwise MIXED",
@@ -4738,7 +4791,7 @@
    "logistical_reach": {
     "state": "HIGH",
     "rule": "LOW if transformer PPI >= +8% a year, or state and local debt >= +6% a year with the 10-year >= 5%",
-    "values": "transformers +5.58%, state and local debt +5.33%, 10-year 5.07%"
+    "values": "transformers +5.58%, state and local debt +5.33%, 10-year 5.04%"
    },
    "classification": "STRONG",
    "limits": [
@@ -4768,8 +4821,8 @@
     "series": "DGS10",
     "level": 6.5,
     "trajectory": "Breakdown / systemic transformation",
-    "latest": 5.07,
-    "as_of": "2026-11-18",
+    "latest": 5.04,
+    "as_of": "2026-11-19",
     "status": "not hit",
     "method": "FRED DGS10"
    },
@@ -5012,7 +5065,7 @@
      },
      {
       "id": "Y12",
-      "forecast": 0.715
+      "forecast": 0.714
      },
      {
       "id": "Y13",
@@ -5197,8 +5250,8 @@
       "tripwire": "DGS10 >= 6.5%",
       "evaluated_by": "LT-02",
       "status": "not hit",
-      "latest": 5.07,
-      "as_of": "2026-11-18"
+      "latest": 5.04,
+      "as_of": "2026-11-19"
      },
      {
       "tripwire": "Municipal or pension emergency liquidity",
@@ -5350,7 +5403,7 @@
    }
   ],
   "macro_now": {
-   "source": "FRED, read 2026-11-20T16:38:54Z in the browser",
+   "source": "FRED, read 2026-11-20T22:27:17Z in the browser",
    "rows": [
     {
      "id": "A191RL1Q225SBEA",
@@ -5686,9 +5739,9 @@
    {
     "id": "TW-01",
     "text": "10-year yield at or above 5.31% (its 6-month high on FRED, May-Nov 2026)",
-    "latest": 5.07,
-    "as_of": "2026-11-18",
-    "gap": -0.24,
+    "latest": 5.04,
+    "as_of": "2026-11-19",
+    "gap": -0.27,
     "triggered": false,
     "regime": "B: credit and sovereign refinancing squeeze",
     "questions": "Y16, Y8"
@@ -5740,45 +5793,45 @@
   {
    "label": "10-year Treasury yield",
    "questions": "Y16, Y5",
-   "as_of": "2026-11-18",
-   "latest": 5.07,
+   "as_of": "2026-11-19",
+   "latest": 5.04,
    "change": -0.03,
-   "robust_z": -0.77,
+   "robust_z": -0.67,
    "flag": false,
-   "level_z": 0.35,
+   "level_z": 0.2,
    "level_flag": false
   },
   {
    "label": "2-year Treasury yield",
    "questions": "M1, Y5",
-   "as_of": "2026-11-18",
-   "latest": 4.8,
-   "change": 0.0,
-   "robust_z": -0.17,
+   "as_of": "2026-11-19",
+   "latest": 4.76,
+   "change": -0.04,
+   "robust_z": -0.84,
    "flag": false,
-   "level_z": 0.62,
+   "level_z": 0.34,
    "level_flag": false
   },
   {
    "label": "10-year minus 3-month spread",
    "questions": "Y8",
-   "as_of": "2026-11-19",
-   "latest": 0.7,
-   "change": -0.03,
-   "robust_z": -0.67,
+   "as_of": "2026-11-20",
+   "latest": 0.6,
+   "change": -0.1,
+   "robust_z": -2.25,
    "flag": false,
-   "level_z": -1.44,
+   "level_z": -2.19,
    "level_flag": false
   },
   {
    "label": "10-year breakeven inflation",
    "questions": "Y5, M1",
-   "as_of": "2026-11-19",
-   "latest": 2.16,
-   "change": -0.03,
-   "robust_z": -2.02,
+   "as_of": "2026-11-20",
+   "latest": 2.15,
+   "change": -0.01,
+   "robust_z": -0.67,
    "flag": false,
-   "level_z": -6.07,
+   "level_z": -6.41,
    "level_flag": true
   },
   {
@@ -5861,12 +5914,12 @@
   {
    "label": "S&P 500",
    "questions": "M5",
-   "as_of": "2026-11-18",
-   "latest": 7323.63,
-   "change": -0.23,
-   "robust_z": -0.27,
-   "flag": false,
-   "level_z": -4.28,
+   "as_of": "2026-11-19",
+   "latest": 7175.83,
+   "change": -2.04,
+   "robust_z": -2.91,
+   "flag": true,
+   "level_z": -6.03,
    "level_flag": true
   },
   {
@@ -5882,7 +5935,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-20T21:17:32+00:00",
+  "at": "2026-11-21T00:07:38+00:00",
   "flaws": 1,
   "checks": [
    {
@@ -6042,25 +6095,17 @@
      "id": "S04",
      "question": "November headline CPI is flat or falls on the month (0.0% or lower)",
      "model": 0.667,
-     "market": 0.8515,
-     "gap": -0.1845,
+     "market": 0.8595,
+     "gap": -0.1925,
      "by": "2026-12-10"
     },
     {
      "id": "Y12",
      "question": "House impeaches Hegseth, or he leaves office",
-     "model": 0.7145,
-     "market": 0.545,
-     "gap": 0.1695,
+     "model": 0.7137,
+     "market": 0.535,
+     "gap": 0.1787,
      "by": "2027-11-17"
-    },
-    {
-     "id": "S05",
-     "question": "November core CPI inflation is 3.0% or higher on the year",
-     "model": 0.435,
-     "market": 0.272,
-     "gap": 0.163,
-     "by": "2026-12-10"
     }
    ],
    "note": "Scored on the first forecast and the market price recorded with it. Agreement with a market cannot show skill; these questions are where the lenses claim an edge, so this table is the test of that claim."
@@ -6255,9 +6300,9 @@
    {
     "id": "M1",
     "question": "Fed raises rates on Dec 9",
-    "model": 0.9548,
+    "model": 0.9462,
     "base": 0.97,
-    "market": 0.9385,
+    "market": 0.9135,
     "market_blended": true,
     "by": "2026-12-09"
    },
@@ -6329,7 +6374,7 @@
     "question": "November payrolls rise by 100,000 or more (first print, Dec 4)",
     "model": 0.333,
     "base": 0.333,
-    "market": 0.415,
+    "market": 0.425,
     "market_blended": false,
     "by": "2026-12-04"
    },
@@ -6338,7 +6383,7 @@
     "question": "November core CPI rises 0.3% or more on the month",
     "model": 0.458,
     "base": 0.458,
-    "market": 0.494,
+    "market": 0.502,
     "market_blended": false,
     "by": "2026-12-10"
    },
@@ -6347,7 +6392,7 @@
     "question": "November headline CPI is flat or falls on the month (0.0% or lower)",
     "model": 0.667,
     "base": 0.667,
-    "market": 0.8515,
+    "market": 0.8595,
     "market_blended": false,
     "by": "2026-12-10"
    },
@@ -6356,7 +6401,7 @@
     "question": "November core CPI inflation is 3.0% or higher on the year",
     "model": 0.435,
     "base": 0.435,
-    "market": 0.272,
+    "market": 0.338,
     "market_blended": false,
     "by": "2026-12-10"
    },
@@ -6428,7 +6473,7 @@
     "question": "Fed raises rates at the January 2027 meeting",
     "model": 0.5928,
     "base": 0.64,
-    "market": 0.5975,
+    "market": 0.526,
     "market_blended": false,
     "by": "2027-01-27"
    },
@@ -6534,16 +6579,16 @@
    {
     "id": "Y1",
     "question": "US ground invasion of Iran (holding territory) by Mar 31, 2027 (Jiang)",
-    "model": 0.0596,
+    "model": 0.0603,
     "base": 0.06,
-    "market": 0.075,
+    "market": 0.085,
     "market_blended": true,
     "by": "2027-03-31"
    },
    {
     "id": "Y2",
     "question": "Formal US-Iran agreement ending the war",
-    "model": 0.4875,
+    "model": 0.4877,
     "base": 0.3,
     "market": null,
     "market_blended": false,
@@ -6552,7 +6597,7 @@
    {
     "id": "Y3",
     "question": "Hormuz transits back to 75%+ of the pre-war (2025) average under an Iranian, Omani or Gulf-backed fee or coordination regime",
-    "model": 0.5119,
+    "model": 0.512,
     "base": 0.23,
     "market": null,
     "market_blended": false,
@@ -6561,7 +6606,7 @@
    {
     "id": "Y4",
     "question": "Brent below $90 on Nov 17, 2027 (about $93 on Nov 17, 2026)",
-    "model": 0.7309,
+    "model": 0.7313,
     "base": 0.9211244013745328,
     "market": null,
     "market_blended": false,
@@ -6570,7 +6615,7 @@
    {
     "id": "Y5",
     "question": "Fed's next move after December is a cut, made by Nov 17, 2027",
-    "model": 0.127,
+    "model": 0.1271,
     "base": 0.12,
     "market": null,
     "market_blended": false,
@@ -6579,7 +6624,7 @@
    {
     "id": "Y6",
     "question": "Nasdaq-100 closes 30%+ below its high (Jiang 'AI bubble bursts')",
-    "model": 0.4227,
+    "model": 0.4226,
     "base": 0.183,
     "market": null,
     "market_blended": false,
@@ -6588,7 +6633,7 @@
    {
     "id": "Y7",
     "question": "Nasdaq-100 closes 20%+ below its high",
-    "model": 0.5992,
+    "model": 0.5991,
     "base": 0.387,
     "market": null,
     "market_blended": false,
@@ -6597,9 +6642,9 @@
    {
     "id": "Y8",
     "question": "US recession begins (NBER-dated or two negative GDP quarters)",
-    "model": 0.3641,
+    "model": 0.365,
     "base": 0.158,
-    "market": 0.295,
+    "market": 0.305,
     "market_blended": true,
     "by": "2027-11-17"
    },
@@ -6617,14 +6662,14 @@
     "question": "PLA blockade, quarantine or invasion of Taiwan",
     "model": 0.0473,
     "base": 0.05,
-    "market": 0.0667,
+    "market": 0.067,
     "market_blended": true,
     "by": "2027-11-17"
    },
    {
     "id": "Y11",
     "question": "US misses a debt payment (default)",
-    "model": 0.0299,
+    "model": 0.0298,
     "base": 0.01,
     "market": null,
     "market_blended": false,
@@ -6633,9 +6678,9 @@
    {
     "id": "Y12",
     "question": "House impeaches Hegseth, or he leaves office",
-    "model": 0.7145,
+    "model": 0.7137,
     "base": 0.45,
-    "market": 0.545,
+    "market": 0.535,
     "market_blended": true,
     "by": "2027-11-17"
    },
@@ -6651,9 +6696,9 @@
    {
     "id": "Y14",
     "question": "OpenAI publicly files or lists",
-    "model": 0.7355,
+    "model": 0.714,
     "base": 0.6,
-    "market": 0.7555,
+    "market": 0.734,
     "market_blended": true,
     "by": "2027-11-17"
    },
@@ -6669,7 +6714,7 @@
    {
     "id": "Y16",
     "question": "US 10-year Treasury yield above 5.0% (5.12% on Nov 16)",
-    "model": 0.6321,
+    "model": 0.632,
     "base": 0.45,
     "market": null,
     "market_blended": false,
@@ -6705,7 +6750,7 @@
    {
     "id": "Y20",
     "question": "Qatar, Oman or Saudi Arabia brokers a signed US-Iran interim agreement by Mar 31, 2027",
-    "model": 0.5017,
+    "model": 0.5019,
     "base": 0.35,
     "market": null,
     "market_blended": false,
@@ -6795,7 +6840,7 @@
    {
     "id": "R3",
     "question": "Gulf crude exports remain below 90% of pre-war levels (IEA December report on November flows)",
-    "model": 0.8542,
+    "model": 0.8539,
     "base": 0.6,
     "market": null,
     "market_blended": false,
@@ -6831,18 +6876,18 @@
    {
     "id": "M8",
     "question": "A US-Iran 'effective ceasefire' begins by Dec 31: 14 straight days with no US air or missile strike landing on Iranian territory, starting by Dec 31 (Polymarket)",
-    "model": 0.6855,
+    "model": 0.6931,
     "base": 0.75,
-    "market": 0.705,
+    "market": 0.765,
     "market_blended": true,
     "by": "2026-12-31"
    },
    {
     "id": "M10",
     "question": "Strait of Hormuz traffic returns to 'normal' by Dec 31: IMF PortWatch 7-day average of transit calls of 60 or more (Polymarket)",
-    "model": 0.0278,
+    "model": 0.0277,
     "base": 0.04,
-    "market": 0.0325,
+    "market": 0.0315,
     "market_blended": true,
     "by": "2026-12-31"
    },
@@ -6948,8 +6993,8 @@
    {
     "id": "K03",
     "question": "New or updated US joint cyber advisory reports Iran-linked disruption of US critical infrastructure by Mar 31, 2027",
-    "model": 0.5073,
-    "base": 0.464,
+    "model": 0.504,
+    "base": 0.4609,
     "market": null,
     "market_blended": false,
     "by": "2027-03-31"
@@ -6957,8 +7002,8 @@
    {
     "id": "K04",
     "question": "NVD lists 125,000 or more CVEs published in calendar 2026",
-    "model": 0.913,
-    "base": 0.913,
+    "model": 0.9565,
+    "base": 0.9565,
     "market": null,
     "market_blended": false,
     "by": "2027-01-05"
@@ -6966,7 +7011,7 @@
    {
     "id": "M9",
     "question": "A two-week US-Iran pause begins by Dec 31 AND Hormuz traffic has not returned to normal by Dec 31 (Author A v3.0's 'first model test')",
-    "model": 0.6591,
+    "model": 0.6667,
     "base": null,
     "market": null,
     "market_blended": false,
@@ -7454,17 +7499,17 @@
   "forecasts": {
    "C02": {
     "champion": "increment",
-    "h_obs": 280,
-    "last_obs": "2026-11-18",
-    "p": 0.1694,
+    "h_obs": 279,
+    "last_obs": "2026-11-19",
+    "p": 0.1597,
     "series": "DGS10",
     "skills": {
-     "increment": 0.1694,
-     "level_knn": 0.1425,
+     "increment": 0.1597,
+     "level_knn": 0.1268,
      "quantile_gbm": null,
-     "vol_scaled": 0.252
+     "vol_scaled": 0.2443
     },
-    "value": 5.07
+    "value": 5.04
    },
    "C07": {
     "champion": "increment",
@@ -7482,17 +7527,17 @@
    },
    "S14": {
     "champion": "increment",
-    "h_obs": 29,
-    "last_obs": "2026-11-18",
-    "p": 0.6947,
+    "h_obs": 28,
+    "last_obs": "2026-11-19",
+    "p": 0.5099,
     "series": "SP500",
     "skills": {
-     "increment": 0.6947,
-     "level_knn": 0.6774,
-     "quantile_gbm": 0.5794,
-     "vol_scaled": 0.6872
+     "increment": 0.5099,
+     "level_knn": 0.4366,
+     "quantile_gbm": 0.5034,
+     "vol_scaled": 0.5303
     },
-    "value": 7323.63
+    "value": 7175.83
    },
    "S15": {
     "champion": "increment",
@@ -7510,17 +7555,17 @@
    },
    "S16": {
     "champion": "vol_scaled",
-    "h_obs": 29,
-    "last_obs": "2026-11-18",
-    "p": 0.6002,
+    "h_obs": 28,
+    "last_obs": "2026-11-19",
+    "p": 0.5634,
     "series": "DGS10",
     "skills": {
-     "increment": 0.6231,
-     "level_knn": 0.6105,
-     "quantile_gbm": 0.6359,
-     "vol_scaled": 0.6002
+     "increment": 0.5843,
+     "level_knn": 0.5719,
+     "quantile_gbm": 0.6111,
+     "vol_scaled": 0.5634
     },
-    "value": 5.07
+    "value": 5.04
    },
    "S17": {
     "champion": "increment",
@@ -8351,12 +8396,12 @@
      "last": "2026-11-13"
     },
     "DGS10": {
-     "observations": 16205,
-     "last": "2026-11-18"
+     "observations": 16206,
+     "last": "2026-11-19"
     },
     "DGS2": {
-     "observations": 12613,
-     "last": "2026-11-18"
+     "observations": 12614,
+     "last": "2026-11-19"
     },
     "MORTGAGE30US": {
      "observations": 2904,
@@ -8371,12 +8416,12 @@
      "last": "2026-11-19"
     },
     "SP500": {
-     "observations": 2512,
-     "last": "2026-11-18"
+     "observations": 2513,
+     "last": "2026-11-19"
     },
     "T10Y3M": {
-     "observations": 11223,
-     "last": "2026-11-19"
+     "observations": 11224,
+     "last": "2026-11-20"
     },
     "VIXCLS": {
      "observations": 9321,
@@ -8389,15 +8434,15 @@
    },
    "streams": {
     "revisions": 0,
-    "markets": 108,
-    "forecasts": 22,
+    "markets": 119,
+    "forecasts": 25,
     "events": 0,
     "decisions": 3,
     "evaluations": 24
    },
    "verified": true
   },
-  "generated_at": "2026-11-20T16:48:12Z"
+  "generated_at": "2026-11-21T00:07:35Z"
  },
  "guide": {
   "title": "User guide",
@@ -8639,7 +8684,7 @@
       },
       {
        "id": "Y8",
-       "forecast": 0.364
+       "forecast": 0.365
       }
      ],
      "move_global": "Leave administrative and compliance layers for applied engineering, grid deployment, industrial logistics and clinical operations.",
@@ -8658,7 +8703,7 @@
      "linked": [
       {
        "id": "Y8",
-       "forecast": 0.364
+       "forecast": 0.365
       },
       {
        "id": "Y4",
@@ -8666,7 +8711,7 @@
       },
       {
        "id": "M1",
-       "forecast": 0.955
+       "forecast": 0.946
       },
       {
        "id": "Y5",
@@ -8689,7 +8734,7 @@
      "linked": [
       {
        "id": "Y8",
-       "forecast": 0.364
+       "forecast": 0.365
       },
       {
        "id": "M2",
@@ -8778,7 +8823,7 @@
      "linked": [
       {
        "id": "Y8",
-       "forecast": 0.364
+       "forecast": 0.365
       }
      ],
      "amplifier": "Peripheral supply shocks raise food and fuel costs for both tiers at once"
@@ -8983,8 +9028,8 @@
   "disclaimer": "Forecasts are probabilities, not certainties. The playbook is the documents' judgment. Nothing here is investment, legal or personal financial advice."
  },
  "markets": {
-  "read_at": "2026-11-20T16:39:09Z",
-  "source": "Polymarket Gamma API read 2026-11-20T16:39:09Z (feeds/polymarket.js in the browser or feeds/fetch_all.py in the scheduled job); Kalshi entries keep their own read times",
+  "read_at": "2026-11-20T22:27:43Z",
+  "source": "Polymarket Gamma API read 2026-11-20T22:27:43Z (feeds/polymarket.js in the browser or feeds/fetch_all.py in the scheduled job); Kalshi entries keep their own read times",
   "gate": "A contract counts as a usable price only with a spread of at most 5 points and, when its order book was read, at least $5,000 resting at both the best bid and the best ask (else total liquidity of at least $5,000). Thin contracts get weight 0.1.",
   "weights": "Pooled with the model in log-odds: exact and liquid 0.5, exact but thin quotes 0.35, same test 0.35, proxy 0.2, option-implied 0.2, failing the gate 0.1.",
   "summary": {
@@ -8992,7 +9037,7 @@
    "usable": 1,
    "thin": 35,
    "linked_questions": 12,
-   "mean_abs_gap_points": 6.9,
+   "mean_abs_gap_points": 7.7,
    "checks_passed": 12,
    "checks": 12
   },
@@ -9003,15 +9048,15 @@
     "deadline": "2026-11-22",
     "linked_question": null,
     "status": "ok",
-    "price": 0.29,
-    "bid": 0.28,
-    "ask": 0.3,
-    "spread": 0.02,
-    "liquidity": 53596,
-    "top_of_book_bid_usd": 12.91,
-    "top_of_book_ask_usd": 74.7,
+    "price": 0.345,
+    "bid": 0.34,
+    "ask": 0.35,
+    "spread": 0.01,
+    "liquidity": 41084,
+    "top_of_book_bid_usd": 158.65,
+    "top_of_book_ask_usd": 430.53,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9020,15 +9065,15 @@
     "deadline": "2026-11-30",
     "linked_question": null,
     "status": "ok",
-    "price": 0.475,
-    "bid": 0.47,
-    "ask": 0.48,
-    "spread": 0.01,
-    "liquidity": 55526,
-    "top_of_book_bid_usd": 19.38,
-    "top_of_book_ask_usd": 180.65,
+    "price": 0.55,
+    "bid": 0.54,
+    "ask": 0.56,
+    "spread": 0.02,
+    "liquidity": 60732,
+    "top_of_book_bid_usd": 1929.75,
+    "top_of_book_ask_usd": 1484.0,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9037,15 +9082,15 @@
     "deadline": "2026-12-31",
     "linked_question": "M8",
     "status": "ok",
-    "price": 0.705,
-    "bid": 0.7,
-    "ask": 0.71,
+    "price": 0.765,
+    "bid": 0.76,
+    "ask": 0.77,
     "spread": 0.01,
-    "liquidity": 52387,
-    "top_of_book_bid_usd": 3.5,
-    "top_of_book_ask_usd": 221.09,
+    "liquidity": 53411,
+    "top_of_book_bid_usd": 252.88,
+    "top_of_book_ask_usd": 988.55,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9054,15 +9099,15 @@
     "deadline": "2026-12-31",
     "linked_question": "M10",
     "status": "ok",
-    "price": 0.0325,
-    "bid": 0.032,
+    "price": 0.0315,
+    "bid": 0.03,
     "ask": 0.033,
-    "spread": 0.001,
-    "liquidity": 279407,
-    "top_of_book_bid_usd": 0.16,
-    "top_of_book_ask_usd": 3.78,
+    "spread": 0.003,
+    "liquidity": 293688,
+    "top_of_book_bid_usd": 49.91,
+    "top_of_book_ask_usd": 23.97,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9071,15 +9116,15 @@
     "deadline": "2026-12-31",
     "linked_question": "Y1",
     "status": "ok",
-    "price": 0.075,
-    "bid": 0.07,
-    "ask": 0.08,
+    "price": 0.085,
+    "bid": 0.08,
+    "ask": 0.09,
     "spread": 0.01,
-    "liquidity": 229101,
-    "top_of_book_bid_usd": 54.93,
-    "top_of_book_ask_usd": 3374.69,
+    "liquidity": 238841,
+    "top_of_book_bid_usd": 656.25,
+    "top_of_book_ask_usd": 3308.05,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9088,15 +9133,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0255,
-    "bid": 0.025,
-    "ask": 0.026,
+    "price": 0.0265,
+    "bid": 0.026,
+    "ask": 0.027,
     "spread": 0.001,
-    "liquidity": 385259,
-    "top_of_book_bid_usd": 137.24,
-    "top_of_book_ask_usd": 53.33,
+    "liquidity": 396690,
+    "top_of_book_bid_usd": 184.74,
+    "top_of_book_ask_usd": 247.72,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9105,15 +9150,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0185,
-    "bid": 0.018,
-    "ask": 0.019,
-    "spread": 0.001,
-    "liquidity": 90493,
-    "top_of_book_bid_usd": 1.81,
-    "top_of_book_ask_usd": 6.95,
+    "price": 0.022,
+    "bid": 0.021,
+    "ask": 0.023,
+    "spread": 0.002,
+    "liquidity": 100414,
+    "top_of_book_bid_usd": 22.72,
+    "top_of_book_ask_usd": 32.86,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9122,15 +9167,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.035,
-    "bid": 0.034,
-    "ask": 0.036,
-    "spread": 0.002,
-    "liquidity": 191505,
-    "top_of_book_bid_usd": 66.34,
-    "top_of_book_ask_usd": 2251.61,
+    "price": 0.036,
+    "bid": 0.033,
+    "ask": 0.039,
+    "spread": 0.006,
+    "liquidity": 76648,
+    "top_of_book_bid_usd": 10.53,
+    "top_of_book_ask_usd": 1.17,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9143,11 +9188,11 @@
     "bid": 0.14,
     "ask": 0.15,
     "spread": 0.01,
-    "liquidity": 75150,
-    "top_of_book_bid_usd": 719.78,
-    "top_of_book_ask_usd": 10.99,
+    "liquidity": 80926,
+    "top_of_book_bid_usd": 705.52,
+    "top_of_book_ask_usd": 10.05,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9156,15 +9201,15 @@
     "deadline": "2026-12-09",
     "linked_question": "M1",
     "status": "ok",
-    "price": 0.915,
-    "bid": 0.91,
-    "ask": 0.92,
+    "price": 0.895,
+    "bid": 0.89,
+    "ask": 0.9,
     "spread": 0.01,
-    "liquidity": 531011,
-    "top_of_book_bid_usd": 111130.65,
-    "top_of_book_ask_usd": 42833.06,
+    "liquidity": 442477,
+    "top_of_book_bid_usd": 30560.92,
+    "top_of_book_ask_usd": 174405.34,
     "quality": "ok",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9173,15 +9218,15 @@
     "deadline": "2026-12-09",
     "linked_question": "M1",
     "status": "ok",
-    "price": 0.0235,
-    "bid": 0.023,
-    "ask": 0.024,
+    "price": 0.0185,
+    "bid": 0.018,
+    "ask": 0.019,
     "spread": 0.001,
-    "liquidity": 520544,
-    "top_of_book_bid_usd": 26.68,
-    "top_of_book_ask_usd": 57.38,
+    "liquidity": 774936,
+    "top_of_book_bid_usd": 7.13,
+    "top_of_book_ask_usd": 308.88,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9190,15 +9235,15 @@
     "deadline": "2026-12-09",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0595,
-    "bid": 0.058,
-    "ask": 0.061,
-    "spread": 0.003,
-    "liquidity": 422231,
-    "top_of_book_bid_usd": 0.58,
-    "top_of_book_ask_usd": 0.6,
+    "price": 0.0865,
+    "bid": 0.086,
+    "ask": 0.087,
+    "spread": 0.001,
+    "liquidity": 470187,
+    "top_of_book_bid_usd": 53.25,
+    "top_of_book_ask_usd": 378.28,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9207,15 +9252,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0245,
-    "bid": 0.023,
-    "ask": 0.026,
-    "spread": 0.003,
-    "liquidity": 71342,
-    "top_of_book_bid_usd": 6.07,
-    "top_of_book_ask_usd": 10.02,
+    "price": 0.0435,
+    "bid": 0.043,
+    "ask": 0.044,
+    "spread": 0.001,
+    "liquidity": 55234,
+    "top_of_book_bid_usd": 9.78,
+    "top_of_book_ask_usd": 130.44,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9224,15 +9269,15 @@
     "deadline": "2027-12-31",
     "linked_question": "Y8",
     "status": "ok",
-    "price": 0.295,
-    "bid": 0.29,
-    "ask": 0.3,
+    "price": 0.305,
+    "bid": 0.3,
+    "ask": 0.31,
     "spread": 0.01,
-    "liquidity": 23305,
-    "top_of_book_bid_usd": 194.88,
-    "top_of_book_ask_usd": 407.12,
+    "liquidity": 23777,
+    "top_of_book_bid_usd": 36.0,
+    "top_of_book_ask_usd": 446.32,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9241,15 +9286,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0175,
-    "bid": 0.017,
-    "ask": 0.018,
-    "spread": 0.001,
-    "liquidity": 221933,
-    "top_of_book_bid_usd": 35.39,
-    "top_of_book_ask_usd": 132.62,
+    "price": 0.019,
+    "bid": 0.018,
+    "ask": 0.02,
+    "spread": 0.002,
+    "liquidity": 230757,
+    "top_of_book_bid_usd": 21.01,
+    "top_of_book_ask_usd": 112.88,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9258,15 +9303,15 @@
     "deadline": "2027-06-30",
     "linked_question": "Y10",
     "status": "ok",
-    "price": 0.04,
-    "bid": 0.038,
-    "ask": 0.042,
+    "price": 0.041,
+    "bid": 0.039,
+    "ask": 0.043,
     "spread": 0.004,
-    "liquidity": 78690,
-    "top_of_book_bid_usd": 15.99,
-    "top_of_book_ask_usd": 1.79,
+    "liquidity": 87003,
+    "top_of_book_bid_usd": 13.61,
+    "top_of_book_ask_usd": 1.83,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9279,11 +9324,11 @@
     "bid": 0.07,
     "ask": 0.08,
     "spread": 0.01,
-    "liquidity": 231306,
-    "top_of_book_bid_usd": 2272.72,
-    "top_of_book_ask_usd": 2305.41,
+    "liquidity": 240873,
+    "top_of_book_bid_usd": 3665.1,
+    "top_of_book_ask_usd": 2401.58,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9292,15 +9337,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0515,
+    "price": 0.0525,
     "bid": 0.051,
-    "ask": 0.052,
-    "spread": 0.001,
-    "liquidity": 87153,
-    "top_of_book_bid_usd": 46.71,
-    "top_of_book_ask_usd": 11.48,
+    "ask": 0.054,
+    "spread": 0.003,
+    "liquidity": 89149,
+    "top_of_book_bid_usd": 77.72,
+    "top_of_book_ask_usd": 45.33,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9313,11 +9358,11 @@
     "bid": 0.19,
     "ask": 0.2,
     "spread": 0.01,
-    "liquidity": 76795,
-    "top_of_book_bid_usd": 411.71,
-    "top_of_book_ask_usd": 85.0,
+    "liquidity": 80378,
+    "top_of_book_bid_usd": 394.77,
+    "top_of_book_ask_usd": 77.3,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9330,11 +9375,11 @@
     "bid": 0.44,
     "ask": 0.45,
     "spread": 0.01,
-    "liquidity": 118851,
-    "top_of_book_bid_usd": 1159.34,
-    "top_of_book_ask_usd": 239.98,
+    "liquidity": 114831,
+    "top_of_book_bid_usd": 1177.88,
+    "top_of_book_ask_usd": 172.49,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9343,15 +9388,15 @@
     "deadline": "2027-12-31",
     "linked_question": "Y14",
     "status": "ok",
-    "price": 0.2445,
-    "bid": 0.239,
-    "ask": 0.25,
-    "spread": 0.011,
-    "liquidity": 12261,
-    "top_of_book_bid_usd": 9.51,
-    "top_of_book_ask_usd": 25.0,
+    "price": 0.266,
+    "bid": 0.256,
+    "ask": 0.276,
+    "spread": 0.02,
+    "liquidity": 12812,
+    "top_of_book_bid_usd": 14.43,
+    "top_of_book_ask_usd": 7.73,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9368,7 +9413,7 @@
     "top_of_book_bid_usd": null,
     "top_of_book_ask_usd": null,
     "quality": "n/a",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9381,11 +9426,11 @@
     "bid": 0.021,
     "ask": 0.035,
     "spread": 0.014,
-    "liquidity": 30661,
+    "liquidity": 43015,
     "top_of_book_bid_usd": 2.76,
     "top_of_book_ask_usd": 1.22,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9394,15 +9439,15 @@
     "deadline": "2027-03-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.125,
-    "bid": 0.11,
+    "price": 0.12,
+    "bid": 0.1,
     "ask": 0.14,
-    "spread": 0.03,
-    "liquidity": 41071,
-    "top_of_book_bid_usd": 2.2,
-    "top_of_book_ask_usd": 494.0,
+    "spread": 0.04,
+    "liquidity": 57357,
+    "top_of_book_bid_usd": 3.0,
+    "top_of_book_ask_usd": 410.8,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9411,15 +9456,15 @@
     "deadline": "2027-06-30",
     "linked_question": null,
     "status": "ok",
-    "price": 0.25,
+    "price": 0.24,
     "bid": 0.23,
-    "ask": 0.27,
-    "spread": 0.04,
-    "liquidity": 23414,
-    "top_of_book_bid_usd": 9.2,
-    "top_of_book_ask_usd": 875.61,
+    "ask": 0.25,
+    "spread": 0.02,
+    "liquidity": 25366,
+    "top_of_book_bid_usd": 29.9,
+    "top_of_book_ask_usd": 766.75,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9432,11 +9477,11 @@
     "bid": 0.34,
     "ask": 0.36,
     "spread": 0.02,
-    "liquidity": 26433,
+    "liquidity": 27441,
     "top_of_book_bid_usd": 41.83,
-    "top_of_book_ask_usd": 1108.8,
+    "top_of_book_ask_usd": 1132.71,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9445,15 +9490,15 @@
     "deadline": "2027-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.43,
+    "price": 0.435,
     "bid": 0.42,
-    "ask": 0.44,
-    "spread": 0.02,
-    "liquidity": 22244,
-    "top_of_book_bid_usd": 33.69,
-    "top_of_book_ask_usd": 43.91,
+    "ask": 0.45,
+    "spread": 0.03,
+    "liquidity": 17539,
+    "top_of_book_bid_usd": 46.29,
+    "top_of_book_ask_usd": 27.0,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9462,15 +9507,15 @@
     "deadline": "2026-11-30",
     "linked_question": null,
     "status": "ok",
-    "price": 0.0145,
-    "bid": 0.013,
+    "price": 0.0155,
+    "bid": 0.015,
     "ask": 0.016,
-    "spread": 0.003,
-    "liquidity": 135446,
-    "top_of_book_bid_usd": 5.8,
-    "top_of_book_ask_usd": 14.2,
+    "spread": 0.001,
+    "liquidity": 127758,
+    "top_of_book_bid_usd": 3.52,
+    "top_of_book_ask_usd": 5.7,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9479,15 +9524,15 @@
     "deadline": "2026-12-31",
     "linked_question": null,
     "status": "ok",
-    "price": 0.065,
-    "bid": 0.06,
-    "ask": 0.07,
+    "price": 0.075,
+    "bid": 0.07,
+    "ask": 0.08,
     "spread": 0.01,
-    "liquidity": 122583,
-    "top_of_book_bid_usd": 5782.06,
-    "top_of_book_ask_usd": 2958.25,
+    "liquidity": 90360,
+    "top_of_book_bid_usd": 3734.81,
+    "top_of_book_ask_usd": 320.25,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9500,11 +9545,11 @@
     "bid": 0.23,
     "ask": 0.24,
     "spread": 0.01,
-    "liquidity": 82271,
-    "top_of_book_bid_usd": 345.95,
-    "top_of_book_ask_usd": 2474.36,
+    "liquidity": 55612,
+    "top_of_book_bid_usd": 155.91,
+    "top_of_book_ask_usd": 672.56,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9517,11 +9562,11 @@
     "bid": 0.08,
     "ask": 0.09,
     "spread": 0.01,
-    "liquidity": 16397,
-    "top_of_book_bid_usd": 106.06,
-    "top_of_book_ask_usd": 54.84,
+    "liquidity": 17871,
+    "top_of_book_bid_usd": 120.6,
+    "top_of_book_ask_usd": 9.01,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9534,11 +9579,11 @@
     "bid": 0.12,
     "ask": 0.13,
     "spread": 0.01,
-    "liquidity": 83855,
-    "top_of_book_bid_usd": 2077.57,
-    "top_of_book_ask_usd": 1102.05,
+    "liquidity": 80171,
+    "top_of_book_bid_usd": 2138.82,
+    "top_of_book_ask_usd": 588.69,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9551,11 +9596,11 @@
     "bid": 0.015,
     "ask": 0.016,
     "spread": 0.001,
-    "liquidity": 72775,
-    "top_of_book_bid_usd": 37.5,
-    "top_of_book_ask_usd": 4.7,
+    "liquidity": 70383,
+    "top_of_book_bid_usd": 37.81,
+    "top_of_book_ask_usd": 2.79,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9564,15 +9609,15 @@
     "deadline": "2027-03-31",
     "linked_question": "Y12",
     "status": "ok",
-    "price": 0.43,
-    "bid": 0.41,
-    "ask": 0.45,
-    "spread": 0.04,
-    "liquidity": 14774,
-    "top_of_book_bid_usd": 8.2,
-    "top_of_book_ask_usd": 17.6,
+    "price": 0.41,
+    "bid": 0.4,
+    "ask": 0.42,
+    "spread": 0.02,
+    "liquidity": 18070,
+    "top_of_book_bid_usd": 64.0,
+    "top_of_book_ask_usd": 12.94,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9581,15 +9626,15 @@
     "deadline": "2027-06-30",
     "linked_question": "Y12",
     "status": "ok",
-    "price": 0.545,
+    "price": 0.535,
     "bid": 0.53,
-    "ask": 0.56,
-    "spread": 0.03,
-    "liquidity": 12074,
-    "top_of_book_bid_usd": 543.96,
-    "top_of_book_ask_usd": 42.56,
+    "ask": 0.54,
+    "spread": 0.01,
+    "liquidity": 12894,
+    "top_of_book_bid_usd": 693.24,
+    "top_of_book_ask_usd": 689.15,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Polymarket"
    },
    {
@@ -9598,15 +9643,15 @@
     "deadline": "2026-12-31",
     "linked_question": "M10",
     "status": "ok",
-    "price": 0.0305,
-    "bid": 0.03,
-    "ask": 0.031,
-    "spread": 0.001,
+    "price": 0.027,
+    "bid": 0.024,
+    "ask": 0.03,
+    "spread": 0.006,
     "liquidity": null,
     "top_of_book_bid_usd": null,
     "top_of_book_ask_usd": null,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Kalshi"
    },
    {
@@ -9615,15 +9660,15 @@
     "deadline": "2026-12-09",
     "linked_question": "M1",
     "status": "ok",
-    "price": 0.915,
-    "bid": 0.91,
-    "ask": 0.92,
+    "price": 0.895,
+    "bid": 0.89,
+    "ask": 0.9,
     "spread": 0.01,
     "liquidity": null,
     "top_of_book_bid_usd": null,
     "top_of_book_ask_usd": null,
     "quality": "thin",
-    "read_at": "2026-11-20T16:39:09Z",
+    "read_at": "2026-11-20T22:27:43Z",
     "venue": "Kalshi"
    }
   ],
@@ -9631,9 +9676,9 @@
    {
     "id": "M1",
     "question": "Fed raises rates on Dec 9",
-    "forecast": 0.9548,
-    "market": 0.9385,
-    "gap_points": 1.6,
+    "forecast": 0.9462,
+    "market": 0.9135,
+    "gap_points": 3.3,
     "match": "exact",
     "relation": "same",
     "type": "fin",
@@ -9642,7 +9687,7 @@
     "edge": null,
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket fed-decision-in-december-20260729232808632 (2026-11-20T16:39:09Z). Any hike = 25 bp + 50 bp+ contracts. CME FedWatch on Nov 16: 95% for 25 bp and 5% for 50 bp."
+    "source": "Polymarket fed-decision-in-december-20260729232808632 (2026-11-20T22:27:43Z). Any hike = 25 bp + 50 bp+ contracts. CME FedWatch on Nov 16: 95% for 25 bp and 5% for 50 bp."
    },
    {
     "id": "M5",
@@ -9663,9 +9708,9 @@
    {
     "id": "Y1",
     "question": "US ground invasion of Iran (holding territory) by Mar 31, 2027 (Jiang)",
-    "forecast": 0.0596,
-    "market": 0.075,
-    "gap_points": -1.5,
+    "forecast": 0.0603,
+    "market": 0.085,
+    "gap_points": -2.5,
     "match": "proxy",
     "relation": "overlap",
     "type": "pm",
@@ -9674,12 +9719,12 @@
     "edge": null,
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket will-the-us-invade-iran-before-2027 (2026-11-20T16:39:09Z). Proxy: ends Dec 31, 2026 (question runs to Mar 31, 2027) and does not require holding territory."
+    "source": "Polymarket will-the-us-invade-iran-before-2027 (2026-11-20T22:27:43Z). Proxy: ends Dec 31, 2026 (question runs to Mar 31, 2027) and does not require holding territory."
    },
    {
     "id": "Y6",
     "question": "Nasdaq-100 closes 30%+ below its high (Jiang 'AI bubble bursts')",
-    "forecast": 0.4227,
+    "forecast": 0.4226,
     "market": null,
     "gap_points": null,
     "match": null,
@@ -9695,7 +9740,7 @@
    {
     "id": "Y7",
     "question": "Nasdaq-100 closes 20%+ below its high",
-    "forecast": 0.5992,
+    "forecast": 0.5991,
     "market": null,
     "gap_points": null,
     "match": null,
@@ -9711,9 +9756,9 @@
    {
     "id": "Y8",
     "question": "US recession begins (NBER-dated or two negative GDP quarters)",
-    "forecast": 0.3641,
-    "market": 0.295,
-    "gap_points": 6.9,
+    "forecast": 0.365,
+    "market": 0.305,
+    "gap_points": 6.0,
     "match": "same_test",
     "relation": "same",
     "type": null,
@@ -9722,7 +9767,7 @@
     "edge": "The market uses the same test. The model is higher because of the oil shock and a Fed hiking into 5% long yields. Would move toward the market: Fed cutting by mid-2027, or Brent falling below $80.",
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket us-recession-by-end-of-2027-20260807185409760 (2026-11-20T16:39:09Z). Same test (two negative GDP quarters or an NBER call); the contract runs six weeks longer and counts Q4 2027 data."
+    "source": "Polymarket us-recession-by-end-of-2027-20260807185409760 (2026-11-20T22:27:43Z). Same test (two negative GDP quarters or an NBER call); the contract runs six weeks longer and counts Q4 2027 data."
    },
    {
     "id": "Y9",
@@ -9738,14 +9783,14 @@
     "edge": "Two reasons. (1) Definition: the question needs a ceasefire in effect on Nov 17, 2027; the market counts any general ceasefire that starts by Dec 31, 2027 and holds 10 days, including holiday truces if general. (2) The Nov 10-11 talks ended without a ceasefire and on Nov 12 Putin held to his demands, offering only a brief ceasefire. Would move toward the market: a signed general ceasefire text, or Russia accepting a truce before a settlement.",
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket russia-x-ukraine-ceasefire-by (2026-11-20T16:39:09Z). Proxy: a general, mutually agreed ceasefire that starts by the date and holds 10 days (holiday truces count if general). The question asks for one in effect on Nov 17, 2027, which is narrower. Interpolated between the Mar 31 and Dec 31, 2027 contracts."
+    "source": "Polymarket russia-x-ukraine-ceasefire-by (2026-11-20T22:27:43Z). Proxy: a general, mutually agreed ceasefire that starts by the date and holds 10 days (holiday truces count if general). The question asks for one in effect on Nov 17, 2027, which is narrower. Interpolated between the Mar 31 and Dec 31, 2027 contracts."
    },
    {
     "id": "Y10",
     "question": "PLA blockade, quarantine or invasion of Taiwan",
     "forecast": 0.0473,
-    "market": 0.0667,
-    "gap_points": -1.9,
+    "market": 0.067,
+    "gap_points": -2.0,
     "match": "proxy",
     "relation": "broader",
     "type": "pm",
@@ -9754,14 +9799,14 @@
     "edge": "Favourite-longshot bias, with a caveat: a Sep 2026 study of 588 million Polymarket trades found purchases below 10 cents lost 19.3 cents per dollar, but the result reverses (+4.1 cents) when related contracts are grouped by parent event (Cardozo and Rivero-Wildemauwe). Would move toward the market: PLA exercises that rehearse a quarantine, or a breakdown of the US-China summit track.",
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket taiwan-invasion-term (2026-11-20T16:39:09Z). Proxy: invasion only (the question also counts a blockade or quarantine). Read at Nov 17, 2027 by constant-hazard interpolation between the Jun 30 and Dec 31, 2027 contracts."
+    "source": "Polymarket taiwan-invasion-term (2026-11-20T22:27:43Z). Proxy: invasion only (the question also counts a blockade or quarantine). Read at Nov 17, 2027 by constant-hazard interpolation between the Jun 30 and Dec 31, 2027 contracts."
    },
    {
     "id": "Y12",
     "question": "House impeaches Hegseth, or he leaves office",
-    "forecast": 0.7145,
-    "market": 0.545,
-    "gap_points": 17.0,
+    "forecast": 0.7137,
+    "market": 0.535,
+    "gap_points": 17.9,
     "match": "proxy",
     "relation": "broader",
     "type": null,
@@ -9770,13 +9815,13 @@
     "edge": null,
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket pete-hegseth-impeached-by-june-30 (2026-11-20T16:39:09Z). Proxy: impeachment by Jun 30, 2027. The question also counts leaving office and runs to Nov 17, 2027, so it is broader. Thin contract (about $1.9k liquidity): low weight and no floor."
+    "source": "Polymarket pete-hegseth-impeached-by-june-30 (2026-11-20T22:27:43Z). Proxy: impeachment by Jun 30, 2027. The question also counts leaving office and runs to Nov 17, 2027, so it is broader. Thin contract (about $1.9k liquidity): low weight and no floor."
    },
    {
     "id": "Y14",
     "question": "OpenAI publicly files or lists",
-    "forecast": 0.7355,
-    "market": 0.7555,
+    "forecast": 0.714,
+    "market": 0.734,
     "gap_points": -2.0,
     "match": "proxy",
     "relation": "broader",
@@ -9786,14 +9831,14 @@
     "edge": null,
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket openai-ipo-closing-market-cap-554 (2026-11-20T16:39:09Z). Proxy: listing by Dec 31, 2027 (question counts a public filing by Nov 17, 2027)."
+    "source": "Polymarket openai-ipo-closing-market-cap-554 (2026-11-20T22:27:43Z). Proxy: listing by Dec 31, 2027 (question counts a public filing by Nov 17, 2027)."
    },
    {
     "id": "M8",
     "question": "A US-Iran 'effective ceasefire' begins by Dec 31: 14 straight days with no US air or missile strike landing on Iranian territory, starting by Dec 31 (Polymarket)",
-    "forecast": 0.6855,
-    "market": 0.705,
-    "gap_points": -2.0,
+    "forecast": 0.6931,
+    "market": 0.765,
+    "gap_points": -7.2,
     "match": "exact",
     "relation": "same",
     "type": "pm",
@@ -9802,14 +9847,14 @@
     "edge": "The model sits below the market because of its Game lens (-0.4) and the escalation link: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike that lands on Iranian territory and resets the clock, and the contract needs 14 full quiet days starting by Dec 31. News check, CBS News live updates (Nov 19-20, 2026): Bahrain and Kuwait intercepted weapons launched by Iran after the US 'defensive strikes' on Qeshm, and no truce or new talks were announced; Trump said on Nov 19 he is 'not rushing to make any decisions on Iran'. Would move toward the market: two weeks with no US strike landing on Iranian territory, or a declared US-Iran truce.",
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 (2026-11-20T16:39:09Z). Same contract as the question."
+    "source": "Polymarket us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 (2026-11-20T22:27:43Z). Same contract as the question."
    },
    {
     "id": "M10",
     "question": "Strait of Hormuz traffic returns to 'normal' by Dec 31: IMF PortWatch 7-day average of transit calls of 60 or more (Polymarket)",
-    "forecast": 0.0278,
-    "market": 0.0325,
-    "gap_points": -0.5,
+    "forecast": 0.0277,
+    "market": 0.0315,
+    "gap_points": -0.4,
     "match": "exact",
     "relation": "same",
     "type": "pm",
@@ -9818,68 +9863,68 @@
     "edge": null,
     "option_implied": null,
     "option_real_world": null,
-    "source": "Polymarket strait-of-hormuz-traffic-returns-to-normal-by-december-31 (2026-11-20T16:39:09Z). Same contract as the question."
+    "source": "Polymarket strait-of-hormuz-traffic-returns-to-normal-by-december-31 (2026-11-20T22:27:43Z). Same contract as the question."
    }
   ],
   "checks": [
    {
     "check": "Iran pause: Nov 22 <= Nov 30 <= Dec 31",
-    "values": "0.290 <= 0.475 <= 0.705",
+    "values": "0.345 <= 0.550 <= 0.765",
     "passed": "yes"
    },
    {
     "check": "Taiwan invasion: end-2026 <= Jun 2027 <= Dec 2027",
-    "values": "0.018 <= 0.040 <= 0.075",
+    "values": "0.019 <= 0.041 <= 0.075",
     "passed": "yes"
    },
    {
     "check": "Russia-Ukraine ceasefire: Dec 2026 <= Mar 2027 <= Dec 2027",
-    "values": "0.051 <= 0.195 <= 0.445",
+    "values": "0.052 <= 0.195 <= 0.445",
     "passed": "yes"
    },
    {
     "check": "US recession: 2026 <= 2027",
-    "values": "0.025 <= 0.295",
+    "values": "0.043 <= 0.305",
     "passed": "yes"
    },
    {
     "check": "Crude record: Dec 2026 <= Mar 2027",
-    "values": "0.035 <= 0.145",
+    "values": "0.036 <= 0.145",
     "passed": "yes"
    },
    {
     "check": "Bitcoin $100k: each later date >= earlier",
-    "values": "0.028 <= 0.125 <= 0.250 <= 0.350 <= 0.430",
+    "values": "0.028 <= 0.120 <= 0.240 <= 0.350 <= 0.435",
     "passed": "yes"
    },
    {
     "check": "Fed December outcomes sum to about 1",
-    "values": "1.0030",
+    "values": "1.0070",
     "passed": "yes"
    },
    {
     "check": "Iran: regime falls <= leadership changes (both by Dec 31)",
-    "values": "0.025 <= 0.065",
+    "values": "0.026 <= 0.075",
     "passed": "yes"
    },
    {
     "check": "Iran leadership change: Nov 30 <= Dec 31 <= Jun 2027",
-    "values": "0.015 <= 0.065 <= 0.235",
+    "values": "0.015 <= 0.075 <= 0.235",
     "passed": "yes"
    },
    {
     "check": "Hegseth impeached: Dec 2026 <= Mar 2027 <= Jun 2027",
-    "values": "0.015 <= 0.430 <= 0.545",
+    "values": "0.015 <= 0.410 <= 0.535",
     "passed": "yes"
    },
    {
     "check": "Fed 25 bp hike: Polymarket and Kalshi within 3 points",
-    "values": "Polymarket 0.915 vs Kalshi 0.915 (gap 0.000)",
+    "values": "Polymarket 0.895 vs Kalshi 0.895 (gap 0.000)",
     "passed": "yes"
    },
    {
     "check": "Hormuz normal by year-end: Polymarket and Kalshi within 3 points",
-    "values": "Polymarket 0.0325 vs Kalshi 0.0305 (gap 0.0020; Kalshi says 'above 60', Polymarket 'equal to or above 60')",
+    "values": "Polymarket 0.0315 vs Kalshi 0.0270 (gap 0.0045; Kalshi says 'above 60', Polymarket 'equal to or above 60')",
     "passed": "yes"
    }
   ],
@@ -9922,10 +9967,6 @@
    "name": "S&P 500",
    "source": "FRED",
    "points": [
-    {
-     "t": "2026-07-15",
-     "value": 7572.4
-    },
     {
      "t": "2026-07-16",
      "value": 7533.77
@@ -10281,6 +10322,10 @@
     {
      "t": "2026-11-18",
      "value": 7323.63
+    },
+    {
+     "t": "2026-11-19",
+     "value": 7175.83
     }
    ]
   },
@@ -11024,10 +11069,6 @@
    "source": "FRED",
    "points": [
     {
-     "t": "2026-07-13",
-     "value": 4.62
-    },
-    {
      "t": "2026-07-14",
      "value": 4.58
     },
@@ -11382,6 +11423,10 @@
     {
      "t": "2026-11-18",
      "value": 5.07
+    },
+    {
+     "t": "2026-11-19",
+     "value": 5.04
     }
    ]
   },
@@ -12125,10 +12170,6 @@
    "source": "FRED",
    "points": [
     {
-     "t": "2026-07-14",
-     "value": 0.74
-    },
-    {
      "t": "2026-07-15",
      "value": 0.72
     },
@@ -12483,6 +12524,10 @@
     {
      "t": "2026-11-19",
      "value": 0.7
+    },
+    {
+     "t": "2026-11-20",
+     "value": 0.6
     }
    ]
   },
@@ -12855,7 +12900,7 @@
   }
  ],
  "inputs_read_at": {
-  "fred": "2026-11-20T16:38:54Z",
-  "markets": "2026-11-20T16:39:09Z"
+  "fred": "2026-11-20T22:27:17Z",
+  "markets": "2026-11-20T22:27:43Z"
  }
 }
