@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-27T04:41:13+00:00",
+ "generated_at": "2026-11-27T04:42:08+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-27",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -9,9 +9,7 @@
   "questions": 90,
   "resolved": 9,
   "open": 81,
-  "moved_1pt_or_more": [
-   "S14"
-  ]
+  "moved_1pt_or_more": []
  },
  "forecasts": [
   {
@@ -1703,8 +1701,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED SP500 close on Dec 31, 2026 (or the last trading day of 2026) is 7,323.63 or higher.",
-   "previous_forecast": 0.529,
-   "change_points": -4.3,
+   "previous_forecast": 0.486,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -3272,8 +3270,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.709,
-   "change_points": 0.1,
+   "previous_forecast": 0.71,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -7474,7 +7472,7 @@
   }
  ],
  "audit": {
-  "at": "2026-11-27T04:39:42+00:00",
+  "at": "2026-11-27T04:41:15+00:00",
   "flaws": 0,
   "checks": [
    {
@@ -10414,7 +10412,7 @@
    },
    {
     "part": "Scoring",
-    "text": "The ledger records the first forecast for each question with a hash chain; resolution uses the question's own rule and named sources. About 109 resolved questions are needed before a 0.05 Brier gap means skill."
+    "text": "The ledger records the first forecast for each question with a hash chain; resolution uses the question's own rule and named sources. About 109 independent resolutions (questions settled together by the same events count once) are needed before a 0.05 Brier gap means skill."
    },
    {
     "part": "Updates",
