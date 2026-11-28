@@ -1,6 +1,6 @@
 {
  "schema": "five-lens-feed/1",
- "generated_at": "2026-11-28T17:36:18+00:00",
+ "generated_at": "2026-11-28T17:37:34+00:00",
  "model_version": "v4.3",
  "run_date": "2026-11-28",
  "dashboard_url": "https://genwar-ops.github.io/Prediction-Dashboard/",
@@ -10,24 +10,8 @@
   "resolved": 9,
   "open": 81,
   "moved_1pt_or_more": [
-   "S01",
-   "S02",
-   "S03",
-   "S04",
-   "S05",
-   "S12",
-   "S14",
-   "S15",
-   "S16",
-   "S18",
-   "S21",
-   "S22",
-   "Y6",
-   "Y7",
-   "C02",
-   "M8",
-   "K02",
-   "M9"
+   "S19",
+   "S20"
   ]
  },
  "forecasts": [
@@ -320,8 +304,8 @@
    "outcome": null,
    "reasoning": "Corrected on Nov 17 (v3.4): the 79% input was a stale Nov 8 futures reading. After the hot October CPI on Nov 10, CME FedWatch priced a December hike as certain (95% for 25 bp, 5% for 50 bp on Nov 16), and Polymarket's $958k contract agrees (any hike 97%). Leaders -0.1: Trump's pressure on Warsh is the one path to a hold.",
    "resolve_rule": "FOMC statement on Dec 9 raises the federal funds target range.",
-   "previous_forecast": 0.966,
-   "change_points": -0.1,
+   "previous_forecast": 0.965,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -802,8 +786,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS Employment Situation for November 2026, published Dec 4: headline unemployment rate (U-3, seasonally adjusted) is 4.2% or higher.",
-   "previous_forecast": 0.323,
-   "change_points": 10.2,
+   "previous_forecast": 0.425,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -848,8 +832,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS Employment Situation for November 2026, published Dec 4: total nonfarm payroll change, first print, is +100,000 or more.",
-   "previous_forecast": 0.333,
-   "change_points": 11.2,
+   "previous_forecast": 0.445,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -894,8 +878,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS CPI release for November 2026: seasonally adjusted CPI less food and energy, one-month change as published (one decimal), is 0.3% or more.",
-   "previous_forecast": 0.458,
-   "change_points": 3.7,
+   "previous_forecast": 0.495,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -935,8 +919,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: the gasoline drop is already in the base rate. Brent averaged $96 so far in November against $124 in October.",
    "resolve_rule": "BLS CPI release for November 2026: seasonally adjusted all-items CPI, one-month change as published (one decimal), is 0.0% or lower.",
-   "previous_forecast": 0.667,
-   "change_points": 27.8,
+   "previous_forecast": 0.945,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -976,8 +960,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "BLS CPI release for November 2026: CPI less food and energy, 12-month change as published (one decimal), is 3.0% or higher.",
-   "previous_forecast": 0.435,
-   "change_points": -13.0,
+   "previous_forecast": 0.305,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1161,8 +1145,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The ECB announces an increase in its key interest rates at its December 2026 monetary policy meeting.",
-   "previous_forecast": 0.983,
-   "change_points": -0.3,
+   "previous_forecast": 0.98,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1337,8 +1321,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The Bank of England's MPC announces an increase in Bank Rate at its December 2026 meeting.",
-   "previous_forecast": 0.777,
-   "change_points": -0.2,
+   "previous_forecast": 0.775,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1483,8 +1467,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: the yen is near 160 per dollar (159.93 on Nov 13, FRED), a level that has preceded Japanese action before, which adds pressure to tighten.",
    "resolve_rule": "The Bank of Japan announces an increase in its short-term policy rate at its December 2026 meeting.",
-   "previous_forecast": 0.814,
-   "change_points": 1.2,
+   "previous_forecast": 0.826,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1634,8 +1618,8 @@
    "outcome": null,
    "reasoning": "Energy -0.2: oil and gasoline fell sharply in November (Brent -23% on October's average), which eases headline inflation and the case for a second consecutive hike.",
    "resolve_rule": "The FOMC announces an increase in the federal funds target range at its January 2027 meeting.",
-   "previous_forecast": 0.507,
-   "change_points": -0.3,
+   "previous_forecast": 0.504,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1835,8 +1819,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED SP500 close on Dec 31, 2026 (or the last trading day of 2026) is 7,323.63 or higher.",
-   "previous_forecast": 0.486,
-   "change_points": 17.5,
+   "previous_forecast": 0.661,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1906,8 +1890,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED NASDAQ100 close on the last trading day of 2026 is 27,000 or higher.",
-   "previous_forecast": 0.377,
-   "change_points": 21.2,
+   "previous_forecast": 0.589,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -1967,8 +1951,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED DGS10 on the last trading day of 2026 is 5.00 or higher.",
-   "previous_forecast": 0.269,
-   "change_points": 13.1,
+   "previous_forecast": 0.4,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2084,8 +2068,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED VIXCLS close on the last trading day of 2026 is 20.00 or higher.",
-   "previous_forecast": 0.841,
-   "change_points": -11.3,
+   "previous_forecast": 0.728,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2149,10 +2133,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Dollar ends 2026 at or above 160 yen",
-   "forecast": 0.405,
-   "range_low": 0.313,
-   "range_high": 0.503,
-   "base_rate": 0.405,
+   "forecast": 0.493,
+   "range_low": 0.395,
+   "range_high": 0.592,
+   "base_rate": 0.493,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -2161,7 +2145,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DEXJPUS observation dated on or before Dec 31, 2026 is 160.00 or higher.",
    "previous_forecast": 0.405,
-   "change_points": 0.0,
+   "change_points": 8.8,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2192,6 +2176,11 @@
      "t": "2026-11-24 06:15",
      "p": 0.4045,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-28 17:37",
+     "p": 0.4933,
+     "model": "v4.3"
     }
    ]
   },
@@ -2200,10 +2189,10 @@
    "horizon": "1 month",
    "resolves_by": "2026-12-31",
    "question": "Euro ends 2026 at or above $1.10",
-   "forecast": 0.465,
-   "range_low": 0.368,
-   "range_high": 0.565,
-   "base_rate": 0.465,
+   "forecast": 0.413,
+   "range_low": 0.32,
+   "range_high": 0.512,
+   "base_rate": 0.413,
    "market": null,
    "market_source": "",
    "basis": "base rate",
@@ -2212,7 +2201,7 @@
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED DEXUSEU observation dated on or before Dec 31, 2026 is 1.1000 or higher.",
    "previous_forecast": 0.465,
-   "change_points": 0.0,
+   "change_points": -5.2,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2243,6 +2232,11 @@
      "t": "2026-11-24 06:15",
      "p": 0.4652,
      "model": "v4.3"
+    },
+    {
+     "t": "2026-11-28 17:37",
+     "p": 0.4126,
+     "model": "v4.3"
     }
    ]
   },
@@ -2262,8 +2256,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "The last FRED BAMLH0A0HYM2 observation dated on or before Dec 31, 2026 is 3.50 or higher.",
-   "previous_forecast": 0.791,
-   "change_points": 6.6,
+   "previous_forecast": 0.857,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2318,8 +2312,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment: a scheduled data or price question with no specific reason to depart from the base rate or the market. Added to measure calibration and the two baselines quickly.",
    "resolve_rule": "FRED CBBTCUSD (Coinbase) on Dec 31, 2026 is 60,000 or higher.",
-   "previous_forecast": 0.632,
-   "change_points": -4.7,
+   "previous_forecast": 0.585,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -2471,8 +2465,8 @@
    "outcome": null,
    "reasoning": "Game -0.8 and leaders -0.8: no visible build-up for a ground invasion, Trump calls strikes 'quite unlikely' after the midterms, and holding territory is far beyond raids. Empire +0.5: overstretched hegemons do take this kind of gamble. The market proxy (invasion before 2027) is broader on action and shorter on time.",
    "resolve_rule": "US ground forces enter and hold Iranian territory beyond a raid (more than 7 days) between Nov 18, 2026 and Mar 31, 2027.",
-   "previous_forecast": 0.057,
-   "change_points": 0.1,
+   "previous_forecast": 0.058,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2816,8 +2810,8 @@
    "outcome": null,
    "reasoning": "The base rate now carries the distance to the line: it is recounted on every run from the latest close (v4.11; until Nov 27 it was a fixed 0.183). Capital +0.5: AI capex increasingly debt-financed (Fed FSR, Nov 13), valuations high, and 87% of Fed contacts name AI as a top risk. Empire +0.2: late-cycle financial excess. Still well below Y7 because 30% drawdowns are rare.",
    "resolve_rule": "Nasdaq-100 closes 30% or more below its all-time closing high at any point between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.448,
-   "change_points": -3.0,
+   "previous_forecast": 0.418,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -2882,8 +2876,8 @@
    "outcome": null,
    "reasoning": "The base rate now carries the distance to the line: it is recounted on every run from the latest close (v4.11; until Nov 27 it was a fixed 0.387 that ignored the level). Capital +0.5: valuations rest on AI spending financed increasingly by debt; the Fed's Nov 13 Financial Stability Report found 87% of its market contacts now name AI as a top risk (50% in the spring) and flagged $680B of 2026 advanced-computing debt. Escalation with Iran adds an oil shock on top.",
    "resolve_rule": "Nasdaq-100 closes 20% or more below its all-time closing high at any point between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.813,
-   "change_points": -9.0,
+   "previous_forecast": 0.723,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -3297,8 +3291,8 @@
    "outcome": null,
    "reasoning": "Leaders +0.8: Democrats take the House in January and Jeffries has backed impeaching Hegseth; on Nov 10 the lame-duck House voted 211-204 to send Massie's eight articles to committee, with 11 Democrats absent, and Democrats say they will try again. Game +0.4: removing a cabinet member is cheaper than impeaching the president; Mayorkas (2024) was impeached on a second vote. Markets: impeached by Jun 30, 2027 at 65.5% (thin, about $1.9k liquidity); out as Defense Secretary by Dec 31 at 15.5%.",
    "resolve_rule": "The House impeaches Hegseth, or he resigns or is removed, between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.718,
-   "change_points": -0.1,
+   "previous_forecast": 0.717,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -3479,8 +3473,8 @@
    "outcome": null,
    "reasoning": "Capital +0.2: CFO Sarah Friar told staff on Aug 19 that OpenAI will be a public company in 2027 or sooner (CNBC); its June 2026 filing was confidential, which does not count here. The question counts a public filing, which comes before a listing, so it should not sit below the market's 75% for listing by end-2027 without a reason; v3.8 applies that bound.",
    "resolve_rule": "OpenAI publicly files a registration statement (S-1 or equivalent made public) or its shares list on an exchange, between Nov 18, 2026 and Nov 17, 2027.",
-   "previous_forecast": 0.709,
-   "change_points": -0.4,
+   "previous_forecast": 0.705,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -4137,8 +4131,8 @@
    "outcome": null,
    "reasoning": "No lens adjustment unless stated: a yearly checkpoint for a long-range view, added so it can resolve and be scored.",
    "resolve_rule": "FRED DGS10 is 6.50 or higher on any day from Nov 19, 2026 to Dec 31, 2027.",
-   "previous_forecast": 0.057,
-   "change_points": 1.2,
+   "previous_forecast": 0.069,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-19 03:33",
@@ -4710,8 +4704,8 @@
    "outcome": null,
    "reasoning": "Rules checked against the Gamma API on Nov 17. Leaders +0.3: Trump answered three Iranian attacks with one strike and says the war is won. Game -0.4: the IRGC keeps hitting US assets, each attack invites another 'self-defense' strike, and the clock needs 14 full quiet days. Escalation inside the window makes a pause unlikely. The model was close to the market on Nov 17; the gap that opened when the market rose on Nov 20 is explained under edge.",
    "resolve_rule": "Polymarket market us-x-iran-effective-ceasefire-by-december-31-20261108. Only US air or surface-to-surface strikes that land on Iran's land territory reset the clock; Iranian attacks, intercepted munitions and naval fire do not.",
-   "previous_forecast": 0.711,
-   "change_points": 1.3,
+   "previous_forecast": 0.724,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -5352,8 +5346,8 @@
    "outcome": null,
    "reasoning": "Rule-based base rate from Breachsense's own monthly series. Other trackers count higher (October 2026: 953 here, 1,072-1,178 elsewhere), so only this tracker is used.",
    "resolve_rule": "Breachsense's monthly ransomware report for December 2026 lists 900 or more victim companies on ransomware leak sites (report as first published, by Jan 31, 2027).",
-   "previous_forecast": 0.375,
-   "change_points": 15.8,
+   "previous_forecast": 0.533,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-20 03:11",
@@ -5383,8 +5377,8 @@
    "outcome": null,
    "reasoning": "Event-rate rule from the register: two qualifying advisories since the war began (AA26-097A on Apr 7 and its Jul 22 update). Escalation shift +0.6: if large-scale US strikes resume, Iranian cyber retaliation and a further advisory become more likely.",
    "resolve_rule": "A new joint cybersecurity advisory, or an update to an existing one, by CISA, the FBI, NSA or partner agencies, published between Nov 20, 2026 and Mar 31, 2027, reports disruptive or destructive cyber activity against US critical infrastructure attributed to Iran-linked actors. A general warning that Iranian actors may target US networks, with no reported disruption, does not count.",
-   "previous_forecast": 0.484,
-   "change_points": -0.4,
+   "previous_forecast": 0.48,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-20 03:11",
@@ -5485,8 +5479,8 @@
    "outcome": null,
    "reasoning": "Author A v3.0 bounded this at 64-69% from the two market prices and called it its first test; its midpoint (66.5%) is scored as its forecast. Apex v6.0 (PH-001) uses the same midpoint.",
    "resolve_rule": "Both Polymarket contracts above: M8 Yes and M10 No.",
-   "previous_forecast": 0.685,
-   "change_points": 1.3,
+   "previous_forecast": 0.698,
+   "change_points": 0.0,
    "trend": [
     {
      "t": "2026-11-18 01:29",
@@ -7756,12 +7750,12 @@
   }
  ],
  "audit": {
-  "at": "2026-11-28T17:35:37+00:00",
-  "flaws": 0,
+  "at": "2026-11-28T17:36:08+00:00",
+  "flaws": 3,
   "checks": [
    {
     "area": "tests",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "ledger chain",
@@ -7801,7 +7795,7 @@
    },
    {
     "area": "methods frozen",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "definitions frozen",
@@ -7837,7 +7831,7 @@
    },
    {
     "area": "published data",
-    "status": "ok"
+    "status": "flaw"
    },
    {
     "area": "overdue resolutions",
@@ -8338,8 +8332,8 @@
    {
     "id": "S19",
     "question": "Dollar ends 2026 at or above 160 yen",
-    "model": 0.4045,
-    "base": 0.4045,
+    "model": 0.4933,
+    "base": 0.4933,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -8347,8 +8341,8 @@
    {
     "id": "S20",
     "question": "Euro ends 2026 at or above $1.10",
-    "model": 0.4652,
-    "base": 0.4652,
+    "model": 0.4126,
+    "base": 0.4126,
     "market": null,
     "market_blended": false,
     "by": "2026-12-31"
@@ -9262,6 +9256,27 @@
    }
   ],
   "missed": [
+   {
+    "date": "2026-11-28",
+    "kind": "model error found before resolution",
+    "event": "Five release questions ignored two agreeing markets",
+    "model": "S01-S05 stood at their historical base rates while the markets priced the current month: S04 (November CPI 0.0% or lower) at 0.667 against 0.927 on Polymarket and about 0.925 on Kalshi; S01 0.323 against 0.439; S02 0.333 against 0.48; S03 0.458 against 0.552; S05 0.435 against 0.3165. Blending them at the thin-book weight (0.1) left gaps of 10 to 22 points that argue.py flagged as unexplained.",
+    "action": "v4.12: market-anchored like S10-S13 (Kalshi threshold contract first, Polymarket bins as fallback), evidence FEDS 2026-010. The first forecasts in the ledger are unchanged and are what is scored; whether the thin-book gate should have kept these markets out is judged when they resolve (Dec 4 and Dec 10)."
+   },
+   {
+    "date": "2026-11-28",
+    "kind": "model error found before resolution",
+    "event": "K02's six-month count was always behind a rising series",
+    "model": "K02 (900 or more ransomware victims in December) used the share of the last six months at 900 or more (0.375). The Breachsense count has grown about 45% a year; over 22 test months that rule scored a Brier of 0.327 against 0.25 for always saying one half.",
+    "action": "v4.12: 34 months of history (Jan 2024 to Oct 2026) and a ratio rule (how far 900 is above the last six-month average, and how often earlier months were that far above theirs): 0.375 to 0.533, Brier 0.270 over the same 22 months."
+   },
+   {
+    "date": "2026-11-28",
+    "kind": "process error",
+    "event": "Operations faults found in the Nov 27 review",
+    "model": "GitHub ran only 3 of 8 scheduled data jobs between Nov 27 13:00 and Nov 28 12:30 UTC (gaps of 8.7 and 10.7 hours). The runbook and both scheduled task prompts started the job with a path that returns 404 (workflows/data-refresh/dispatches). The cyber export wrote a wall-clock 'stale' flag into cyber.json, so the published file differed from out/ whenever runs were missed and the audit reported a false flaw. Kalshi's 'liquidity' field now reads empty, so every Kalshi contract looked illiquid. M1 was labelled thin from its 3-cent 50 bp bin while its 25 bp contract had about $470,000 at the quote.",
+    "action": "v4.12: a second scheduled start per three-hour slot, skipped when the first ran; the job fails (and GitHub emails the owner) when the audit finds a new flaw; dispatch path corrected in the runbook and both task prompts; staleness computed in the browser; Kalshi read by ticker with sizes and open interest; a sum link judged by the contract carrying the price."
+   },
    {
     "date": "2026-11-26",
     "kind": "model error found before resolution",
@@ -10589,7 +10604,7 @@
    },
    "verified": true
   },
-  "generated_at": "2026-11-28T17:33:13Z"
+  "generated_at": "2026-11-28T17:36:04Z"
  },
  "guide": {
   "title": "User guide",
